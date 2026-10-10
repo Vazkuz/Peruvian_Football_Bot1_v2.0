@@ -1,0 +1,473 @@
+{
+  "partido_id": "4942763",
+  "ruta": "/spielbericht/index/spielbericht/4942763",
+  "fecha_extraccion": "2026-10-02T22:33:48",
+  "equipos": [
+    {
+      "club_id": "76945",
+      "club_nombre": "Deportivo Garcilaso",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "342051",
+          "nombre": "Zubczuk",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "524311",
+          "nombre": "Gómez",
+          "dorsal": 19,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "279380",
+          "nombre": "Salazar",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "866487",
+          "nombre": "Moreno",
+          "dorsal": 23,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "741413",
+          "nombre": "Canales",
+          "dorsal": 55,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "438000",
+          "nombre": "González",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "458906",
+          "nombre": "Ramos",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "483714",
+          "nombre": "Sandoval",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "279057",
+          "nombre": "da Silva",
+          "dorsal": 30,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "324046",
+          "nombre": "Arancibia",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "527625",
+          "nombre": "Olivares",
+          "dorsal": 24,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "456161",
+          "nombre": "Juniors Barbieri",
+          "dorsal": 31,
+          "posicion": "GK"
+        },
+        {
+          "id": "582098",
+          "nombre": "Jefferson Portales",
+          "dorsal": 22,
+          "posicion": "CB"
+        },
+        {
+          "id": "356381",
+          "nombre": "Anthony Rosell",
+          "dorsal": 20,
+          "posicion": "LB"
+        },
+        {
+          "id": "1141361",
+          "nombre": "Samir Villacorta",
+          "dorsal": 33,
+          "posicion": "RB"
+        },
+        {
+          "id": "1568213",
+          "nombre": "César Flores",
+          "dorsal": 6,
+          "posicion": "DM"
+        },
+        {
+          "id": "810550",
+          "nombre": "Adrián Ascues",
+          "dorsal": 27,
+          "posicion": "CM"
+        },
+        {
+          "id": "1371975",
+          "nombre": "Joao Mendoza",
+          "dorsal": 35,
+          "posicion": "AM"
+        },
+        {
+          "id": "818970",
+          "nombre": "Sharif Ramírez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "443350",
+          "nombre": "Facundo Castelli",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "114625",
+      "club_nombre": "Deportivo Moquegua",
+      "local": false,
+      "formacion": "4-4-2 double 6",
+      "titulares": [
+        {
+          "id": "330687",
+          "nombre": "Grados",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "96295",
+          "nombre": "Lojas",
+          "dorsal": 13,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "358618",
+          "nombre": "Enciso",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "330691",
+          "nombre": "Perleche",
+          "dorsal": 4,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "1015947",
+          "nombre": "Montenegro",
+          "dorsal": 22,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "1103422",
+          "nombre": "Chipao",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "375353",
+          "nombre": "Mejía",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "727998",
+          "nombre": "Zapata",
+          "dorsal": 17,
+          "top": 23.0,
+          "left": 12.0
+        },
+        {
+          "id": "829971",
+          "nombre": "Lastre",
+          "dorsal": 7,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "986001",
+          "nombre": "Dávila",
+          "dorsal": 16,
+          "top": 23.0,
+          "left": 68.0
+        },
+        {
+          "id": "477383",
+          "nombre": "Collazos",
+          "dorsal": 90,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1565111",
+          "nombre": "Leandro Rojas",
+          "dorsal": 28,
+          "posicion": ""
+        },
+        {
+          "id": "1221999",
+          "nombre": "Renzo Figueroa",
+          "dorsal": 29,
+          "posicion": "GK"
+        },
+        {
+          "id": "144214",
+          "nombre": "José Luis Granda",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "984451",
+          "nombre": "Jimmy Jiménez",
+          "dorsal": 6,
+          "posicion": "LB"
+        },
+        {
+          "id": "815106",
+          "nombre": "Claudio Ramírez",
+          "dorsal": 14,
+          "posicion": "DM"
+        },
+        {
+          "id": "400254",
+          "nombre": "Alexander Lecaros",
+          "dorsal": 24,
+          "posicion": "LW"
+        },
+        {
+          "id": "430685",
+          "nombre": "Edgar Santillán",
+          "dorsal": 35,
+          "posicion": "RW"
+        },
+        {
+          "id": "1169725",
+          "nombre": "Marcello Negrón",
+          "dorsal": 9,
+          "posicion": "CF"
+        },
+        {
+          "id": "319911",
+          "nombre": "Bryan Angulo",
+          "dorsal": 11,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "76945",
+      "minuto": 25,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "279057",
+        "nombre": "Beto da Silva"
+      },
+      "asistencia": {
+        "id": "324046",
+        "nombre": "Francisco Arancibia"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 83,
+      "anadido": 0,
+      "marcador": "2:0",
+      "autor": {
+        "id": "324046",
+        "nombre": "Francisco Arancibia"
+      },
+      "asistencia": {
+        "id": "438000",
+        "nombre": "Agustín González"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "114625",
+      "minuto": 60,
+      "anadido": 0,
+      "sale": {
+        "id": "986001",
+        "nombre": "Allonso Dávila"
+      },
+      "entra": {
+        "id": "400254",
+        "nombre": "Alexander Lecaros"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 62,
+      "anadido": 0,
+      "sale": {
+        "id": "527625",
+        "nombre": "Christopher Olivares"
+      },
+      "entra": {
+        "id": "443350",
+        "nombre": "Facundo Castelli"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 64,
+      "anadido": 0,
+      "sale": {
+        "id": "477383",
+        "nombre": "Jeferson Collazos"
+      },
+      "entra": {
+        "id": "1169725",
+        "nombre": "Marcello Negrón"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "358618",
+        "nombre": "Cristian Enciso"
+      },
+      "entra": {
+        "id": "815106",
+        "nombre": "Claudio Ramírez"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 70,
+      "anadido": 0,
+      "sale": {
+        "id": "483714",
+        "nombre": "Kevin Sandoval"
+      },
+      "entra": {
+        "id": "810550",
+        "nombre": "Adrián Ascues"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 79,
+      "anadido": 0,
+      "sale": {
+        "id": "829971",
+        "nombre": "Edgar Lastre"
+      },
+      "entra": {
+        "id": "319911",
+        "nombre": "Bryan Angulo"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 79,
+      "anadido": 0,
+      "sale": {
+        "id": "1015947",
+        "nombre": "Eros Montenegro"
+      },
+      "entra": {
+        "id": "430685",
+        "nombre": "Edgar Santillán"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "279057",
+        "nombre": "Beto da Silva"
+      },
+      "entra": {
+        "id": "818970",
+        "nombre": "Sharif Ramírez"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "324046",
+        "nombre": "Francisco Arancibia"
+      },
+      "entra": {
+        "id": "356381",
+        "nombre": "Anthony Rosell"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "114625",
+      "minuto": 29,
+      "anadido": 0,
+      "jugador": {
+        "id": "727998",
+        "nombre": "Yorman Zapata"
+      },
+      "tipo": "amarilla",
+      "detalle": "Yorman Zapata 4. Yellow card , Dissent"
+    },
+    {
+      "club_id": "114625",
+      "minuto": 72,
+      "anadido": 0,
+      "jugador": {
+        "id": "815106",
+        "nombre": "Claudio Ramírez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Claudio Ramírez 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "114625",
+      "minuto": 88,
+      "anadido": 0,
+      "jugador": {
+        "id": "375353",
+        "nombre": "Cristian Mejía"
+      },
+      "tipo": "amarilla",
+      "detalle": "Cristian Mejía 1. Yellow card , Foul"
+    }
+  ]
+}

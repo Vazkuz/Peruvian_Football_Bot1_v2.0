@@ -1,0 +1,198 @@
+{
+  "club_id": "54478",
+  "club_nombre": "CD Los Chankas",
+  "formacion": "3-1-4-2",
+  "variante": "3-1-4-2",
+  "fecha_generacion": "2026-10-03T00:44:01",
+  "casillas": [
+    {
+      "casilla": 1,
+      "rol": "arquero",
+      "titular": {
+        "id": "250407",
+        "nombre": "Hairo Camacho",
+        "rol": "arquero",
+        "puntaje": 19.431
+      },
+      "suplente": {
+        "id": "988214",
+        "nombre": "Luis Pretel",
+        "rol": "arquero",
+        "puntaje": 4.732,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 2,
+      "rol": "central",
+      "titular": {
+        "id": "294886",
+        "nombre": "Carlos Pimienta",
+        "rol": "central",
+        "puntaje": 24.163
+      },
+      "suplente": {
+        "id": "409092",
+        "nombre": "Gonzalo Rizzo",
+        "rol": "central",
+        "puntaje": 5.276,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 3,
+      "rol": "central",
+      "titular": {
+        "id": "725453",
+        "nombre": "Héctor González",
+        "rol": "central",
+        "puntaje": 20.155
+      },
+      "suplente": {
+        "id": "893740",
+        "nombre": "Michael Kaufman",
+        "rol": "central",
+        "puntaje": 4.985,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 4,
+      "rol": "central",
+      "titular": {
+        "id": "643536",
+        "nombre": "David Gonzáles",
+        "rol": "central",
+        "puntaje": 14.318
+      },
+      "suplente": {
+        "id": "1509341",
+        "nombre": "José Cárdenas",
+        "rol": "central",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 2
+      }
+    },
+    {
+      "casilla": 5,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "447932",
+        "nombre": "Christian Velarde",
+        "rol": "volante_defensivo",
+        "puntaje": 4.568
+      },
+      "suplente": {
+        "id": "1559268",
+        "nombre": "Dealetzandro Apaza",
+        "rol": "volante_defensivo",
+        "puntaje": 0,
+        "origen": "plantel"
+      }
+    },
+    {
+      "casilla": 6,
+      "rol": "volante_extremo_izq",
+      "titular": {
+        "id": "740319",
+        "nombre": "Ayrthon Quintana",
+        "rol": "volante_extremo_izq",
+        "puntaje": 8.892
+      },
+      "suplente": {
+        "id": "653475",
+        "nombre": "Félix Espinoza",
+        "rol": "volante_extremo_izq",
+        "puntaje": 2.275,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 7,
+      "rol": "volante_central",
+      "titular": {
+        "id": "965449",
+        "nombre": "Jorge Palomino",
+        "rol": "volante_central",
+        "puntaje": 10.658
+      },
+      "suplente": {
+        "id": "384765",
+        "nombre": "Accel Campos",
+        "rol": "volante_central",
+        "puntaje": 5.006,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 8,
+      "rol": "volante_central",
+      "titular": {
+        "id": "441728",
+        "nombre": "Kelvin Sánchez",
+        "rol": "volante_central",
+        "puntaje": 8.352
+      },
+      "suplente": {
+        "id": "855900",
+        "nombre": "Juan Diego Ospina",
+        "rol": "volante_central",
+        "puntaje": 4.618,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 9,
+      "rol": "volante_extremo_der",
+      "titular": {
+        "id": "357124",
+        "nombre": "Oshiro Takeuchi",
+        "rol": "volante_extremo_der",
+        "puntaje": 16.671
+      },
+      "suplente": {
+        "id": "664841",
+        "nombre": "Kenyi Barrios",
+        "rol": "volante_extremo_der",
+        "puntaje": 3.496,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 10,
+      "rol": "delantero",
+      "titular": {
+        "id": "330169",
+        "nombre": "Jarlín Quintero",
+        "rol": "delantero",
+        "puntaje": 22.336
+      },
+      "suplente": {
+        "id": "648289",
+        "nombre": "Marlon Torres",
+        "rol": "delantero",
+        "puntaje": 5.537,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 11,
+      "rol": "delantero",
+      "titular": {
+        "id": "873510",
+        "nombre": "Franco Torres",
+        "rol": "delantero",
+        "puntaje": 11.231
+      },
+      "suplente": {
+        "id": "470023",
+        "nombre": "Brayan Guevara",
+        "rol": "delantero",
+        "puntaje": 2.085,
+        "reemplazo_de_rol": "volante_extremo_izq",
+        "origen": "reemplazo"
+      }
+    }
+  ]
+}

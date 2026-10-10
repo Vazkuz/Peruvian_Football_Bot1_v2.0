@@ -1,0 +1,500 @@
+{
+  "partido_id": "4942760",
+  "ruta": "/spielbericht/index/spielbericht/4942760",
+  "fecha_extraccion": "2026-10-02T22:32:16",
+  "equipos": [
+    {
+      "club_id": "21170",
+      "club_nombre": "Universidad Técnica de Cajamarca",
+      "local": true,
+      "formacion": "4-3-3 Attacking",
+      "titulares": [
+        {
+          "id": "291339",
+          "nombre": "Barrios",
+          "dorsal": 29,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "664362",
+          "nombre": "Cavagna",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "638929",
+          "nombre": "Ganoza",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "621028",
+          "nombre": "Caro",
+          "dorsal": 13,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "473579",
+          "nombre": "Garro",
+          "dorsal": 17,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "903834",
+          "nombre": "Paredes",
+          "dorsal": 35,
+          "top": 28.0,
+          "left": 53.0
+        },
+        {
+          "id": "434192",
+          "nombre": "Dioses",
+          "dorsal": 8,
+          "top": 28.0,
+          "left": 27.0
+        },
+        {
+          "id": "78023",
+          "nombre": "Figuera",
+          "dorsal": 16,
+          "top": 39.0,
+          "left": 40.0
+        },
+        {
+          "id": "399496",
+          "nombre": "Lliuya",
+          "dorsal": 10,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "368417",
+          "nombre": "Muñoz",
+          "dorsal": 19,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "580632",
+          "nombre": "Camacho",
+          "dorsal": 22,
+          "top": 10.0,
+          "left": 65.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "785134",
+          "nombre": "Ricardo Bettocchi",
+          "dorsal": 21,
+          "posicion": "GK"
+        },
+        {
+          "id": "443987",
+          "nombre": "Junior Huerto",
+          "dorsal": 5,
+          "posicion": "LB"
+        },
+        {
+          "id": "653329",
+          "nombre": "Luis Arce",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "981706",
+          "nombre": "Jhosep Núñez",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1102802",
+          "nombre": "Santiago Gálvez",
+          "dorsal": 18,
+          "posicion": "RW"
+        },
+        {
+          "id": "97013",
+          "nombre": "Marlon de Jesús",
+          "dorsal": 9,
+          "posicion": "CF"
+        },
+        {
+          "id": "283472",
+          "nombre": "Abdiel Arroyo",
+          "dorsal": 11,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "35588",
+      "club_nombre": "Asociación Deportiva Tarma",
+      "local": false,
+      "formacion": "4-4-2 double 6",
+      "titulares": [
+        {
+          "id": "255976",
+          "nombre": "Valencia",
+          "dorsal": 30,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "260318",
+          "nombre": "Benincasa",
+          "dorsal": 44,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "358736",
+          "nombre": "Pereyra",
+          "dorsal": 99,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "741727",
+          "nombre": "Núñez",
+          "dorsal": 59,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "149771",
+          "nombre": "Ojeda",
+          "dorsal": 6,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "656911",
+          "nombre": "Pérez",
+          "dorsal": 16,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "1257758",
+          "nombre": "Alvino",
+          "dorsal": 15,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "1409977",
+          "nombre": "Garcilazo",
+          "dorsal": 26,
+          "top": 23.0,
+          "left": 68.0
+        },
+        {
+          "id": "532994",
+          "nombre": "Canela",
+          "dorsal": 80,
+          "top": 23.0,
+          "left": 12.0
+        },
+        {
+          "id": "249975",
+          "nombre": "Rodríguez",
+          "dorsal": 22,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "130158",
+          "nombre": "Bauman",
+          "dorsal": 32,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "250672",
+          "nombre": "Carlos Solís",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "1059722",
+          "nombre": "Jhair Soto",
+          "dorsal": 28,
+          "posicion": "CB"
+        },
+        {
+          "id": "738469",
+          "nombre": "Leonardo Rugel",
+          "dorsal": 3,
+          "posicion": "CB"
+        },
+        {
+          "id": "885263",
+          "nombre": "Jerry Navarro",
+          "dorsal": 31,
+          "posicion": "RB"
+        },
+        {
+          "id": "1391185",
+          "nombre": "Jair Reyes",
+          "dorsal": 2,
+          "posicion": "CM"
+        },
+        {
+          "id": "186794",
+          "nombre": "Sinclair García",
+          "dorsal": 25,
+          "posicion": "AM"
+        },
+        {
+          "id": "1227155",
+          "nombre": "Alexander Hidalgo",
+          "dorsal": 27,
+          "posicion": "AM"
+        },
+        {
+          "id": "51225",
+          "nombre": "Hernán Rengifo",
+          "dorsal": 9,
+          "posicion": "CF"
+        },
+        {
+          "id": "1149626",
+          "nombre": "Said Peralta",
+          "dorsal": 24,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "35588",
+      "minuto": 68,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "532994",
+        "nombre": "Jeremy Canela"
+      },
+      "asistencia": {
+        "id": "1409977",
+        "nombre": "Jhojan Garcilazo"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 90,
+      "anadido": 18,
+      "marcador": "1:1",
+      "autor": {
+        "id": "399496",
+        "nombre": "Marcos Lliuya"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "35588",
+      "minuto": 11,
+      "anadido": 0,
+      "sale": {
+        "id": "249975",
+        "nombre": "Aldair Rodríguez"
+      },
+      "entra": {
+        "id": "51225",
+        "nombre": "Hernán Rengifo"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 57,
+      "anadido": 0,
+      "sale": {
+        "id": "434192",
+        "nombre": "David Dioses"
+      },
+      "entra": {
+        "id": "283472",
+        "nombre": "Abdiel Arroyo"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "473579",
+        "nombre": "Luis Garro"
+      },
+      "entra": {
+        "id": "653329",
+        "nombre": "Luis Arce"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "664362",
+        "nombre": "Francesco Cavagna"
+      },
+      "entra": {
+        "id": "443987",
+        "nombre": "Junior Huerto"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "51225",
+        "nombre": "Hernán Rengifo"
+      },
+      "entra": {
+        "id": "1149626",
+        "nombre": "Said Peralta"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 80,
+      "anadido": 0,
+      "sale": {
+        "id": "621028",
+        "nombre": "Dylan Caro"
+      },
+      "entra": {
+        "id": "97013",
+        "nombre": "Marlon de Jesús"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 85,
+      "anadido": 0,
+      "sale": {
+        "id": "532994",
+        "nombre": "Jeremy Canela"
+      },
+      "entra": {
+        "id": "738469",
+        "nombre": "Leonardo Rugel"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 85,
+      "anadido": 0,
+      "sale": {
+        "id": "130158",
+        "nombre": "Jonatan Bauman"
+      },
+      "entra": {
+        "id": "1391185",
+        "nombre": "Jair Reyes"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "21170",
+      "minuto": 22,
+      "anadido": 0,
+      "jugador": {
+        "id": "903834",
+        "nombre": "Gilmar Paredes"
+      },
+      "tipo": "amarilla",
+      "detalle": "Gilmar Paredes 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 26,
+      "anadido": 0,
+      "jugador": {
+        "id": "368417",
+        "nombre": "Adolfo Muñoz"
+      },
+      "tipo": "amarilla",
+      "detalle": "Adolfo Muñoz 2. Yellow card , Dissent"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 78,
+      "anadido": 0,
+      "jugador": {
+        "id": "78023",
+        "nombre": "Arquímedes Figuera"
+      },
+      "tipo": "amarilla",
+      "detalle": "Arquímedes Figuera 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 88,
+      "anadido": 0,
+      "jugador": {
+        "id": "741727",
+        "nombre": "Orlando Núñez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Orlando Núñez 3. Yellow card , Dissent"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 90,
+      "anadido": 1,
+      "jugador": {
+        "id": "1149626",
+        "nombre": "Said Peralta"
+      },
+      "tipo": "amarilla",
+      "detalle": "Said Peralta 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 90,
+      "anadido": 9,
+      "jugador": {
+        "id": "291339",
+        "nombre": "Ignacio Barrios"
+      },
+      "tipo": "roja",
+      "detalle": "Ignacio Barrios Red card , Violent conduct"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 90,
+      "anadido": 9,
+      "jugador": {
+        "id": "358736",
+        "nombre": "Joaquín Pereyra"
+      },
+      "tipo": "roja",
+      "detalle": "Joaquín Pereyra Red card , Violent conduct"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 90,
+      "anadido": 16,
+      "jugador": {
+        "id": "255976",
+        "nombre": "Juan Valencia"
+      },
+      "tipo": "amarilla",
+      "detalle": "Juan Valencia 1. Yellow card , Dissent"
+    }
+  ]
+}

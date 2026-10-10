@@ -1,0 +1,190 @@
+{
+  "club_id": "21170",
+  "club_nombre": "Universidad Técnica de Cajamarca",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:10:18",
+  "jugadores": [
+    {
+      "id": "257991",
+      "nombre": "Ángelo Campos",
+      "posicion": "Goalkeeper",
+      "partidos": 12,
+      "minutos": 998
+    },
+    {
+      "id": "291339",
+      "nombre": "Ignacio Barrios",
+      "posicion": "Goalkeeper",
+      "partidos": 16,
+      "minutos": 1298
+    },
+    {
+      "id": "785134",
+      "nombre": "Ricardo Bettocchi",
+      "posicion": "Goalkeeper",
+      "partidos": 6,
+      "minutos": 495
+    },
+    {
+      "id": "639764",
+      "nombre": "Piero Serra",
+      "posicion": "Centre-Back",
+      "partidos": 16,
+      "minutos": 1148
+    },
+    {
+      "id": "638929",
+      "nombre": "Manuel Ganoza",
+      "posicion": "Centre-Back",
+      "partidos": 22,
+      "minutos": 1548
+    },
+    {
+      "id": "873252",
+      "nombre": "Bruno Duarte",
+      "posicion": "Centre-Back",
+      "partidos": 28,
+      "minutos": 2504
+    },
+    {
+      "id": "473579",
+      "nombre": "Luis Garro",
+      "posicion": "Right-Back",
+      "partidos": 28,
+      "minutos": 1933
+    },
+    {
+      "id": "903834",
+      "nombre": "Gilmar Paredes",
+      "posicion": "Right-Back",
+      "partidos": 27,
+      "minutos": 1621
+    },
+    {
+      "id": "664362",
+      "nombre": "Francesco Cavagna",
+      "posicion": "Centre-Back",
+      "partidos": 13,
+      "minutos": 708
+    },
+    {
+      "id": "621028",
+      "nombre": "Dylan Caro",
+      "posicion": "Left-Back",
+      "partidos": 22,
+      "minutos": 1599
+    },
+    {
+      "id": "443987",
+      "nombre": "Junior Huerto",
+      "posicion": "Left-Back",
+      "partidos": 16,
+      "minutos": 691
+    },
+    {
+      "id": "1559623",
+      "nombre": "Hafid Saldaña",
+      "posicion": "Centre-Back",
+      "partidos": 2,
+      "minutos": 152
+    },
+    {
+      "id": "434192",
+      "nombre": "David Dioses",
+      "posicion": "Defensive Midfield",
+      "partidos": 25,
+      "minutos": 1589
+    },
+    {
+      "id": "653329",
+      "nombre": "Luis Arce",
+      "posicion": "Defensive Midfield",
+      "partidos": 22,
+      "minutos": 1071
+    },
+    {
+      "id": "399496",
+      "nombre": "Marcos Lliuya",
+      "posicion": "Attacking Midfield",
+      "partidos": 31,
+      "minutos": 2585
+    },
+    {
+      "id": "981410",
+      "nombre": "Joshua Cantt",
+      "posicion": "Defensive Midfield",
+      "partidos": 18,
+      "minutos": 1093
+    },
+    {
+      "id": "78023",
+      "nombre": "Arquímedes Figuera",
+      "posicion": "Defensive Midfield",
+      "partidos": 23,
+      "minutos": 1636
+    },
+    {
+      "id": "1559624",
+      "nombre": "Paul Mendoza",
+      "posicion": "Midfield",
+      "partidos": 2,
+      "minutos": 166
+    },
+    {
+      "id": "1562786",
+      "nombre": "Khevinn Linares",
+      "posicion": "Midfield",
+      "partidos": 3,
+      "minutos": 42
+    },
+    {
+      "id": "368417",
+      "nombre": "Adolfo Muñoz",
+      "posicion": "Left Winger",
+      "partidos": 30,
+      "minutos": 2249
+    },
+    {
+      "id": "580632",
+      "nombre": "David Camacho",
+      "posicion": "Right Winger",
+      "partidos": 29,
+      "minutos": 2020
+    },
+    {
+      "id": "981706",
+      "nombre": "Jhosep Núñez",
+      "posicion": "Left Winger",
+      "partidos": 18,
+      "minutos": 342
+    },
+    {
+      "id": "621031",
+      "nombre": "Michel Rasmussen",
+      "posicion": "Right Winger",
+      "partidos": 17,
+      "minutos": 325
+    },
+    {
+      "id": "97013",
+      "nombre": "Marlon de Jesús",
+      "posicion": "Centre-Forward",
+      "partidos": 24,
+      "minutos": 1129
+    },
+    {
+      "id": "1102802",
+      "nombre": "Santiago Gálvez",
+      "posicion": "Right Winger",
+      "partidos": 8,
+      "minutos": 139
+    },
+    {
+      "id": "283472",
+      "nombre": "Abdiel Arroyo",
+      "posicion": "Centre-Forward",
+      "partidos": 26,
+      "minutos": 1275
+    }
+  ]
+}

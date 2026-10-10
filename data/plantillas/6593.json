@@ -1,0 +1,198 @@
+{
+  "club_id": "6593",
+  "club_nombre": "Universitario de Deportes",
+  "formacion": "3-1-4-2",
+  "variante": "3-1-4-2",
+  "fecha_generacion": "2026-10-03T00:44:01",
+  "casillas": [
+    {
+      "casilla": 1,
+      "rol": "arquero",
+      "titular": {
+        "id": "643063",
+        "nombre": "Diego Romero",
+        "rol": "arquero",
+        "puntaje": 24.642
+      },
+      "suplente": {
+        "id": "352338",
+        "nombre": "Miguel Vargas",
+        "rol": "arquero",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 10
+      }
+    },
+    {
+      "casilla": 2,
+      "rol": "central",
+      "titular": {
+        "id": "619072",
+        "nombre": "Caín Fara",
+        "rol": "central",
+        "puntaje": 23.495
+      },
+      "suplente": {
+        "id": "142745",
+        "nombre": "Anderson Santamaría",
+        "rol": "central",
+        "puntaje": 9.312,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 3,
+      "rol": "central",
+      "titular": {
+        "id": "441344",
+        "nombre": "Matías Di Benedetto",
+        "rol": "central",
+        "puntaje": 20.642
+      },
+      "suplente": {
+        "id": "94437",
+        "nombre": "Aldo Corzo",
+        "rol": "central",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 5
+      }
+    },
+    {
+      "casilla": 4,
+      "rol": "central",
+      "titular": {
+        "id": "457058",
+        "nombre": "Williams Riveros",
+        "rol": "central",
+        "puntaje": 15.812
+      },
+      "suplente": {
+        "id": "1554020",
+        "nombre": "Joaquín Verde",
+        "rol": "central",
+        "puntaje": 0,
+        "origen": "plantel"
+      }
+    },
+    {
+      "casilla": 5,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "486265",
+        "nombre": "Jorge Murrugarra",
+        "rol": "volante_defensivo",
+        "puntaje": 11.727
+      },
+      "suplente": {
+        "id": "637902",
+        "nombre": "Juan Manuel Requena",
+        "rol": "volante_defensivo",
+        "puntaje": 5.783,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 6,
+      "rol": "volante_extremo_izq",
+      "titular": {
+        "id": "965846",
+        "nombre": "César Inga",
+        "rol": "volante_extremo_izq",
+        "puntaje": 19.311
+      },
+      "suplente": {
+        "id": "424024",
+        "nombre": "Héctor Fértoli",
+        "rol": "volante_extremo_izq",
+        "puntaje": 3.068,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 7,
+      "rol": "volante_central",
+      "titular": {
+        "id": "490717",
+        "nombre": "Jairo Concha",
+        "rol": "volante_central",
+        "puntaje": 16.56
+      },
+      "suplente": {
+        "id": "871655",
+        "nombre": "Piero Quispe",
+        "rol": "volante_central",
+        "puntaje": 6.569,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 8,
+      "rol": "volante_central",
+      "titular": {
+        "id": "744083",
+        "nombre": "Adrián Quiroz",
+        "rol": "volante_central",
+        "puntaje": 10.17
+      },
+      "suplente": {
+        "id": "486641",
+        "nombre": "Jordan Guivin",
+        "rol": "volante_central",
+        "puntaje": 1.728,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 9,
+      "rol": "volante_extremo_der",
+      "titular": {
+        "id": "189236",
+        "nombre": "Andy Polo",
+        "rol": "volante_extremo_der",
+        "puntaje": 20.374
+      },
+      "suplente": {
+        "id": "396920",
+        "nombre": "Lisandro Alzugaray",
+        "rol": "volante_extremo_der",
+        "puntaje": 5.722,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 10,
+      "rol": "delantero",
+      "titular": {
+        "id": "738716",
+        "nombre": "Álex Valera",
+        "rol": "delantero",
+        "puntaje": 24.008
+      },
+      "suplente": {
+        "id": "458461",
+        "nombre": "José Rivera",
+        "rol": "delantero",
+        "puntaje": 3.497,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 11,
+      "rol": "delantero",
+      "titular": {
+        "id": "130394",
+        "nombre": "Gianluca Lapadula",
+        "rol": "delantero",
+        "puntaje": 16.487
+      },
+      "suplente": {
+        "id": "194998",
+        "nombre": "Edison Flores",
+        "rol": "delantero",
+        "puntaje": 0.454,
+        "origen": "minutos"
+      }
+    }
+  ]
+}

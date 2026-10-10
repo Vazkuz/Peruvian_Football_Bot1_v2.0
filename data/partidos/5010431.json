@@ -1,0 +1,472 @@
+{
+  "partido_id": "5010431",
+  "ruta": "/spielbericht/index/spielbericht/5010431",
+  "fecha_extraccion": "2026-10-02T22:43:31",
+  "equipos": [
+    {
+      "club_id": "21170",
+      "club_nombre": "Universidad Técnica de Cajamarca",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "291339",
+          "nombre": "Barrios",
+          "dorsal": 29,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "873252",
+          "nombre": "Duarte",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "638929",
+          "nombre": "Ganoza",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "443987",
+          "nombre": "Huerto",
+          "dorsal": 5,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "903834",
+          "nombre": "Paredes",
+          "dorsal": 35,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "981410",
+          "nombre": "Cantt",
+          "dorsal": 15,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "78023",
+          "nombre": "Figuera",
+          "dorsal": 16,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "399496",
+          "nombre": "Lliuya",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "580632",
+          "nombre": "Camacho",
+          "dorsal": 22,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "97013",
+          "nombre": "de Jesús",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "283472",
+          "nombre": "Arroyo",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "785134",
+          "nombre": "Ricardo Bettocchi",
+          "dorsal": 21,
+          "posicion": "GK"
+        },
+        {
+          "id": "664362",
+          "nombre": "Francesco Cavagna",
+          "dorsal": 6,
+          "posicion": "CB"
+        },
+        {
+          "id": "473579",
+          "nombre": "Luis Garro",
+          "dorsal": 17,
+          "posicion": "RB"
+        },
+        {
+          "id": "653329",
+          "nombre": "Luis Arce",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "434192",
+          "nombre": "David Dioses",
+          "dorsal": 8,
+          "posicion": "DM"
+        },
+        {
+          "id": "981706",
+          "nombre": "Jhosep Núñez",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1102802",
+          "nombre": "Santiago Gálvez",
+          "dorsal": 18,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "47107",
+      "club_nombre": "Comerciantes Unidos",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "805148",
+          "nombre": "Córdova",
+          "dorsal": 17,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "671846",
+          "nombre": "Rodríguez",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "891814",
+          "nombre": "Alcedo",
+          "dorsal": 40,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "292729",
+          "nombre": "Cossio",
+          "dorsal": 15,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "501586",
+          "nombre": "Rojas",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "897924",
+          "nombre": "Rodríguez",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "325589",
+          "nombre": "Arias",
+          "dorsal": 4,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "639763",
+          "nombre": "Vilca",
+          "dorsal": 25,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "641826",
+          "nombre": "Herrera",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "355639",
+          "nombre": "Ayoví",
+          "dorsal": 8,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "458756",
+          "nombre": "Pérez",
+          "dorsal": 13,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "441704",
+          "nombre": "José Charún",
+          "dorsal": 99,
+          "posicion": "GK"
+        },
+        {
+          "id": "871653",
+          "nombre": "Piero Guzmán",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "639458",
+          "nombre": "José Parodi",
+          "dorsal": 20,
+          "posicion": "DM"
+        },
+        {
+          "id": "1076593",
+          "nombre": "Thiago Salinas",
+          "dorsal": 14,
+          "posicion": "CM"
+        },
+        {
+          "id": "739725",
+          "nombre": "Mathías Carpio",
+          "dorsal": 10,
+          "posicion": "LW"
+        },
+        {
+          "id": "662709",
+          "nombre": "Óscar Pinto",
+          "dorsal": 28,
+          "posicion": "LW"
+        },
+        {
+          "id": "653429",
+          "nombre": "Jhon Sánchez",
+          "dorsal": 32,
+          "posicion": "RW"
+        },
+        {
+          "id": "1182403",
+          "nombre": "Jean Carlo Olivares",
+          "dorsal": 50,
+          "posicion": "CF"
+        },
+        {
+          "id": "347003",
+          "nombre": "Matías Sen",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "47107",
+      "minuto": 5,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "639763",
+        "nombre": "Rodrigo Vilca"
+      },
+      "asistencia": {
+        "id": "355639",
+        "nombre": "Wilter Ayoví"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 27,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "580632",
+        "nombre": "David Camacho"
+      },
+      "asistencia": {
+        "id": "443987",
+        "nombre": "Junior Huerto"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 55,
+      "anadido": 0,
+      "marcador": "1:2",
+      "autor": {
+        "id": "639763",
+        "nombre": "Rodrigo Vilca"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "47107",
+      "minuto": 71,
+      "anadido": 0,
+      "marcador": "1:3",
+      "autor": {
+        "id": "458756",
+        "nombre": "Maximiliano Pérez"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "21170",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "97013",
+        "nombre": "Marlon de Jesús"
+      },
+      "entra": {
+        "id": "664362",
+        "nombre": "Francesco Cavagna"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "903834",
+        "nombre": "Gilmar Paredes"
+      },
+      "entra": {
+        "id": "473579",
+        "nombre": "Luis Garro"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "641826",
+        "nombre": "Josuee Herrera"
+      },
+      "entra": {
+        "id": "662709",
+        "nombre": "Óscar Pinto"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 60,
+      "anadido": 0,
+      "sale": {
+        "id": "981410",
+        "nombre": "Joshua Cantt"
+      },
+      "entra": {
+        "id": "653329",
+        "nombre": "Luis Arce"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 60,
+      "anadido": 0,
+      "sale": {
+        "id": "399496",
+        "nombre": "Marcos Lliuya"
+      },
+      "entra": {
+        "id": "981706",
+        "nombre": "Jhosep Núñez"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "458756",
+        "nombre": "Maximiliano Pérez"
+      },
+      "entra": {
+        "id": "347003",
+        "nombre": "Matías Sen"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "355639",
+        "nombre": "Wilter Ayoví"
+      },
+      "entra": {
+        "id": "653429",
+        "nombre": "Jhon Sánchez"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "639763",
+        "nombre": "Rodrigo Vilca"
+      },
+      "entra": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "325589",
+        "nombre": "Alexis Arias"
+      },
+      "entra": {
+        "id": "639458",
+        "nombre": "José Parodi"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "21170",
+      "minuto": 36,
+      "anadido": 0,
+      "jugador": {
+        "id": "638929",
+        "nombre": "Manuel Ganoza"
+      },
+      "tipo": "roja",
+      "detalle": "Manuel Ganoza Red card , Professional foul"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 57,
+      "anadido": 0,
+      "jugador": {
+        "id": "981410",
+        "nombre": "Joshua Cantt"
+      },
+      "tipo": "amarilla",
+      "detalle": "Joshua Cantt 1. Yellow card , Dissent"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "club_id": "54478",
+  "club_nombre": "CD Los Chankas",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:09:15",
+  "jugadores": [
+    {
+      "id": "250407",
+      "nombre": "Hairo Camacho",
+      "posicion": "Goalkeeper",
+      "partidos": 26,
+      "minutos": 2340
+    },
+    {
+      "id": "988214",
+      "nombre": "Luis Pretel",
+      "posicion": "Goalkeeper",
+      "partidos": 4,
+      "minutos": 360
+    },
+    {
+      "id": "1578030",
+      "nombre": "Jeremy Gómez",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "740319",
+      "nombre": "Ayrthon Quintana",
+      "posicion": "Left-Back",
+      "partidos": 25,
+      "minutos": 1673
+    },
+    {
+      "id": "470023",
+      "nombre": "Brayan Guevara",
+      "posicion": "Left-Back",
+      "partidos": 20,
+      "minutos": 795
+    },
+    {
+      "id": "409092",
+      "nombre": "Gonzalo Rizzo",
+      "posicion": "Centre-Back",
+      "partidos": 17,
+      "minutos": 927
+    },
+    {
+      "id": "639765",
+      "nombre": "Axel Chávez",
+      "posicion": "Left-Back",
+      "partidos": 3,
+      "minutos": 64
+    },
+    {
+      "id": "643536",
+      "nombre": "David Gonzáles",
+      "posicion": "Left-Back",
+      "partidos": 24,
+      "minutos": 1912
+    },
+    {
+      "id": "893740",
+      "nombre": "Michael Kaufman",
+      "posicion": "Centre-Back",
+      "partidos": 18,
+      "minutos": 806
+    },
+    {
+      "id": "725453",
+      "nombre": "Héctor González",
+      "posicion": "Centre-Back",
+      "partidos": 20,
+      "minutos": 1558
+    },
+    {
+      "id": "294886",
+      "nombre": "Carlos Pimienta",
+      "posicion": "Centre-Back",
+      "partidos": 26,
+      "minutos": 2313
+    },
+    {
+      "id": "1509341",
+      "nombre": "José Cárdenas",
+      "posicion": "Centre-Back",
+      "partidos": 3,
+      "minutos": 236
+    },
+    {
+      "id": "744083",
+      "nombre": "Adrián Quiroz",
+      "posicion": "Central Midfield",
+      "partidos": 16,
+      "minutos": 1303
+    },
+    {
+      "id": "894880",
+      "nombre": "André Vasquez",
+      "posicion": "Attacking Midfield",
+      "partidos": 6,
+      "minutos": 231
+    },
+    {
+      "id": "873510",
+      "nombre": "Franco Torres",
+      "posicion": "Attacking Midfield",
+      "partidos": 25,
+      "minutos": 2045
+    },
+    {
+      "id": "441728",
+      "nombre": "Kelvin Sánchez",
+      "posicion": "Defensive Midfield",
+      "partidos": 29,
+      "minutos": 1551
+    },
+    {
+      "id": "965449",
+      "nombre": "Jorge Palomino",
+      "posicion": "Defensive Midfield",
+      "partidos": 24,
+      "minutos": 2069
+    },
+    {
+      "id": "447932",
+      "nombre": "Christian Velarde",
+      "posicion": "Defensive Midfield",
+      "partidos": 13,
+      "minutos": 689
+    },
+    {
+      "id": "653673",
+      "nombre": "Abdiel Ayarza",
+      "posicion": "Central Midfield",
+      "partidos": 24,
+      "minutos": 759
+    },
+    {
+      "id": "1196477",
+      "nombre": "Sebastián Zarabia",
+      "posicion": "Central Midfield",
+      "partidos": 3,
+      "minutos": 270
+    },
+    {
+      "id": "1559268",
+      "nombre": "Dealetzandro Apaza",
+      "posicion": "Defensive Midfield",
+      "partidos": 3,
+      "minutos": 246
+    },
+    {
+      "id": "1559271",
+      "nombre": "Lyan Buleje",
+      "posicion": "Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1559269",
+      "nombre": "Carlos Adán",
+      "posicion": "Midfield",
+      "partidos": 2,
+      "minutos": 24
+    },
+    {
+      "id": "330169",
+      "nombre": "Jarlín Quintero",
+      "posicion": "Centre-Forward",
+      "partidos": 26,
+      "minutos": 1878
+    },
+    {
+      "id": "357124",
+      "nombre": "Oshiro Takeuchi",
+      "posicion": "Right Winger",
+      "partidos": 27,
+      "minutos": 2242
+    },
+    {
+      "id": "384765",
+      "nombre": "Accel Campos",
+      "posicion": "Right Winger",
+      "partidos": 4,
+      "minutos": 244
+    },
+    {
+      "id": "648289",
+      "nombre": "Marlon Torres",
+      "posicion": "Centre-Forward",
+      "partidos": 23,
+      "minutos": 1147
+    },
+    {
+      "id": "664841",
+      "nombre": "Kenyi Barrios",
+      "posicion": "Right Winger",
+      "partidos": 25,
+      "minutos": 681
+    },
+    {
+      "id": "653475",
+      "nombre": "Félix Espinoza",
+      "posicion": "Right Winger",
+      "partidos": 10,
+      "minutos": 418
+    },
+    {
+      "id": "855900",
+      "nombre": "Juan Diego Ospina",
+      "posicion": "Right Winger",
+      "partidos": 12,
+      "minutos": 522
+    },
+    {
+      "id": "94761",
+      "nombre": "Janio Pósito",
+      "posicion": "Centre-Forward",
+      "partidos": 8,
+      "minutos": 273
+    },
+    {
+      "id": "1559270",
+      "nombre": "Danilo Serna",
+      "posicion": "Attack",
+      "partidos": 1,
+      "minutos": 1
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+{
+  "partido_id": "5034409",
+  "ruta": "/spielbericht/index/spielbericht/5034409",
+  "fecha_extraccion": "2026-10-02T22:54:16",
+  "equipos": [
+    {
+      "club_id": "28999",
+      "club_nombre": "Cusco FC",
+      "local": true,
+      "formacion": "4-3-3 Attacking",
+      "titulares": [
+        {
+          "id": "653363",
+          "nombre": "Díaz",
+          "dorsal": 28,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "195002",
+          "nombre": "Ampuero",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "480523",
+          "nombre": "Fuentes",
+          "dorsal": 8,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "653364",
+          "nombre": "Lagos",
+          "dorsal": 3,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "621037",
+          "nombre": "Zevallos",
+          "dorsal": 21,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "507653",
+          "nombre": "Montaño",
+          "dorsal": 55,
+          "top": 39.0,
+          "left": 40.0
+        },
+        {
+          "id": "662605",
+          "nombre": "Soto",
+          "dorsal": 88,
+          "top": 28.0,
+          "left": 53.0
+        },
+        {
+          "id": "380603",
+          "nombre": "Colman",
+          "dorsal": 10,
+          "top": 28.0,
+          "left": 27.0
+        },
+        {
+          "id": "329212",
+          "nombre": "Colitto",
+          "dorsal": 22,
+          "top": 10.0,
+          "left": 65.0
+        },
+        {
+          "id": "422914",
+          "nombre": "Silva",
+          "dorsal": 26,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "268031",
+          "nombre": "Callejo",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "227796",
+          "nombre": "Andy Vidal",
+          "dorsal": 13,
+          "posicion": "GK"
+        },
+        {
+          "id": "655641",
+          "nombre": "Carlos Gamarra",
+          "dorsal": 2,
+          "posicion": "CB"
+        },
+        {
+          "id": "738710",
+          "nombre": "Marlon Ruidías",
+          "dorsal": 24,
+          "posicion": "RB"
+        },
+        {
+          "id": "654298",
+          "nombre": "Oswaldo Valenzuela",
+          "dorsal": 16,
+          "posicion": "DM"
+        },
+        {
+          "id": "351561",
+          "nombre": "Carlo Diez",
+          "dorsal": 14,
+          "posicion": "DM"
+        },
+        {
+          "id": "662338",
+          "nombre": "Miguel Silveira",
+          "dorsal": 99,
+          "posicion": "AM"
+        },
+        {
+          "id": "279387",
+          "nombre": "José Manzaneda",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "981817",
+          "nombre": "Joel Herrera",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "210553",
+          "nombre": "Juan Manuel Tévez",
+          "dorsal": 11,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "2734",
+      "club_nombre": "FBC Melgar",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "785133",
+          "nombre": "Cabezudo",
+          "dorsal": 21,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "353034",
+          "nombre": "Escobar",
+          "dorsal": 23,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "302416",
+          "nombre": "González",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "831138",
+          "nombre": "Lazo",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "491570",
+          "nombre": "Cabanillas",
+          "dorsal": 27,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "400945",
+          "nombre": "Minda",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "966314",
+          "nombre": "Portillo",
+          "dorsal": 26,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "733083",
+          "nombre": "Quagliata",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "282350",
+          "nombre": "Bordacahar",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "89317",
+          "nombre": "Cuesta",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "224677",
+          "nombre": "Vidales",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "94359",
+          "nombre": "Carlos Cáceda",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "796060",
+          "nombre": "Jesús Alcántar",
+          "dorsal": 90,
+          "posicion": "CB"
+        },
+        {
+          "id": "621029",
+          "nombre": "Alec Deneumostier",
+          "dorsal": 5,
+          "posicion": "CB"
+        },
+        {
+          "id": "249468",
+          "nombre": "Horacio Orzán",
+          "dorsal": 66,
+          "posicion": "DM"
+        },
+        {
+          "id": "832216",
+          "nombre": "Jefferson Cáceres",
+          "dorsal": 16,
+          "posicion": "LW"
+        },
+        {
+          "id": "741728",
+          "nombre": "Jhamir D'Arrigo",
+          "dorsal": 80,
+          "posicion": "LW"
+        },
+        {
+          "id": "1442941",
+          "nombre": "Matias Zegarra",
+          "dorsal": 45,
+          "posicion": "LW"
+        },
+        {
+          "id": "626916",
+          "nombre": "Lautaro Guzmán",
+          "dorsal": 8,
+          "posicion": "RW"
+        },
+        {
+          "id": "653476",
+          "nombre": "Franco Zanelatto",
+          "dorsal": 77,
+          "posicion": "RW"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "2734",
+      "minuto": 50,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "89317",
+        "nombre": "Bernardo Cuesta"
+      },
+      "asistencia": {
+        "id": "733083",
+        "nombre": "Nicolás Quagliata"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "2734",
+      "minuto": 62,
+      "anadido": 0,
+      "sale": {
+        "id": "966314",
+        "nombre": "Marcos Portillo"
+      },
+      "entra": {
+        "id": "249468",
+        "nombre": "Horacio Orzán"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 62,
+      "anadido": 0,
+      "sale": {
+        "id": "733083",
+        "nombre": "Nicolás Quagliata"
+      },
+      "entra": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra"
+      }
+    },
+    {
+      "club_id": "28999",
+      "minuto": 62,
+      "anadido": 0,
+      "sale": {
+        "id": "329212",
+        "nombre": "Lucas Colitto"
+      },
+      "entra": {
+        "id": "662338",
+        "nombre": "Miguel Silveira"
+      }
+    },
+    {
+      "club_id": "28999",
+      "minuto": 63,
+      "anadido": 0,
+      "sale": {
+        "id": "422914",
+        "nombre": "Nicolás Silva"
+      },
+      "entra": {
+        "id": "279387",
+        "nombre": "José Manzaneda"
+      }
+    },
+    {
+      "club_id": "28999",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "662605",
+        "nombre": "Diego Soto"
+      },
+      "entra": {
+        "id": "210553",
+        "nombre": "Juan Manuel Tévez"
+      }
+    },
+    {
+      "club_id": "28999",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "653364",
+        "nombre": "Ricardo Lagos"
+      },
+      "entra": {
+        "id": "738710",
+        "nombre": "Marlon Ruidías"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "entra": {
+        "id": "626916",
+        "nombre": "Lautaro Guzmán"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "491570",
+        "nombre": "Nelson Cabanillas"
+      },
+      "entra": {
+        "id": "796060",
+        "nombre": "Jesús Alcántar"
+      }
+    },
+    {
+      "club_id": "28999",
+      "minuto": 83,
+      "anadido": 0,
+      "sale": {
+        "id": "507653",
+        "nombre": "Carlos Montaño"
+      },
+      "entra": {
+        "id": "654298",
+        "nombre": "Oswaldo Valenzuela"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "89317",
+        "nombre": "Bernardo Cuesta"
+      },
+      "entra": {
+        "id": "621029",
+        "nombre": "Alec Deneumostier"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "28999",
+      "minuto": 32,
+      "anadido": 0,
+      "jugador": {
+        "id": "653364",
+        "nombre": "Ricardo Lagos"
+      },
+      "tipo": "amarilla",
+      "detalle": "Ricardo Lagos 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "2734",
+      "minuto": 38,
+      "anadido": 0,
+      "jugador": {
+        "id": "353034",
+        "nombre": "Juan Escobar"
+      },
+      "tipo": "amarilla",
+      "detalle": "Juan Escobar 3. Yellow card , Dissent"
+    },
+    {
+      "club_id": "28999",
+      "minuto": 38,
+      "anadido": 0,
+      "jugador": {
+        "id": "480523",
+        "nombre": "Aldair Fuentes"
+      },
+      "tipo": "amarilla",
+      "detalle": "Aldair Fuentes 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "2734",
+      "minuto": 61,
+      "anadido": 0,
+      "jugador": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jhonny Vidales 1. Yellow card , Time wasting"
+    },
+    {
+      "club_id": "28999",
+      "minuto": 86,
+      "anadido": 0,
+      "jugador": {
+        "id": "654298",
+        "nombre": "Oswaldo Valenzuela"
+      },
+      "tipo": "amarilla",
+      "detalle": "Oswaldo Valenzuela 1. Yellow card , Foul"
+    }
+  ]
+}

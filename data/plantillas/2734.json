@@ -1,0 +1,198 @@
+{
+  "club_id": "2734",
+  "club_nombre": "FBC Melgar",
+  "formacion": "4-2-3-1",
+  "variante": "4-2-3-1",
+  "fecha_generacion": "2026-10-03T00:44:01",
+  "casillas": [
+    {
+      "casilla": 1,
+      "rol": "arquero",
+      "titular": {
+        "id": "785133",
+        "nombre": "Jorge Cabezudo",
+        "rol": "arquero",
+        "puntaje": 22.884
+      },
+      "suplente": {
+        "id": "94359",
+        "nombre": "Carlos Cáceda",
+        "rol": "arquero",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 10
+      }
+    },
+    {
+      "casilla": 2,
+      "rol": "lateral_izq",
+      "titular": {
+        "id": "491570",
+        "nombre": "Nelson Cabanillas",
+        "rol": "lateral_izq",
+        "puntaje": 18.956
+      },
+      "suplente": {
+        "id": "1410080",
+        "nombre": "Ángel Obando",
+        "rol": "lateral_izq",
+        "puntaje": 0,
+        "origen": "plantel"
+      }
+    },
+    {
+      "casilla": 3,
+      "rol": "central",
+      "titular": {
+        "id": "302416",
+        "nombre": "Leonel González",
+        "rol": "central",
+        "puntaje": 22.884
+      },
+      "suplente": {
+        "id": "621029",
+        "nombre": "Alec Deneumostier",
+        "rol": "central",
+        "puntaje": 2.045,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 4,
+      "rol": "central",
+      "titular": {
+        "id": "353034",
+        "nombre": "Juan Escobar",
+        "rol": "central",
+        "puntaje": 20.948
+      },
+      "suplente": {
+        "id": "796060",
+        "nombre": "Jesús Alcántar",
+        "rol": "central",
+        "puntaje": 0.895,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 5,
+      "rol": "lateral_der",
+      "titular": {
+        "id": "831138",
+        "nombre": "Matías Lazo",
+        "rol": "lateral_der",
+        "puntaje": 22.622
+      },
+      "suplente": {
+        "id": "653476",
+        "nombre": "Franco Zanelatto",
+        "rol": "lateral_der",
+        "puntaje": 1.277,
+        "reemplazo_de_rol": "volante_extremo_der",
+        "origen": "reemplazo"
+      }
+    },
+    {
+      "casilla": 6,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "400945",
+        "nombre": "Kevin Minda",
+        "rol": "volante_defensivo",
+        "puntaje": 21.697
+      },
+      "suplente": {
+        "id": "249468",
+        "nombre": "Horacio Orzán",
+        "rol": "volante_defensivo",
+        "puntaje": 3.725,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 7,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "621039",
+        "nombre": "Walter Tandazo",
+        "rol": "volante_defensivo",
+        "puntaje": 15.89
+      },
+      "suplente": {
+        "id": "966314",
+        "nombre": "Marcos Portillo",
+        "rol": "volante_defensivo",
+        "puntaje": 2.837,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 8,
+      "rol": "volante_extremo_izq",
+      "titular": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales",
+        "rol": "volante_extremo_izq",
+        "puntaje": 14.214
+      },
+      "suplente": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra",
+        "rol": "volante_extremo_izq",
+        "puntaje": 6.919,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 9,
+      "rol": "mediapunta",
+      "titular": {
+        "id": "733083",
+        "nombre": "Nicolás Quagliata",
+        "rol": "mediapunta",
+        "puntaje": 16.57
+      },
+      "suplente": {
+        "id": "1552269",
+        "nombre": "Ronald Rodriguez",
+        "rol": "mediapunta",
+        "puntaje": 0,
+        "origen": "plantel"
+      }
+    },
+    {
+      "casilla": 10,
+      "rol": "volante_extremo_der",
+      "titular": {
+        "id": "282350",
+        "nombre": "Cristian Bordacahar",
+        "rol": "volante_extremo_der",
+        "puntaje": 19.334
+      },
+      "suplente": {
+        "id": "626916",
+        "nombre": "Lautaro Guzmán",
+        "rol": "volante_extremo_der",
+        "puntaje": 1.72,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 11,
+      "rol": "delantero",
+      "titular": {
+        "id": "89317",
+        "nombre": "Bernardo Cuesta",
+        "rol": "delantero",
+        "puntaje": 22.05
+      },
+      "suplente": {
+        "id": "657791",
+        "nombre": "Jeriel de Santis",
+        "rol": "delantero",
+        "puntaje": 0,
+        "origen": "plantel"
+      }
+    }
+  ]
+}

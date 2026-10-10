@@ -1,0 +1,267 @@
+{
+  "club_id": "27861",
+  "club_nombre": "Club Atlético Grau",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:08:44",
+  "jugadores": [
+    {
+      "id": "250711",
+      "nombre": "Patricio Álvarez",
+      "posicion": "Goalkeeper",
+      "partidos": 26,
+      "minutos": 2340
+    },
+    {
+      "id": "969946",
+      "nombre": "Aarom Fuentes",
+      "posicion": "Goalkeeper",
+      "partidos": 2,
+      "minutos": 180
+    },
+    {
+      "id": "639452",
+      "nombre": "Aamet Calderón",
+      "posicion": "Goalkeeper",
+      "partidos": 3,
+      "minutos": 270
+    },
+    {
+      "id": "1508640",
+      "nombre": "Breyner Vilela",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "460830",
+      "nombre": "Ignacio Tapia",
+      "posicion": "Centre-Back",
+      "partidos": 24,
+      "minutos": 1899
+    },
+    {
+      "id": "422398",
+      "nombre": "Rodrigo Tapia",
+      "posicion": "Centre-Back",
+      "partidos": 29,
+      "minutos": 2529
+    },
+    {
+      "id": "639467",
+      "nombre": "Christian Vásquez",
+      "posicion": "Right-Back",
+      "partidos": 7,
+      "minutos": 429
+    },
+    {
+      "id": "325711",
+      "nombre": "Elsar Rodas",
+      "posicion": "Left-Back",
+      "partidos": 28,
+      "minutos": 1891
+    },
+    {
+      "id": "981804",
+      "nombre": "Gabriel Alfaro",
+      "posicion": "Left-Back",
+      "partidos": 20,
+      "minutos": 991
+    },
+    {
+      "id": "864707",
+      "nombre": "José Ataupillco",
+      "posicion": "Centre-Back",
+      "partidos": 7,
+      "minutos": 606
+    },
+    {
+      "id": "865640",
+      "nombre": "Diego Rodríguez",
+      "posicion": "Right-Back",
+      "partidos": 20,
+      "minutos": 1584
+    },
+    {
+      "id": "284306",
+      "nombre": "Lucas Acevedo",
+      "posicion": "Centre-Back",
+      "partidos": 22,
+      "minutos": 1771
+    },
+    {
+      "id": "1227749",
+      "nombre": "Arnold Flores",
+      "posicion": "Left-Back",
+      "partidos": 4,
+      "minutos": 71
+    },
+    {
+      "id": "1564423",
+      "nombre": "Santiago Saavedra",
+      "posicion": "Centre-Back",
+      "partidos": 1,
+      "minutos": 76
+    },
+    {
+      "id": "818499",
+      "nombre": "Cristian Neira",
+      "posicion": "Attacking Midfield",
+      "partidos": 16,
+      "minutos": 1261
+    },
+    {
+      "id": "892756",
+      "nombre": "Aldair Vásquez",
+      "posicion": "Attacking Midfield",
+      "partidos": 23,
+      "minutos": 968
+    },
+    {
+      "id": "491560",
+      "nombre": "Freddy Oncoy",
+      "posicion": "Central Midfield",
+      "partidos": 18,
+      "minutos": 1033
+    },
+    {
+      "id": "250737",
+      "nombre": "Rafael Guarderas",
+      "posicion": "Defensive Midfield",
+      "partidos": 27,
+      "minutos": 2365
+    },
+    {
+      "id": "1246792",
+      "nombre": "Adrián de la Cruz",
+      "posicion": "Central Midfield",
+      "partidos": 24,
+      "minutos": 1499
+    },
+    {
+      "id": "422402",
+      "nombre": "Emiliano Franco",
+      "posicion": "Central Midfield",
+      "partidos": 13,
+      "minutos": 547
+    },
+    {
+      "id": "196037",
+      "nombre": "Pablo Lavandeira",
+      "posicion": "Attacking Midfield",
+      "partidos": 8,
+      "minutos": 375
+    },
+    {
+      "id": "572038",
+      "nombre": "Diego Barreto",
+      "posicion": "Attacking Midfield",
+      "partidos": 21,
+      "minutos": 903
+    },
+    {
+      "id": "1102800",
+      "nombre": "Eslyn Correa",
+      "posicion": "Central Midfield",
+      "partidos": 10,
+      "minutos": 240
+    },
+    {
+      "id": "1561653",
+      "nombre": "Abel Celi",
+      "posicion": "Midfield",
+      "partidos": 1,
+      "minutos": 14
+    },
+    {
+      "id": "1561652",
+      "nombre": "Mayer Gonzales",
+      "posicion": "Midfield",
+      "partidos": 1,
+      "minutos": 51
+    },
+    {
+      "id": "1564424",
+      "nombre": "Guillermo Remicio",
+      "posicion": "Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1564425",
+      "nombre": "Ronal Guerrero",
+      "posicion": "Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "563398",
+      "nombre": "Paulo de la Cruz",
+      "posicion": "Right Winger",
+      "partidos": 24,
+      "minutos": 1246
+    },
+    {
+      "id": "422855",
+      "nombre": "Luis Benites",
+      "posicion": "Left Winger",
+      "partidos": 11,
+      "minutos": 527
+    },
+    {
+      "id": "458603",
+      "nombre": "Mauro Da Luz",
+      "posicion": "Right Winger",
+      "partidos": 11,
+      "minutos": 557
+    },
+    {
+      "id": "906422",
+      "nombre": "Isaac Camargo",
+      "posicion": "Centre-Forward",
+      "partidos": 15,
+      "minutos": 542
+    },
+    {
+      "id": "842604",
+      "nombre": "Santiago Torres González",
+      "posicion": "Right Winger",
+      "partidos": 9,
+      "minutos": 443
+    },
+    {
+      "id": "129724",
+      "nombre": "Raúl Ruidíaz",
+      "posicion": "Centre-Forward",
+      "partidos": 24,
+      "minutos": 1409
+    },
+    {
+      "id": "372163",
+      "nombre": "Nicolás Delgadillo",
+      "posicion": "Left Winger",
+      "partidos": 15,
+      "minutos": 534
+    },
+    {
+      "id": "239623",
+      "nombre": "Adrián Fernández",
+      "posicion": "Centre-Forward",
+      "partidos": 11,
+      "minutos": 671
+    },
+    {
+      "id": "869156",
+      "nombre": "Yamir Ruidíaz",
+      "posicion": "Centre-Forward",
+      "partidos": 13,
+      "minutos": 362
+    },
+    {
+      "id": "1482719",
+      "nombre": "Henri Espinoza",
+      "posicion": "Right Winger",
+      "partidos": 5,
+      "minutos": 268
+    }
+  ]
+}

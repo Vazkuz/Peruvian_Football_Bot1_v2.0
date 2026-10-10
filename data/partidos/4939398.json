@@ -1,0 +1,478 @@
+{
+  "partido_id": "4939398",
+  "ruta": "/spielbericht/index/spielbericht/4939398",
+  "fecha_extraccion": "2026-10-02T22:19:58",
+  "equipos": [
+    {
+      "club_id": "35588",
+      "club_nombre": "Asociación Deportiva Tarma",
+      "local": true,
+      "formacion": "3-4-3",
+      "titulares": [
+        {
+          "id": "255976",
+          "nombre": "Valencia",
+          "dorsal": 30,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "140931",
+          "nombre": "Narváez",
+          "dorsal": 23,
+          "top": 61.0,
+          "left": 15.0
+        },
+        {
+          "id": "260318",
+          "nombre": "Benincasa",
+          "dorsal": 44,
+          "top": 61.0,
+          "left": 65.0
+        },
+        {
+          "id": "741727",
+          "nombre": "Núñez",
+          "dorsal": 59,
+          "top": 32.0,
+          "left": 12.0
+        },
+        {
+          "id": "149771",
+          "nombre": "Ojeda",
+          "dorsal": 6,
+          "top": 62.0,
+          "left": 40.0
+        },
+        {
+          "id": "656911",
+          "nombre": "Pérez",
+          "dorsal": 16,
+          "top": 35.0,
+          "left": 50.0
+        },
+        {
+          "id": "1257758",
+          "nombre": "Alvino",
+          "dorsal": 15,
+          "top": 35.0,
+          "left": 30.0
+        },
+        {
+          "id": "92729",
+          "nombre": "Rojas",
+          "dorsal": 7,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "532994",
+          "nombre": "Canela",
+          "dorsal": 80,
+          "top": 10.0,
+          "left": 65.0
+        },
+        {
+          "id": "1409977",
+          "nombre": "Garcilazo",
+          "dorsal": 26,
+          "top": 32.0,
+          "left": 68.0
+        },
+        {
+          "id": "130158",
+          "nombre": "Bauman",
+          "dorsal": 32,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "250672",
+          "nombre": "Carlos Solís",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "738469",
+          "nombre": "Leonardo Rugel",
+          "dorsal": 3,
+          "posicion": "CB"
+        },
+        {
+          "id": "885263",
+          "nombre": "Jerry Navarro",
+          "dorsal": 31,
+          "posicion": "RB"
+        },
+        {
+          "id": "1391185",
+          "nombre": "Jair Reyes",
+          "dorsal": 2,
+          "posicion": "CM"
+        },
+        {
+          "id": "186794",
+          "nombre": "Sinclair García",
+          "dorsal": 25,
+          "posicion": "AM"
+        },
+        {
+          "id": "1502980",
+          "nombre": "Aylton Mazzo",
+          "dorsal": 18,
+          "posicion": "LW"
+        },
+        {
+          "id": "1149626",
+          "nombre": "Said Peralta",
+          "dorsal": 24,
+          "posicion": "CF"
+        },
+        {
+          "id": "249975",
+          "nombre": "Aldair Rodríguez",
+          "dorsal": 22,
+          "posicion": "CF"
+        },
+        {
+          "id": "51225",
+          "nombre": "Hernán Rengifo",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "6593",
+      "club_nombre": "Universitario de Deportes",
+      "local": false,
+      "formacion": "4-1-3-2",
+      "titulares": [
+        {
+          "id": "643063",
+          "nombre": "Romero",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "619072",
+          "nombre": "Fara",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "441344",
+          "nombre": "Di Benedetto",
+          "dorsal": 5,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "965846",
+          "nombre": "Inga",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "486265",
+          "nombre": "Murrugarra",
+          "dorsal": 23,
+          "top": 43.0,
+          "left": 40.0
+        },
+        {
+          "id": "490717",
+          "nombre": "Concha",
+          "dorsal": 17,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "189236",
+          "nombre": "Polo",
+          "dorsal": 24,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "424024",
+          "nombre": "Fértoli",
+          "dorsal": 8,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "396920",
+          "nombre": "Alzugaray",
+          "dorsal": 30,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "738716",
+          "nombre": "Valera",
+          "dorsal": 20,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "458461",
+          "nombre": "Rivera",
+          "dorsal": 11,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "352338",
+          "nombre": "Miguel Vargas",
+          "dorsal": 25,
+          "posicion": "GK"
+        },
+        {
+          "id": "457058",
+          "nombre": "Williams Riveros",
+          "dorsal": 3,
+          "posicion": "CB"
+        },
+        {
+          "id": "1379862",
+          "nombre": "Junior Díaz",
+          "dorsal": 60,
+          "posicion": "LB"
+        },
+        {
+          "id": "658848",
+          "nombre": "Jesús Castillo",
+          "dorsal": 6,
+          "posicion": "DM"
+        },
+        {
+          "id": "637902",
+          "nombre": "Juan Manuel Requena",
+          "dorsal": 15,
+          "posicion": "DM"
+        },
+        {
+          "id": "744083",
+          "nombre": "Adrián Quiroz",
+          "dorsal": 28,
+          "posicion": "CM"
+        },
+        {
+          "id": "1379867",
+          "nombre": "Christopher Loayza",
+          "dorsal": 34,
+          "posicion": "LW"
+        },
+        {
+          "id": "130394",
+          "nombre": "Gianluca Lapadula",
+          "dorsal": 18,
+          "posicion": "CF"
+        },
+        {
+          "id": "194998",
+          "nombre": "Edison Flores",
+          "dorsal": 19,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "6593",
+      "minuto": 20,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "738716",
+        "nombre": "Álex Valera"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "35588",
+      "minuto": 28,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "532994",
+        "nombre": "Jeremy Canela"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "6593",
+      "minuto": 31,
+      "anadido": 0,
+      "marcador": "1:2",
+      "autor": {
+        "id": "396920",
+        "nombre": "Lisandro Alzugaray"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "35588",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "532994",
+        "nombre": "Jeremy Canela"
+      },
+      "entra": {
+        "id": "1502980",
+        "nombre": "Aylton Mazzo"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "458461",
+        "nombre": "José Rivera"
+      },
+      "entra": {
+        "id": "194998",
+        "nombre": "Edison Flores"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "490717",
+        "nombre": "Jairo Concha"
+      },
+      "entra": {
+        "id": "744083",
+        "nombre": "Adrián Quiroz"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "424024",
+        "nombre": "Héctor Fértoli"
+      },
+      "entra": {
+        "id": "637902",
+        "nombre": "Juan Manuel Requena"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "486265",
+        "nombre": "Jorge Murrugarra"
+      },
+      "entra": {
+        "id": "658848",
+        "nombre": "Jesús Castillo"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 78,
+      "anadido": 0,
+      "sale": {
+        "id": "1257758",
+        "nombre": "Josue Alvino"
+      },
+      "entra": {
+        "id": "51225",
+        "nombre": "Hernán Rengifo"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 83,
+      "anadido": 0,
+      "sale": {
+        "id": "738716",
+        "nombre": "Álex Valera"
+      },
+      "entra": {
+        "id": "130394",
+        "nombre": "Gianluca Lapadula"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "1409977",
+        "nombre": "Jhojan Garcilazo"
+      },
+      "entra": {
+        "id": "249975",
+        "nombre": "Aldair Rodríguez"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "149771",
+        "nombre": "Ángel Ojeda"
+      },
+      "entra": {
+        "id": "738469",
+        "nombre": "Leonardo Rugel"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "35588",
+      "minuto": 30,
+      "anadido": 0,
+      "jugador": {
+        "id": "656911",
+        "nombre": "Luis Pérez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Luis Pérez 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 45,
+      "anadido": 4,
+      "jugador": {
+        "id": "140931",
+        "nombre": "John Narváez"
+      },
+      "tipo": "roja",
+      "detalle": "John Narváez Red card , Serious foul"
+    },
+    {
+      "club_id": "6593",
+      "minuto": 45,
+      "anadido": 7,
+      "jugador": {
+        "id": "486265",
+        "nombre": "Jorge Murrugarra"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jorge Murrugarra 1. Yellow card , Foul"
+    }
+  ]
+}

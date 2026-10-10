@@ -1,0 +1,562 @@
+{
+  "partido_id": "4942764",
+  "ruta": "/spielbericht/index/spielbericht/4942764",
+  "fecha_extraccion": "2026-10-02T22:34:19",
+  "equipos": [
+    {
+      "club_id": "2734",
+      "club_nombre": "FBC Melgar",
+      "local": true,
+      "formacion": "4-4-2 double 6",
+      "titulares": [
+        {
+          "id": "785133",
+          "nombre": "Cabezudo",
+          "dorsal": 21,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "831138",
+          "nombre": "Lazo",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "302416",
+          "nombre": "González",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "621029",
+          "nombre": "Deneumostier",
+          "dorsal": 5,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "491570",
+          "nombre": "Cabanillas",
+          "dorsal": 27,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "621039",
+          "nombre": "Tandazo",
+          "dorsal": 24,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "400945",
+          "nombre": "Minda",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "733083",
+          "nombre": "Quagliata",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 12.0
+        },
+        {
+          "id": "282350",
+          "nombre": "Bordacahar",
+          "dorsal": 7,
+          "top": 23.0,
+          "left": 68.0
+        },
+        {
+          "id": "89317",
+          "nombre": "Cuesta",
+          "dorsal": 9,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "224677",
+          "nombre": "Vidales",
+          "dorsal": 11,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "94359",
+          "nombre": "Carlos Cáceda",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "796060",
+          "nombre": "Jesús Alcántar",
+          "dorsal": 90,
+          "posicion": "CB"
+        },
+        {
+          "id": "966314",
+          "nombre": "Marcos Portillo",
+          "dorsal": 26,
+          "posicion": "CM"
+        },
+        {
+          "id": "1227512",
+          "nombre": "Gian García",
+          "dorsal": 20,
+          "posicion": "CM"
+        },
+        {
+          "id": "741728",
+          "nombre": "Jhamir D'Arrigo",
+          "dorsal": 80,
+          "posicion": "LW"
+        },
+        {
+          "id": "832216",
+          "nombre": "Jefferson Cáceres",
+          "dorsal": 16,
+          "posicion": "LW"
+        },
+        {
+          "id": "1442941",
+          "nombre": "Matias Zegarra",
+          "dorsal": 45,
+          "posicion": "LW"
+        },
+        {
+          "id": "653476",
+          "nombre": "Franco Zanelatto",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "626916",
+          "nombre": "Lautaro Guzmán",
+          "dorsal": 8,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "120792",
+      "club_nombre": "FC Cajamarca",
+      "local": false,
+      "formacion": "4-4-2 double 6",
+      "titulares": [
+        {
+          "id": "1284244",
+          "nombre": "Aspajo",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "981819",
+          "nombre": "Pósito",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "338977",
+          "nombre": "Vílchez",
+          "dorsal": 95,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "1149627",
+          "nombre": "Suárez",
+          "dorsal": 5,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "242996",
+          "nombre": "Orejuela",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "358338",
+          "nombre": "Correa",
+          "dorsal": 13,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "1096324",
+          "nombre": "Arrasco",
+          "dorsal": 11,
+          "top": 2.0,
+          "left": 30.0
+        },
+        {
+          "id": "641820",
+          "nombre": "Palacios",
+          "dorsal": 17,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "621031",
+          "nombre": "Rasmussen",
+          "dorsal": 6,
+          "top": 23.0,
+          "left": 12.0
+        },
+        {
+          "id": "662714",
+          "nombre": "Meza",
+          "dorsal": 20,
+          "top": 23.0,
+          "left": 68.0
+        },
+        {
+          "id": "904940",
+          "nombre": "Enciso",
+          "dorsal": 31,
+          "top": 61.0,
+          "left": 7.5
+        }
+      ],
+      "banca": [
+        {
+          "id": "260429",
+          "nombre": "Jonathan Medina",
+          "dorsal": 3,
+          "posicion": "GK"
+        },
+        {
+          "id": "893513",
+          "nombre": "Hairo Timaná",
+          "dorsal": 26,
+          "posicion": "CB"
+        },
+        {
+          "id": "895056",
+          "nombre": "Arthur Gutiérrez",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "1029758",
+          "nombre": "Carlos Gómez",
+          "dorsal": 44,
+          "posicion": "RB"
+        },
+        {
+          "id": "106283",
+          "nombre": "Edson Aubert",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "582318",
+          "nombre": "Jhon Vega",
+          "dorsal": 21,
+          "posicion": "DM"
+        },
+        {
+          "id": "1445319",
+          "nombre": "Patrick Alegría",
+          "dorsal": 32,
+          "posicion": "AM"
+        },
+        {
+          "id": "285855",
+          "nombre": "Jonathan Betancourt",
+          "dorsal": 27,
+          "posicion": "LW"
+        },
+        {
+          "id": "795440",
+          "nombre": "Sebastien Pineau",
+          "dorsal": 7,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "2734",
+      "minuto": 10,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "120792",
+      "minuto": 25,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "621031",
+        "nombre": "Michel Rasmussen"
+      },
+      "asistencia": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 55,
+      "anadido": 0,
+      "marcador": "1:2",
+      "autor": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      },
+      "asistencia": {
+        "id": "662714",
+        "nombre": "Carlos Meza"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 57,
+      "anadido": 0,
+      "marcador": "1:3",
+      "autor": {
+        "id": "662714",
+        "nombre": "Carlos Meza"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "2734",
+      "minuto": 67,
+      "anadido": 0,
+      "marcador": "2:3",
+      "autor": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "asistencia": {
+        "id": "89317",
+        "nombre": "Bernardo Cuesta"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 74,
+      "anadido": 0,
+      "marcador": "2:4",
+      "autor": {
+        "id": "662714",
+        "nombre": "Carlos Meza"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "120792",
+      "minuto": 59,
+      "anadido": 0,
+      "sale": {
+        "id": "621031",
+        "nombre": "Michel Rasmussen"
+      },
+      "entra": {
+        "id": "285855",
+        "nombre": "Jonathan Betancourt"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 60,
+      "anadido": 0,
+      "sale": {
+        "id": "282350",
+        "nombre": "Cristian Bordacahar"
+      },
+      "entra": {
+        "id": "832216",
+        "nombre": "Jefferson Cáceres"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 60,
+      "anadido": 0,
+      "sale": {
+        "id": "621039",
+        "nombre": "Walter Tandazo"
+      },
+      "entra": {
+        "id": "966314",
+        "nombre": "Marcos Portillo"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 60,
+      "anadido": 0,
+      "sale": {
+        "id": "491570",
+        "nombre": "Nelson Cabanillas"
+      },
+      "entra": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 68,
+      "anadido": 0,
+      "sale": {
+        "id": "358338",
+        "nombre": "Carlos Correa"
+      },
+      "entra": {
+        "id": "106283",
+        "nombre": "Edson Aubert"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "733083",
+        "nombre": "Nicolás Quagliata"
+      },
+      "entra": {
+        "id": "653476",
+        "nombre": "Franco Zanelatto"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 86,
+      "anadido": 0,
+      "sale": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      },
+      "entra": {
+        "id": "1029758",
+        "nombre": "Carlos Gómez"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 86,
+      "anadido": 0,
+      "sale": {
+        "id": "662714",
+        "nombre": "Carlos Meza"
+      },
+      "entra": {
+        "id": "582318",
+        "nombre": "Jhon Vega"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "120792",
+      "minuto": 39,
+      "anadido": 0,
+      "jugador": {
+        "id": "621031",
+        "nombre": "Michel Rasmussen"
+      },
+      "tipo": "amarilla",
+      "detalle": "Michel Rasmussen 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 45,
+      "anadido": 1,
+      "jugador": {
+        "id": "358338",
+        "nombre": "Carlos Correa"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Correa 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "2734",
+      "minuto": 51,
+      "anadido": 0,
+      "jugador": {
+        "id": "621029",
+        "nombre": "Alec Deneumostier"
+      },
+      "tipo": "amarilla",
+      "detalle": "Alec Deneumostier 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 68,
+      "anadido": 0,
+      "jugador": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      },
+      "tipo": "amarilla",
+      "detalle": "Mauricio Arrasco 1. Yellow card , Time wasting"
+    },
+    {
+      "club_id": "2734",
+      "minuto": 68,
+      "anadido": 0,
+      "jugador": {
+        "id": "966314",
+        "nombre": "Marcos Portillo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Marcos Portillo 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 73,
+      "anadido": 0,
+      "jugador": {
+        "id": "1149627",
+        "nombre": "Renato Suárez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Renato Suárez 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "2734",
+      "minuto": 90,
+      "anadido": 7,
+      "jugador": {
+        "id": "621029",
+        "nombre": "Alec Deneumostier"
+      },
+      "tipo": "roja",
+      "detalle": "Alec Deneumostier Red card , Violent conduct"
+    },
+    {
+      "club_id": "2734",
+      "minuto": 90,
+      "anadido": 8,
+      "jugador": {
+        "id": "831138",
+        "nombre": "Matías Lazo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Matías Lazo 1. Yellow card , Foul"
+    }
+  ]
+}

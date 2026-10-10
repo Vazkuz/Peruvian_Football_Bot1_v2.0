@@ -1,0 +1,449 @@
+{
+  "partido_id": "4942744",
+  "ruta": "/spielbericht/index/spielbericht/4942744",
+  "fecha_extraccion": "2026-10-02T22:24:04",
+  "equipos": [
+    {
+      "club_id": "21170",
+      "club_nombre": "Universidad Técnica de Cajamarca",
+      "local": true,
+      "formacion": "4-3-3 Attacking",
+      "titulares": [
+        {
+          "id": "291339",
+          "nombre": "Barrios",
+          "dorsal": 29,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "873252",
+          "nombre": "Duarte",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "638929",
+          "nombre": "Ganoza",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "621028",
+          "nombre": "Caro",
+          "dorsal": 13,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "903834",
+          "nombre": "Paredes",
+          "dorsal": 35,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "981410",
+          "nombre": "Cantt",
+          "dorsal": 15,
+          "top": 28.0,
+          "left": 53.0
+        },
+        {
+          "id": "78023",
+          "nombre": "Figuera",
+          "dorsal": 16,
+          "top": 39.0,
+          "left": 40.0
+        },
+        {
+          "id": "399496",
+          "nombre": "Lliuya",
+          "dorsal": 10,
+          "top": 28.0,
+          "left": 27.0
+        },
+        {
+          "id": "368417",
+          "nombre": "Muñoz",
+          "dorsal": 19,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "580632",
+          "nombre": "Camacho",
+          "dorsal": 22,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "283472",
+          "nombre": "Arroyo",
+          "dorsal": 11,
+          "top": 10.0,
+          "left": 65.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "785134",
+          "nombre": "Ricardo Bettocchi",
+          "dorsal": 21,
+          "posicion": "GK"
+        },
+        {
+          "id": "664362",
+          "nombre": "Francesco Cavagna",
+          "dorsal": 6,
+          "posicion": "CB"
+        },
+        {
+          "id": "443987",
+          "nombre": "Junior Huerto",
+          "dorsal": 5,
+          "posicion": "LB"
+        },
+        {
+          "id": "434192",
+          "nombre": "David Dioses",
+          "dorsal": 8,
+          "posicion": "DM"
+        },
+        {
+          "id": "653329",
+          "nombre": "Luis Arce",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "981706",
+          "nombre": "Jhosep Núñez",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1102802",
+          "nombre": "Santiago Gálvez",
+          "dorsal": 18,
+          "posicion": "RW"
+        },
+        {
+          "id": "97013",
+          "nombre": "Marlon de Jesús",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "114625",
+      "club_nombre": "Deportivo Moquegua",
+      "local": false,
+      "formacion": "4-4-2 double 6",
+      "titulares": [
+        {
+          "id": "330687",
+          "nombre": "Grados",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "96295",
+          "nombre": "Lojas",
+          "dorsal": 13,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "358618",
+          "nombre": "Enciso",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "330691",
+          "nombre": "Perleche",
+          "dorsal": 4,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "1015947",
+          "nombre": "Montenegro",
+          "dorsal": 22,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "1103422",
+          "nombre": "Chipao",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "375353",
+          "nombre": "Mejía",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "727998",
+          "nombre": "Zapata",
+          "dorsal": 17,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "400254",
+          "nombre": "Lecaros",
+          "dorsal": 24,
+          "top": 23.0,
+          "left": 12.0
+        },
+        {
+          "id": "986001",
+          "nombre": "Dávila",
+          "dorsal": 16,
+          "top": 23.0,
+          "left": 68.0
+        },
+        {
+          "id": "477383",
+          "nombre": "Collazos",
+          "dorsal": 90,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1221999",
+          "nombre": "Renzo Figueroa",
+          "dorsal": 29,
+          "posicion": "GK"
+        },
+        {
+          "id": "144214",
+          "nombre": "José Luis Granda",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "984451",
+          "nombre": "Jimmy Jiménez",
+          "dorsal": 6,
+          "posicion": "LB"
+        },
+        {
+          "id": "815106",
+          "nombre": "Claudio Ramírez",
+          "dorsal": 14,
+          "posicion": "DM"
+        },
+        {
+          "id": "419034",
+          "nombre": "Nicolás Chávez",
+          "dorsal": 10,
+          "posicion": "CM"
+        },
+        {
+          "id": "325706",
+          "nombre": "Diego Ramírez",
+          "dorsal": 20,
+          "posicion": "CM"
+        },
+        {
+          "id": "126042",
+          "nombre": "Róger Torres",
+          "dorsal": 88,
+          "posicion": "AM"
+        },
+        {
+          "id": "325591",
+          "nombre": "Kevin Ruiz",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "319911",
+          "nombre": "Bryan Angulo",
+          "dorsal": 11,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [],
+  "cambios": [
+    {
+      "club_id": "114625",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "400254",
+        "nombre": "Alexander Lecaros"
+      },
+      "entra": {
+        "id": "325591",
+        "nombre": "Kevin Ruiz"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 57,
+      "anadido": 0,
+      "sale": {
+        "id": "283472",
+        "nombre": "Abdiel Arroyo"
+      },
+      "entra": {
+        "id": "653329",
+        "nombre": "Luis Arce"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 57,
+      "anadido": 0,
+      "sale": {
+        "id": "981410",
+        "nombre": "Joshua Cantt"
+      },
+      "entra": {
+        "id": "434192",
+        "nombre": "David Dioses"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 63,
+      "anadido": 0,
+      "sale": {
+        "id": "986001",
+        "nombre": "Allonso Dávila"
+      },
+      "entra": {
+        "id": "815106",
+        "nombre": "Claudio Ramírez"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "368417",
+        "nombre": "Adolfo Muñoz"
+      },
+      "entra": {
+        "id": "97013",
+        "nombre": "Marlon de Jesús"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "477383",
+        "nombre": "Jeferson Collazos"
+      },
+      "entra": {
+        "id": "319911",
+        "nombre": "Bryan Angulo"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "375353",
+        "nombre": "Cristian Mejía"
+      },
+      "entra": {
+        "id": "419034",
+        "nombre": "Nicolás Chávez"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 86,
+      "anadido": 0,
+      "sale": {
+        "id": "621028",
+        "nombre": "Dylan Caro"
+      },
+      "entra": {
+        "id": "443987",
+        "nombre": "Junior Huerto"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 86,
+      "anadido": 0,
+      "sale": {
+        "id": "580632",
+        "nombre": "David Camacho"
+      },
+      "entra": {
+        "id": "1102802",
+        "nombre": "Santiago Gálvez"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "21170",
+      "minuto": 32,
+      "anadido": 0,
+      "jugador": {
+        "id": "78023",
+        "nombre": "Arquímedes Figuera"
+      },
+      "tipo": "amarilla",
+      "detalle": "Arquímedes Figuera 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "114625",
+      "minuto": 43,
+      "anadido": 0,
+      "jugador": {
+        "id": "727998",
+        "nombre": "Yorman Zapata"
+      },
+      "tipo": "amarilla",
+      "detalle": "Yorman Zapata 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 73,
+      "anadido": 0,
+      "jugador": {
+        "id": "653329",
+        "nombre": "Luis Arce"
+      },
+      "tipo": "amarilla",
+      "detalle": "Luis Arce 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 88,
+      "anadido": 0,
+      "jugador": {
+        "id": "443987",
+        "nombre": "Junior Huerto"
+      },
+      "tipo": "amarilla",
+      "detalle": "Junior Huerto 1. Yellow card , Unsporting behaviour"
+    }
+  ]
+}

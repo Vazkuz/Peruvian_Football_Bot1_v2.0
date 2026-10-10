@@ -1,0 +1,33 @@
+{
+  "marcador": {
+    "goles_partido": {"media": 1.98, "desviacion": 1.2},
+    "localia": {"mas2": 0.085, "mas1": 0.24},
+    "racha_gano": {"mas2": 0.05, "mas1": 0.15},
+    "racha_perdio": {"menos2": 0.05, "menos1": 0.15},
+    "g5": {"partidos": 5, "divisor_mas2": 100, "divisor_mas1": 50}
+  },
+  "goleador": {
+    "delantero_si_son_2": 0.20,
+    "delantero_si_es_1": 0.30,
+    "extremo_extra_si_es_1": 0.05,
+    "arquero": 0.10,
+    "arquero_divisor": 11
+  },
+  "penal": {"por_gol": 0.10},
+  "tarjetas": {
+    "rojas": 0.26,
+    "amarillas": {"media": 4.4, "desviacion": 2.2},
+    "tope_sorteo": 22,
+    "tope_rojas_por_equipo": 5,
+    "expulsados_fin_partido": 5,
+    "segunda_amarilla_se_queda": 0.5
+  },
+  "cambios": {
+    "ventanas": {"3": 0.90, "2": 0.08, "1": 0.02},
+    "jugadores_por_ventana": {"2": 0.55, "1": 0.45},
+    "entretiempo": 0.25,
+    "tope_por_equipo": 5,
+    "ventana_en_1t": 0.05,
+    "arquero_sale": 0.02
+  }
+}

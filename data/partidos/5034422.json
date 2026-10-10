@@ -1,0 +1,473 @@
+{
+  "partido_id": "5034422",
+  "ruta": "/spielbericht/index/spielbericht/5034422",
+  "fecha_extraccion": "2026-10-02T23:00:24",
+  "equipos": [
+    {
+      "club_id": "2734",
+      "club_nombre": "FBC Melgar",
+      "local": true,
+      "formacion": "4-4-2 double 6",
+      "titulares": [
+        {
+          "id": "785133",
+          "nombre": "Cabezudo",
+          "dorsal": 21,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "353034",
+          "nombre": "Escobar",
+          "dorsal": 23,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "302416",
+          "nombre": "González",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "831138",
+          "nombre": "Lazo",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "491570",
+          "nombre": "Cabanillas",
+          "dorsal": 27,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "400945",
+          "nombre": "Minda",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "966314",
+          "nombre": "Portillo",
+          "dorsal": 26,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "1442941",
+          "nombre": "Zegarra",
+          "dorsal": 45,
+          "top": 23.0,
+          "left": 12.0
+        },
+        {
+          "id": "282350",
+          "nombre": "Bordacahar",
+          "dorsal": 7,
+          "top": 23.0,
+          "left": 68.0
+        },
+        {
+          "id": "89317",
+          "nombre": "Cuesta",
+          "dorsal": 9,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "224677",
+          "nombre": "Vidales",
+          "dorsal": 11,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "94359",
+          "nombre": "Carlos Cáceda",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "796060",
+          "nombre": "Jesús Alcántar",
+          "dorsal": 90,
+          "posicion": "CB"
+        },
+        {
+          "id": "621029",
+          "nombre": "Alec Deneumostier",
+          "dorsal": 5,
+          "posicion": "CB"
+        },
+        {
+          "id": "249468",
+          "nombre": "Horacio Orzán",
+          "dorsal": 66,
+          "posicion": "DM"
+        },
+        {
+          "id": "733083",
+          "nombre": "Nicolás Quagliata",
+          "dorsal": 10,
+          "posicion": "AM"
+        },
+        {
+          "id": "832216",
+          "nombre": "Jefferson Cáceres",
+          "dorsal": 16,
+          "posicion": "LW"
+        },
+        {
+          "id": "741728",
+          "nombre": "Jhamir D'Arrigo",
+          "dorsal": 80,
+          "posicion": "LW"
+        },
+        {
+          "id": "626916",
+          "nombre": "Lautaro Guzmán",
+          "dorsal": 8,
+          "posicion": "RW"
+        },
+        {
+          "id": "653476",
+          "nombre": "Franco Zanelatto",
+          "dorsal": 77,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "2730",
+      "club_nombre": "Sport Boys Association",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "303866",
+          "nombre": "Melián",
+          "dorsal": 22,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "53533",
+          "nombre": "Zambrano",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "187161",
+          "nombre": "Riojas",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "662705",
+          "nombre": "Llontop",
+          "dorsal": 13,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "621026",
+          "nombre": "Mora",
+          "dorsal": 24,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "805862",
+          "nombre": "Saba",
+          "dorsal": 17,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "347750",
+          "nombre": "Da Campo",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "95280",
+          "nombre": "Cueva",
+          "dorsal": 99,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "866488",
+          "nombre": "Alarcón",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "285679",
+          "nombre": "Urruti",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "1095971",
+          "nombre": "Erustes",
+          "dorsal": 32,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "738150",
+          "nombre": "Jeferson Nolasco",
+          "dorsal": 61,
+          "posicion": "GK"
+        },
+        {
+          "id": "1555106",
+          "nombre": "Luciano Zambrano",
+          "dorsal": 2,
+          "posicion": "CB"
+        },
+        {
+          "id": "347382",
+          "nombre": "Gustavo Dulanto",
+          "dorsal": 55,
+          "posicion": "CB"
+        },
+        {
+          "id": "492973",
+          "nombre": "Renzo Alfani",
+          "dorsal": 4,
+          "posicion": "CB"
+        },
+        {
+          "id": "333025",
+          "nombre": "Nilson Loyola",
+          "dorsal": 29,
+          "posicion": "LB"
+        },
+        {
+          "id": "360446",
+          "nombre": "Federico Illanes",
+          "dorsal": 5,
+          "posicion": "DM"
+        },
+        {
+          "id": "662699",
+          "nombre": "Yuriel Celi",
+          "dorsal": 77,
+          "posicion": "AM"
+        },
+        {
+          "id": "1370558",
+          "nombre": "José Davey",
+          "dorsal": 33,
+          "posicion": "RW"
+        },
+        {
+          "id": "449112",
+          "nombre": "Rolando Díaz",
+          "dorsal": 14,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "2734",
+      "minuto": 41,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "asistencia": {
+        "id": "831138",
+        "nombre": "Matías Lazo"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 45,
+      "anadido": 4,
+      "marcador": "1:1",
+      "autor": {
+        "id": "347750",
+        "nombre": "Hernán Da Campo"
+      },
+      "asistencia": {
+        "id": "1095971",
+        "nombre": "Pablo Erustes"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "2734",
+      "minuto": 24,
+      "anadido": 0,
+      "sale": {
+        "id": "966314",
+        "nombre": "Marcos Portillo"
+      },
+      "entra": {
+        "id": "249468",
+        "nombre": "Horacio Orzán"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 60,
+      "anadido": 0,
+      "sale": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra"
+      },
+      "entra": {
+        "id": "733083",
+        "nombre": "Nicolás Quagliata"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "400945",
+        "nombre": "Kevin Minda"
+      },
+      "entra": {
+        "id": "626916",
+        "nombre": "Lautaro Guzmán"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "entra": {
+        "id": "832216",
+        "nombre": "Jefferson Cáceres"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "95280",
+        "nombre": "Christian Cueva"
+      },
+      "entra": {
+        "id": "449112",
+        "nombre": "Rolando Díaz"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "866488",
+        "nombre": "Jostin Alarcón"
+      },
+      "entra": {
+        "id": "662699",
+        "nombre": "Yuriel Celi"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "53533",
+        "nombre": "Carlos Zambrano"
+      },
+      "entra": {
+        "id": "347382",
+        "nombre": "Gustavo Dulanto"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 90,
+      "anadido": 1,
+      "sale": {
+        "id": "285679",
+        "nombre": "Luis Urruti"
+      },
+      "entra": {
+        "id": "360446",
+        "nombre": "Federico Illanes"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 90,
+      "anadido": 2,
+      "sale": {
+        "id": "347750",
+        "nombre": "Hernán Da Campo"
+      },
+      "entra": {
+        "id": "492973",
+        "nombre": "Renzo Alfani"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "2730",
+      "minuto": 45,
+      "anadido": 0,
+      "jugador": {
+        "id": "95280",
+        "nombre": "Christian Cueva"
+      },
+      "tipo": "amarilla",
+      "detalle": "Christian Cueva 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "2730",
+      "minuto": 46,
+      "anadido": 0,
+      "jugador": {
+        "id": "53533",
+        "nombre": "Carlos Zambrano"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Zambrano 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "2730",
+      "minuto": 90,
+      "anadido": 8,
+      "jugador": {
+        "id": "449112",
+        "nombre": "Rolando Díaz"
+      },
+      "tipo": "amarilla",
+      "detalle": "Rolando Díaz 2. Yellow card , Foul"
+    }
+  ]
+}

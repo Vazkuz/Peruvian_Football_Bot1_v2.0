@@ -1,0 +1,537 @@
+{
+  "partido_id": "5010420",
+  "ruta": "/spielbericht/index/spielbericht/5010420",
+  "fecha_extraccion": "2026-10-02T22:37:53",
+  "equipos": [
+    {
+      "club_id": "120792",
+      "club_nombre": "FC Cajamarca",
+      "local": true,
+      "formacion": "4-4-2 double 6",
+      "titulares": [
+        {
+          "id": "1284244",
+          "nombre": "Aspajo",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "981819",
+          "nombre": "Pósito",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "338977",
+          "nombre": "Vílchez",
+          "dorsal": 95,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "1149627",
+          "nombre": "Suárez",
+          "dorsal": 5,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "242996",
+          "nombre": "Orejuela",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "358338",
+          "nombre": "Correa",
+          "dorsal": 13,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "1096324",
+          "nombre": "Arrasco",
+          "dorsal": 11,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "641820",
+          "nombre": "Palacios",
+          "dorsal": 17,
+          "top": 23.0,
+          "left": 12.0
+        },
+        {
+          "id": "904940",
+          "nombre": "Enciso",
+          "dorsal": 31,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "662714",
+          "nombre": "Meza",
+          "dorsal": 20,
+          "top": 23.0,
+          "left": 68.0
+        },
+        {
+          "id": "621031",
+          "nombre": "Rasmussen",
+          "dorsal": 6,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "260429",
+          "nombre": "Jonathan Medina",
+          "dorsal": 3,
+          "posicion": "GK"
+        },
+        {
+          "id": "893513",
+          "nombre": "Hairo Timaná",
+          "dorsal": 26,
+          "posicion": "CB"
+        },
+        {
+          "id": "895056",
+          "nombre": "Arthur Gutiérrez",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "1029758",
+          "nombre": "Carlos Gómez",
+          "dorsal": 44,
+          "posicion": "RB"
+        },
+        {
+          "id": "582318",
+          "nombre": "Jhon Vega",
+          "dorsal": 21,
+          "posicion": "DM"
+        },
+        {
+          "id": "106283",
+          "nombre": "Edson Aubert",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "250929",
+          "nombre": "Paulo Goyoneche",
+          "dorsal": 25,
+          "posicion": "DM"
+        },
+        {
+          "id": "285855",
+          "nombre": "Jonathan Betancourt",
+          "dorsal": 27,
+          "posicion": "LW"
+        },
+        {
+          "id": "212300",
+          "nombre": "José Lugo",
+          "dorsal": 77,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "6593",
+      "club_nombre": "Universitario de Deportes",
+      "local": false,
+      "formacion": "3-1-4-2",
+      "titulares": [
+        {
+          "id": "643063",
+          "nombre": "Romero",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "441344",
+          "nombre": "Di Benedetto",
+          "dorsal": 5,
+          "top": 61.0,
+          "left": 15.0
+        },
+        {
+          "id": "619072",
+          "nombre": "Fara",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 65.0
+        },
+        {
+          "id": "142745",
+          "nombre": "Santamaría",
+          "dorsal": 4,
+          "top": 62.0,
+          "left": 40.0
+        },
+        {
+          "id": "965846",
+          "nombre": "Inga",
+          "dorsal": 33,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "637902",
+          "nombre": "Requena",
+          "dorsal": 15,
+          "top": 43.0,
+          "left": 40.0
+        },
+        {
+          "id": "490717",
+          "nombre": "Concha",
+          "dorsal": 17,
+          "top": 23.0,
+          "left": 30.0
+        },
+        {
+          "id": "744083",
+          "nombre": "Quiroz",
+          "dorsal": 28,
+          "top": 23.0,
+          "left": 50.0
+        },
+        {
+          "id": "189236",
+          "nombre": "Polo",
+          "dorsal": 24,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "130394",
+          "nombre": "Lapadula",
+          "dorsal": 18,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "738716",
+          "nombre": "Valera",
+          "dorsal": 20,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "352338",
+          "nombre": "Miguel Vargas",
+          "dorsal": 25,
+          "posicion": "GK"
+        },
+        {
+          "id": "94437",
+          "nombre": "Aldo Corzo",
+          "dorsal": 29,
+          "posicion": "CB"
+        },
+        {
+          "id": "457058",
+          "nombre": "Williams Riveros",
+          "dorsal": 3,
+          "posicion": "CB"
+        },
+        {
+          "id": "486265",
+          "nombre": "Jorge Murrugarra",
+          "dorsal": 23,
+          "posicion": "DM"
+        },
+        {
+          "id": "77125",
+          "nombre": "Horacio Calcaterra",
+          "dorsal": 10,
+          "posicion": "CM"
+        },
+        {
+          "id": "871655",
+          "nombre": "Piero Quispe",
+          "dorsal": 39,
+          "posicion": "AM"
+        },
+        {
+          "id": "424024",
+          "nombre": "Héctor Fértoli",
+          "dorsal": 8,
+          "posicion": "LW"
+        },
+        {
+          "id": "396920",
+          "nombre": "Lisandro Alzugaray",
+          "dorsal": 30,
+          "posicion": "RW"
+        },
+        {
+          "id": "458461",
+          "nombre": "José Rivera",
+          "dorsal": 11,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "6593",
+      "minuto": 24,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "965846",
+        "nombre": "César Inga"
+      },
+      "asistencia": {
+        "id": "130394",
+        "nombre": "Gianluca Lapadula"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 29,
+      "anadido": 0,
+      "marcador": "0:2",
+      "autor": {
+        "id": "738716",
+        "nombre": "Álex Valera"
+      },
+      "asistencia": {
+        "id": "965846",
+        "nombre": "César Inga"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 45,
+      "anadido": 0,
+      "marcador": "1:2",
+      "autor": {
+        "id": "621031",
+        "nombre": "Michel Rasmussen"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "6593",
+      "minuto": 61,
+      "anadido": 0,
+      "marcador": "1:3",
+      "autor": {
+        "id": "130394",
+        "nombre": "Gianluca Lapadula"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "120792",
+      "minuto": 88,
+      "anadido": 0,
+      "marcador": "2:3",
+      "autor": {
+        "id": "212300",
+        "nombre": "José Lugo"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "120792",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "358338",
+        "nombre": "Carlos Correa"
+      },
+      "entra": {
+        "id": "106283",
+        "nombre": "Edson Aubert"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "662714",
+        "nombre": "Carlos Meza"
+      },
+      "entra": {
+        "id": "212300",
+        "nombre": "José Lugo"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "621031",
+        "nombre": "Michel Rasmussen"
+      },
+      "entra": {
+        "id": "285855",
+        "nombre": "Jonathan Betancourt"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "637902",
+        "nombre": "Juan Manuel Requena"
+      },
+      "entra": {
+        "id": "486265",
+        "nombre": "Jorge Murrugarra"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "490717",
+        "nombre": "Jairo Concha"
+      },
+      "entra": {
+        "id": "871655",
+        "nombre": "Piero Quispe"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 80,
+      "anadido": 0,
+      "sale": {
+        "id": "130394",
+        "nombre": "Gianluca Lapadula"
+      },
+      "entra": {
+        "id": "458461",
+        "nombre": "José Rivera"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "738716",
+        "nombre": "Álex Valera"
+      },
+      "entra": {
+        "id": "457058",
+        "nombre": "Williams Riveros"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 90,
+      "anadido": 0,
+      "sale": {
+        "id": "744083",
+        "nombre": "Adrián Quiroz"
+      },
+      "entra": {
+        "id": "424024",
+        "nombre": "Héctor Fértoli"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "120792",
+      "minuto": 17,
+      "anadido": 0,
+      "jugador": {
+        "id": "338977",
+        "nombre": "Yordi Vílchez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Yordi Vílchez 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 60,
+      "anadido": 0,
+      "jugador": {
+        "id": "981819",
+        "nombre": "Alejandro Pósito"
+      },
+      "tipo": "amarilla",
+      "detalle": "Alejandro Pósito 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 69,
+      "anadido": 0,
+      "jugador": {
+        "id": "1149627",
+        "nombre": "Renato Suárez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Renato Suárez 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "6593",
+      "minuto": 71,
+      "anadido": 0,
+      "jugador": {
+        "id": "738716",
+        "nombre": "Álex Valera"
+      },
+      "tipo": "amarilla",
+      "detalle": "Álex Valera 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "6593",
+      "minuto": 80,
+      "anadido": 0,
+      "jugador": {
+        "id": "486265",
+        "nombre": "Jorge Murrugarra"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jorge Murrugarra 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 81,
+      "anadido": 0,
+      "jugador": {
+        "id": "242996",
+        "nombre": "Jefferson Orejuela"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jefferson Orejuela 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "6593",
+      "minuto": 86,
+      "anadido": 0,
+      "jugador": {
+        "id": "142745",
+        "nombre": "Anderson Santamaría"
+      },
+      "tipo": "roja",
+      "detalle": "Anderson Santamaría Red card"
+    }
+  ]
+}

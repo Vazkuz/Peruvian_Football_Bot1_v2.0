@@ -1,0 +1,330 @@
+{
+  "club_id": "1450",
+  "club_nombre": "Club Sporting Cristal",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:03:00",
+  "jugadores": [
+    {
+      "id": "662693",
+      "nombre": "Diego Enríquez",
+      "posicion": "Goalkeeper",
+      "partidos": 41,
+      "minutos": 3690
+    },
+    {
+      "id": "439069",
+      "nombre": "Renato Solís",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1239934",
+      "nombre": "César Bautista",
+      "posicion": "Goalkeeper",
+      "partidos": 5,
+      "minutos": 450
+    },
+    {
+      "id": "1339376",
+      "nombre": "Tomás Dulanto",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "665112",
+      "nombre": "Rafael Lutiger",
+      "posicion": "Centre-Back",
+      "partidos": 40,
+      "minutos": 3364
+    },
+    {
+      "id": "330684",
+      "nombre": "Luis Abram",
+      "posicion": "Centre-Back",
+      "partidos": 17,
+      "minutos": 1205
+    },
+    {
+      "id": "211420",
+      "nombre": "Miguel Araujo",
+      "posicion": "Centre-Back",
+      "partidos": 33,
+      "minutos": 2840
+    },
+    {
+      "id": "248094",
+      "nombre": "Leandro Sosa",
+      "posicion": "Right-Back",
+      "partidos": 36,
+      "minutos": 2618
+    },
+    {
+      "id": "981819",
+      "nombre": "Alejandro Pósito",
+      "posicion": "Centre-Back",
+      "partidos": 11,
+      "minutos": 582
+    },
+    {
+      "id": "457536",
+      "nombre": "Juan González",
+      "posicion": "Right-Back",
+      "partidos": 33,
+      "minutos": 1635
+    },
+    {
+      "id": "966188",
+      "nombre": "Anderson Villacorta",
+      "posicion": "Centre-Back",
+      "partidos": 3,
+      "minutos": 122
+    },
+    {
+      "id": "375813",
+      "nombre": "Cristiano",
+      "posicion": "Left-Back",
+      "partidos": 40,
+      "minutos": 3318
+    },
+    {
+      "id": "908423",
+      "nombre": "Leonardo Díaz",
+      "posicion": "Centre-Back",
+      "partidos": 16,
+      "minutos": 849
+    },
+    {
+      "id": "1076599",
+      "nombre": "Luis Baylón",
+      "posicion": "Centre-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1145987",
+      "nombre": "Fabrizio Lora",
+      "posicion": "Left-Back",
+      "partidos": 6,
+      "minutos": 438
+    },
+    {
+      "id": "1239939",
+      "nombre": "Joao Cuenca",
+      "posicion": "Right-Back",
+      "partidos": 6,
+      "minutos": 130
+    },
+    {
+      "id": "1417299",
+      "nombre": "Duham Ballumbrosio",
+      "posicion": "Right-Back",
+      "partidos": 4,
+      "minutos": 258
+    },
+    {
+      "id": "1432146",
+      "nombre": "Ángel Villalta",
+      "posicion": "Centre-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1482717",
+      "nombre": "Carlos Salgado",
+      "posicion": "Centre-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "441718",
+      "nombre": "Martín Távara",
+      "posicion": "Central Midfield",
+      "partidos": 42,
+      "minutos": 2618
+    },
+    {
+      "id": "1118789",
+      "nombre": "Ian Wisdom",
+      "posicion": "Central Midfield",
+      "partidos": 25,
+      "minutos": 1293
+    },
+    {
+      "id": "1011264",
+      "nombre": "Catriel Cabellos",
+      "posicion": "Central Midfield",
+      "partidos": 34,
+      "minutos": 1232
+    },
+    {
+      "id": "577258",
+      "nombre": "Agustín Álvarez",
+      "posicion": "Defensive Midfield",
+      "partidos": 5,
+      "minutos": 308
+    },
+    {
+      "id": "520457",
+      "nombre": "Gustavo Cazonatti",
+      "posicion": "Defensive Midfield",
+      "partidos": 25,
+      "minutos": 1601
+    },
+    {
+      "id": "250055",
+      "nombre": "Christofer Gonzales",
+      "posicion": "Attacking Midfield",
+      "partidos": 6,
+      "minutos": 304
+    },
+    {
+      "id": "94880",
+      "nombre": "Yoshimar Yotún",
+      "posicion": "Central Midfield",
+      "partidos": 37,
+      "minutos": 3096
+    },
+    {
+      "id": "174570",
+      "nombre": "Gabriel",
+      "posicion": "Attacking Midfield",
+      "partidos": 27,
+      "minutos": 1328
+    },
+    {
+      "id": "232859",
+      "nombre": "Cristian Benavente",
+      "posicion": "Attacking Midfield",
+      "partidos": 15,
+      "minutos": 461
+    },
+    {
+      "id": "1076600",
+      "nombre": "Jean Lara",
+      "posicion": "Central Midfield",
+      "partidos": 1,
+      "minutos": 21
+    },
+    {
+      "id": "1267677",
+      "nombre": "Lionel Herrera",
+      "posicion": "Central Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1519880",
+      "nombre": "Edinson Sifuentes",
+      "posicion": "Central Midfield",
+      "partidos": 1,
+      "minutos": 14
+    },
+    {
+      "id": "1432149",
+      "nombre": "Zen Isminio",
+      "posicion": "Defensive Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1123590",
+      "nombre": "Yamir del Valle",
+      "posicion": "Attacking Midfield",
+      "partidos": 3,
+      "minutos": 90
+    },
+    {
+      "id": "1339342",
+      "nombre": "Gerson Castillo",
+      "posicion": "Defensive Midfield",
+      "partidos": 3,
+      "minutos": 44
+    },
+    {
+      "id": "597455",
+      "nombre": "Santiago González",
+      "posicion": "Right Winger",
+      "partidos": 29,
+      "minutos": 2016
+    },
+    {
+      "id": "1226873",
+      "nombre": "Maxloren Castro",
+      "posicion": "Left Winger",
+      "partidos": 42,
+      "minutos": 2696
+    },
+    {
+      "id": "660840",
+      "nombre": "Juan Manuel Cuesta",
+      "posicion": "Left Winger",
+      "partidos": 8,
+      "minutos": 446
+    },
+    {
+      "id": "325667",
+      "nombre": "Luis Iberico",
+      "posicion": "Centre-Forward",
+      "partidos": 32,
+      "minutos": 1630
+    },
+    {
+      "id": "425462",
+      "nombre": "Felipe Vizeu",
+      "posicion": "Centre-Forward",
+      "partidos": 20,
+      "minutos": 1082
+    },
+    {
+      "id": "138387",
+      "nombre": "Michael Hoyos",
+      "posicion": "Centre-Forward",
+      "partidos": 14,
+      "minutos": 622
+    },
+    {
+      "id": "906400",
+      "nombre": "Diego Otoya",
+      "posicion": "Centre-Forward",
+      "partidos": 5,
+      "minutos": 147
+    },
+    {
+      "id": "82589",
+      "nombre": "Írven Ávila",
+      "posicion": "Centre-Forward",
+      "partidos": 33,
+      "minutos": 1570
+    },
+    {
+      "id": "1076583",
+      "nombre": "Mateo Rodríguez",
+      "posicion": "Centre-Forward",
+      "partidos": 8,
+      "minutos": 207
+    },
+    {
+      "id": "1076597",
+      "nombre": "Jair Moretti",
+      "posicion": "Right Winger",
+      "partidos": 3,
+      "minutos": 111
+    },
+    {
+      "id": "53847",
+      "nombre": "Hernán Barcos",
+      "posicion": "Centre-Forward",
+      "partidos": 14,
+      "minutos": 778
+    },
+    {
+      "id": "1482718",
+      "nombre": "Josemaría Mellán",
+      "posicion": "Left Winger",
+      "partidos": 4,
+      "minutos": 108
+    }
+  ]
+}

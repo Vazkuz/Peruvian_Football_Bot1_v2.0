@@ -1,0 +1,471 @@
+{
+  "partido_id": "4942746",
+  "ruta": "/spielbericht/index/spielbericht/4942746",
+  "fecha_extraccion": "2026-10-02T22:25:06",
+  "equipos": [
+    {
+      "club_id": "76945",
+      "club_nombre": "Deportivo Garcilaso",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "342051",
+          "nombre": "Zubczuk",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "524311",
+          "nombre": "Gómez",
+          "dorsal": 19,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "279380",
+          "nombre": "Salazar",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "866487",
+          "nombre": "Moreno",
+          "dorsal": 23,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "741413",
+          "nombre": "Canales",
+          "dorsal": 55,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "168974",
+          "nombre": "Torrejón",
+          "dorsal": 14,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "458906",
+          "nombre": "Ramos",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "483714",
+          "nombre": "Sandoval",
+          "dorsal": 10,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "279057",
+          "nombre": "da Silva",
+          "dorsal": 30,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "324046",
+          "nombre": "Arancibia",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "527625",
+          "nombre": "Olivares",
+          "dorsal": 24,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "456161",
+          "nombre": "Juniors Barbieri",
+          "dorsal": 31,
+          "posicion": "GK"
+        },
+        {
+          "id": "582098",
+          "nombre": "Jefferson Portales",
+          "dorsal": 22,
+          "posicion": "CB"
+        },
+        {
+          "id": "356381",
+          "nombre": "Anthony Rosell",
+          "dorsal": 20,
+          "posicion": "LB"
+        },
+        {
+          "id": "438000",
+          "nombre": "Agustín González",
+          "dorsal": 8,
+          "posicion": "CM"
+        },
+        {
+          "id": "810550",
+          "nombre": "Adrián Ascues",
+          "dorsal": 27,
+          "posicion": "CM"
+        },
+        {
+          "id": "1371975",
+          "nombre": "Joao Mendoza",
+          "dorsal": 35,
+          "posicion": "AM"
+        },
+        {
+          "id": "912299",
+          "nombre": "Lucas Ríos",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "818970",
+          "nombre": "Sharif Ramírez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "443350",
+          "nombre": "Facundo Castelli",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "120792",
+      "club_nombre": "FC Cajamarca",
+      "local": false,
+      "formacion": "5-4-1",
+      "titulares": [
+        {
+          "id": "1284244",
+          "nombre": "Aspajo",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "981819",
+          "nombre": "Pósito",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 56.5
+        },
+        {
+          "id": "893513",
+          "nombre": "Timaná",
+          "dorsal": 26,
+          "top": 61.0,
+          "left": 23.5
+        },
+        {
+          "id": "338977",
+          "nombre": "Vílchez",
+          "dorsal": 95,
+          "top": 63.0,
+          "left": 40.0
+        },
+        {
+          "id": "662696",
+          "nombre": "Soto",
+          "dorsal": 4,
+          "top": 59.0,
+          "left": 7.0
+        },
+        {
+          "id": "1029758",
+          "nombre": "Gómez",
+          "dorsal": 44,
+          "top": 59.0,
+          "left": 73.0
+        },
+        {
+          "id": "242996",
+          "nombre": "Orejuela",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "358338",
+          "nombre": "Correa",
+          "dorsal": 13,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "1096324",
+          "nombre": "Arrasco",
+          "dorsal": 11,
+          "top": 23.0,
+          "left": 68.0
+        },
+        {
+          "id": "641820",
+          "nombre": "Palacios",
+          "dorsal": 17,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "285855",
+          "nombre": "Betancourt",
+          "dorsal": 27,
+          "top": 23.0,
+          "left": 12.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "260429",
+          "nombre": "Jonathan Medina",
+          "dorsal": 3,
+          "posicion": "GK"
+        },
+        {
+          "id": "895056",
+          "nombre": "Arthur Gutiérrez",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "1149627",
+          "nombre": "Renato Suárez",
+          "dorsal": 5,
+          "posicion": "RB"
+        },
+        {
+          "id": "582318",
+          "nombre": "Jhon Vega",
+          "dorsal": 21,
+          "posicion": "DM"
+        },
+        {
+          "id": "1445319",
+          "nombre": "Patrick Alegría",
+          "dorsal": 32,
+          "posicion": "AM"
+        },
+        {
+          "id": "984374",
+          "nombre": "Valentino Sandoval",
+          "dorsal": 8,
+          "posicion": "AM"
+        },
+        {
+          "id": "621031",
+          "nombre": "Michel Rasmussen",
+          "dorsal": 6,
+          "posicion": "RW"
+        },
+        {
+          "id": "904940",
+          "nombre": "Sebastián Enciso",
+          "dorsal": 31,
+          "posicion": "RW"
+        },
+        {
+          "id": "662714",
+          "nombre": "Carlos Meza",
+          "dorsal": 20,
+          "posicion": "RW"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "76945",
+      "minuto": 7,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "527625",
+        "nombre": "Christopher Olivares"
+      },
+      "asistencia": {
+        "id": "483714",
+        "nombre": "Kevin Sandoval"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 14,
+      "anadido": 0,
+      "marcador": "2:0",
+      "autor": {
+        "id": "324046",
+        "nombre": "Francisco Arancibia"
+      },
+      "asistencia": {
+        "id": "527625",
+        "nombre": "Christopher Olivares"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 83,
+      "anadido": 0,
+      "marcador": "2:1",
+      "autor": {
+        "id": "621031",
+        "nombre": "Michel Rasmussen"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "76945",
+      "minuto": 20,
+      "anadido": 0,
+      "sale": {
+        "id": "168974",
+        "nombre": "Claudio Torrejón"
+      },
+      "entra": {
+        "id": "438000",
+        "nombre": "Agustín González"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 24,
+      "anadido": 0,
+      "sale": {
+        "id": "893513",
+        "nombre": "Hairo Timaná"
+      },
+      "entra": {
+        "id": "904940",
+        "nombre": "Sebastián Enciso"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "358338",
+        "nombre": "Carlos Correa"
+      },
+      "entra": {
+        "id": "662714",
+        "nombre": "Carlos Meza"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 61,
+      "anadido": 0,
+      "sale": {
+        "id": "285855",
+        "nombre": "Jonathan Betancourt"
+      },
+      "entra": {
+        "id": "582318",
+        "nombre": "Jhon Vega"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 69,
+      "anadido": 0,
+      "sale": {
+        "id": "483714",
+        "nombre": "Kevin Sandoval"
+      },
+      "entra": {
+        "id": "810550",
+        "nombre": "Adrián Ascues"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 69,
+      "anadido": 0,
+      "sale": {
+        "id": "324046",
+        "nombre": "Francisco Arancibia"
+      },
+      "entra": {
+        "id": "912299",
+        "nombre": "Lucas Ríos"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "641820",
+        "nombre": "Brandon Palacios"
+      },
+      "entra": {
+        "id": "621031",
+        "nombre": "Michel Rasmussen"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "527625",
+        "nombre": "Christopher Olivares"
+      },
+      "entra": {
+        "id": "443350",
+        "nombre": "Facundo Castelli"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "76945",
+      "minuto": 39,
+      "anadido": 0,
+      "jugador": {
+        "id": "279057",
+        "nombre": "Beto da Silva"
+      },
+      "tipo": "amarilla",
+      "detalle": "Beto da Silva 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 55,
+      "anadido": 0,
+      "jugador": {
+        "id": "866487",
+        "nombre": "Xavi Moreno"
+      },
+      "tipo": "amarilla",
+      "detalle": "Xavi Moreno 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 78,
+      "anadido": 0,
+      "jugador": {
+        "id": "662696",
+        "nombre": "José Soto"
+      },
+      "tipo": "roja",
+      "detalle": "José Soto Red card , Dissent"
+    }
+  ]
+}

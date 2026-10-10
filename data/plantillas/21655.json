@@ -1,0 +1,197 @@
+{
+  "club_id": "21655",
+  "club_nombre": "Sport Huancayo",
+  "formacion": "4-2-3-1",
+  "variante": "4-2-3-1",
+  "fecha_generacion": "2026-10-03T00:44:01",
+  "casillas": [
+    {
+      "casilla": 1,
+      "rol": "arquero",
+      "titular": {
+        "id": "372304",
+        "nombre": "Ángel Zamudio",
+        "rol": "arquero",
+        "puntaje": 19.752
+      },
+      "suplente": {
+        "id": "383343",
+        "nombre": "Diego Campos",
+        "rol": "arquero",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 6
+      }
+    },
+    {
+      "casilla": 2,
+      "rol": "lateral_izq",
+      "titular": {
+        "id": "224652",
+        "nombre": "Hugo Ángeles",
+        "rol": "lateral_izq",
+        "puntaje": 19.752
+      },
+      "suplente": {
+        "id": "1409967",
+        "nombre": "Fabricio Ramos",
+        "rol": "lateral_izq",
+        "puntaje": 0,
+        "origen": "plantel"
+      }
+    },
+    {
+      "casilla": 3,
+      "rol": "central",
+      "titular": {
+        "id": "482452",
+        "nombre": "Jimmy Valoyes",
+        "rol": "central",
+        "puntaje": 19.752
+      },
+      "suplente": {
+        "id": "242546",
+        "nombre": "Yonatan Murillo",
+        "rol": "central",
+        "puntaje": 1.617,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 4,
+      "rol": "central",
+      "titular": {
+        "id": "814636",
+        "nombre": "Marcelo Gaona",
+        "rol": "central",
+        "puntaje": 19.184
+      },
+      "suplente": {
+        "id": "249967",
+        "nombre": "Juan Barreda",
+        "rol": "central",
+        "puntaje": 0.169,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 5,
+      "rol": "lateral_der",
+      "titular": {
+        "id": "531177",
+        "nombre": "Jean Franco Falconí",
+        "rol": "lateral_der",
+        "puntaje": 19.142
+      },
+      "suplente": {
+        "id": "271676",
+        "nombre": "Jeremy Rostaing",
+        "rol": "lateral_der",
+        "puntaje": 0.61,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 6,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "490614",
+        "nombre": "Diego Carabaño",
+        "rol": "volante_defensivo",
+        "puntaje": 13.415
+      },
+      "suplente": {
+        "id": "417183",
+        "nombre": "Aldo Quiñónez",
+        "rol": "volante_defensivo",
+        "puntaje": 2.824,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 7,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "142738",
+        "nombre": "Ricardo Salcedo",
+        "rol": "volante_defensivo",
+        "puntaje": 13.408
+      },
+      "suplente": {
+        "id": "1188205",
+        "nombre": "Edu Villar",
+        "rol": "volante_defensivo",
+        "puntaje": 1.204,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 8,
+      "rol": "volante_extremo_izq",
+      "titular": {
+        "id": "313437",
+        "nombre": "Javier Sanguinetti",
+        "rol": "volante_extremo_izq",
+        "puntaje": 12.808
+      },
+      "suplente": {
+        "id": "422853",
+        "nombre": "Rick Campodónico",
+        "rol": "volante_extremo_izq",
+        "puntaje": 3.57,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 9,
+      "rol": "mediapunta",
+      "titular": {
+        "id": "325147",
+        "nombre": "Nahuel Luján",
+        "rol": "mediapunta",
+        "puntaje": 10.338
+      },
+      "suplente": {
+        "id": "1153132",
+        "nombre": "Cristian Mendoza",
+        "rol": "mediapunta",
+        "puntaje": 0,
+        "origen": "plantel"
+      }
+    },
+    {
+      "casilla": 10,
+      "rol": "volante_extremo_der",
+      "titular": {
+        "id": "874831",
+        "nombre": "Piero Magallanes",
+        "rol": "volante_extremo_der",
+        "puntaje": 16.007
+      },
+      "suplente": {
+        "id": "1025975",
+        "nombre": "Juan Giménez",
+        "rol": "volante_extremo_der",
+        "puntaje": 2.591,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 11,
+      "rol": "delantero",
+      "titular": {
+        "id": "331819",
+        "nombre": "Ronal Huaccha",
+        "rol": "delantero",
+        "puntaje": 12.013
+      },
+      "suplente": {
+        "id": "279508",
+        "nombre": "Daniel Porozo",
+        "rol": "delantero",
+        "puntaje": 7.126,
+        "origen": "minutos"
+      }
+    }
+  ]
+}

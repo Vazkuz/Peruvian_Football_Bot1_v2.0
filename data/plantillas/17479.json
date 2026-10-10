@@ -1,0 +1,200 @@
+{
+  "club_id": "17479",
+  "club_nombre": "Alianza Atlético Sullana",
+  "formacion": "4-4-2",
+  "variante": "4-4-2 double 6",
+  "fecha_generacion": "2026-10-03T00:44:01",
+  "casillas": [
+    {
+      "casilla": 1,
+      "rol": "arquero",
+      "titular": {
+        "id": "325709",
+        "nombre": "Steven Rivadeneyra",
+        "rol": "arquero",
+        "puntaje": 19.634
+      },
+      "suplente": {
+        "id": "217130",
+        "nombre": "Daniel Prieto",
+        "rol": "arquero",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 10
+      }
+    },
+    {
+      "casilla": 2,
+      "rol": "lateral_izq",
+      "titular": {
+        "id": "332776",
+        "nombre": "Anthony Gordillo",
+        "rol": "lateral_izq",
+        "puntaje": 18.498
+      },
+      "suplente": {
+        "id": "515413",
+        "nombre": "Jesús Mendieta",
+        "rol": "lateral_izq",
+        "puntaje": 0.425,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 3,
+      "rol": "central",
+      "titular": {
+        "id": "974335",
+        "nombre": "Román Suárez",
+        "rol": "central",
+        "puntaje": 18.039
+      },
+      "suplente": {
+        "id": "764367",
+        "nombre": "Williams Guzmán",
+        "rol": "central",
+        "puntaje": 4.281,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 4,
+      "rol": "central",
+      "titular": {
+        "id": "441758",
+        "nombre": "José Luján",
+        "rol": "central",
+        "puntaje": 16.785
+      },
+      "suplente": {
+        "id": "827586",
+        "nombre": "Juan Quiñones",
+        "rol": "central",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 1
+      }
+    },
+    {
+      "casilla": 5,
+      "rol": "lateral_der",
+      "titular": {
+        "id": "653484",
+        "nombre": "Erick Perleche",
+        "rol": "lateral_der",
+        "puntaje": 10.433
+      },
+      "suplente": {
+        "id": "966369",
+        "nombre": "Stefano Fernández",
+        "rol": "lateral_der",
+        "puntaje": 8.895,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 6,
+      "rol": "volante_extremo_izq",
+      "titular": {
+        "id": "212309",
+        "nombre": "Cristian Penilla",
+        "rol": "volante_extremo_izq",
+        "puntaje": 16.995
+      },
+      "suplente": {
+        "id": "1082743",
+        "nombre": "Jorge del Castillo",
+        "rol": "volante_extremo_izq",
+        "puntaje": 2.973,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 7,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "872158",
+        "nombre": "Germán Díaz",
+        "rol": "volante_defensivo",
+        "puntaje": 17.394
+      },
+      "suplente": {
+        "id": "1149628",
+        "nombre": "Juan Delgado",
+        "rol": "volante_defensivo",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 5
+      }
+    },
+    {
+      "casilla": 8,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "1225745",
+        "nombre": "Hernan Lupu",
+        "rol": "volante_defensivo",
+        "puntaje": 12.701
+      },
+      "suplente": {
+        "id": "857805",
+        "nombre": "Jimmy Pérez",
+        "rol": "volante_defensivo",
+        "puntaje": 2.401,
+        "reemplazo_de_rol": "volante_central",
+        "origen": "reemplazo"
+      }
+    },
+    {
+      "casilla": 9,
+      "rol": "volante_extremo_der",
+      "titular": {
+        "id": "870966",
+        "nombre": "Guillermo Larios",
+        "rol": "volante_extremo_der",
+        "puntaje": 9.787
+      },
+      "suplente": {
+        "id": "981694",
+        "nombre": "Ariel Muñoz",
+        "rol": "volante_extremo_der",
+        "puntaje": 2.915,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 10,
+      "rol": "delantero",
+      "titular": {
+        "id": "254123",
+        "nombre": "Jairo Molina",
+        "rol": "delantero",
+        "puntaje": 14.623
+      },
+      "suplente": {
+        "id": "1220638",
+        "nombre": "Valentín Robaldo",
+        "rol": "delantero",
+        "puntaje": 0.644,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 11,
+      "rol": "delantero",
+      "titular": {
+        "id": "696729",
+        "nombre": "José María Ingratti",
+        "rol": "delantero",
+        "puntaje": 12.133
+      },
+      "suplente": {
+        "id": "1102798",
+        "nombre": "Mariano Barreda",
+        "rol": "delantero",
+        "puntaje": 0.189,
+        "origen": "minutos"
+      }
+    }
+  ]
+}

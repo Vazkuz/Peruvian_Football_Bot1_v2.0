@@ -1,0 +1,309 @@
+{
+  "club_id": "35588",
+  "club_nombre": "Asociación Deportiva Tarma",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:08:12",
+  "jugadores": [
+    {
+      "id": "255976",
+      "nombre": "Juan Valencia",
+      "posicion": "Goalkeeper",
+      "partidos": 20,
+      "minutos": 1755
+    },
+    {
+      "id": "250672",
+      "nombre": "Carlos Solís",
+      "posicion": "Goalkeeper",
+      "partidos": 15,
+      "minutos": 1305
+    },
+    {
+      "id": "1267727",
+      "nombre": "Enzo Mori",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "646077",
+      "nombre": "Ronny Biojó",
+      "posicion": "Centre-Back",
+      "partidos": 12,
+      "minutos": 681
+    },
+    {
+      "id": "1059722",
+      "nombre": "Jhair Soto",
+      "posicion": "Centre-Back",
+      "partidos": 23,
+      "minutos": 1982
+    },
+    {
+      "id": "750442",
+      "nombre": "Luis Gómez",
+      "posicion": "Right-Back",
+      "partidos": 14,
+      "minutos": 1040
+    },
+    {
+      "id": "741727",
+      "nombre": "Orlando Núñez",
+      "posicion": "Left-Back",
+      "partidos": 13,
+      "minutos": 1016
+    },
+    {
+      "id": "582319",
+      "nombre": "Alejandro Ramos",
+      "posicion": "Right-Back",
+      "partidos": 8,
+      "minutos": 598
+    },
+    {
+      "id": "358736",
+      "nombre": "Joaquín Pereyra",
+      "posicion": "Centre-Back",
+      "partidos": 9,
+      "minutos": 583
+    },
+    {
+      "id": "738469",
+      "nombre": "Leonardo Rugel",
+      "posicion": "Centre-Back",
+      "partidos": 10,
+      "minutos": 389
+    },
+    {
+      "id": "885263",
+      "nombre": "Jerry Navarro",
+      "posicion": "Right-Back",
+      "partidos": 7,
+      "minutos": 200
+    },
+    {
+      "id": "260318",
+      "nombre": "Horacio Benincasa",
+      "posicion": "Centre-Back",
+      "partidos": 11,
+      "minutos": 867
+    },
+    {
+      "id": "895056",
+      "nombre": "Arthur Gutiérrez",
+      "posicion": "Left-Back",
+      "partidos": 11,
+      "minutos": 529
+    },
+    {
+      "id": "140931",
+      "nombre": "John Narváez",
+      "posicion": "Centre-Back",
+      "partidos": 27,
+      "minutos": 2224
+    },
+    {
+      "id": "1553914",
+      "nombre": "Jhonatan Huamán",
+      "posicion": "Right-Back",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "486641",
+      "nombre": "Jordan Guivin",
+      "posicion": "Central Midfield",
+      "partidos": 16,
+      "minutos": 1167
+    },
+    {
+      "id": "656911",
+      "nombre": "Luis Pérez",
+      "posicion": "Defensive Midfield",
+      "partidos": 30,
+      "minutos": 2424
+    },
+    {
+      "id": "178893",
+      "nombre": "Víctor Cedrón",
+      "posicion": "Attacking Midfield",
+      "partidos": 18,
+      "minutos": 1311
+    },
+    {
+      "id": "1257758",
+      "nombre": "Josue Alvino",
+      "posicion": "Central Midfield",
+      "partidos": 24,
+      "minutos": 1636
+    },
+    {
+      "id": "582318",
+      "nombre": "Jhon Vega",
+      "posicion": "Defensive Midfield",
+      "partidos": 3,
+      "minutos": 115
+    },
+    {
+      "id": "149771",
+      "nombre": "Ángel Ojeda",
+      "posicion": "Defensive Midfield",
+      "partidos": 26,
+      "minutos": 1794
+    },
+    {
+      "id": "92729",
+      "nombre": "Joao Rojas",
+      "posicion": "Attacking Midfield",
+      "partidos": 23,
+      "minutos": 1766
+    },
+    {
+      "id": "1391185",
+      "nombre": "Jair Reyes",
+      "posicion": "Central Midfield",
+      "partidos": 8,
+      "minutos": 334
+    },
+    {
+      "id": "1227155",
+      "nombre": "Alexander Hidalgo",
+      "posicion": "Attacking Midfield",
+      "partidos": 12,
+      "minutos": 489
+    },
+    {
+      "id": "186794",
+      "nombre": "Sinclair García",
+      "posicion": "Attacking Midfield",
+      "partidos": 6,
+      "minutos": 100
+    },
+    {
+      "id": "1410561",
+      "nombre": "Emerson García",
+      "posicion": "Central Midfield",
+      "partidos": 5,
+      "minutos": 130
+    },
+    {
+      "id": "674694",
+      "nombre": "Aarón Carnero",
+      "posicion": "Central Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "477378",
+      "nombre": "Carlos Cabello",
+      "posicion": "Right Winger",
+      "partidos": 14,
+      "minutos": 1042
+    },
+    {
+      "id": "422855",
+      "nombre": "Luis Benites",
+      "posicion": "Left Winger",
+      "partidos": 16,
+      "minutos": 787
+    },
+    {
+      "id": "532994",
+      "nombre": "Jeremy Canela",
+      "posicion": "Right Winger",
+      "partidos": 11,
+      "minutos": 831
+    },
+    {
+      "id": "420864",
+      "nombre": "Hideyoshi Arakaki",
+      "posicion": "Right Winger",
+      "partidos": 8,
+      "minutos": 245
+    },
+    {
+      "id": "1088739",
+      "nombre": "Juan Lucumí",
+      "posicion": "Right Winger",
+      "partidos": 9,
+      "minutos": 544
+    },
+    {
+      "id": "249975",
+      "nombre": "Aldair Rodríguez",
+      "posicion": "Centre-Forward",
+      "partidos": 18,
+      "minutos": 712
+    },
+    {
+      "id": "1149626",
+      "nombre": "Said Peralta",
+      "posicion": "Centre-Forward",
+      "partidos": 10,
+      "minutos": 306
+    },
+    {
+      "id": "1502980",
+      "nombre": "Aylton Mazzo",
+      "posicion": "Left Winger",
+      "partidos": 14,
+      "minutos": 646
+    },
+    {
+      "id": "1409977",
+      "nombre": "Jhojan Garcilazo",
+      "posicion": "Right Winger",
+      "partidos": 17,
+      "minutos": 916
+    },
+    {
+      "id": "130158",
+      "nombre": "Jonatan Bauman",
+      "posicion": "Centre-Forward",
+      "partidos": 28,
+      "minutos": 2038
+    },
+    {
+      "id": "1369249",
+      "nombre": "Nicolás Rengifo",
+      "posicion": "Centre-Forward",
+      "partidos": 5,
+      "minutos": 86
+    },
+    {
+      "id": "51225",
+      "nombre": "Hernán Rengifo",
+      "posicion": "Centre-Forward",
+      "partidos": 20,
+      "minutos": 639
+    },
+    {
+      "id": "1214311",
+      "nombre": "Anthony Cubas",
+      "posicion": "Left Winger",
+      "partidos": 4,
+      "minutos": 125
+    },
+    {
+      "id": "1227158",
+      "nombre": "Saulo Cancho",
+      "posicion": "Left Winger",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "1560528",
+      "nombre": "Charles Salazar",
+      "posicion": "Right Winger",
+      "partidos": 2,
+      "minutos": 16
+    },
+    {
+      "id": "1531236",
+      "nombre": "Omar Riveros",
+      "posicion": "Centre-Forward",
+      "partidos": 2,
+      "minutos": 18
+    }
+  ]
+}

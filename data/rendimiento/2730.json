@@ -1,0 +1,309 @@
+{
+  "club_id": "2730",
+  "club_nombre": "Sport Boys Association",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:05:36",
+  "jugadores": [
+    {
+      "id": "325709",
+      "nombre": "Steven Rivadeneyra",
+      "posicion": "Goalkeeper",
+      "partidos": 4,
+      "minutos": 360
+    },
+    {
+      "id": "303866",
+      "nombre": "Diego Melián",
+      "posicion": "Goalkeeper",
+      "partidos": 26,
+      "minutos": 2340
+    },
+    {
+      "id": "738150",
+      "nombre": "Jeferson Nolasco",
+      "posicion": "Goalkeeper",
+      "partidos": 2,
+      "minutos": 180
+    },
+    {
+      "id": "1525567",
+      "nombre": "Sebastian Oblitas",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "662705",
+      "nombre": "Mathías Llontop",
+      "posicion": "Left-Back",
+      "partidos": 26,
+      "minutos": 2132
+    },
+    {
+      "id": "805862",
+      "nombre": "Emilio Saba",
+      "posicion": "Right-Back",
+      "partidos": 21,
+      "minutos": 1600
+    },
+    {
+      "id": "621026",
+      "nombre": "Oslimg Mora",
+      "posicion": "Right-Back",
+      "partidos": 29,
+      "minutos": 2449
+    },
+    {
+      "id": "347382",
+      "nombre": "Gustavo Dulanto",
+      "posicion": "Centre-Back",
+      "partidos": 17,
+      "minutos": 1036
+    },
+    {
+      "id": "909475",
+      "nombre": "Sebastián Aranda",
+      "posicion": "Left-Back",
+      "partidos": 5,
+      "minutos": 405
+    },
+    {
+      "id": "333025",
+      "nombre": "Nilson Loyola",
+      "posicion": "Left-Back",
+      "partidos": 6,
+      "minutos": 429
+    },
+    {
+      "id": "492973",
+      "nombre": "Renzo Alfani",
+      "posicion": "Centre-Back",
+      "partidos": 16,
+      "minutos": 1061
+    },
+    {
+      "id": "177690",
+      "nombre": "Miguel Trauco",
+      "posicion": "Left-Back",
+      "partidos": 11,
+      "minutos": 624
+    },
+    {
+      "id": "53533",
+      "nombre": "Carlos Zambrano",
+      "posicion": "Centre-Back",
+      "partidos": 18,
+      "minutos": 1548
+    },
+    {
+      "id": "187161",
+      "nombre": "Hansell Riojas",
+      "posicion": "Centre-Back",
+      "partidos": 25,
+      "minutos": 2124
+    },
+    {
+      "id": "1304659",
+      "nombre": "David Alvarado",
+      "posicion": "Centre-Back",
+      "partidos": 2,
+      "minutos": 38
+    },
+    {
+      "id": "1555106",
+      "nombre": "Luciano Zambrano",
+      "posicion": "Centre-Back",
+      "partidos": 5,
+      "minutos": 367
+    },
+    {
+      "id": "1370518",
+      "nombre": "Nicolás Valencia",
+      "posicion": "Left-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1416771",
+      "nombre": "Evanz Cruz",
+      "posicion": "Centre-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1410130",
+      "nombre": "Diego Contreras",
+      "posicion": "Right-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "894880",
+      "nombre": "André Vasquez",
+      "posicion": "Attacking Midfield",
+      "partidos": 6,
+      "minutos": 167
+    },
+    {
+      "id": "671879",
+      "nombre": "Erick Gonzales",
+      "posicion": "Defensive Midfield",
+      "partidos": 14,
+      "minutos": 476
+    },
+    {
+      "id": "360446",
+      "nombre": "Federico Illanes",
+      "posicion": "Defensive Midfield",
+      "partidos": 20,
+      "minutos": 1060
+    },
+    {
+      "id": "662699",
+      "nombre": "Yuriel Celi",
+      "posicion": "Attacking Midfield",
+      "partidos": 10,
+      "minutos": 422
+    },
+    {
+      "id": "434955",
+      "nombre": "Leonel Solís",
+      "posicion": "Defensive Midfield",
+      "partidos": 4,
+      "minutos": 48
+    },
+    {
+      "id": "347750",
+      "nombre": "Hernán Da Campo",
+      "posicion": "Central Midfield",
+      "partidos": 26,
+      "minutos": 2095
+    },
+    {
+      "id": "95280",
+      "nombre": "Christian Cueva",
+      "posicion": "Attacking Midfield",
+      "partidos": 9,
+      "minutos": 457
+    },
+    {
+      "id": "1249220",
+      "nombre": "Víctor Flores",
+      "posicion": "Central Midfield",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "1370570",
+      "nombre": "Nicolas Paz",
+      "posicion": "Defensive Midfield",
+      "partidos": 4,
+      "minutos": 255
+    },
+    {
+      "id": "1589987",
+      "nombre": "Adriano Vergara",
+      "posicion": "Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "866488",
+      "nombre": "Jostin Alarcón",
+      "posicion": "Left Winger",
+      "partidos": 28,
+      "minutos": 1539
+    },
+    {
+      "id": "579734",
+      "nombre": "Carlos López",
+      "posicion": "Right Winger",
+      "partidos": 21,
+      "minutos": 1044
+    },
+    {
+      "id": "1095971",
+      "nombre": "Pablo Erustes",
+      "posicion": "Centre-Forward",
+      "partidos": 12,
+      "minutos": 924
+    },
+    {
+      "id": "920618",
+      "nombre": "Juan Torres",
+      "posicion": "Left Winger",
+      "partidos": 14,
+      "minutos": 533
+    },
+    {
+      "id": "981411",
+      "nombre": "Juan Carlos Gonzáles",
+      "posicion": "Left Winger",
+      "partidos": 4,
+      "minutos": 84
+    },
+    {
+      "id": "285679",
+      "nombre": "Luis Urruti",
+      "posicion": "Left Winger",
+      "partidos": 26,
+      "minutos": 2019
+    },
+    {
+      "id": "284728",
+      "nombre": "Luciano Nequecaur",
+      "posicion": "Centre-Forward",
+      "partidos": 23,
+      "minutos": 1797
+    },
+    {
+      "id": "665113",
+      "nombre": "Percy Liza",
+      "posicion": "Centre-Forward",
+      "partidos": 20,
+      "minutos": 756
+    },
+    {
+      "id": "449112",
+      "nombre": "Rolando Díaz",
+      "posicion": "Centre-Forward",
+      "partidos": 24,
+      "minutos": 550
+    },
+    {
+      "id": "1148802",
+      "nombre": "Alexis Huamán",
+      "posicion": "Right Winger",
+      "partidos": 5,
+      "minutos": 97
+    },
+    {
+      "id": "1370558",
+      "nombre": "José Davey",
+      "posicion": "Right Winger",
+      "partidos": 4,
+      "minutos": 291
+    },
+    {
+      "id": "894345",
+      "nombre": "Baruj Aburto",
+      "posicion": "Right Winger",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1564706",
+      "nombre": "Adrián Valiente",
+      "posicion": "Left Winger",
+      "partidos": 4,
+      "minutos": 173
+    },
+    {
+      "id": "1563702",
+      "nombre": "Adrián Santana",
+      "posicion": "Centre-Forward",
+      "partidos": 1,
+      "minutos": 57
+    }
+  ]
+}

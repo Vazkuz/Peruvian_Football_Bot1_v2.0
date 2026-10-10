@@ -1,0 +1,506 @@
+{
+  "partido_id": "4942757",
+  "ruta": "/spielbericht/index/spielbericht/4942757",
+  "fecha_extraccion": "2026-10-02T22:30:44",
+  "equipos": [
+    {
+      "club_id": "21655",
+      "club_nombre": "Sport Huancayo",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "372304",
+          "nombre": "Zamudio",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "482452",
+          "nombre": "Valoyes",
+          "dorsal": 70,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "814636",
+          "nombre": "Gaona",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "224652",
+          "nombre": "Ángeles",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "531177",
+          "nombre": "Falconí",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "142738",
+          "nombre": "Salcedo",
+          "dorsal": 22,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "490614",
+          "nombre": "Carabaño",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "313437",
+          "nombre": "Sanguinetti",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "325147",
+          "nombre": "Luján",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "874831",
+          "nombre": "Magallanes",
+          "dorsal": 23,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "331819",
+          "nombre": "Huaccha",
+          "dorsal": 19,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "858666",
+          "nombre": "Aldair Ccorahua",
+          "dorsal": 29,
+          "posicion": "GK"
+        },
+        {
+          "id": "242546",
+          "nombre": "Yonatan Murillo",
+          "dorsal": 92,
+          "posicion": "CB"
+        },
+        {
+          "id": "271676",
+          "nombre": "Jeremy Rostaing",
+          "dorsal": 28,
+          "posicion": "RB"
+        },
+        {
+          "id": "1188205",
+          "nombre": "Edu Villar",
+          "dorsal": 38,
+          "posicion": "DM"
+        },
+        {
+          "id": "417183",
+          "nombre": "Aldo Quiñónez",
+          "dorsal": 91,
+          "posicion": "CM"
+        },
+        {
+          "id": "422853",
+          "nombre": "Rick Campodónico",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1025975",
+          "nombre": "Juan Giménez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "231639",
+          "nombre": "Franco Caballero",
+          "dorsal": 99,
+          "posicion": "CF"
+        },
+        {
+          "id": "279508",
+          "nombre": "Daniel Porozo",
+          "dorsal": 97,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "54478",
+      "club_nombre": "CD Los Chankas",
+      "local": false,
+      "formacion": "3-1-4-2",
+      "titulares": [
+        {
+          "id": "988214",
+          "nombre": "Pretel",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "294886",
+          "nombre": "Pimienta",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 15.0
+        },
+        {
+          "id": "725453",
+          "nombre": "González",
+          "dorsal": 2,
+          "top": 62.0,
+          "left": 40.0
+        },
+        {
+          "id": "643536",
+          "nombre": "Gonzáles",
+          "dorsal": 26,
+          "top": 61.0,
+          "left": 65.0
+        },
+        {
+          "id": "740319",
+          "nombre": "Quintana",
+          "dorsal": 31,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "441728",
+          "nombre": "Sánchez",
+          "dorsal": 15,
+          "top": 43.0,
+          "left": 40.0
+        },
+        {
+          "id": "873510",
+          "nombre": "Torres",
+          "dorsal": 10,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "855900",
+          "nombre": "Ospina",
+          "dorsal": 7,
+          "top": 23.0,
+          "left": 50.0
+        },
+        {
+          "id": "384765",
+          "nombre": "Campos",
+          "dorsal": 4,
+          "top": 23.0,
+          "left": 30.0
+        },
+        {
+          "id": "357124",
+          "nombre": "Takeuchi",
+          "dorsal": 18,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "330169",
+          "nombre": "Quintero",
+          "dorsal": 11,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1578030",
+          "nombre": "Jeremy Gómez",
+          "dorsal": 99,
+          "posicion": "GK"
+        },
+        {
+          "id": "409092",
+          "nombre": "Gonzalo Rizzo",
+          "dorsal": 24,
+          "posicion": "CB"
+        },
+        {
+          "id": "1509341",
+          "nombre": "José Cárdenas",
+          "dorsal": 37,
+          "posicion": "CB"
+        },
+        {
+          "id": "639765",
+          "nombre": "Axel Chávez",
+          "dorsal": 16,
+          "posicion": "LB"
+        },
+        {
+          "id": "470023",
+          "nombre": "Brayan Guevara",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "653673",
+          "nombre": "Abdiel Ayarza",
+          "dorsal": 6,
+          "posicion": "CM"
+        },
+        {
+          "id": "894880",
+          "nombre": "André Vasquez",
+          "dorsal": 13,
+          "posicion": "AM"
+        },
+        {
+          "id": "653475",
+          "nombre": "Félix Espinoza",
+          "dorsal": 77,
+          "posicion": "RW"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "21655",
+      "minuto": 41,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "331819",
+        "nombre": "Ronal Huaccha"
+      },
+      "asistencia": {
+        "id": "531177",
+        "nombre": "Jean Franco Falconí"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 65,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "873510",
+        "nombre": "Franco Torres"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "54478",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "643536",
+        "nombre": "David Gonzáles"
+      },
+      "entra": {
+        "id": "653673",
+        "nombre": "Abdiel Ayarza"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "740319",
+        "nombre": "Ayrthon Quintana"
+      },
+      "entra": {
+        "id": "470023",
+        "nombre": "Brayan Guevara"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "384765",
+        "nombre": "Accel Campos"
+      },
+      "entra": {
+        "id": "409092",
+        "nombre": "Gonzalo Rizzo"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 61,
+      "anadido": 0,
+      "sale": {
+        "id": "331819",
+        "nombre": "Ronal Huaccha"
+      },
+      "entra": {
+        "id": "231639",
+        "nombre": "Franco Caballero"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "490614",
+        "nombre": "Diego Carabaño"
+      },
+      "entra": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "874831",
+        "nombre": "Piero Magallanes"
+      },
+      "entra": {
+        "id": "1025975",
+        "nombre": "Juan Giménez"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "855900",
+        "nombre": "Juan Diego Ospina"
+      },
+      "entra": {
+        "id": "894880",
+        "nombre": "André Vasquez"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "325147",
+        "nombre": "Nahuel Luján"
+      },
+      "entra": {
+        "id": "422853",
+        "nombre": "Rick Campodónico"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "54478",
+      "minuto": 14,
+      "anadido": 0,
+      "jugador": {
+        "id": "384765",
+        "nombre": "Accel Campos"
+      },
+      "tipo": "amarilla",
+      "detalle": "Accel Campos 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 18,
+      "anadido": 0,
+      "jugador": {
+        "id": "482452",
+        "nombre": "Jimmy Valoyes"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jimmy Valoyes 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 62,
+      "anadido": 0,
+      "jugador": {
+        "id": "325147",
+        "nombre": "Nahuel Luján"
+      },
+      "tipo": "amarilla",
+      "detalle": "Nahuel Luján 2. Yellow card"
+    },
+    {
+      "club_id": "54478",
+      "minuto": 62,
+      "anadido": 0,
+      "jugador": {
+        "id": "725453",
+        "nombre": "Héctor González"
+      },
+      "tipo": "amarilla",
+      "detalle": "Héctor González 2. Yellow card"
+    },
+    {
+      "club_id": "54478",
+      "minuto": 84,
+      "anadido": 0,
+      "jugador": {
+        "id": "894880",
+        "nombre": "André Vasquez"
+      },
+      "tipo": "amarilla",
+      "detalle": "André Vasquez 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 84,
+      "anadido": 0,
+      "jugador": {
+        "id": "814636",
+        "nombre": "Marcelo Gaona"
+      },
+      "tipo": "amarilla",
+      "detalle": "Marcelo Gaona 1. Yellow card , Mass confrontation"
+    },
+    {
+      "club_id": "54478",
+      "minuto": 90,
+      "anadido": 1,
+      "jugador": {
+        "id": "873510",
+        "nombre": "Franco Torres"
+      },
+      "tipo": "amarilla",
+      "detalle": "Franco Torres 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "54478",
+      "minuto": 90,
+      "anadido": 9,
+      "jugador": {
+        "id": "988214",
+        "nombre": "Luis Pretel"
+      },
+      "tipo": "amarilla",
+      "detalle": "Luis Pretel 1. Yellow card , Time wasting"
+    }
+  ]
+}

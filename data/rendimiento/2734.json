@@ -1,0 +1,295 @@
+{
+  "club_id": "2734",
+  "club_nombre": "FBC Melgar",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:03:32",
+  "jugadores": [
+    {
+      "id": "785133",
+      "nombre": "Jorge Cabezudo",
+      "posicion": "Goalkeeper",
+      "partidos": 21,
+      "minutos": 1890
+    },
+    {
+      "id": "94359",
+      "nombre": "Carlos Cáceda",
+      "posicion": "Goalkeeper",
+      "partidos": 9,
+      "minutos": 810
+    },
+    {
+      "id": "72975",
+      "nombre": "Ricardo Farro",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1506953",
+      "nombre": "Facundo de la Cruz",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "831138",
+      "nombre": "Matías Lazo",
+      "posicion": "Centre-Back",
+      "partidos": 27,
+      "minutos": 2292
+    },
+    {
+      "id": "353034",
+      "nombre": "Juan Escobar",
+      "posicion": "Centre-Back",
+      "partidos": 21,
+      "minutos": 1830
+    },
+    {
+      "id": "796060",
+      "nombre": "Jesús Alcántar",
+      "posicion": "Centre-Back",
+      "partidos": 18,
+      "minutos": 1206
+    },
+    {
+      "id": "621029",
+      "nombre": "Alec Deneumostier",
+      "posicion": "Centre-Back",
+      "partidos": 16,
+      "minutos": 1105
+    },
+    {
+      "id": "582319",
+      "nombre": "Alejandro Ramos",
+      "posicion": "Right-Back",
+      "partidos": 11,
+      "minutos": 538
+    },
+    {
+      "id": "491570",
+      "nombre": "Nelson Cabanillas",
+      "posicion": "Left-Back",
+      "partidos": 18,
+      "minutos": 1261
+    },
+    {
+      "id": "302416",
+      "nombre": "Leonel González",
+      "posicion": "Centre-Back",
+      "partidos": 10,
+      "minutos": 900
+    },
+    {
+      "id": "1370516",
+      "nombre": "Diego Pablo",
+      "posicion": "Centre-Back",
+      "partidos": 2,
+      "minutos": 180
+    },
+    {
+      "id": "1369667",
+      "nombre": "Daniel Meneses",
+      "posicion": "Centre-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1410080",
+      "nombre": "Ángel Obando",
+      "posicion": "Left-Back",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "1508794",
+      "nombre": "Ian Arróspide",
+      "posicion": "Centre-Back",
+      "partidos": 1,
+      "minutos": 1
+    },
+    {
+      "id": "733083",
+      "nombre": "Nicolás Quagliata",
+      "posicion": "Attacking Midfield",
+      "partidos": 24,
+      "minutos": 1913
+    },
+    {
+      "id": "621039",
+      "nombre": "Walter Tandazo",
+      "posicion": "Defensive Midfield",
+      "partidos": 25,
+      "minutos": 2163
+    },
+    {
+      "id": "400945",
+      "nombre": "Kevin Minda",
+      "posicion": "Defensive Midfield",
+      "partidos": 10,
+      "minutos": 859
+    },
+    {
+      "id": "228255",
+      "nombre": "Javier Salas",
+      "posicion": "Defensive Midfield",
+      "partidos": 18,
+      "minutos": 1475
+    },
+    {
+      "id": "832217",
+      "nombre": "Yimy Gamero",
+      "posicion": "Defensive Midfield",
+      "partidos": 5,
+      "minutos": 165
+    },
+    {
+      "id": "966314",
+      "nombre": "Marcos Portillo",
+      "posicion": "Central Midfield",
+      "partidos": 8,
+      "minutos": 162
+    },
+    {
+      "id": "918394",
+      "nombre": "Abraham Aguinaga",
+      "posicion": "Attacking Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1227512",
+      "nombre": "Gian García",
+      "posicion": "Central Midfield",
+      "partidos": 7,
+      "minutos": 236
+    },
+    {
+      "id": "249468",
+      "nombre": "Horacio Orzán",
+      "posicion": "Defensive Midfield",
+      "partidos": 8,
+      "minutos": 417
+    },
+    {
+      "id": "1369250",
+      "nombre": "Andersson Pumacajia",
+      "posicion": "Defensive Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1369247",
+      "nombre": "Cesar Doy",
+      "posicion": "Central Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1552269",
+      "nombre": "Ronald Rodriguez",
+      "posicion": "Attacking Midfield",
+      "partidos": 1,
+      "minutos": 12
+    },
+    {
+      "id": "1508639",
+      "nombre": "Keith Yáñez",
+      "posicion": "Defensive Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1442941",
+      "nombre": "Matias Zegarra",
+      "posicion": "Left Winger",
+      "partidos": 27,
+      "minutos": 1675
+    },
+    {
+      "id": "832216",
+      "nombre": "Jefferson Cáceres",
+      "posicion": "Left Winger",
+      "partidos": 17,
+      "minutos": 574
+    },
+    {
+      "id": "626916",
+      "nombre": "Lautaro Guzmán",
+      "posicion": "Right Winger",
+      "partidos": 23,
+      "minutos": 868
+    },
+    {
+      "id": "653476",
+      "nombre": "Franco Zanelatto",
+      "posicion": "Right Winger",
+      "partidos": 13,
+      "minutos": 413
+    },
+    {
+      "id": "741728",
+      "nombre": "Jhamir D'Arrigo",
+      "posicion": "Left Winger",
+      "partidos": 19,
+      "minutos": 363
+    },
+    {
+      "id": "1095971",
+      "nombre": "Pablo Erustes",
+      "posicion": "Centre-Forward",
+      "partidos": 14,
+      "minutos": 578
+    },
+    {
+      "id": "657791",
+      "nombre": "Jeriel de Santis",
+      "posicion": "Centre-Forward",
+      "partidos": 7,
+      "minutos": 156
+    },
+    {
+      "id": "282350",
+      "nombre": "Cristian Bordacahar",
+      "posicion": "Right Winger",
+      "partidos": 19,
+      "minutos": 1330
+    },
+    {
+      "id": "224677",
+      "nombre": "Jhonny Vidales",
+      "posicion": "Centre-Forward",
+      "partidos": 28,
+      "minutos": 2064
+    },
+    {
+      "id": "662708",
+      "nombre": "Nicolás Figueroa",
+      "posicion": "Centre-Forward",
+      "partidos": 3,
+      "minutos": 21
+    },
+    {
+      "id": "89317",
+      "nombre": "Bernardo Cuesta",
+      "posicion": "Centre-Forward",
+      "partidos": 28,
+      "minutos": 1992
+    },
+    {
+      "id": "1369251",
+      "nombre": "Ryu Yabiku",
+      "posicion": "Centre-Forward",
+      "partidos": 3,
+      "minutos": 98
+    },
+    {
+      "id": "1371976",
+      "nombre": "Patricio Núñez",
+      "posicion": "Right Winger",
+      "partidos": 1,
+      "minutos": 15
+    }
+  ]
+}

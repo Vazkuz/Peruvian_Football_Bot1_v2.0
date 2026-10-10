@@ -1,0 +1,330 @@
+{
+  "club_id": "28999",
+  "club_nombre": "Cusco FC",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:04:03",
+  "jugadores": [
+    {
+      "id": "653363",
+      "nombre": "Pedro Díaz",
+      "posicion": "Goalkeeper",
+      "partidos": 31,
+      "minutos": 2726
+    },
+    {
+      "id": "227796",
+      "nombre": "Andy Vidal",
+      "posicion": "Goalkeeper",
+      "partidos": 5,
+      "minutos": 416
+    },
+    {
+      "id": "1031980",
+      "nombre": "Alessandro Cavagna",
+      "posicion": "Goalkeeper",
+      "partidos": 1,
+      "minutos": 90
+    },
+    {
+      "id": "380868",
+      "nombre": "Rodolfo Anderson",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1560971",
+      "nombre": "Cesar Fernández",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "655641",
+      "nombre": "Carlos Gamarra",
+      "posicion": "Centre-Back",
+      "partidos": 21,
+      "minutos": 1218
+    },
+    {
+      "id": "738710",
+      "nombre": "Marlon Ruidías",
+      "posicion": "Right-Back",
+      "partidos": 26,
+      "minutos": 2011
+    },
+    {
+      "id": "752999",
+      "nombre": "Gu-rum Choi",
+      "posicion": "Centre-Back",
+      "partidos": 6,
+      "minutos": 378
+    },
+    {
+      "id": "433698",
+      "nombre": "José Bolívar",
+      "posicion": "Left-Back",
+      "partidos": 17,
+      "minutos": 978
+    },
+    {
+      "id": "653364",
+      "nombre": "Ricardo Lagos",
+      "posicion": "Left-Back",
+      "partidos": 10,
+      "minutos": 867
+    },
+    {
+      "id": "480523",
+      "nombre": "Aldair Fuentes",
+      "posicion": "Centre-Back",
+      "partidos": 31,
+      "minutos": 2696
+    },
+    {
+      "id": "747666",
+      "nombre": "Alex Custodio",
+      "posicion": "Centre-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "621037",
+      "nombre": "José Zevallos",
+      "posicion": "Right-Back",
+      "partidos": 26,
+      "minutos": 1874
+    },
+    {
+      "id": "195002",
+      "nombre": "Álvaro Ampuero",
+      "posicion": "Centre-Back",
+      "partidos": 29,
+      "minutos": 2540
+    },
+    {
+      "id": "1211527",
+      "nombre": "Julinho Astudillo",
+      "posicion": "Centre-Back",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "1560984",
+      "nombre": "Darcy Zúñiga",
+      "posicion": "Left-Back",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "1560983",
+      "nombre": "Jano Valdez",
+      "posicion": "Centre-Back",
+      "partidos": 1,
+      "minutos": 90
+    },
+    {
+      "id": "1560982",
+      "nombre": "Eduardo Puente de la Vega",
+      "posicion": "Centre-Back",
+      "partidos": 1,
+      "minutos": 90
+    },
+    {
+      "id": "1560981",
+      "nombre": "Yhonifer Quispe",
+      "posicion": "Right-Back",
+      "partidos": 1,
+      "minutos": 90
+    },
+    {
+      "id": "662605",
+      "nombre": "Diego Soto",
+      "posicion": "Central Midfield",
+      "partidos": 32,
+      "minutos": 2105
+    },
+    {
+      "id": "380603",
+      "nombre": "Iván Colman",
+      "posicion": "Attacking Midfield",
+      "partidos": 33,
+      "minutos": 2360
+    },
+    {
+      "id": "654298",
+      "nombre": "Oswaldo Valenzuela",
+      "posicion": "Defensive Midfield",
+      "partidos": 31,
+      "minutos": 1942
+    },
+    {
+      "id": "451950",
+      "nombre": "Miguel Aucca",
+      "posicion": "Defensive Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "351561",
+      "nombre": "Carlo Diez",
+      "posicion": "Defensive Midfield",
+      "partidos": 27,
+      "minutos": 1290
+    },
+    {
+      "id": "507653",
+      "nombre": "Carlos Montaño",
+      "posicion": "Defensive Midfield",
+      "partidos": 9,
+      "minutos": 683
+    },
+    {
+      "id": "662338",
+      "nombre": "Miguel Silveira",
+      "posicion": "Attacking Midfield",
+      "partidos": 7,
+      "minutos": 267
+    },
+    {
+      "id": "280157",
+      "nombre": "Gabriel Carabajal",
+      "posicion": "Attacking Midfield",
+      "partidos": 23,
+      "minutos": 862
+    },
+    {
+      "id": "1455981",
+      "nombre": "Sergio Quillahuaman",
+      "posicion": "Attacking Midfield",
+      "partidos": 3,
+      "minutos": 225
+    },
+    {
+      "id": "1560973",
+      "nombre": "Jhandel Suma",
+      "posicion": "Midfield",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "1560972",
+      "nombre": "Kevin Bolaños",
+      "posicion": "Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1560977",
+      "nombre": "Cesar Nuñez",
+      "posicion": "Midfield",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "1560976",
+      "nombre": "Saúl Tairo",
+      "posicion": "Midfield",
+      "partidos": 1,
+      "minutos": 13
+    },
+    {
+      "id": "1560975",
+      "nombre": "Mijael Avilés",
+      "posicion": "Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1560974",
+      "nombre": "Stefano Quispe",
+      "posicion": "Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1560985",
+      "nombre": "Julio Espinoza",
+      "posicion": "Defensive Midfield",
+      "partidos": 1,
+      "minutos": 90
+    },
+    {
+      "id": "268031",
+      "nombre": "Facundo Callejo",
+      "posicion": "Centre-Forward",
+      "partidos": 28,
+      "minutos": 1987
+    },
+    {
+      "id": "329212",
+      "nombre": "Lucas Colitto",
+      "posicion": "Right Winger",
+      "partidos": 28,
+      "minutos": 1918
+    },
+    {
+      "id": "279387",
+      "nombre": "José Manzaneda",
+      "posicion": "Left Winger",
+      "partidos": 31,
+      "minutos": 1582
+    },
+    {
+      "id": "981817",
+      "nombre": "Joel Herrera",
+      "posicion": "Right Winger",
+      "partidos": 13,
+      "minutos": 376
+    },
+    {
+      "id": "1368957",
+      "nombre": "José Alí",
+      "posicion": "Left Winger",
+      "partidos": 5,
+      "minutos": 222
+    },
+    {
+      "id": "422914",
+      "nombre": "Nicolás Silva",
+      "posicion": "Right Winger",
+      "partidos": 33,
+      "minutos": 1539
+    },
+    {
+      "id": "210553",
+      "nombre": "Juan Manuel Tévez",
+      "posicion": "Centre-Forward",
+      "partidos": 33,
+      "minutos": 1308
+    },
+    {
+      "id": "1558893",
+      "nombre": "Andriu Bellota",
+      "posicion": "Right Winger",
+      "partidos": 3,
+      "minutos": 235
+    },
+    {
+      "id": "1558894",
+      "nombre": "Edson Rivera",
+      "posicion": "Centre-Forward",
+      "partidos": 2,
+      "minutos": 90
+    },
+    {
+      "id": "1558892",
+      "nombre": "Ray Pérez",
+      "posicion": "Right Winger",
+      "partidos": 3,
+      "minutos": 125
+    },
+    {
+      "id": "1560986",
+      "nombre": "Jordi León",
+      "posicion": "Left Winger",
+      "partidos": 1,
+      "minutos": 77
+    }
+  ]
+}

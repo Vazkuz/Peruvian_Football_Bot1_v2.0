@@ -1,0 +1,482 @@
+{
+  "partido_id": "5034424",
+  "ruta": "/spielbericht/index/spielbericht/5034424",
+  "fecha_extraccion": "2026-10-02T23:01:25",
+  "equipos": [
+    {
+      "club_id": "17479",
+      "club_nombre": "Alianza Atlético Sullana",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "325709",
+          "nombre": "Rivadeneyra",
+          "dorsal": 31,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "441758",
+          "nombre": "Luján",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "974335",
+          "nombre": "Suárez",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "332776",
+          "nombre": "Gordillo",
+          "dorsal": 24,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "1225745",
+          "nombre": "Lupu",
+          "dorsal": 15,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "966369",
+          "nombre": "Fernández",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "872158",
+          "nombre": "Díaz",
+          "dorsal": 10,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "212309",
+          "nombre": "Penilla",
+          "dorsal": 17,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "1082743",
+          "nombre": "del Castillo",
+          "dorsal": 22,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "870966",
+          "nombre": "Larios",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "254123",
+          "nombre": "Molina",
+          "dorsal": 29,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "217130",
+          "nombre": "Daniel Prieto",
+          "dorsal": 95,
+          "posicion": "GK"
+        },
+        {
+          "id": "764367",
+          "nombre": "Williams Guzmán",
+          "dorsal": 25,
+          "posicion": "CB"
+        },
+        {
+          "id": "515413",
+          "nombre": "Jesús Mendieta",
+          "dorsal": 19,
+          "posicion": "LB"
+        },
+        {
+          "id": "1149628",
+          "nombre": "Juan Delgado",
+          "dorsal": 37,
+          "posicion": "DM"
+        },
+        {
+          "id": "981694",
+          "nombre": "Ariel Muñoz",
+          "dorsal": 23,
+          "posicion": "CM"
+        },
+        {
+          "id": "857805",
+          "nombre": "Jimmy Pérez",
+          "dorsal": 20,
+          "posicion": "CM"
+        },
+        {
+          "id": "741594",
+          "nombre": "Franchesco Flores",
+          "dorsal": 8,
+          "posicion": "RW"
+        },
+        {
+          "id": "1171309",
+          "nombre": "Cristhian Valladolid",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "1220638",
+          "nombre": "Valentín Robaldo",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "47107",
+      "club_nombre": "Comerciantes Unidos",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "805148",
+          "nombre": "Córdova",
+          "dorsal": 17,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "375178",
+          "nombre": "Fuentes",
+          "dorsal": 66,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "671846",
+          "nombre": "Rodríguez",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "292729",
+          "nombre": "Cossio",
+          "dorsal": 15,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "501586",
+          "nombre": "Rojas",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "639458",
+          "nombre": "Parodi",
+          "dorsal": 20,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "897924",
+          "nombre": "Rodríguez",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "325589",
+          "nombre": "Arias",
+          "dorsal": 4,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "653429",
+          "nombre": "Sánchez",
+          "dorsal": 32,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "1182403",
+          "nombre": "Olivares",
+          "dorsal": 50,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "347003",
+          "nombre": "Sen",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "441704",
+          "nombre": "José Charún",
+          "dorsal": 99,
+          "posicion": "GK"
+        },
+        {
+          "id": "871653",
+          "nombre": "Piero Guzmán",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "661866",
+          "nombre": "Daniel Lino",
+          "dorsal": 19,
+          "posicion": "LB"
+        },
+        {
+          "id": "832217",
+          "nombre": "Yimy Gamero",
+          "dorsal": 54,
+          "posicion": "DM"
+        },
+        {
+          "id": "1076593",
+          "nombre": "Thiago Salinas",
+          "dorsal": 14,
+          "posicion": "CM"
+        },
+        {
+          "id": "739725",
+          "nombre": "Mathías Carpio",
+          "dorsal": 10,
+          "posicion": "LW"
+        },
+        {
+          "id": "662709",
+          "nombre": "Óscar Pinto",
+          "dorsal": 28,
+          "posicion": "LW"
+        },
+        {
+          "id": "355639",
+          "nombre": "Wilter Ayoví",
+          "dorsal": 8,
+          "posicion": "RW"
+        },
+        {
+          "id": "458756",
+          "nombre": "Maximiliano Pérez",
+          "dorsal": 13,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "47107",
+      "minuto": 10,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      },
+      "asistencia": {
+        "id": "347003",
+        "nombre": "Matías Sen"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 19,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "254123",
+        "nombre": "Jairo Molina"
+      },
+      "asistencia": {
+        "id": "872158",
+        "nombre": "Germán Díaz"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 56,
+      "anadido": 0,
+      "marcador": "2:1",
+      "autor": {
+        "id": "212309",
+        "nombre": "Cristian Penilla"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "47107",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      },
+      "entra": {
+        "id": "355639",
+        "nombre": "Wilter Ayoví"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "653429",
+        "nombre": "Jhon Sánchez"
+      },
+      "entra": {
+        "id": "662709",
+        "nombre": "Óscar Pinto"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 68,
+      "anadido": 0,
+      "sale": {
+        "id": "870966",
+        "nombre": "Guillermo Larios"
+      },
+      "entra": {
+        "id": "981694",
+        "nombre": "Ariel Muñoz"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "325589",
+        "nombre": "Alexis Arias"
+      },
+      "entra": {
+        "id": "1076593",
+        "nombre": "Thiago Salinas"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 85,
+      "anadido": 0,
+      "sale": {
+        "id": "254123",
+        "nombre": "Jairo Molina"
+      },
+      "entra": {
+        "id": "1220638",
+        "nombre": "Valentín Robaldo"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 86,
+      "anadido": 0,
+      "sale": {
+        "id": "639458",
+        "nombre": "José Parodi"
+      },
+      "entra": {
+        "id": "832217",
+        "nombre": "Yimy Gamero"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 90,
+      "anadido": 2,
+      "sale": {
+        "id": "1082743",
+        "nombre": "Jorge del Castillo"
+      },
+      "entra": {
+        "id": "764367",
+        "nombre": "Williams Guzmán"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 90,
+      "anadido": 2,
+      "sale": {
+        "id": "212309",
+        "nombre": "Cristian Penilla"
+      },
+      "entra": {
+        "id": "1171309",
+        "nombre": "Cristhian Valladolid"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "47107",
+      "minuto": 25,
+      "anadido": 0,
+      "jugador": {
+        "id": "897924",
+        "nombre": "Agustín Rodríguez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Agustín Rodríguez 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 33,
+      "anadido": 0,
+      "jugador": {
+        "id": "897924",
+        "nombre": "Agustín Rodríguez"
+      },
+      "tipo": "roja",
+      "detalle": "Agustín Rodríguez Red card , Violent conduct"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 57,
+      "anadido": 0,
+      "jugador": {
+        "id": "347003",
+        "nombre": "Matías Sen"
+      },
+      "tipo": "amarilla",
+      "detalle": "Matías Sen 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "17479",
+      "minuto": 90,
+      "anadido": 1,
+      "jugador": {
+        "id": "981694",
+        "nombre": "Ariel Muñoz"
+      },
+      "tipo": "amarilla",
+      "detalle": "Ariel Muñoz 4. Yellow card , Foul"
+    }
+  ]
+}

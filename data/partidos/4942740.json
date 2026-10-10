@@ -1,0 +1,486 @@
+{
+  "partido_id": "4942740",
+  "ruta": "/spielbericht/index/spielbericht/4942740",
+  "fecha_extraccion": "2026-10-02T22:22:01",
+  "equipos": [
+    {
+      "club_id": "21655",
+      "club_nombre": "Sport Huancayo",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "372304",
+          "nombre": "Zamudio",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "482452",
+          "nombre": "Valoyes",
+          "dorsal": 70,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "814636",
+          "nombre": "Gaona",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "224652",
+          "nombre": "Ángeles",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "531177",
+          "nombre": "Falconí",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "142738",
+          "nombre": "Salcedo",
+          "dorsal": 22,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "490614",
+          "nombre": "Carabaño",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "313437",
+          "nombre": "Sanguinetti",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "325147",
+          "nombre": "Luján",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "874831",
+          "nombre": "Magallanes",
+          "dorsal": 23,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "331819",
+          "nombre": "Huaccha",
+          "dorsal": 19,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "383343",
+          "nombre": "Diego Campos",
+          "dorsal": 21,
+          "posicion": "GK"
+        },
+        {
+          "id": "242546",
+          "nombre": "Yonatan Murillo",
+          "dorsal": 92,
+          "posicion": "CB"
+        },
+        {
+          "id": "249967",
+          "nombre": "Juan Barreda",
+          "dorsal": 4,
+          "posicion": "CB"
+        },
+        {
+          "id": "271676",
+          "nombre": "Jeremy Rostaing",
+          "dorsal": 28,
+          "posicion": "RB"
+        },
+        {
+          "id": "1188205",
+          "nombre": "Edu Villar",
+          "dorsal": 38,
+          "posicion": "DM"
+        },
+        {
+          "id": "417183",
+          "nombre": "Aldo Quiñónez",
+          "dorsal": 91,
+          "posicion": "CM"
+        },
+        {
+          "id": "1025975",
+          "nombre": "Juan Giménez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "231639",
+          "nombre": "Franco Caballero",
+          "dorsal": 99,
+          "posicion": "CF"
+        },
+        {
+          "id": "279508",
+          "nombre": "Daniel Porozo",
+          "dorsal": 97,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "27861",
+      "club_nombre": "Club Atlético Grau",
+      "local": false,
+      "formacion": "5-3-2",
+      "titulares": [
+        {
+          "id": "250711",
+          "nombre": "Álvarez",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "284306",
+          "nombre": "Acevedo",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 56.5
+        },
+        {
+          "id": "422398",
+          "nombre": "Tapia",
+          "dorsal": 27,
+          "top": 63.0,
+          "left": 40.0
+        },
+        {
+          "id": "460830",
+          "nombre": "Tapia",
+          "dorsal": 3,
+          "top": 61.0,
+          "left": 23.5
+        },
+        {
+          "id": "325711",
+          "nombre": "Rodas",
+          "dorsal": 6,
+          "top": 59.0,
+          "left": 7.0
+        },
+        {
+          "id": "865640",
+          "nombre": "Rodríguez",
+          "dorsal": 4,
+          "top": 59.0,
+          "left": 73.0
+        },
+        {
+          "id": "250737",
+          "nombre": "Guarderas",
+          "dorsal": 5,
+          "top": 38.0,
+          "left": 55.0
+        },
+        {
+          "id": "1246792",
+          "nombre": "de la Cruz",
+          "dorsal": 66,
+          "top": 38.0,
+          "left": 25.0
+        },
+        {
+          "id": "422855",
+          "nombre": "Benites",
+          "dorsal": 96,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "458603",
+          "nombre": "Da Luz",
+          "dorsal": 77,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "129724",
+          "nombre": "Ruidíaz",
+          "dorsal": 9,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "639452",
+          "nombre": "Aamet Calderón",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "864707",
+          "nombre": "José Ataupillco",
+          "dorsal": 16,
+          "posicion": "CB"
+        },
+        {
+          "id": "981804",
+          "nombre": "Gabriel Alfaro",
+          "dorsal": 25,
+          "posicion": "LB"
+        },
+        {
+          "id": "639467",
+          "nombre": "Christian Vásquez",
+          "dorsal": 8,
+          "posicion": "RB"
+        },
+        {
+          "id": "491560",
+          "nombre": "Freddy Oncoy",
+          "dorsal": 13,
+          "posicion": "CM"
+        },
+        {
+          "id": "892756",
+          "nombre": "Aldair Vásquez",
+          "dorsal": 20,
+          "posicion": "AM"
+        },
+        {
+          "id": "572038",
+          "nombre": "Diego Barreto",
+          "dorsal": 7,
+          "posicion": "AM"
+        },
+        {
+          "id": "563398",
+          "nombre": "Paulo de la Cruz",
+          "dorsal": 10,
+          "posicion": "RW"
+        },
+        {
+          "id": "239623",
+          "nombre": "Adrián Fernández",
+          "dorsal": 99,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "21655",
+      "minuto": 53,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "313437",
+        "nombre": "Javier Sanguinetti"
+      },
+      "asistencia": {
+        "id": "531177",
+        "nombre": "Jean Franco Falconí"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 58,
+      "anadido": 0,
+      "marcador": "2:0",
+      "autor": {
+        "id": "313437",
+        "nombre": "Javier Sanguinetti"
+      },
+      "asistencia": {
+        "id": "142738",
+        "nombre": "Ricardo Salcedo"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "27861",
+      "minuto": 31,
+      "anadido": 0,
+      "sale": {
+        "id": "129724",
+        "nombre": "Raúl Ruidíaz"
+      },
+      "entra": {
+        "id": "239623",
+        "nombre": "Adrián Fernández"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "490614",
+        "nombre": "Diego Carabaño"
+      },
+      "entra": {
+        "id": "231639",
+        "nombre": "Franco Caballero"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "1246792",
+        "nombre": "Adrián de la Cruz"
+      },
+      "entra": {
+        "id": "639467",
+        "nombre": "Christian Vásquez"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "458603",
+        "nombre": "Mauro Da Luz"
+      },
+      "entra": {
+        "id": "563398",
+        "nombre": "Paulo de la Cruz"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 55,
+      "anadido": 0,
+      "sale": {
+        "id": "331819",
+        "nombre": "Ronal Huaccha"
+      },
+      "entra": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 55,
+      "anadido": 0,
+      "sale": {
+        "id": "531177",
+        "nombre": "Jean Franco Falconí"
+      },
+      "entra": {
+        "id": "271676",
+        "nombre": "Jeremy Rostaing"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "325147",
+        "nombre": "Nahuel Luján"
+      },
+      "entra": {
+        "id": "417183",
+        "nombre": "Aldo Quiñónez"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 66,
+      "anadido": 0,
+      "sale": {
+        "id": "422855",
+        "nombre": "Luis Benites"
+      },
+      "entra": {
+        "id": "981804",
+        "nombre": "Gabriel Alfaro"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "325711",
+        "nombre": "Elsar Rodas"
+      },
+      "entra": {
+        "id": "572038",
+        "nombre": "Diego Barreto"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "874831",
+        "nombre": "Piero Magallanes"
+      },
+      "entra": {
+        "id": "1025975",
+        "nombre": "Juan Giménez"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "27861",
+      "minuto": 23,
+      "anadido": 0,
+      "jugador": {
+        "id": "284306",
+        "nombre": "Lucas Acevedo"
+      },
+      "tipo": "roja",
+      "detalle": "Lucas Acevedo Red card , Serious foul"
+    },
+    {
+      "club_id": "27861",
+      "minuto": 40,
+      "anadido": 0,
+      "jugador": {
+        "id": "422398",
+        "nombre": "Rodrigo Tapia"
+      },
+      "tipo": "amarilla",
+      "detalle": "Rodrigo Tapia 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 44,
+      "anadido": 0,
+      "jugador": {
+        "id": "482452",
+        "nombre": "Jimmy Valoyes"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jimmy Valoyes 1. Yellow card , Dissent"
+    }
+  ]
+}

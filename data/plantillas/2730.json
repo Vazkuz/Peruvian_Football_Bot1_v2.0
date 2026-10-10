@@ -1,0 +1,198 @@
+{
+  "club_id": "2730",
+  "club_nombre": "Sport Boys Association",
+  "formacion": "4-2-3-1",
+  "variante": "4-2-3-1",
+  "fecha_generacion": "2026-10-03T00:44:01",
+  "casillas": [
+    {
+      "casilla": 1,
+      "rol": "arquero",
+      "titular": {
+        "id": "303866",
+        "nombre": "Diego Melián",
+        "rol": "arquero",
+        "puntaje": 24.424
+      },
+      "suplente": {
+        "id": "738150",
+        "nombre": "Jeferson Nolasco",
+        "rol": "arquero",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 10
+      }
+    },
+    {
+      "casilla": 2,
+      "rol": "lateral_izq",
+      "titular": {
+        "id": "662705",
+        "nombre": "Mathías Llontop",
+        "rol": "lateral_izq",
+        "puntaje": 24.424
+      },
+      "suplente": {
+        "id": "177690",
+        "nombre": "Miguel Trauco",
+        "rol": "lateral_izq",
+        "puntaje": 0.718,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 3,
+      "rol": "central",
+      "titular": {
+        "id": "53533",
+        "nombre": "Carlos Zambrano",
+        "rol": "central",
+        "puntaje": 23.543
+      },
+      "suplente": {
+        "id": "347382",
+        "nombre": "Gustavo Dulanto",
+        "rol": "central",
+        "puntaje": 1.816,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 4,
+      "rol": "central",
+      "titular": {
+        "id": "187161",
+        "nombre": "Hansell Riojas",
+        "rol": "central",
+        "puntaje": 23.527
+      },
+      "suplente": {
+        "id": "492973",
+        "nombre": "Renzo Alfani",
+        "rol": "central",
+        "puntaje": 0.192,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 5,
+      "rol": "lateral_der",
+      "titular": {
+        "id": "805862",
+        "nombre": "Emilio Saba",
+        "rol": "lateral_der",
+        "puntaje": 23.731
+      },
+      "suplente": {
+        "id": "1410130",
+        "nombre": "Diego Contreras",
+        "rol": "lateral_der",
+        "puntaje": 0,
+        "origen": "plantel"
+      }
+    },
+    {
+      "casilla": 6,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "621026",
+        "nombre": "Oslimg Mora",
+        "rol": "volante_defensivo",
+        "puntaje": 24.039
+      },
+      "suplente": {
+        "id": "671879",
+        "nombre": "Erick Gonzales",
+        "rol": "volante_defensivo",
+        "puntaje": 4.908,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 7,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "347750",
+        "nombre": "Hernán Da Campo",
+        "rol": "volante_defensivo",
+        "puntaje": 13.984
+      },
+      "suplente": {
+        "id": "360446",
+        "nombre": "Federico Illanes",
+        "rol": "volante_defensivo",
+        "puntaje": 2.421,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 8,
+      "rol": "volante_extremo_izq",
+      "titular": {
+        "id": "95280",
+        "nombre": "Christian Cueva",
+        "rol": "volante_extremo_izq",
+        "puntaje": 13.517
+      },
+      "suplente": {
+        "id": "1564706",
+        "nombre": "Adrián Valiente",
+        "rol": "volante_extremo_izq",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 1
+      }
+    },
+    {
+      "casilla": 9,
+      "rol": "mediapunta",
+      "titular": {
+        "id": "866488",
+        "nombre": "Jostin Alarcón",
+        "rol": "mediapunta",
+        "puntaje": 11.465
+      },
+      "suplente": {
+        "id": "662699",
+        "nombre": "Yuriel Celi",
+        "rol": "mediapunta",
+        "puntaje": 3.066,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 10,
+      "rol": "volante_extremo_der",
+      "titular": {
+        "id": "285679",
+        "nombre": "Luis Urruti",
+        "rol": "volante_extremo_der",
+        "puntaje": 14.902
+      },
+      "suplente": {
+        "id": "579734",
+        "nombre": "Carlos López",
+        "rol": "volante_extremo_der",
+        "puntaje": 0.883,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 11,
+      "rol": "delantero",
+      "titular": {
+        "id": "1095971",
+        "nombre": "Pablo Erustes",
+        "rol": "delantero",
+        "puntaje": 15.413
+      },
+      "suplente": {
+        "id": "284728",
+        "nombre": "Luciano Nequecaur",
+        "rol": "delantero",
+        "puntaje": 6.663,
+        "origen": "minutos"
+      }
+    }
+  ]
+}

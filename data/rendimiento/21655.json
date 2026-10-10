@@ -1,0 +1,253 @@
+{
+  "club_id": "21655",
+  "club_nombre": "Sport Huancayo",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:07:09",
+  "jugadores": [
+    {
+      "id": "372304",
+      "nombre": "Ángel Zamudio",
+      "posicion": "Goalkeeper",
+      "partidos": 27,
+      "minutos": 2430
+    },
+    {
+      "id": "383343",
+      "nombre": "Diego Campos",
+      "posicion": "Goalkeeper",
+      "partidos": 5,
+      "minutos": 450
+    },
+    {
+      "id": "662704",
+      "nombre": "Massimo Sandi",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "858666",
+      "nombre": "Aldair Ccorahua",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "814636",
+      "nombre": "Marcelo Gaona",
+      "posicion": "Centre-Back",
+      "partidos": 30,
+      "minutos": 2603
+    },
+    {
+      "id": "531177",
+      "nombre": "Jean Franco Falconí",
+      "posicion": "Right-Back",
+      "partidos": 27,
+      "minutos": 2119
+    },
+    {
+      "id": "639765",
+      "nombre": "Axel Chávez",
+      "posicion": "Left-Back",
+      "partidos": 4,
+      "minutos": 148
+    },
+    {
+      "id": "224652",
+      "nombre": "Hugo Ángeles",
+      "posicion": "Left-Back",
+      "partidos": 29,
+      "minutos": 2530
+    },
+    {
+      "id": "271676",
+      "nombre": "Jeremy Rostaing",
+      "posicion": "Right-Back",
+      "partidos": 12,
+      "minutos": 775
+    },
+    {
+      "id": "249967",
+      "nombre": "Juan Barreda",
+      "posicion": "Centre-Back",
+      "partidos": 14,
+      "minutos": 754
+    },
+    {
+      "id": "434562",
+      "nombre": "Ronaldo Andía",
+      "posicion": "Right-Back",
+      "partidos": 1,
+      "minutos": 90
+    },
+    {
+      "id": "242546",
+      "nombre": "Yonatan Murillo",
+      "posicion": "Centre-Back",
+      "partidos": 10,
+      "minutos": 574
+    },
+    {
+      "id": "625618",
+      "nombre": "Gustavo Rissi",
+      "posicion": "Centre-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "482452",
+      "nombre": "Jimmy Valoyes",
+      "posicion": "Centre-Back",
+      "partidos": 27,
+      "minutos": 2111
+    },
+    {
+      "id": "1409967",
+      "nombre": "Fabricio Ramos",
+      "posicion": "Left-Back",
+      "partidos": 2,
+      "minutos": 14
+    },
+    {
+      "id": "1188205",
+      "nombre": "Edu Villar",
+      "posicion": "Defensive Midfield",
+      "partidos": 22,
+      "minutos": 1237
+    },
+    {
+      "id": "490614",
+      "nombre": "Diego Carabaño",
+      "posicion": "Central Midfield",
+      "partidos": 27,
+      "minutos": 1315
+    },
+    {
+      "id": "325147",
+      "nombre": "Nahuel Luján",
+      "posicion": "Attacking Midfield",
+      "partidos": 32,
+      "minutos": 2122
+    },
+    {
+      "id": "688116",
+      "nombre": "Leonardo Villar",
+      "posicion": "Defensive Midfield",
+      "partidos": 5,
+      "minutos": 134
+    },
+    {
+      "id": "313437",
+      "nombre": "Javier Sanguinetti",
+      "posicion": "Attacking Midfield",
+      "partidos": 25,
+      "minutos": 1793
+    },
+    {
+      "id": "142738",
+      "nombre": "Ricardo Salcedo",
+      "posicion": "Defensive Midfield",
+      "partidos": 28,
+      "minutos": 2398
+    },
+    {
+      "id": "1196730",
+      "nombre": "José Meza",
+      "posicion": "Defensive Midfield",
+      "partidos": 5,
+      "minutos": 226
+    },
+    {
+      "id": "1153132",
+      "nombre": "Cristian Mendoza",
+      "posicion": "Attacking Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "417183",
+      "nombre": "Aldo Quiñónez",
+      "posicion": "Central Midfield",
+      "partidos": 9,
+      "minutos": 279
+    },
+    {
+      "id": "1409963",
+      "nombre": "Ciro Contreras",
+      "posicion": "Defensive Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "874831",
+      "nombre": "Piero Magallanes",
+      "posicion": "Right Winger",
+      "partidos": 29,
+      "minutos": 1745
+    },
+    {
+      "id": "532994",
+      "nombre": "Jeremy Canela",
+      "posicion": "Right Winger",
+      "partidos": 15,
+      "minutos": 675
+    },
+    {
+      "id": "279508",
+      "nombre": "Daniel Porozo",
+      "posicion": "Centre-Forward",
+      "partidos": 11,
+      "minutos": 344
+    },
+    {
+      "id": "1025975",
+      "nombre": "Juan Giménez",
+      "posicion": "Right Winger",
+      "partidos": 6,
+      "minutos": 120
+    },
+    {
+      "id": "422853",
+      "nombre": "Rick Campodónico",
+      "posicion": "Left Winger",
+      "partidos": 24,
+      "minutos": 757
+    },
+    {
+      "id": "331819",
+      "nombre": "Ronal Huaccha",
+      "posicion": "Centre-Forward",
+      "partidos": 26,
+      "minutos": 1014
+    },
+    {
+      "id": "132353",
+      "nombre": "Yorleys Mena",
+      "posicion": "Centre-Forward",
+      "partidos": 17,
+      "minutos": 1024
+    },
+    {
+      "id": "1168655",
+      "nombre": "Juan Martínez",
+      "posicion": "Centre-Forward",
+      "partidos": 16,
+      "minutos": 646
+    },
+    {
+      "id": "231639",
+      "nombre": "Franco Caballero",
+      "posicion": "Centre-Forward",
+      "partidos": 20,
+      "minutos": 811
+    },
+    {
+      "id": "1409965",
+      "nombre": "Valentino Balbuena",
+      "posicion": "Left Winger",
+      "partidos": 5,
+      "minutos": 269
+    }
+  ]
+}

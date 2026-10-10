@@ -1,0 +1,198 @@
+{
+  "club_id": "35588",
+  "club_nombre": "Asociación Deportiva Tarma",
+  "formacion": "4-2-3-1",
+  "variante": "4-2-3-1",
+  "fecha_generacion": "2026-10-03T00:44:01",
+  "casillas": [
+    {
+      "casilla": 1,
+      "rol": "arquero",
+      "titular": {
+        "id": "255976",
+        "nombre": "Juan Valencia",
+        "rol": "arquero",
+        "puntaje": 15.549
+      },
+      "suplente": {
+        "id": "250672",
+        "nombre": "Carlos Solís",
+        "rol": "arquero",
+        "puntaje": 8.34,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 2,
+      "rol": "lateral_izq",
+      "titular": {
+        "id": "741727",
+        "nombre": "Orlando Núñez",
+        "rol": "lateral_izq",
+        "puntaje": 12.294
+      },
+      "suplente": {
+        "id": "1227155",
+        "nombre": "Alexander Hidalgo",
+        "rol": "lateral_izq",
+        "puntaje": 1.356,
+        "reemplazo_de_rol": "volante_extremo_izq",
+        "origen": "reemplazo"
+      }
+    },
+    {
+      "casilla": 3,
+      "rol": "central",
+      "titular": {
+        "id": "1059722",
+        "nombre": "Jhair Soto",
+        "rol": "central",
+        "puntaje": 13.842
+      },
+      "suplente": {
+        "id": "260318",
+        "nombre": "Horacio Benincasa",
+        "rol": "central",
+        "puntaje": 12.041,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 4,
+      "rol": "central",
+      "titular": {
+        "id": "358736",
+        "nombre": "Joaquín Pereyra",
+        "rol": "central",
+        "puntaje": 12.82
+      },
+      "suplente": {
+        "id": "738469",
+        "nombre": "Leonardo Rugel",
+        "rol": "central",
+        "puntaje": 4.675,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 5,
+      "rol": "lateral_der",
+      "titular": {
+        "id": "582319",
+        "nombre": "Alejandro Ramos",
+        "rol": "lateral_der",
+        "puntaje": 13.264
+      },
+      "suplente": {
+        "id": "149771",
+        "nombre": "Ángel Ojeda",
+        "rol": "lateral_der",
+        "puntaje": 5.15,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 6,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "656911",
+        "nombre": "Luis Pérez",
+        "rol": "volante_defensivo",
+        "puntaje": 12.801
+      },
+      "suplente": {
+        "id": "1257758",
+        "nombre": "Josue Alvino",
+        "rol": "volante_defensivo",
+        "puntaje": 4.939,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 7,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "140931",
+        "nombre": "John Narváez",
+        "rol": "volante_defensivo",
+        "puntaje": 5.248
+      },
+      "suplente": {
+        "id": "1391185",
+        "nombre": "Jair Reyes",
+        "rol": "volante_defensivo",
+        "puntaje": 4.951,
+        "reemplazo_de_rol": "volante_central",
+        "origen": "reemplazo"
+      }
+    },
+    {
+      "casilla": 8,
+      "rol": "volante_extremo_izq",
+      "titular": {
+        "id": "92729",
+        "nombre": "Joao Rojas",
+        "rol": "volante_extremo_izq",
+        "puntaje": 10.571
+      },
+      "suplente": {
+        "id": "1502980",
+        "nombre": "Aylton Mazzo",
+        "rol": "volante_extremo_izq",
+        "puntaje": 2.346,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 9,
+      "rol": "mediapunta",
+      "titular": {
+        "id": "532994",
+        "nombre": "Jeremy Canela",
+        "rol": "mediapunta",
+        "puntaje": 6.814
+      },
+      "suplente": {
+        "id": "178893",
+        "nombre": "Víctor Cedrón",
+        "rol": "mediapunta",
+        "puntaje": 1.373,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 10,
+      "rol": "volante_extremo_der",
+      "titular": {
+        "id": "1088739",
+        "nombre": "Juan Lucumí",
+        "rol": "volante_extremo_der",
+        "puntaje": 9.267
+      },
+      "suplente": {
+        "id": "1409977",
+        "nombre": "Jhojan Garcilazo",
+        "rol": "volante_extremo_der",
+        "puntaje": 9.041,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 11,
+      "rol": "delantero",
+      "titular": {
+        "id": "130158",
+        "nombre": "Jonatan Bauman",
+        "rol": "delantero",
+        "puntaje": 18.956
+      },
+      "suplente": {
+        "id": "249975",
+        "nombre": "Aldair Rodríguez",
+        "rol": "delantero",
+        "puntaje": 5.024,
+        "origen": "minutos"
+      }
+    }
+  ]
+}

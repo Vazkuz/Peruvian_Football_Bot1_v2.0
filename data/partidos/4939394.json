@@ -1,0 +1,500 @@
+{
+  "partido_id": "4939394",
+  "ruta": "/spielbericht/index/spielbericht/4939394",
+  "fecha_extraccion": "2026-10-02T22:17:55",
+  "equipos": [
+    {
+      "club_id": "27861",
+      "club_nombre": "Club Atlético Grau",
+      "local": true,
+      "formacion": "4-3-1-2",
+      "titulares": [
+        {
+          "id": "250711",
+          "nombre": "Álvarez",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "284306",
+          "nombre": "Acevedo",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "422398",
+          "nombre": "Tapia",
+          "dorsal": 27,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "325711",
+          "nombre": "Rodas",
+          "dorsal": 6,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "865640",
+          "nombre": "Rodríguez",
+          "dorsal": 4,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "250737",
+          "nombre": "Guarderas",
+          "dorsal": 5,
+          "top": 42.0,
+          "left": 15.0
+        },
+        {
+          "id": "1246792",
+          "nombre": "de la Cruz",
+          "dorsal": 66,
+          "top": 42.0,
+          "left": 40.0
+        },
+        {
+          "id": "196037",
+          "nombre": "Lavandeira",
+          "dorsal": 15,
+          "top": 42.0,
+          "left": 65.0
+        },
+        {
+          "id": "422855",
+          "nombre": "Benites",
+          "dorsal": 96,
+          "top": 22.0,
+          "left": 40.0
+        },
+        {
+          "id": "458603",
+          "nombre": "Da Luz",
+          "dorsal": 77,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "129724",
+          "nombre": "Ruidíaz",
+          "dorsal": 9,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "639452",
+          "nombre": "Aamet Calderón",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "864707",
+          "nombre": "José Ataupillco",
+          "dorsal": 16,
+          "posicion": "CB"
+        },
+        {
+          "id": "981804",
+          "nombre": "Gabriel Alfaro",
+          "dorsal": 25,
+          "posicion": "LB"
+        },
+        {
+          "id": "639467",
+          "nombre": "Christian Vásquez",
+          "dorsal": 8,
+          "posicion": "RB"
+        },
+        {
+          "id": "491560",
+          "nombre": "Freddy Oncoy",
+          "dorsal": 13,
+          "posicion": "CM"
+        },
+        {
+          "id": "892756",
+          "nombre": "Aldair Vásquez",
+          "dorsal": 20,
+          "posicion": "AM"
+        },
+        {
+          "id": "572038",
+          "nombre": "Diego Barreto",
+          "dorsal": 7,
+          "posicion": "AM"
+        },
+        {
+          "id": "563398",
+          "nombre": "Paulo de la Cruz",
+          "dorsal": 10,
+          "posicion": "RW"
+        },
+        {
+          "id": "239623",
+          "nombre": "Adrián Fernández",
+          "dorsal": 99,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "21170",
+      "club_nombre": "Universidad Técnica de Cajamarca",
+      "local": false,
+      "formacion": "4-3-3 Attacking",
+      "titulares": [
+        {
+          "id": "291339",
+          "nombre": "Barrios",
+          "dorsal": 29,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "873252",
+          "nombre": "Duarte",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "638929",
+          "nombre": "Ganoza",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "473579",
+          "nombre": "Garro",
+          "dorsal": 17,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "903834",
+          "nombre": "Paredes",
+          "dorsal": 35,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "981410",
+          "nombre": "Cantt",
+          "dorsal": 15,
+          "top": 28.0,
+          "left": 53.0
+        },
+        {
+          "id": "78023",
+          "nombre": "Figuera",
+          "dorsal": 16,
+          "top": 39.0,
+          "left": 40.0
+        },
+        {
+          "id": "399496",
+          "nombre": "Lliuya",
+          "dorsal": 10,
+          "top": 28.0,
+          "left": 27.0
+        },
+        {
+          "id": "368417",
+          "nombre": "Muñoz",
+          "dorsal": 19,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "580632",
+          "nombre": "Camacho",
+          "dorsal": 22,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "283472",
+          "nombre": "Arroyo",
+          "dorsal": 11,
+          "top": 10.0,
+          "left": 65.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "785134",
+          "nombre": "Ricardo Bettocchi",
+          "dorsal": 21,
+          "posicion": "GK"
+        },
+        {
+          "id": "664362",
+          "nombre": "Francesco Cavagna",
+          "dorsal": 6,
+          "posicion": "CB"
+        },
+        {
+          "id": "443987",
+          "nombre": "Junior Huerto",
+          "dorsal": 5,
+          "posicion": "LB"
+        },
+        {
+          "id": "621028",
+          "nombre": "Dylan Caro",
+          "dorsal": 13,
+          "posicion": "LB"
+        },
+        {
+          "id": "434192",
+          "nombre": "David Dioses",
+          "dorsal": 8,
+          "posicion": "DM"
+        },
+        {
+          "id": "653329",
+          "nombre": "Luis Arce",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "981706",
+          "nombre": "Jhosep Núñez",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1102802",
+          "nombre": "Santiago Gálvez",
+          "dorsal": 18,
+          "posicion": "RW"
+        },
+        {
+          "id": "97013",
+          "nombre": "Marlon de Jesús",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "27861",
+      "minuto": 4,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "250737",
+        "nombre": "Rafael Guarderas"
+      },
+      "asistencia": {
+        "id": "196037",
+        "nombre": "Pablo Lavandeira"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 18,
+      "anadido": 0,
+      "marcador": "2:0",
+      "autor": {
+        "id": "458603",
+        "nombre": "Mauro Da Luz"
+      },
+      "asistencia": {
+        "id": "129724",
+        "nombre": "Raúl Ruidíaz"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 57,
+      "anadido": 0,
+      "marcador": "2:1",
+      "autor": {
+        "id": "399496",
+        "nombre": "Marcos Lliuya"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "27861",
+      "minuto": 90,
+      "anadido": 1,
+      "marcador": "3:1",
+      "autor": {
+        "id": "239623",
+        "nombre": "Adrián Fernández"
+      },
+      "asistencia": {
+        "id": "563398",
+        "nombre": "Paulo de la Cruz"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "21170",
+      "minuto": 29,
+      "anadido": 0,
+      "sale": {
+        "id": "473579",
+        "nombre": "Luis Garro"
+      },
+      "entra": {
+        "id": "621028",
+        "nombre": "Dylan Caro"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "283472",
+        "nombre": "Abdiel Arroyo"
+      },
+      "entra": {
+        "id": "1102802",
+        "nombre": "Santiago Gálvez"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 58,
+      "anadido": 0,
+      "sale": {
+        "id": "981410",
+        "nombre": "Joshua Cantt"
+      },
+      "entra": {
+        "id": "443987",
+        "nombre": "Junior Huerto"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 62,
+      "anadido": 0,
+      "sale": {
+        "id": "196037",
+        "nombre": "Pablo Lavandeira"
+      },
+      "entra": {
+        "id": "491560",
+        "nombre": "Freddy Oncoy"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 62,
+      "anadido": 0,
+      "sale": {
+        "id": "458603",
+        "nombre": "Mauro Da Luz"
+      },
+      "entra": {
+        "id": "239623",
+        "nombre": "Adrián Fernández"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "129724",
+        "nombre": "Raúl Ruidíaz"
+      },
+      "entra": {
+        "id": "981804",
+        "nombre": "Gabriel Alfaro"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "422855",
+        "nombre": "Luis Benites"
+      },
+      "entra": {
+        "id": "563398",
+        "nombre": "Paulo de la Cruz"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 78,
+      "anadido": 0,
+      "sale": {
+        "id": "638929",
+        "nombre": "Manuel Ganoza"
+      },
+      "entra": {
+        "id": "664362",
+        "nombre": "Francesco Cavagna"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 78,
+      "anadido": 0,
+      "sale": {
+        "id": "368417",
+        "nombre": "Adolfo Muñoz"
+      },
+      "entra": {
+        "id": "981706",
+        "nombre": "Jhosep Núñez"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 90,
+      "anadido": 2,
+      "sale": {
+        "id": "1246792",
+        "nombre": "Adrián de la Cruz"
+      },
+      "entra": {
+        "id": "572038",
+        "nombre": "Diego Barreto"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "21170",
+      "minuto": 22,
+      "anadido": 0,
+      "jugador": {
+        "id": "873252",
+        "nombre": "Bruno Duarte"
+      },
+      "tipo": "amarilla",
+      "detalle": "Bruno Duarte 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 30,
+      "anadido": 0,
+      "jugador": {
+        "id": "638929",
+        "nombre": "Manuel Ganoza"
+      },
+      "tipo": "amarilla",
+      "detalle": "Manuel Ganoza 1. Yellow card , Foul"
+    }
+  ]
+}

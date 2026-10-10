@@ -1,0 +1,492 @@
+{
+  "partido_id": "4942756",
+  "ruta": "/spielbericht/index/spielbericht/4942756",
+  "fecha_extraccion": "2026-10-02T22:30:13",
+  "equipos": [
+    {
+      "club_id": "17479",
+      "club_nombre": "Alianza Atlético Sullana",
+      "local": true,
+      "formacion": "4-4-2 double 6",
+      "titulares": [
+        {
+          "id": "325709",
+          "nombre": "Rivadeneyra",
+          "dorsal": 31,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "441758",
+          "nombre": "Luján",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "974335",
+          "nombre": "Suárez",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "332776",
+          "nombre": "Gordillo",
+          "dorsal": 24,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "653484",
+          "nombre": "Perleche",
+          "dorsal": 21,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "1225745",
+          "nombre": "Lupu",
+          "dorsal": 15,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "872158",
+          "nombre": "Díaz",
+          "dorsal": 10,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "212309",
+          "nombre": "Penilla",
+          "dorsal": 17,
+          "top": 23.0,
+          "left": 12.0
+        },
+        {
+          "id": "1082743",
+          "nombre": "del Castillo",
+          "dorsal": 22,
+          "top": 23.0,
+          "left": 68.0
+        },
+        {
+          "id": "254123",
+          "nombre": "Molina",
+          "dorsal": 29,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "696729",
+          "nombre": "Ingratti",
+          "dorsal": 27,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "217130",
+          "nombre": "Daniel Prieto",
+          "dorsal": 95,
+          "posicion": "GK"
+        },
+        {
+          "id": "827586",
+          "nombre": "Juan Quiñones",
+          "dorsal": 40,
+          "posicion": "CB"
+        },
+        {
+          "id": "515413",
+          "nombre": "Jesús Mendieta",
+          "dorsal": 19,
+          "posicion": "LB"
+        },
+        {
+          "id": "966369",
+          "nombre": "Stefano Fernández",
+          "dorsal": 16,
+          "posicion": "DM"
+        },
+        {
+          "id": "981694",
+          "nombre": "Ariel Muñoz",
+          "dorsal": 23,
+          "posicion": "CM"
+        },
+        {
+          "id": "857805",
+          "nombre": "Jimmy Pérez",
+          "dorsal": 20,
+          "posicion": "CM"
+        },
+        {
+          "id": "1171309",
+          "nombre": "Cristhian Valladolid",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "741594",
+          "nombre": "Franchesco Flores",
+          "dorsal": 8,
+          "posicion": "RW"
+        },
+        {
+          "id": "870966",
+          "nombre": "Guillermo Larios",
+          "dorsal": 11,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "2729",
+      "club_nombre": "Club Cienciano",
+      "local": false,
+      "formacion": "5-3-2",
+      "titulares": [
+        {
+          "id": "420866",
+          "nombre": "Espinoza",
+          "dorsal": 31,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "704884",
+          "nombre": "Becerra",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 40.0
+        },
+        {
+          "id": "657221",
+          "nombre": "Aguilar",
+          "dorsal": 26,
+          "top": 61.0,
+          "left": 56.5
+        },
+        {
+          "id": "817656",
+          "nombre": "Yovera",
+          "dorsal": 27,
+          "top": 61.0,
+          "left": 23.5
+        },
+        {
+          "id": "662706",
+          "nombre": "Cavero",
+          "dorsal": 14,
+          "top": 59.0,
+          "left": 7.0
+        },
+        {
+          "id": "531624",
+          "nombre": "Arias",
+          "dorsal": 5,
+          "top": 38.0,
+          "left": 25.0
+        },
+        {
+          "id": "1239936",
+          "nombre": "Caparó",
+          "dorsal": 39,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "752977",
+          "nombre": "Robles",
+          "dorsal": 29,
+          "top": 38.0,
+          "left": 55.0
+        },
+        {
+          "id": "477378",
+          "nombre": "Cabello",
+          "dorsal": 22,
+          "top": 59.0,
+          "left": 73.0
+        },
+        {
+          "id": "242436",
+          "nombre": "Garcés",
+          "dorsal": 21,
+          "top": 2.0,
+          "left": 30.0
+        },
+        {
+          "id": "626179",
+          "nombre": "Succar",
+          "dorsal": 19,
+          "top": 2.0,
+          "left": 50.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "347660",
+          "nombre": "Gonzalo Falcón",
+          "dorsal": 1,
+          "posicion": "GK"
+        },
+        {
+          "id": "538612",
+          "nombre": "Marcos Martinich",
+          "dorsal": 16,
+          "posicion": "LB"
+        },
+        {
+          "id": "795946",
+          "nombre": "Renzo Salazar",
+          "dorsal": 25,
+          "posicion": "RB"
+        },
+        {
+          "id": "1039039",
+          "nombre": "Gonzalo Aguirre",
+          "dorsal": 8,
+          "posicion": "CM"
+        },
+        {
+          "id": "335217",
+          "nombre": "Gerson Barreto",
+          "dorsal": 88,
+          "posicion": "CM"
+        },
+        {
+          "id": "312151",
+          "nombre": "Ray Sandoval",
+          "dorsal": 17,
+          "posicion": "LW"
+        },
+        {
+          "id": "212434",
+          "nombre": "Alejandro Hohberg",
+          "dorsal": 10,
+          "posicion": "LW"
+        },
+        {
+          "id": "391237",
+          "nombre": "Cristian Souza",
+          "dorsal": 7,
+          "posicion": "RW"
+        },
+        {
+          "id": "662703",
+          "nombre": "Didier La Torre",
+          "dorsal": 18,
+          "posicion": "RW"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "17479",
+      "minuto": 61,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "254123",
+        "nombre": "Jairo Molina"
+      },
+      "asistencia": {
+        "id": "1225745",
+        "nombre": "Hernan Lupu"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "2729",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "817656",
+        "nombre": "Alonso Yovera"
+      },
+      "entra": {
+        "id": "212434",
+        "nombre": "Alejandro Hohberg"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "1239936",
+        "nombre": "Henry Caparó"
+      },
+      "entra": {
+        "id": "391237",
+        "nombre": "Cristian Souza"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 64,
+      "anadido": 0,
+      "sale": {
+        "id": "531624",
+        "nombre": "Santiago Arias"
+      },
+      "entra": {
+        "id": "335217",
+        "nombre": "Gerson Barreto"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "1082743",
+        "nombre": "Jorge del Castillo"
+      },
+      "entra": {
+        "id": "870966",
+        "nombre": "Guillermo Larios"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "1225745",
+        "nombre": "Hernan Lupu"
+      },
+      "entra": {
+        "id": "966369",
+        "nombre": "Stefano Fernández"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "657221",
+        "nombre": "Rotceh Aguilar"
+      },
+      "entra": {
+        "id": "538612",
+        "nombre": "Marcos Martinich"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "752977",
+        "nombre": "Ademar Robles"
+      },
+      "entra": {
+        "id": "662703",
+        "nombre": "Didier La Torre"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 86,
+      "anadido": 0,
+      "sale": {
+        "id": "254123",
+        "nombre": "Jairo Molina"
+      },
+      "entra": {
+        "id": "741594",
+        "nombre": "Franchesco Flores"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 90,
+      "anadido": 4,
+      "sale": {
+        "id": "212309",
+        "nombre": "Cristian Penilla"
+      },
+      "entra": {
+        "id": "515413",
+        "nombre": "Jesús Mendieta"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "17479",
+      "minuto": 40,
+      "anadido": 0,
+      "jugador": {
+        "id": "1225745",
+        "nombre": "Hernan Lupu"
+      },
+      "tipo": "amarilla",
+      "detalle": "Hernan Lupu 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "17479",
+      "minuto": 45,
+      "anadido": 0,
+      "jugador": {
+        "id": "1082743",
+        "nombre": "Jorge del Castillo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jorge del Castillo 1. Yellow card , Dissent"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 45,
+      "anadido": 0,
+      "jugador": {
+        "id": "242436",
+        "nombre": "Carlos Garcés"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Garcés 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 45,
+      "anadido": 3,
+      "jugador": {
+        "id": "1239936",
+        "nombre": "Henry Caparó"
+      },
+      "tipo": "amarilla",
+      "detalle": "Henry Caparó 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 53,
+      "anadido": 0,
+      "jugador": {
+        "id": "531624",
+        "nombre": "Santiago Arias"
+      },
+      "tipo": "amarilla",
+      "detalle": "Santiago Arias 1. Yellow card , Dissent"
+    },
+    {
+      "club_id": "17479",
+      "minuto": 87,
+      "anadido": 0,
+      "jugador": {
+        "id": "966369",
+        "nombre": "Stefano Fernández"
+      },
+      "tipo": "amarilla",
+      "detalle": "Stefano Fernández 1. Yellow card , Foul"
+    }
+  ]
+}

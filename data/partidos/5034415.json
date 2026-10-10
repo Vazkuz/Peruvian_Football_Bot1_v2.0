@@ -1,0 +1,533 @@
+{
+  "partido_id": "5034415",
+  "ruta": "/spielbericht/index/spielbericht/5034415",
+  "fecha_extraccion": "2026-10-02T22:56:49",
+  "equipos": [
+    {
+      "club_id": "54478",
+      "club_nombre": "CD Los Chankas",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "250407",
+          "nombre": "Camacho",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "294886",
+          "nombre": "Pimienta",
+          "dorsal": 33,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "893740",
+          "nombre": "Kaufman",
+          "dorsal": 30,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "470023",
+          "nombre": "Guevara",
+          "dorsal": 14,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "643536",
+          "nombre": "Gonzáles",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "441728",
+          "nombre": "Sánchez",
+          "dorsal": 15,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "447932",
+          "nombre": "Velarde",
+          "dorsal": 17,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "873510",
+          "nombre": "Torres",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "357124",
+          "nombre": "Takeuchi",
+          "dorsal": 18,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "648289",
+          "nombre": "Torres",
+          "dorsal": 20,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "330169",
+          "nombre": "Quintero",
+          "dorsal": 11,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "988214",
+          "nombre": "Luis Pretel",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "409092",
+          "nombre": "Gonzalo Rizzo",
+          "dorsal": 24,
+          "posicion": "CB"
+        },
+        {
+          "id": "740319",
+          "nombre": "Ayrthon Quintana",
+          "dorsal": 31,
+          "posicion": "LB"
+        },
+        {
+          "id": "1196477",
+          "nombre": "Sebastián Zarabia",
+          "dorsal": 22,
+          "posicion": "CM"
+        },
+        {
+          "id": "653673",
+          "nombre": "Abdiel Ayarza",
+          "dorsal": 6,
+          "posicion": "CM"
+        },
+        {
+          "id": "894880",
+          "nombre": "André Vasquez",
+          "dorsal": 13,
+          "posicion": "AM"
+        },
+        {
+          "id": "653475",
+          "nombre": "Félix Espinoza",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "664841",
+          "nombre": "Kenyi Barrios",
+          "dorsal": 27,
+          "posicion": "RW"
+        },
+        {
+          "id": "855900",
+          "nombre": "Juan Diego Ospina",
+          "dorsal": 7,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "120792",
+      "club_nombre": "FC Cajamarca",
+      "local": false,
+      "formacion": "4-1-4-1",
+      "titulares": [
+        {
+          "id": "260429",
+          "nombre": "Medina",
+          "dorsal": 3,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "981819",
+          "nombre": "Pósito",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "338977",
+          "nombre": "Vílchez",
+          "dorsal": 95,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "1029758",
+          "nombre": "Gómez",
+          "dorsal": 44,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "242996",
+          "nombre": "Orejuela",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 40.0
+        },
+        {
+          "id": "358338",
+          "nombre": "Correa",
+          "dorsal": 13,
+          "top": 23.0,
+          "left": 50.0
+        },
+        {
+          "id": "1096324",
+          "nombre": "Arrasco",
+          "dorsal": 11,
+          "top": 23.0,
+          "left": 30.0
+        },
+        {
+          "id": "641820",
+          "nombre": "Palacios",
+          "dorsal": 17,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "662714",
+          "nombre": "Meza",
+          "dorsal": 20,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "904940",
+          "nombre": "Enciso",
+          "dorsal": 31,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "763898",
+          "nombre": "Cejas",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1284244",
+          "nombre": "Samuel Aspajo",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "895056",
+          "nombre": "Arthur Gutiérrez",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "1149627",
+          "nombre": "Renato Suárez",
+          "dorsal": 5,
+          "posicion": "RB"
+        },
+        {
+          "id": "582318",
+          "nombre": "Jhon Vega",
+          "dorsal": 21,
+          "posicion": "DM"
+        },
+        {
+          "id": "250929",
+          "nombre": "Paulo Goyoneche",
+          "dorsal": 25,
+          "posicion": "DM"
+        },
+        {
+          "id": "106283",
+          "nombre": "Edson Aubert",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "621031",
+          "nombre": "Michel Rasmussen",
+          "dorsal": 6,
+          "posicion": "RW"
+        },
+        {
+          "id": "795440",
+          "nombre": "Sebastien Pineau",
+          "dorsal": 7,
+          "posicion": "CF"
+        },
+        {
+          "id": "212300",
+          "nombre": "José Lugo",
+          "dorsal": 77,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "120792",
+      "minuto": 33,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "763898",
+        "nombre": "Pedro Cejas"
+      },
+      "asistencia": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 39,
+      "anadido": 0,
+      "marcador": "0:2",
+      "autor": {
+        "id": "904940",
+        "nombre": "Sebastián Enciso"
+      },
+      "asistencia": {
+        "id": "641820",
+        "nombre": "Brandon Palacios"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 59,
+      "anadido": 0,
+      "marcador": "1:2",
+      "autor": {
+        "id": "357124",
+        "nombre": "Oshiro Takeuchi"
+      },
+      "asistencia": {
+        "id": "294886",
+        "nombre": "Carlos Pimienta"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "54478",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "648289",
+        "nombre": "Marlon Torres"
+      },
+      "entra": {
+        "id": "653475",
+        "nombre": "Félix Espinoza"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "447932",
+        "nombre": "Christian Velarde"
+      },
+      "entra": {
+        "id": "653673",
+        "nombre": "Abdiel Ayarza"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "470023",
+        "nombre": "Brayan Guevara"
+      },
+      "entra": {
+        "id": "740319",
+        "nombre": "Ayrthon Quintana"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "893740",
+        "nombre": "Michael Kaufman"
+      },
+      "entra": {
+        "id": "409092",
+        "nombre": "Gonzalo Rizzo"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      },
+      "entra": {
+        "id": "582318",
+        "nombre": "Jhon Vega"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "763898",
+        "nombre": "Pedro Cejas"
+      },
+      "entra": {
+        "id": "212300",
+        "nombre": "José Lugo"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "358338",
+        "nombre": "Carlos Correa"
+      },
+      "entra": {
+        "id": "250929",
+        "nombre": "Paulo Goyoneche"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "357124",
+        "nombre": "Oshiro Takeuchi"
+      },
+      "entra": {
+        "id": "894880",
+        "nombre": "André Vasquez"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 85,
+      "anadido": 0,
+      "sale": {
+        "id": "981819",
+        "nombre": "Alejandro Pósito"
+      },
+      "entra": {
+        "id": "895056",
+        "nombre": "Arthur Gutiérrez"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 85,
+      "anadido": 0,
+      "sale": {
+        "id": "641820",
+        "nombre": "Brandon Palacios"
+      },
+      "entra": {
+        "id": "1149627",
+        "nombre": "Renato Suárez"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "54478",
+      "minuto": 43,
+      "anadido": 0,
+      "jugador": {
+        "id": "447932",
+        "nombre": "Christian Velarde"
+      },
+      "tipo": "amarilla",
+      "detalle": "Christian Velarde 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 58,
+      "anadido": 0,
+      "jugador": {
+        "id": "904940",
+        "nombre": "Sebastián Enciso"
+      },
+      "tipo": "amarilla",
+      "detalle": "Sebastián Enciso 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 63,
+      "anadido": 0,
+      "jugador": {
+        "id": "358338",
+        "nombre": "Carlos Correa"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Correa 4. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 69,
+      "anadido": 0,
+      "jugador": {
+        "id": "763898",
+        "nombre": "Pedro Cejas"
+      },
+      "tipo": "amarilla",
+      "detalle": "Pedro Cejas 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "54478",
+      "minuto": 70,
+      "anadido": 0,
+      "jugador": {
+        "id": "294886",
+        "nombre": "Carlos Pimienta"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Pimienta 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 90,
+      "anadido": 6,
+      "jugador": {
+        "id": "662714",
+        "nombre": "Carlos Meza"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Meza 2. Yellow card , Taking off shirt"
+    }
+  ]
+}

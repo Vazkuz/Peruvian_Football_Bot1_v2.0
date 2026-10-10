@@ -1,0 +1,588 @@
+{
+  "partido_id": "5034394",
+  "ruta": "/spielbericht/index/spielbericht/5034394",
+  "fecha_extraccion": "2026-10-02T23:17:28",
+  "equipos": [
+    {
+      "club_id": "35588",
+      "club_nombre": "Asociación Deportiva Tarma",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "250672",
+          "nombre": "Solís",
+          "dorsal": 33,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "140931",
+          "nombre": "Narváez",
+          "dorsal": 23,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "1059722",
+          "nombre": "Soto",
+          "dorsal": 28,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "741727",
+          "nombre": "Núñez",
+          "dorsal": 59,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "582319",
+          "nombre": "Ramos",
+          "dorsal": 98,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "149771",
+          "nombre": "Ojeda",
+          "dorsal": 6,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "656911",
+          "nombre": "Pérez",
+          "dorsal": 16,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "92729",
+          "nombre": "Rojas",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "532994",
+          "nombre": "Canela",
+          "dorsal": 80,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "1088739",
+          "nombre": "Lucumí",
+          "dorsal": 77,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "51225",
+          "nombre": "Rengifo",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "255976",
+          "nombre": "Juan Valencia",
+          "dorsal": 30,
+          "posicion": "GK"
+        },
+        {
+          "id": "260318",
+          "nombre": "Horacio Benincasa",
+          "dorsal": 44,
+          "posicion": "CB"
+        },
+        {
+          "id": "358736",
+          "nombre": "Joaquín Pereyra",
+          "dorsal": 99,
+          "posicion": "CB"
+        },
+        {
+          "id": "738469",
+          "nombre": "Leonardo Rugel",
+          "dorsal": 3,
+          "posicion": "CB"
+        },
+        {
+          "id": "885263",
+          "nombre": "Jerry Navarro",
+          "dorsal": 31,
+          "posicion": "RB"
+        },
+        {
+          "id": "1391185",
+          "nombre": "Jair Reyes",
+          "dorsal": 2,
+          "posicion": "CM"
+        },
+        {
+          "id": "1409977",
+          "nombre": "Jhojan Garcilazo",
+          "dorsal": 26,
+          "posicion": "RW"
+        },
+        {
+          "id": "130158",
+          "nombre": "Jonatan Bauman",
+          "dorsal": 32,
+          "posicion": "CF"
+        },
+        {
+          "id": "1149626",
+          "nombre": "Said Peralta",
+          "dorsal": 24,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "21655",
+      "club_nombre": "Sport Huancayo",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "372304",
+          "nombre": "Zamudio",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "814636",
+          "nombre": "Gaona",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "482452",
+          "nombre": "Valoyes",
+          "dorsal": 70,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "224652",
+          "nombre": "Ángeles",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "531177",
+          "nombre": "Falconí",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "142738",
+          "nombre": "Salcedo",
+          "dorsal": 22,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "490614",
+          "nombre": "Carabaño",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "313437",
+          "nombre": "Sanguinetti",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "325147",
+          "nombre": "Luján",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "874831",
+          "nombre": "Magallanes",
+          "dorsal": 23,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "331819",
+          "nombre": "Huaccha",
+          "dorsal": 19,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "383343",
+          "nombre": "Diego Campos",
+          "dorsal": 21,
+          "posicion": "GK"
+        },
+        {
+          "id": "242546",
+          "nombre": "Yonatan Murillo",
+          "dorsal": 92,
+          "posicion": "CB"
+        },
+        {
+          "id": "271676",
+          "nombre": "Jeremy Rostaing",
+          "dorsal": 28,
+          "posicion": "RB"
+        },
+        {
+          "id": "1188205",
+          "nombre": "Edu Villar",
+          "dorsal": 38,
+          "posicion": "DM"
+        },
+        {
+          "id": "417183",
+          "nombre": "Aldo Quiñónez",
+          "dorsal": 91,
+          "posicion": "CM"
+        },
+        {
+          "id": "422853",
+          "nombre": "Rick Campodónico",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1025975",
+          "nombre": "Juan Giménez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "1168655",
+          "nombre": "Juan Martínez",
+          "dorsal": 9,
+          "posicion": "CF"
+        },
+        {
+          "id": "279508",
+          "nombre": "Daniel Porozo",
+          "dorsal": 97,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "21655",
+      "minuto": 17,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "224652",
+        "nombre": "Hugo Ángeles"
+      },
+      "asistencia": {
+        "id": "490614",
+        "nombre": "Diego Carabaño"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 25,
+      "anadido": 0,
+      "marcador": "0:2",
+      "autor": {
+        "id": "490614",
+        "nombre": "Diego Carabaño"
+      },
+      "asistencia": {
+        "id": "149771",
+        "nombre": "Ángel Ojeda"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 34,
+      "anadido": 0,
+      "marcador": "0:3",
+      "autor": {
+        "id": "313437",
+        "nombre": "Javier Sanguinetti"
+      },
+      "asistencia": {
+        "id": "325147",
+        "nombre": "Nahuel Luján"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 89,
+      "anadido": 0,
+      "marcador": "1:3",
+      "autor": {
+        "id": "372304",
+        "nombre": "Ángel Zamudio"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "35588",
+      "minuto": 32,
+      "anadido": 0,
+      "sale": {
+        "id": "140931",
+        "nombre": "John Narváez"
+      },
+      "entra": {
+        "id": "358736",
+        "nombre": "Joaquín Pereyra"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 32,
+      "anadido": 0,
+      "sale": {
+        "id": "149771",
+        "nombre": "Ángel Ojeda"
+      },
+      "entra": {
+        "id": "1391185",
+        "nombre": "Jair Reyes"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "51225",
+        "nombre": "Hernán Rengifo"
+      },
+      "entra": {
+        "id": "130158",
+        "nombre": "Jonatan Bauman"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "741727",
+        "nombre": "Orlando Núñez"
+      },
+      "entra": {
+        "id": "1149626",
+        "nombre": "Said Peralta"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 56,
+      "anadido": 0,
+      "sale": {
+        "id": "331819",
+        "nombre": "Ronal Huaccha"
+      },
+      "entra": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 56,
+      "anadido": 0,
+      "sale": {
+        "id": "313437",
+        "nombre": "Javier Sanguinetti"
+      },
+      "entra": {
+        "id": "1188205",
+        "nombre": "Edu Villar"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 71,
+      "anadido": 0,
+      "sale": {
+        "id": "874831",
+        "nombre": "Piero Magallanes"
+      },
+      "entra": {
+        "id": "422853",
+        "nombre": "Rick Campodónico"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "92729",
+        "nombre": "Joao Rojas"
+      },
+      "entra": {
+        "id": "1409977",
+        "nombre": "Jhojan Garcilazo"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "325147",
+        "nombre": "Nahuel Luján"
+      },
+      "entra": {
+        "id": "242546",
+        "nombre": "Yonatan Murillo"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "490614",
+        "nombre": "Diego Carabaño"
+      },
+      "entra": {
+        "id": "417183",
+        "nombre": "Aldo Quiñónez"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "35588",
+      "minuto": 4,
+      "anadido": 0,
+      "jugador": {
+        "id": "140931",
+        "nombre": "John Narváez"
+      },
+      "tipo": "amarilla",
+      "detalle": "John Narváez 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 8,
+      "anadido": 0,
+      "jugador": {
+        "id": "531177",
+        "nombre": "Jean Franco Falconí"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jean Franco Falconí 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 20,
+      "anadido": 0,
+      "jugador": {
+        "id": "250672",
+        "nombre": "Carlos Solís"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Solís 1. Yellow card , Dissent"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 22,
+      "anadido": 0,
+      "jugador": {
+        "id": "325147",
+        "nombre": "Nahuel Luján"
+      },
+      "tipo": "amarilla",
+      "detalle": "Nahuel Luján 3. Yellow card , Dissent"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 44,
+      "anadido": 0,
+      "jugador": {
+        "id": "874831",
+        "nombre": "Piero Magallanes"
+      },
+      "tipo": "amarilla",
+      "detalle": "Piero Magallanes 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 51,
+      "anadido": 0,
+      "jugador": {
+        "id": "224652",
+        "nombre": "Hugo Ángeles"
+      },
+      "tipo": "amarilla",
+      "detalle": "Hugo Ángeles 4. Yellow card , Foul"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 62,
+      "anadido": 0,
+      "jugador": {
+        "id": "1391185",
+        "nombre": "Jair Reyes"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jair Reyes 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 82,
+      "anadido": 0,
+      "jugador": {
+        "id": "130158",
+        "nombre": "Jonatan Bauman"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jonatan Bauman 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 84,
+      "anadido": 0,
+      "jugador": {
+        "id": "142738",
+        "nombre": "Ricardo Salcedo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Ricardo Salcedo Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 85,
+      "anadido": 0,
+      "jugador": {
+        "id": "142738",
+        "nombre": "Ricardo Salcedo"
+      },
+      "tipo": "doble_amarilla",
+      "detalle": "Ricardo Salcedo Second yellow , Foul"
+    }
+  ]
+}

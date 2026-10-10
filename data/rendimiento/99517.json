@@ -1,0 +1,309 @@
+{
+  "club_id": "99517",
+  "club_nombre": "Club Juan Pablo II College",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:07:41",
+  "jugadores": [
+    {
+      "id": "670062",
+      "nombre": "Ismael Quispe",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "664862",
+      "nombre": "Jorge Stucchi",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "75445",
+      "nombre": "Matías Vega",
+      "posicion": "Goalkeeper",
+      "partidos": 29,
+      "minutos": 2610
+    },
+    {
+      "id": "655639",
+      "nombre": "Paolo Reyna",
+      "posicion": "Left-Back",
+      "partidos": 9,
+      "minutos": 772
+    },
+    {
+      "id": "375178",
+      "nombre": "Paolo Fuentes",
+      "posicion": "Centre-Back",
+      "partidos": 14,
+      "minutos": 1177
+    },
+    {
+      "id": "891771",
+      "nombre": "Iago Iriarte",
+      "posicion": "Centre-Back",
+      "partidos": 9,
+      "minutos": 501
+    },
+    {
+      "id": "672263",
+      "nombre": "Hugo Ancajima",
+      "posicion": "Right-Back",
+      "partidos": 2,
+      "minutos": 71
+    },
+    {
+      "id": "662695",
+      "nombre": "Arón Sánchez",
+      "posicion": "Centre-Back",
+      "partidos": 14,
+      "minutos": 1207
+    },
+    {
+      "id": "1236520",
+      "nombre": "Fabio Agurto",
+      "posicion": "Right-Back",
+      "partidos": 21,
+      "minutos": 1632
+    },
+    {
+      "id": "1003846",
+      "nombre": "Martín Peralta",
+      "posicion": "Centre-Back",
+      "partidos": 14,
+      "minutos": 872
+    },
+    {
+      "id": "489993",
+      "nombre": "Jorge Toledo",
+      "posicion": "Right-Back",
+      "partidos": 25,
+      "minutos": 1703
+    },
+    {
+      "id": "737739",
+      "nombre": "Piero Antón",
+      "posicion": "Left-Back",
+      "partidos": 13,
+      "minutos": 545
+    },
+    {
+      "id": "936044",
+      "nombre": "Matías Almirón",
+      "posicion": "Centre-Back",
+      "partidos": 10,
+      "minutos": 855
+    },
+    {
+      "id": "1243429",
+      "nombre": "Josué Canova",
+      "posicion": "Right-Back",
+      "partidos": 9,
+      "minutos": 413
+    },
+    {
+      "id": "76717",
+      "nombre": "Pablo Míguez",
+      "posicion": "Centre-Back",
+      "partidos": 10,
+      "minutos": 855
+    },
+    {
+      "id": "1508623",
+      "nombre": "Sthefano Luzquiños",
+      "posicion": "Defender",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1107110",
+      "nombre": "Nilton Ramirez",
+      "posicion": "Attacking Midfield",
+      "partidos": 22,
+      "minutos": 1186
+    },
+    {
+      "id": "1074429",
+      "nombre": "Álvaro Rojas",
+      "posicion": "Central Midfield",
+      "partidos": 9,
+      "minutos": 711
+    },
+    {
+      "id": "867036",
+      "nombre": "Christian Flores",
+      "posicion": "Defensive Midfield",
+      "partidos": 24,
+      "minutos": 1505
+    },
+    {
+      "id": "422934",
+      "nombre": "Erinson Ramírez",
+      "posicion": "Attacking Midfield",
+      "partidos": 25,
+      "minutos": 1623
+    },
+    {
+      "id": "204587",
+      "nombre": "Martín Alaníz",
+      "posicion": "Attacking Midfield",
+      "partidos": 20,
+      "minutos": 1693
+    },
+    {
+      "id": "610563",
+      "nombre": "Cristian García",
+      "posicion": "Defensive Midfield",
+      "partidos": 9,
+      "minutos": 304
+    },
+    {
+      "id": "95280",
+      "nombre": "Christian Cueva",
+      "posicion": "Attacking Midfield",
+      "partidos": 15,
+      "minutos": 878
+    },
+    {
+      "id": "1011265",
+      "nombre": "Jack Carhuallanqui",
+      "posicion": "Defensive Midfield",
+      "partidos": 3,
+      "minutos": 79
+    },
+    {
+      "id": "143726",
+      "nombre": "Gustavo Aliaga",
+      "posicion": "Central Midfield",
+      "partidos": 8,
+      "minutos": 171
+    },
+    {
+      "id": "1560898",
+      "nombre": "Diego Flores",
+      "posicion": "Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1508622",
+      "nombre": "Bairon Puño",
+      "posicion": "Defensive Midfield",
+      "partidos": 1,
+      "minutos": 9
+    },
+    {
+      "id": "1468541",
+      "nombre": "Diego Lozano",
+      "posicion": "Attacking Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "657749",
+      "nombre": "Maximiliano Juambeltz",
+      "posicion": "Centre-Forward",
+      "partidos": 17,
+      "minutos": 1130
+    },
+    {
+      "id": "982005",
+      "nombre": "Chase Villanueva",
+      "posicion": "Right Winger",
+      "partidos": 6,
+      "minutos": 159
+    },
+    {
+      "id": "672132",
+      "nombre": "Cristhian Tizón",
+      "posicion": "Left Winger",
+      "partidos": 13,
+      "minutos": 772
+    },
+    {
+      "id": "1244025",
+      "nombre": "Josué Torres",
+      "posicion": "Left Winger",
+      "partidos": 7,
+      "minutos": 272
+    },
+    {
+      "id": "1020367",
+      "nombre": "Adán Henricks",
+      "posicion": "Centre-Forward",
+      "partidos": 17,
+      "minutos": 567
+    },
+    {
+      "id": "1029760",
+      "nombre": "Juan Pablo Goicochea",
+      "posicion": "Centre-Forward",
+      "partidos": 6,
+      "minutos": 447
+    },
+    {
+      "id": "670523",
+      "nombre": "Héctor Bazán",
+      "posicion": "Centre-Forward",
+      "partidos": 13,
+      "minutos": 269
+    },
+    {
+      "id": "1308034",
+      "nombre": "Adriano Espinoza",
+      "posicion": "Left Winger",
+      "partidos": 8,
+      "minutos": 332
+    },
+    {
+      "id": "437962",
+      "nombre": "Nicolás Leguizamón",
+      "posicion": "Centre-Forward",
+      "partidos": 4,
+      "minutos": 197
+    },
+    {
+      "id": "174580",
+      "nombre": "Jack Durán",
+      "posicion": "Right Winger",
+      "partidos": 27,
+      "minutos": 2031
+    },
+    {
+      "id": "94761",
+      "nombre": "Janio Pósito",
+      "posicion": "Centre-Forward",
+      "partidos": 9,
+      "minutos": 557
+    },
+    {
+      "id": "1076583",
+      "nombre": "Mateo Rodríguez",
+      "posicion": "Centre-Forward",
+      "partidos": 5,
+      "minutos": 136
+    },
+    {
+      "id": "1426206",
+      "nombre": "Jorge Barreto",
+      "posicion": "Right Winger",
+      "partidos": 6,
+      "minutos": 64
+    },
+    {
+      "id": "653527",
+      "nombre": "Jossimar Serrato",
+      "posicion": "Centre-Forward",
+      "partidos": 3,
+      "minutos": 59
+    },
+    {
+      "id": "1443505",
+      "nombre": "Juliano García",
+      "posicion": "Left Winger",
+      "partidos": 0,
+      "minutos": 0
+    }
+  ]
+}

@@ -1,0 +1,471 @@
+{
+  "partido_id": "4942758",
+  "ruta": "/spielbericht/index/spielbericht/4942758",
+  "fecha_extraccion": "2026-10-02T22:31:15",
+  "equipos": [
+    {
+      "club_id": "6593",
+      "club_nombre": "Universitario de Deportes",
+      "local": true,
+      "formacion": "3-5-2 flat",
+      "titulares": [
+        {
+          "id": "643063",
+          "nombre": "Romero",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "619072",
+          "nombre": "Fara",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 15.0
+        },
+        {
+          "id": "441344",
+          "nombre": "Di Benedetto",
+          "dorsal": 5,
+          "top": 61.0,
+          "left": 65.0
+        },
+        {
+          "id": "142745",
+          "nombre": "Santamaría",
+          "dorsal": 4,
+          "top": 62.0,
+          "left": 40.0
+        },
+        {
+          "id": "965846",
+          "nombre": "Inga",
+          "dorsal": 33,
+          "top": 27.0,
+          "left": 10.0
+        },
+        {
+          "id": "637902",
+          "nombre": "Requena",
+          "dorsal": 15,
+          "top": 33.0,
+          "left": 25.0
+        },
+        {
+          "id": "490717",
+          "nombre": "Concha",
+          "dorsal": 17,
+          "top": 33.0,
+          "left": 55.0
+        },
+        {
+          "id": "744083",
+          "nombre": "Quiroz",
+          "dorsal": 28,
+          "top": 36.0,
+          "left": 40.0
+        },
+        {
+          "id": "189236",
+          "nombre": "Polo",
+          "dorsal": 24,
+          "top": 27.0,
+          "left": 70.0
+        },
+        {
+          "id": "738716",
+          "nombre": "Valera",
+          "dorsal": 20,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "130394",
+          "nombre": "Lapadula",
+          "dorsal": 18,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "352338",
+          "nombre": "Miguel Vargas",
+          "dorsal": 25,
+          "posicion": "GK"
+        },
+        {
+          "id": "94437",
+          "nombre": "Aldo Corzo",
+          "dorsal": 29,
+          "posicion": "CB"
+        },
+        {
+          "id": "457058",
+          "nombre": "Williams Riveros",
+          "dorsal": 3,
+          "posicion": "CB"
+        },
+        {
+          "id": "486265",
+          "nombre": "Jorge Murrugarra",
+          "dorsal": 23,
+          "posicion": "DM"
+        },
+        {
+          "id": "486641",
+          "nombre": "Jordan Guivin",
+          "dorsal": 21,
+          "posicion": "CM"
+        },
+        {
+          "id": "77125",
+          "nombre": "Horacio Calcaterra",
+          "dorsal": 10,
+          "posicion": "CM"
+        },
+        {
+          "id": "424024",
+          "nombre": "Héctor Fértoli",
+          "dorsal": 8,
+          "posicion": "LW"
+        },
+        {
+          "id": "396920",
+          "nombre": "Lisandro Alzugaray",
+          "dorsal": 30,
+          "posicion": "RW"
+        },
+        {
+          "id": "458461",
+          "nombre": "José Rivera",
+          "dorsal": 11,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "1450",
+      "club_nombre": "Club Sporting Cristal",
+      "local": false,
+      "formacion": "4-5-1 flat",
+      "titulares": [
+        {
+          "id": "662693",
+          "nombre": "Enríquez",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "211420",
+          "nombre": "Araujo",
+          "dorsal": 20,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "665112",
+          "nombre": "Lutiger",
+          "dorsal": 5,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "908423",
+          "nombre": "Díaz",
+          "dorsal": 32,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "375813",
+          "nombre": "Cristiano",
+          "dorsal": 90,
+          "top": 27.0,
+          "left": 10.0
+        },
+        {
+          "id": "457536",
+          "nombre": "González",
+          "dorsal": 18,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "94880",
+          "nombre": "Yotún",
+          "dorsal": 19,
+          "top": 33.0,
+          "left": 55.0
+        },
+        {
+          "id": "441718",
+          "nombre": "Távara",
+          "dorsal": 25,
+          "top": 36.0,
+          "left": 40.0
+        },
+        {
+          "id": "174570",
+          "nombre": "Gabriel",
+          "dorsal": 27,
+          "top": 33.0,
+          "left": 25.0
+        },
+        {
+          "id": "597455",
+          "nombre": "González",
+          "dorsal": 7,
+          "top": 27.0,
+          "left": 70.0
+        },
+        {
+          "id": "53847",
+          "nombre": "Barcos",
+          "dorsal": 29,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1239934",
+          "nombre": "César Bautista",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "248094",
+          "nombre": "Leandro Sosa",
+          "dorsal": 8,
+          "posicion": "RB"
+        },
+        {
+          "id": "1118789",
+          "nombre": "Ian Wisdom",
+          "dorsal": 26,
+          "posicion": "CM"
+        },
+        {
+          "id": "1011264",
+          "nombre": "Catriel Cabellos",
+          "dorsal": 21,
+          "posicion": "CM"
+        },
+        {
+          "id": "660840",
+          "nombre": "Juan Manuel Cuesta",
+          "dorsal": 77,
+          "posicion": "LW"
+        },
+        {
+          "id": "1226873",
+          "nombre": "Maxloren Castro",
+          "dorsal": 23,
+          "posicion": "LW"
+        },
+        {
+          "id": "82589",
+          "nombre": "Írven Ávila",
+          "dorsal": 11,
+          "posicion": "CF"
+        },
+        {
+          "id": "325667",
+          "nombre": "Luis Iberico",
+          "dorsal": 16,
+          "posicion": "CF"
+        },
+        {
+          "id": "138387",
+          "nombre": "Michael Hoyos",
+          "dorsal": 22,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "6593",
+      "minuto": 72,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "130394",
+        "nombre": "Gianluca Lapadula"
+      },
+      "asistencia": {
+        "id": "738716",
+        "nombre": "Álex Valera"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 81,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "94880",
+        "nombre": "Yoshimar Yotún"
+      },
+      "asistencia": {
+        "id": "619072",
+        "nombre": "Caín Fara"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "1450",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "457536",
+        "nombre": "Juan González"
+      },
+      "entra": {
+        "id": "248094",
+        "nombre": "Leandro Sosa"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "174570",
+        "nombre": "Gabriel"
+      },
+      "entra": {
+        "id": "660840",
+        "nombre": "Juan Manuel Cuesta"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 71,
+      "anadido": 0,
+      "sale": {
+        "id": "142745",
+        "nombre": "Anderson Santamaría"
+      },
+      "entra": {
+        "id": "457058",
+        "nombre": "Williams Riveros"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "53847",
+        "nombre": "Hernán Barcos"
+      },
+      "entra": {
+        "id": "138387",
+        "nombre": "Michael Hoyos"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "908423",
+        "nombre": "Leonardo Díaz"
+      },
+      "entra": {
+        "id": "1011264",
+        "nombre": "Catriel Cabellos"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 82,
+      "anadido": 0,
+      "sale": {
+        "id": "490717",
+        "nombre": "Jairo Concha"
+      },
+      "entra": {
+        "id": "396920",
+        "nombre": "Lisandro Alzugaray"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 82,
+      "anadido": 0,
+      "sale": {
+        "id": "637902",
+        "nombre": "Juan Manuel Requena"
+      },
+      "entra": {
+        "id": "486265",
+        "nombre": "Jorge Murrugarra"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 90,
+      "anadido": 5,
+      "sale": {
+        "id": "597455",
+        "nombre": "Santiago González"
+      },
+      "entra": {
+        "id": "1226873",
+        "nombre": "Maxloren Castro"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "6593",
+      "minuto": 16,
+      "anadido": 0,
+      "jugador": {
+        "id": "619072",
+        "nombre": "Caín Fara"
+      },
+      "tipo": "amarilla",
+      "detalle": "Caín Fara 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "1450",
+      "minuto": 30,
+      "anadido": 0,
+      "jugador": {
+        "id": "94880",
+        "nombre": "Yoshimar Yotún"
+      },
+      "tipo": "amarilla",
+      "detalle": "Yoshimar Yotún 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "6593",
+      "minuto": 89,
+      "anadido": 0,
+      "jugador": {
+        "id": "744083",
+        "nombre": "Adrián Quiroz"
+      },
+      "tipo": "amarilla",
+      "detalle": "Adrián Quiroz 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "1450",
+      "minuto": 90,
+      "anadido": 1,
+      "jugador": {
+        "id": "1011264",
+        "nombre": "Catriel Cabellos"
+      },
+      "tipo": "amarilla",
+      "detalle": "Catriel Cabellos 3. Yellow card , Foul"
+    }
+  ]
+}

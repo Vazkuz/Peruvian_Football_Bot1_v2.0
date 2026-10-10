@@ -1,0 +1,309 @@
+{
+  "competicion": "TDeC",
+  "temporada_id": "2025",
+  "criterio": "mas usada agrupando por numeros; empate: la del partido mas reciente",
+  "fecha_generacion": "2026-10-02T23:24:43",
+  "clubes": [
+    {
+      "club_id": "6593",
+      "club_nombre": "Universitario de Deportes",
+      "formacion": "3-1-4-2",
+      "veces": 4,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "3-1-4-2": 4,
+        "3-5-2": 2,
+        "4-1-3-2": 2,
+        "3-4-1-2": 1,
+        "4-4-2": 1
+      },
+      "ultimo_uso": {
+        "3-1-4-2": "2026-09-20"
+      }
+    },
+    {
+      "club_id": "184",
+      "club_nombre": "Club Alianza Lima",
+      "formacion": "4-1-3-2",
+      "veces": 4,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-1-3-2": 4,
+        "4-2-3-1": 2,
+        "4-3-3": 2,
+        "3-5-2": 1,
+        "4-3-1-2": 1
+      },
+      "ultimo_uso": {
+        "4-1-3-2": "2026-09-19"
+      }
+    },
+    {
+      "club_id": "1450",
+      "club_nombre": "Club Sporting Cristal",
+      "formacion": "4-3-3",
+      "veces": 5,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-3-3": 5,
+        "4-2-3-1": 2,
+        "4-4-2": 2,
+        "4-5-1": 1
+      },
+      "ultimo_uso": {
+        "4-3-3": "2026-09-06"
+      }
+    },
+    {
+      "club_id": "2734",
+      "club_nombre": "FBC Melgar",
+      "formacion": "4-2-3-1",
+      "veces": 8,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 8,
+        "4-4-2": 2
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-09-12"
+      }
+    },
+    {
+      "club_id": "28999",
+      "club_nombre": "Cusco FC",
+      "formacion": "4-3-3",
+      "veces": 8,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-3-3": 8,
+        "4-1-4-1": 1,
+        "4-2-3-1": 1
+      },
+      "ultimo_uso": {
+        "4-3-3": "2026-09-12"
+      }
+    },
+    {
+      "club_id": "2729",
+      "club_nombre": "Club Cienciano",
+      "formacion": "4-4-2",
+      "veces": 4,
+      "empate_con": [
+        "4-2-3-1"
+      ],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 4,
+        "4-4-2": 4,
+        "4-3-3": 1,
+        "5-3-2": 1
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-08-23",
+        "4-4-2": "2026-09-30"
+      }
+    },
+    {
+      "club_id": "47107",
+      "club_nombre": "Comerciantes Unidos",
+      "formacion": "4-2-3-1",
+      "veces": 10,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 10
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-09-18"
+      }
+    },
+    {
+      "club_id": "2730",
+      "club_nombre": "Sport Boys Association",
+      "formacion": "4-2-3-1",
+      "veces": 8,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 8,
+        "4-1-4-1": 2
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-09-20"
+      }
+    },
+    {
+      "club_id": "76945",
+      "club_nombre": "Deportivo Garcilaso",
+      "formacion": "4-2-3-1",
+      "veces": 10,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 10
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-09-20"
+      }
+    },
+    {
+      "club_id": "17479",
+      "club_nombre": "Alianza Atlético Sullana",
+      "formacion": "4-4-2",
+      "veces": 5,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-4-2": 5,
+        "4-2-3-1": 3,
+        "4-1-4-1": 1,
+        "4-3-3": 1
+      },
+      "ultimo_uso": {
+        "4-4-2": "2026-09-04"
+      }
+    },
+    {
+      "club_id": "21655",
+      "club_nombre": "Sport Huancayo",
+      "formacion": "4-2-3-1",
+      "veces": 7,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 7,
+        "4-4-2": 2,
+        "5-4-1": 1
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-09-20"
+      }
+    },
+    {
+      "club_id": "99517",
+      "club_nombre": "Club Juan Pablo II College",
+      "formacion": "4-2-3-1",
+      "veces": 6,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 6,
+        "4-3-3": 2,
+        "3-4-3": 1,
+        "4-1-3-2": 1
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-09-20"
+      }
+    },
+    {
+      "club_id": "35588",
+      "club_nombre": "Asociación Deportiva Tarma",
+      "formacion": "4-2-3-1",
+      "veces": 4,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 4,
+        "3-4-3": 3,
+        "4-4-2": 3
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-09-19"
+      }
+    },
+    {
+      "club_id": "27861",
+      "club_nombre": "Club Atlético Grau",
+      "formacion": "4-2-3-1",
+      "veces": 4,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 4,
+        "4-4-2": 2,
+        "3-4-3": 1,
+        "4-3-1-2": 1,
+        "4-3-3": 1,
+        "5-3-2": 1
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-09-13"
+      }
+    },
+    {
+      "club_id": "54478",
+      "club_nombre": "CD Los Chankas",
+      "formacion": "3-1-4-2",
+      "veces": 3,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "3-1-4-2": 3,
+        "3-5-2": 2,
+        "5-3-2": 2,
+        "3-4-2-1": 1,
+        "3-4-3": 1,
+        "4-2-3-1": 1
+      },
+      "ultimo_uso": {
+        "3-1-4-2": "2026-09-06"
+      }
+    },
+    {
+      "club_id": "120792",
+      "club_nombre": "FC Cajamarca",
+      "formacion": "4-2-3-1",
+      "veces": 6,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 6,
+        "4-4-2": 2,
+        "4-1-4-1": 1,
+        "5-4-1": 1
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-09-19"
+      }
+    },
+    {
+      "club_id": "21170",
+      "club_nombre": "Universidad Técnica de Cajamarca",
+      "formacion": "4-2-3-1",
+      "veces": 5,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 5,
+        "4-3-3": 4,
+        "4-4-2": 1
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-09-11"
+      }
+    },
+    {
+      "club_id": "114625",
+      "club_nombre": "Deportivo Moquegua",
+      "formacion": "4-2-3-1",
+      "veces": 4,
+      "empate_con": [],
+      "partidos": 10,
+      "conteo": {
+        "4-2-3-1": 4,
+        "4-4-2": 3,
+        "4-3-3": 2,
+        "4-4-1-1": 1
+      },
+      "ultimo_uso": {
+        "4-2-3-1": "2026-08-30"
+      }
+    }
+  ]
+}

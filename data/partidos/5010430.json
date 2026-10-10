@@ -1,0 +1,508 @@
+{
+  "partido_id": "5010430",
+  "ruta": "/spielbericht/index/spielbericht/5010430",
+  "fecha_extraccion": "2026-10-02T22:43:00",
+  "equipos": [
+    {
+      "club_id": "21655",
+      "club_nombre": "Sport Huancayo",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "372304",
+          "nombre": "Zamudio",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "482452",
+          "nombre": "Valoyes",
+          "dorsal": 70,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "814636",
+          "nombre": "Gaona",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "224652",
+          "nombre": "Ángeles",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "531177",
+          "nombre": "Falconí",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "142738",
+          "nombre": "Salcedo",
+          "dorsal": 22,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "490614",
+          "nombre": "Carabaño",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "313437",
+          "nombre": "Sanguinetti",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "325147",
+          "nombre": "Luján",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "874831",
+          "nombre": "Magallanes",
+          "dorsal": 23,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "279508",
+          "nombre": "Porozo",
+          "dorsal": 97,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "383343",
+          "nombre": "Diego Campos",
+          "dorsal": 21,
+          "posicion": "GK"
+        },
+        {
+          "id": "242546",
+          "nombre": "Yonatan Murillo",
+          "dorsal": 92,
+          "posicion": "CB"
+        },
+        {
+          "id": "271676",
+          "nombre": "Jeremy Rostaing",
+          "dorsal": 28,
+          "posicion": "RB"
+        },
+        {
+          "id": "1188205",
+          "nombre": "Edu Villar",
+          "dorsal": 38,
+          "posicion": "DM"
+        },
+        {
+          "id": "417183",
+          "nombre": "Aldo Quiñónez",
+          "dorsal": 91,
+          "posicion": "CM"
+        },
+        {
+          "id": "422853",
+          "nombre": "Rick Campodónico",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1025975",
+          "nombre": "Juan Giménez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "331819",
+          "nombre": "Ronal Huaccha",
+          "dorsal": 19,
+          "posicion": "CF"
+        },
+        {
+          "id": "231639",
+          "nombre": "Franco Caballero",
+          "dorsal": 99,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "114625",
+      "club_nombre": "Deportivo Moquegua",
+      "local": false,
+      "formacion": "4-3-3 Attacking",
+      "titulares": [
+        {
+          "id": "330687",
+          "nombre": "Grados",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "96295",
+          "nombre": "Lojas",
+          "dorsal": 13,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "358618",
+          "nombre": "Enciso",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "330691",
+          "nombre": "Perleche",
+          "dorsal": 4,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "1015947",
+          "nombre": "Montenegro",
+          "dorsal": 22,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "1103422",
+          "nombre": "Chipao",
+          "dorsal": 25,
+          "top": 39.0,
+          "left": 40.0
+        },
+        {
+          "id": "375353",
+          "nombre": "Mejía",
+          "dorsal": 8,
+          "top": 28.0,
+          "left": 53.0
+        },
+        {
+          "id": "325706",
+          "nombre": "Ramírez",
+          "dorsal": 20,
+          "top": 28.0,
+          "left": 27.0
+        },
+        {
+          "id": "727998",
+          "nombre": "Zapata",
+          "dorsal": 17,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "829971",
+          "nombre": "Lastre",
+          "dorsal": 7,
+          "top": 10.0,
+          "left": 65.0
+        },
+        {
+          "id": "319911",
+          "nombre": "Angulo",
+          "dorsal": 11,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1221999",
+          "nombre": "Renzo Figueroa",
+          "dorsal": 29,
+          "posicion": "GK"
+        },
+        {
+          "id": "144214",
+          "nombre": "José Luis Granda",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "984451",
+          "nombre": "Jimmy Jiménez",
+          "dorsal": 6,
+          "posicion": "LB"
+        },
+        {
+          "id": "815106",
+          "nombre": "Claudio Ramírez",
+          "dorsal": 14,
+          "posicion": "DM"
+        },
+        {
+          "id": "419034",
+          "nombre": "Nicolás Chávez",
+          "dorsal": 10,
+          "posicion": "CM"
+        },
+        {
+          "id": "1134244",
+          "nombre": "Yhonier López",
+          "dorsal": 88,
+          "posicion": "LW"
+        },
+        {
+          "id": "400254",
+          "nombre": "Alexander Lecaros",
+          "dorsal": 24,
+          "posicion": "LW"
+        },
+        {
+          "id": "986001",
+          "nombre": "Allonso Dávila",
+          "dorsal": 16,
+          "posicion": "RW"
+        },
+        {
+          "id": "477383",
+          "nombre": "Jeferson Collazos",
+          "dorsal": 90,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "114625",
+      "minuto": 14,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "1103422",
+        "nombre": "Ricardo Chipao"
+      },
+      "asistencia": {
+        "id": "727998",
+        "nombre": "Yorman Zapata"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 46,
+      "anadido": 0,
+      "marcador": "0:2",
+      "autor": {
+        "id": "829971",
+        "nombre": "Edgar Lastre"
+      },
+      "asistencia": {
+        "id": "319911",
+        "nombre": "Bryan Angulo"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "21655",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "490614",
+        "nombre": "Diego Carabaño"
+      },
+      "entra": {
+        "id": "231639",
+        "nombre": "Franco Caballero"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 58,
+      "anadido": 0,
+      "sale": {
+        "id": "325706",
+        "nombre": "Diego Ramírez"
+      },
+      "entra": {
+        "id": "815106",
+        "nombre": "Claudio Ramírez"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 58,
+      "anadido": 0,
+      "sale": {
+        "id": "325147",
+        "nombre": "Nahuel Luján"
+      },
+      "entra": {
+        "id": "1025975",
+        "nombre": "Juan Giménez"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 59,
+      "anadido": 0,
+      "sale": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      },
+      "entra": {
+        "id": "331819",
+        "nombre": "Ronal Huaccha"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "330691",
+        "nombre": "Aldair Perleche"
+      },
+      "entra": {
+        "id": "984451",
+        "nombre": "Jimmy Jiménez"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "319911",
+        "nombre": "Bryan Angulo"
+      },
+      "entra": {
+        "id": "144214",
+        "nombre": "José Luis Granda"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "874831",
+        "nombre": "Piero Magallanes"
+      },
+      "entra": {
+        "id": "422853",
+        "nombre": "Rick Campodónico"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 78,
+      "anadido": 0,
+      "sale": {
+        "id": "829971",
+        "nombre": "Edgar Lastre"
+      },
+      "entra": {
+        "id": "1134244",
+        "nombre": "Yhonier López"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 78,
+      "anadido": 0,
+      "sale": {
+        "id": "375353",
+        "nombre": "Cristian Mejía"
+      },
+      "entra": {
+        "id": "986001",
+        "nombre": "Allonso Dávila"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 79,
+      "anadido": 0,
+      "sale": {
+        "id": "231639",
+        "nombre": "Franco Caballero"
+      },
+      "entra": {
+        "id": "417183",
+        "nombre": "Aldo Quiñónez"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "21655",
+      "minuto": 7,
+      "anadido": 0,
+      "jugador": {
+        "id": "313437",
+        "nombre": "Javier Sanguinetti"
+      },
+      "tipo": "amarilla",
+      "detalle": "Javier Sanguinetti 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "114625",
+      "minuto": 33,
+      "anadido": 0,
+      "jugador": {
+        "id": "96295",
+        "nombre": "Juan Diego Lojas"
+      },
+      "tipo": "amarilla",
+      "detalle": "Juan Diego Lojas 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "114625",
+      "minuto": 50,
+      "anadido": 0,
+      "jugador": {
+        "id": "375353",
+        "nombre": "Cristian Mejía"
+      },
+      "tipo": "amarilla",
+      "detalle": "Cristian Mejía 2. Yellow card , Time wasting"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 64,
+      "anadido": 0,
+      "jugador": {
+        "id": "814636",
+        "nombre": "Marcelo Gaona"
+      },
+      "tipo": "amarilla",
+      "detalle": "Marcelo Gaona 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 66,
+      "anadido": 0,
+      "jugador": {
+        "id": "372304",
+        "nombre": "Ángel Zamudio"
+      },
+      "tipo": "amarilla",
+      "detalle": "Ángel Zamudio 1. Yellow card , Handball"
+    }
+  ]
+}

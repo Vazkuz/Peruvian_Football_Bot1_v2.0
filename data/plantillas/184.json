@@ -1,0 +1,199 @@
+{
+  "club_id": "184",
+  "club_nombre": "Club Alianza Lima",
+  "formacion": "4-1-3-2",
+  "variante": "4-1-3-2",
+  "fecha_generacion": "2026-10-03T00:44:01",
+  "casillas": [
+    {
+      "casilla": 1,
+      "rol": "arquero",
+      "titular": {
+        "id": "158515",
+        "nombre": "Alejandro Duarte",
+        "rol": "arquero",
+        "puntaje": 27.004
+      },
+      "suplente": {
+        "id": "662712",
+        "nombre": "Ángel de la Cruz",
+        "rol": "arquero",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 10
+      }
+    },
+    {
+      "casilla": 2,
+      "rol": "lateral_izq",
+      "titular": {
+        "id": "837617",
+        "nombre": "Marco Huamán",
+        "rol": "lateral_izq",
+        "puntaje": 14.759
+      },
+      "suplente": {
+        "id": "539067",
+        "nombre": "Nicolás Díaz",
+        "rol": "lateral_izq",
+        "puntaje": 8.2,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 3,
+      "rol": "central",
+      "titular": {
+        "id": "335677",
+        "nombre": "Renzo Garcés",
+        "rol": "central",
+        "puntaje": 26.843
+      },
+      "suplente": {
+        "id": "441727",
+        "nombre": "Gianfranco Chávez",
+        "rol": "central",
+        "puntaje": 5.101,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 4,
+      "rol": "central",
+      "titular": {
+        "id": "988661",
+        "nombre": "Mateo Antoni",
+        "rol": "central",
+        "puntaje": 19.586
+      },
+      "suplente": {
+        "id": "1123587",
+        "nombre": "Jonathan García",
+        "rol": "central",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 3
+      }
+    },
+    {
+      "casilla": 5,
+      "rol": "lateral_der",
+      "titular": {
+        "id": "103890",
+        "nombre": "Luis Advíncula",
+        "rol": "lateral_der",
+        "puntaje": 24.438
+      },
+      "suplente": {
+        "id": "260324",
+        "nombre": "Josué Estrada",
+        "rol": "lateral_der",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 3
+      }
+    },
+    {
+      "casilla": 6,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "131233",
+        "nombre": "Esteban Pavez",
+        "rol": "volante_defensivo",
+        "puntaje": 25.566
+      },
+      "suplente": {
+        "id": "250437",
+        "nombre": "Jean Pierre Archimbaud",
+        "rol": "volante_defensivo",
+        "puntaje": 0.711,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 7,
+      "rol": "volante_extremo_izq",
+      "titular": {
+        "id": "537255",
+        "nombre": "Gaspar Gentile",
+        "rol": "volante_extremo_izq",
+        "puntaje": 5.04
+      },
+      "suplente": {
+        "id": "836494",
+        "nombre": "Alan Cantero",
+        "rol": "volante_extremo_izq",
+        "puntaje": 4.788,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 8,
+      "rol": "mediapunta",
+      "titular": {
+        "id": "323432",
+        "nombre": "Jairo Vélez",
+        "rol": "mediapunta",
+        "puntaje": 12.491
+      },
+      "suplente": {
+        "id": "818499",
+        "nombre": "Cristian Neira",
+        "rol": "mediapunta",
+        "puntaje": 2.224,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 9,
+      "rol": "volante_extremo_der",
+      "titular": {
+        "id": "147263",
+        "nombre": "Fernando Gaibor",
+        "rol": "volante_extremo_der",
+        "puntaje": 7.215
+      },
+      "suplente": {
+        "id": "439631",
+        "nombre": "Kevin Quevedo",
+        "rol": "volante_extremo_der",
+        "puntaje": 0.682,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 10,
+      "rol": "delantero",
+      "titular": {
+        "id": "639149",
+        "nombre": "Federico Girotti",
+        "rol": "delantero",
+        "puntaje": 20.052
+      },
+      "suplente": {
+        "id": "2989",
+        "nombre": "Paolo Guerrero",
+        "rol": "delantero",
+        "puntaje": 5.918,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 11,
+      "rol": "delantero",
+      "titular": {
+        "id": "266451",
+        "nombre": "Eryc Castillo",
+        "rol": "delantero",
+        "puntaje": 14.656
+      },
+      "suplente": {
+        "id": "687529",
+        "nombre": "Luis Ramos",
+        "rol": "delantero",
+        "puntaje": 1.293,
+        "origen": "minutos"
+      }
+    }
+  ]
+}

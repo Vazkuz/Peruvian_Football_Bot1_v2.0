@@ -1,0 +1,472 @@
+{
+  "partido_id": "5010416",
+  "ruta": "/spielbericht/index/spielbericht/5010416",
+  "fecha_extraccion": "2026-10-02T22:35:51",
+  "equipos": [
+    {
+      "club_id": "54478",
+      "club_nombre": "CD Los Chankas",
+      "local": true,
+      "formacion": "3-1-4-2",
+      "titulares": [
+        {
+          "id": "988214",
+          "nombre": "Pretel",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "294886",
+          "nombre": "Pimienta",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 15.0
+        },
+        {
+          "id": "409092",
+          "nombre": "Rizzo",
+          "dorsal": 24,
+          "top": 61.0,
+          "left": 65.0
+        },
+        {
+          "id": "725453",
+          "nombre": "González",
+          "dorsal": 2,
+          "top": 62.0,
+          "left": 40.0
+        },
+        {
+          "id": "740319",
+          "nombre": "Quintana",
+          "dorsal": 31,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "441728",
+          "nombre": "Sánchez",
+          "dorsal": 15,
+          "top": 23.0,
+          "left": 50.0
+        },
+        {
+          "id": "965449",
+          "nombre": "Palomino",
+          "dorsal": 5,
+          "top": 43.0,
+          "left": 40.0
+        },
+        {
+          "id": "873510",
+          "nombre": "Torres",
+          "dorsal": 10,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "855900",
+          "nombre": "Ospina",
+          "dorsal": 7,
+          "top": 23.0,
+          "left": 30.0
+        },
+        {
+          "id": "357124",
+          "nombre": "Takeuchi",
+          "dorsal": 18,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "330169",
+          "nombre": "Quintero",
+          "dorsal": 11,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1578030",
+          "nombre": "Jeremy Gómez",
+          "dorsal": 99,
+          "posicion": "GK"
+        },
+        {
+          "id": "893740",
+          "nombre": "Michael Kaufman",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "643536",
+          "nombre": "David Gonzáles",
+          "dorsal": 26,
+          "posicion": "LB"
+        },
+        {
+          "id": "470023",
+          "nombre": "Brayan Guevara",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "653673",
+          "nombre": "Abdiel Ayarza",
+          "dorsal": 6,
+          "posicion": "CM"
+        },
+        {
+          "id": "894880",
+          "nombre": "André Vasquez",
+          "dorsal": 13,
+          "posicion": "AM"
+        },
+        {
+          "id": "653475",
+          "nombre": "Félix Espinoza",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "664841",
+          "nombre": "Kenyi Barrios",
+          "dorsal": 27,
+          "posicion": "RW"
+        },
+        {
+          "id": "384765",
+          "nombre": "Accel Campos",
+          "dorsal": 4,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "2734",
+      "club_nombre": "FBC Melgar",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "785133",
+          "nombre": "Cabezudo",
+          "dorsal": 21,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "353034",
+          "nombre": "Escobar",
+          "dorsal": 23,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "302416",
+          "nombre": "González",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "831138",
+          "nombre": "Lazo",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "621039",
+          "nombre": "Tandazo",
+          "dorsal": 24,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "400945",
+          "nombre": "Minda",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "733083",
+          "nombre": "Quagliata",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "1442941",
+          "nombre": "Zegarra",
+          "dorsal": 45,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "282350",
+          "nombre": "Bordacahar",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "89317",
+          "nombre": "Cuesta",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "224677",
+          "nombre": "Vidales",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "94359",
+          "nombre": "Carlos Cáceda",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "796060",
+          "nombre": "Jesús Alcántar",
+          "dorsal": 90,
+          "posicion": "CB"
+        },
+        {
+          "id": "491570",
+          "nombre": "Nelson Cabanillas",
+          "dorsal": 27,
+          "posicion": "LB"
+        },
+        {
+          "id": "966314",
+          "nombre": "Marcos Portillo",
+          "dorsal": 26,
+          "posicion": "CM"
+        },
+        {
+          "id": "1227512",
+          "nombre": "Gian García",
+          "dorsal": 20,
+          "posicion": "CM"
+        },
+        {
+          "id": "741728",
+          "nombre": "Jhamir D'Arrigo",
+          "dorsal": 80,
+          "posicion": "LW"
+        },
+        {
+          "id": "832216",
+          "nombre": "Jefferson Cáceres",
+          "dorsal": 16,
+          "posicion": "LW"
+        },
+        {
+          "id": "653476",
+          "nombre": "Franco Zanelatto",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "626916",
+          "nombre": "Lautaro Guzmán",
+          "dorsal": 8,
+          "posicion": "RW"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "2734",
+      "minuto": 27,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "988214",
+        "nombre": "Luis Pretel"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "2734",
+      "minuto": 36,
+      "anadido": 0,
+      "marcador": "0:2",
+      "autor": {
+        "id": "89317",
+        "nombre": "Bernardo Cuesta"
+      },
+      "asistencia": {
+        "id": "282350",
+        "nombre": "Cristian Bordacahar"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 59,
+      "anadido": 0,
+      "marcador": "0:3",
+      "autor": {
+        "id": "282350",
+        "nombre": "Cristian Bordacahar"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "54478",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "855900",
+        "nombre": "Juan Diego Ospina"
+      },
+      "entra": {
+        "id": "894880",
+        "nombre": "André Vasquez"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "357124",
+        "nombre": "Oshiro Takeuchi"
+      },
+      "entra": {
+        "id": "664841",
+        "nombre": "Kenyi Barrios"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "740319",
+        "nombre": "Ayrthon Quintana"
+      },
+      "entra": {
+        "id": "470023",
+        "nombre": "Brayan Guevara"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "441728",
+        "nombre": "Kelvin Sánchez"
+      },
+      "entra": {
+        "id": "653673",
+        "nombre": "Abdiel Ayarza"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra"
+      },
+      "entra": {
+        "id": "491570",
+        "nombre": "Nelson Cabanillas"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "entra": {
+        "id": "741728",
+        "nombre": "Jhamir D'Arrigo"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "733083",
+        "nombre": "Nicolás Quagliata"
+      },
+      "entra": {
+        "id": "966314",
+        "nombre": "Marcos Portillo"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "409092",
+        "nombre": "Gonzalo Rizzo"
+      },
+      "entra": {
+        "id": "653475",
+        "nombre": "Félix Espinoza"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 83,
+      "anadido": 0,
+      "sale": {
+        "id": "353034",
+        "nombre": "Juan Escobar"
+      },
+      "entra": {
+        "id": "796060",
+        "nombre": "Jesús Alcántar"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 83,
+      "anadido": 0,
+      "sale": {
+        "id": "89317",
+        "nombre": "Bernardo Cuesta"
+      },
+      "entra": {
+        "id": "653476",
+        "nombre": "Franco Zanelatto"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "2734",
+      "minuto": 58,
+      "anadido": 0,
+      "jugador": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra"
+      },
+      "tipo": "amarilla",
+      "detalle": "Matias Zegarra 1. Yellow card , Foul"
+    }
+  ]
+}

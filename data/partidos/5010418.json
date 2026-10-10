@@ -1,0 +1,460 @@
+{
+  "partido_id": "5010418",
+  "ruta": "/spielbericht/index/spielbericht/5010418",
+  "fecha_extraccion": "2026-10-02T22:36:52",
+  "equipos": [
+    {
+      "club_id": "2729",
+      "club_nombre": "Club Cienciano",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "347660",
+          "nombre": "Falcón",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "246548",
+          "nombre": "Amondarain",
+          "dorsal": 4,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "704884",
+          "nombre": "Becerra",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "538612",
+          "nombre": "Martinich",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "531624",
+          "nombre": "Arias",
+          "dorsal": 5,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "335217",
+          "nombre": "Barreto",
+          "dorsal": 88,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "752977",
+          "nombre": "Robles",
+          "dorsal": 29,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "212434",
+          "nombre": "Hohberg",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "477378",
+          "nombre": "Cabello",
+          "dorsal": 22,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "391237",
+          "nombre": "Souza",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "242436",
+          "nombre": "Garcés",
+          "dorsal": 21,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "420866",
+          "nombre": "Ítalo Espinoza",
+          "dorsal": 31,
+          "posicion": "GK"
+        },
+        {
+          "id": "657221",
+          "nombre": "Rotceh Aguilar",
+          "dorsal": 26,
+          "posicion": "CB"
+        },
+        {
+          "id": "662706",
+          "nombre": "Sebastián Cavero",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "817656",
+          "nombre": "Alonso Yovera",
+          "dorsal": 27,
+          "posicion": "LB"
+        },
+        {
+          "id": "1239936",
+          "nombre": "Henry Caparó",
+          "dorsal": 39,
+          "posicion": "DM"
+        },
+        {
+          "id": "1039039",
+          "nombre": "Gonzalo Aguirre",
+          "dorsal": 8,
+          "posicion": "CM"
+        },
+        {
+          "id": "662703",
+          "nombre": "Didier La Torre",
+          "dorsal": 18,
+          "posicion": "RW"
+        },
+        {
+          "id": "415544",
+          "nombre": "Neri Bandiera",
+          "dorsal": 11,
+          "posicion": "CF"
+        },
+        {
+          "id": "626179",
+          "nombre": "Matías Succar",
+          "dorsal": 19,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "76945",
+      "club_nombre": "Deportivo Garcilaso",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "342051",
+          "nombre": "Zubczuk",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "524311",
+          "nombre": "Gómez",
+          "dorsal": 19,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "866487",
+          "nombre": "Moreno",
+          "dorsal": 23,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "279380",
+          "nombre": "Salazar",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "741413",
+          "nombre": "Canales",
+          "dorsal": 55,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "438000",
+          "nombre": "González",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "458906",
+          "nombre": "Ramos",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "483714",
+          "nombre": "Sandoval",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "279057",
+          "nombre": "da Silva",
+          "dorsal": 30,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "324046",
+          "nombre": "Arancibia",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "527625",
+          "nombre": "Olivares",
+          "dorsal": 24,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "456161",
+          "nombre": "Juniors Barbieri",
+          "dorsal": 31,
+          "posicion": "GK"
+        },
+        {
+          "id": "582098",
+          "nombre": "Jefferson Portales",
+          "dorsal": 22,
+          "posicion": "CB"
+        },
+        {
+          "id": "356381",
+          "nombre": "Anthony Rosell",
+          "dorsal": 20,
+          "posicion": "LB"
+        },
+        {
+          "id": "1141361",
+          "nombre": "Samir Villacorta",
+          "dorsal": 33,
+          "posicion": "RB"
+        },
+        {
+          "id": "1568213",
+          "nombre": "César Flores",
+          "dorsal": 6,
+          "posicion": "DM"
+        },
+        {
+          "id": "810550",
+          "nombre": "Adrián Ascues",
+          "dorsal": 27,
+          "posicion": "CM"
+        },
+        {
+          "id": "1371975",
+          "nombre": "Joao Mendoza",
+          "dorsal": 35,
+          "posicion": "AM"
+        },
+        {
+          "id": "818970",
+          "nombre": "Sharif Ramírez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "443350",
+          "nombre": "Facundo Castelli",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [],
+  "cambios": [
+    {
+      "club_id": "2729",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "335217",
+        "nombre": "Gerson Barreto"
+      },
+      "entra": {
+        "id": "415544",
+        "nombre": "Neri Bandiera"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "391237",
+        "nombre": "Cristian Souza"
+      },
+      "entra": {
+        "id": "626179",
+        "nombre": "Matías Succar"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 63,
+      "anadido": 0,
+      "sale": {
+        "id": "527625",
+        "nombre": "Christopher Olivares"
+      },
+      "entra": {
+        "id": "443350",
+        "nombre": "Facundo Castelli"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 63,
+      "anadido": 0,
+      "sale": {
+        "id": "483714",
+        "nombre": "Kevin Sandoval"
+      },
+      "entra": {
+        "id": "810550",
+        "nombre": "Adrián Ascues"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "212434",
+        "nombre": "Alejandro Hohberg"
+      },
+      "entra": {
+        "id": "662703",
+        "nombre": "Didier La Torre"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "752977",
+        "nombre": "Ademar Robles"
+      },
+      "entra": {
+        "id": "1239936",
+        "nombre": "Henry Caparó"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "2729",
+      "minuto": 7,
+      "anadido": 0,
+      "jugador": {
+        "id": "531624",
+        "nombre": "Santiago Arias"
+      },
+      "tipo": "amarilla",
+      "detalle": "Santiago Arias 2. Yellow card , Mass confrontation"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 7,
+      "anadido": 0,
+      "jugador": {
+        "id": "324046",
+        "nombre": "Francisco Arancibia"
+      },
+      "tipo": "amarilla",
+      "detalle": "Francisco Arancibia 1. Yellow card , Mass confrontation"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 13,
+      "anadido": 0,
+      "jugador": {
+        "id": "279380",
+        "nombre": "Aldair Salazar"
+      },
+      "tipo": "amarilla",
+      "detalle": "Aldair Salazar 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 30,
+      "anadido": 0,
+      "jugador": {
+        "id": "335217",
+        "nombre": "Gerson Barreto"
+      },
+      "tipo": "amarilla",
+      "detalle": "Gerson Barreto 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 31,
+      "anadido": 0,
+      "jugador": {
+        "id": "279057",
+        "nombre": "Beto da Silva"
+      },
+      "tipo": "amarilla",
+      "detalle": "Beto da Silva 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 68,
+      "anadido": 0,
+      "jugador": {
+        "id": "626179",
+        "nombre": "Matías Succar"
+      },
+      "tipo": "roja",
+      "detalle": "Matías Succar Red card , Violent conduct"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 71,
+      "anadido": 0,
+      "jugador": {
+        "id": "458906",
+        "nombre": "Carlos Ramos"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Ramos 1. Yellow card , Dissent"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 87,
+      "anadido": 0,
+      "jugador": {
+        "id": "438000",
+        "nombre": "Agustín González"
+      },
+      "tipo": "amarilla",
+      "detalle": "Agustín González 1. Yellow card , Foul"
+    }
+  ]
+}

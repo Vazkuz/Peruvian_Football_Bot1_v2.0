@@ -1,0 +1,476 @@
+{
+  "partido_id": "5034393",
+  "ruta": "/spielbericht/index/spielbericht/5034393",
+  "fecha_extraccion": "2026-10-02T22:46:04",
+  "equipos": [
+    {
+      "club_id": "184",
+      "club_nombre": "Club Alianza Lima",
+      "local": true,
+      "formacion": "4-3-3 Attacking",
+      "titulares": [
+        {
+          "id": "158515",
+          "nombre": "Duarte",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "988661",
+          "nombre": "Antoni",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "539067",
+          "nombre": "Díaz",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "335677",
+          "nombre": "Garcés",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "103890",
+          "nombre": "Advíncula",
+          "dorsal": 17,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "131233",
+          "nombre": "Pavez",
+          "dorsal": 5,
+          "top": 39.0,
+          "left": 40.0
+        },
+        {
+          "id": "147263",
+          "nombre": "Gaibor",
+          "dorsal": 7,
+          "top": 28.0,
+          "left": 27.0
+        },
+        {
+          "id": "323432",
+          "nombre": "Vélez",
+          "dorsal": 20,
+          "top": 28.0,
+          "left": 53.0
+        },
+        {
+          "id": "836494",
+          "nombre": "Cantero",
+          "dorsal": 11,
+          "top": 10.0,
+          "left": 65.0
+        },
+        {
+          "id": "266451",
+          "nombre": "Castillo",
+          "dorsal": 8,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "2989",
+          "nombre": "Guerrero",
+          "dorsal": 34,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "662712",
+          "nombre": "Ángel de la Cruz",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "441727",
+          "nombre": "Gianfranco Chávez",
+          "dorsal": 4,
+          "posicion": "CB"
+        },
+        {
+          "id": "656061",
+          "nombre": "Cristian Carbajal",
+          "dorsal": 31,
+          "posicion": "LB"
+        },
+        {
+          "id": "250437",
+          "nombre": "Jean Pierre Archimbaud",
+          "dorsal": 29,
+          "posicion": "DM"
+        },
+        {
+          "id": "657479",
+          "nombre": "Alessandro Burlamaqui",
+          "dorsal": 18,
+          "posicion": "CM"
+        },
+        {
+          "id": "818499",
+          "nombre": "Cristian Neira",
+          "dorsal": 22,
+          "posicion": "AM"
+        },
+        {
+          "id": "537255",
+          "nombre": "Gaspar Gentile",
+          "dorsal": 25,
+          "posicion": "LW"
+        },
+        {
+          "id": "639149",
+          "nombre": "Federico Girotti",
+          "dorsal": 99,
+          "posicion": "CF"
+        },
+        {
+          "id": "687529",
+          "nombre": "Luis Ramos",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "76945",
+      "club_nombre": "Deportivo Garcilaso",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "342051",
+          "nombre": "Zubczuk",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "524311",
+          "nombre": "Gómez",
+          "dorsal": 19,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "866487",
+          "nombre": "Moreno",
+          "dorsal": 23,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "279380",
+          "nombre": "Salazar",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "741413",
+          "nombre": "Canales",
+          "dorsal": 55,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "438000",
+          "nombre": "González",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "458906",
+          "nombre": "Ramos",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "483714",
+          "nombre": "Sandoval",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "279057",
+          "nombre": "da Silva",
+          "dorsal": 30,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "324046",
+          "nombre": "Arancibia",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "443350",
+          "nombre": "Castelli",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "456161",
+          "nombre": "Juniors Barbieri",
+          "dorsal": 31,
+          "posicion": "GK"
+        },
+        {
+          "id": "582098",
+          "nombre": "Jefferson Portales",
+          "dorsal": 22,
+          "posicion": "CB"
+        },
+        {
+          "id": "356381",
+          "nombre": "Anthony Rosell",
+          "dorsal": 20,
+          "posicion": "LB"
+        },
+        {
+          "id": "1141361",
+          "nombre": "Samir Villacorta",
+          "dorsal": 33,
+          "posicion": "RB"
+        },
+        {
+          "id": "1568213",
+          "nombre": "César Flores",
+          "dorsal": 6,
+          "posicion": "DM"
+        },
+        {
+          "id": "810550",
+          "nombre": "Adrián Ascues",
+          "dorsal": 27,
+          "posicion": "CM"
+        },
+        {
+          "id": "1371975",
+          "nombre": "Joao Mendoza",
+          "dorsal": 35,
+          "posicion": "AM"
+        },
+        {
+          "id": "818970",
+          "nombre": "Sharif Ramírez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "527625",
+          "nombre": "Christopher Olivares",
+          "dorsal": 24,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "76945",
+      "minuto": 29,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "279057",
+        "nombre": "Beto da Silva"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "184",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "2989",
+        "nombre": "Paolo Guerrero"
+      },
+      "entra": {
+        "id": "639149",
+        "nombre": "Federico Girotti"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "836494",
+        "nombre": "Alan Cantero"
+      },
+      "entra": {
+        "id": "818499",
+        "nombre": "Cristian Neira"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 63,
+      "anadido": 0,
+      "sale": {
+        "id": "443350",
+        "nombre": "Facundo Castelli"
+      },
+      "entra": {
+        "id": "527625",
+        "nombre": "Christopher Olivares"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "988661",
+        "nombre": "Mateo Antoni"
+      },
+      "entra": {
+        "id": "656061",
+        "nombre": "Cristian Carbajal"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "103890",
+        "nombre": "Luis Advíncula"
+      },
+      "entra": {
+        "id": "657479",
+        "nombre": "Alessandro Burlamaqui"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "323432",
+        "nombre": "Jairo Vélez"
+      },
+      "entra": {
+        "id": "687529",
+        "nombre": "Luis Ramos"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 82,
+      "anadido": 0,
+      "sale": {
+        "id": "324046",
+        "nombre": "Francisco Arancibia"
+      },
+      "entra": {
+        "id": "810550",
+        "nombre": "Adrián Ascues"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 88,
+      "anadido": 0,
+      "sale": {
+        "id": "279057",
+        "nombre": "Beto da Silva"
+      },
+      "entra": {
+        "id": "818970",
+        "nombre": "Sharif Ramírez"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "76945",
+      "minuto": 41,
+      "anadido": 0,
+      "jugador": {
+        "id": "443350",
+        "nombre": "Facundo Castelli"
+      },
+      "tipo": "amarilla",
+      "detalle": "Facundo Castelli 1. Yellow card"
+    },
+    {
+      "club_id": "184",
+      "minuto": 45,
+      "anadido": 1,
+      "jugador": {
+        "id": "323432",
+        "nombre": "Jairo Vélez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jairo Vélez 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 72,
+      "anadido": 0,
+      "jugador": {
+        "id": "279380",
+        "nombre": "Aldair Salazar"
+      },
+      "tipo": "amarilla",
+      "detalle": "Aldair Salazar 2. Yellow card , Dissent"
+    },
+    {
+      "club_id": "184",
+      "minuto": 81,
+      "anadido": 0,
+      "jugador": {
+        "id": "335677",
+        "nombre": "Renzo Garcés"
+      },
+      "tipo": "amarilla",
+      "detalle": "Renzo Garcés 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "184",
+      "minuto": 90,
+      "anadido": 3,
+      "jugador": {
+        "id": "539067",
+        "nombre": "Nicolás Díaz"
+      },
+      "tipo": "amarilla",
+      "detalle": "Nicolás Díaz 2. Yellow card"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 90,
+      "anadido": 3,
+      "jugador": {
+        "id": "524311",
+        "nombre": "Agustín Gómez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Agustín Gómez 1. Yellow card , Foul"
+    }
+  ]
+}

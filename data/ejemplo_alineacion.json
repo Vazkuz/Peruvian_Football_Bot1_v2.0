@@ -1,0 +1,72 @@
+{
+  "club": "Alianza Lima",
+  "club_id": "184",
+  "color": {
+    "base": "#1d3a8a",
+    "segundo": "#ffffff",
+    "estilo": "raya"
+  },
+  "formacion": "4-4-2",
+  "jugadores": [
+    {
+      "nombre": "A. Duarte"
+    },
+    {
+      "nombre": "C. Carbajal"
+    },
+    {
+      "nombre": "M. Antoni",
+      "tarjeta": "amarilla"
+    },
+    {
+      "nombre": "R. Garcés"
+    },
+    {
+      "nombre": "L. Advíncula",
+      "cambio": {
+        "entra": "M. Huamán",
+        "minuto": 67
+      }
+    },
+    {
+      "nombre": "E. Castillo",
+      "goles": 1
+    },
+    {
+      "nombre": "E. Pavez",
+      "tarjeta": "roja"
+    },
+    {
+      "nombre": "J. Vélez",
+      "tarjeta": "amarilla",
+      "cambio": {
+        "entra": "F. Gaibor",
+        "minuto": 74,
+        "goles": 2,
+        "tarjeta": "amarilla"
+      }
+    },
+    {
+      "nombre": "K. Quevedo",
+      "cambio": {
+        "entra": "A. Cantero",
+        "minuto": 58,
+        "tarjeta": "doble_amarilla"
+      }
+    },
+    {
+      "nombre": "P. Guerrero",
+      "cambio": {
+        "entra": "L. Ramos",
+        "minuto": 80,
+        "goles": 1,
+        "tarjeta": "amarilla"
+      }
+    },
+    {
+      "nombre": "F. Girotti",
+      "goles": 2,
+      "tarjeta": "amarilla"
+    }
+  ]
+}

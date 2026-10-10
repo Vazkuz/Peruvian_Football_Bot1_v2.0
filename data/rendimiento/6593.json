@@ -1,0 +1,386 @@
+{
+  "club_id": "6593",
+  "club_nombre": "Universitario de Deportes",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:01:57",
+  "jugadores": [
+    {
+      "id": "643063",
+      "nombre": "Diego Romero",
+      "posicion": "Goalkeeper",
+      "partidos": 21,
+      "minutos": 1890
+    },
+    {
+      "id": "352338",
+      "nombre": "Miguel Vargas",
+      "posicion": "Goalkeeper",
+      "partidos": 12,
+      "minutos": 1080
+    },
+    {
+      "id": "1076585",
+      "nombre": "Jhefferson Rodríguez",
+      "posicion": "Goalkeeper",
+      "partidos": 1,
+      "minutos": 90
+    },
+    {
+      "id": "1379860",
+      "nombre": "Edison Gutiérrez",
+      "posicion": "Goalkeeper",
+      "partidos": 1,
+      "minutos": 90
+    },
+    {
+      "id": "965846",
+      "nombre": "César Inga",
+      "posicion": "Left-Back",
+      "partidos": 27,
+      "minutos": 1898
+    },
+    {
+      "id": "729032",
+      "nombre": "José Carabalí",
+      "posicion": "Left-Back",
+      "partidos": 21,
+      "minutos": 1496
+    },
+    {
+      "id": "443379",
+      "nombre": "Jorge Gutiérrez",
+      "posicion": "Left-Back",
+      "partidos": 2,
+      "minutos": 28
+    },
+    {
+      "id": "655639",
+      "nombre": "Paolo Reyna",
+      "posicion": "Left-Back",
+      "partidos": 3,
+      "minutos": 94
+    },
+    {
+      "id": "142745",
+      "nombre": "Anderson Santamaría",
+      "posicion": "Centre-Back",
+      "partidos": 19,
+      "minutos": 1346
+    },
+    {
+      "id": "672263",
+      "nombre": "Hugo Ancajima",
+      "posicion": "Right-Back",
+      "partidos": 6,
+      "minutos": 216
+    },
+    {
+      "id": "457058",
+      "nombre": "Williams Riveros",
+      "posicion": "Centre-Back",
+      "partidos": 24,
+      "minutos": 1828
+    },
+    {
+      "id": "619072",
+      "nombre": "Caín Fara",
+      "posicion": "Centre-Back",
+      "partidos": 32,
+      "minutos": 2777
+    },
+    {
+      "id": "441344",
+      "nombre": "Matías Di Benedetto",
+      "posicion": "Centre-Back",
+      "partidos": 21,
+      "minutos": 1825
+    },
+    {
+      "id": "94437",
+      "nombre": "Aldo Corzo",
+      "posicion": "Centre-Back",
+      "partidos": 5,
+      "minutos": 279
+    },
+    {
+      "id": "1263210",
+      "nombre": "Rafael Guzmán",
+      "posicion": "Centre-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1554021",
+      "nombre": "Adriano Tello",
+      "posicion": "Left-Back",
+      "partidos": 2,
+      "minutos": 87
+    },
+    {
+      "id": "1554020",
+      "nombre": "Joaquín Verde",
+      "posicion": "Centre-Back",
+      "partidos": 2,
+      "minutos": 135
+    },
+    {
+      "id": "1379862",
+      "nombre": "Junior Díaz",
+      "posicion": "Left-Back",
+      "partidos": 2,
+      "minutos": 122
+    },
+    {
+      "id": "1432139",
+      "nombre": "Kayro Bravo",
+      "posicion": "Centre-Back",
+      "partidos": 1,
+      "minutos": 32
+    },
+    {
+      "id": "1554022",
+      "nombre": "Tony Neumann",
+      "posicion": "Left-Back",
+      "partidos": 2,
+      "minutos": 103
+    },
+    {
+      "id": "1533089",
+      "nombre": "Cristóbal Gutiérrez",
+      "posicion": "Centre-Back",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1076604",
+      "nombre": "Ghian Sotelo",
+      "posicion": "Right-Back",
+      "partidos": 1,
+      "minutos": 61
+    },
+    {
+      "id": "871655",
+      "nombre": "Piero Quispe",
+      "posicion": "Attacking Midfield",
+      "partidos": 6,
+      "minutos": 263
+    },
+    {
+      "id": "490717",
+      "nombre": "Jairo Concha",
+      "posicion": "Central Midfield",
+      "partidos": 31,
+      "minutos": 2383
+    },
+    {
+      "id": "658848",
+      "nombre": "Jesús Castillo",
+      "posicion": "Defensive Midfield",
+      "partidos": 23,
+      "minutos": 1494
+    },
+    {
+      "id": "189236",
+      "nombre": "Andy Polo",
+      "posicion": "Right Midfield",
+      "partidos": 30,
+      "minutos": 2622
+    },
+    {
+      "id": "486265",
+      "nombre": "Jorge Murrugarra",
+      "posicion": "Defensive Midfield",
+      "partidos": 25,
+      "minutos": 1022
+    },
+    {
+      "id": "744083",
+      "nombre": "Adrián Quiroz",
+      "posicion": "Central Midfield",
+      "partidos": 9,
+      "minutos": 518
+    },
+    {
+      "id": "637902",
+      "nombre": "Juan Manuel Requena",
+      "posicion": "Defensive Midfield",
+      "partidos": 8,
+      "minutos": 449
+    },
+    {
+      "id": "486641",
+      "nombre": "Jordan Guivin",
+      "posicion": "Central Midfield",
+      "partidos": 3,
+      "minutos": 69
+    },
+    {
+      "id": "662338",
+      "nombre": "Miguel Silveira",
+      "posicion": "Attacking Midfield",
+      "partidos": 11,
+      "minutos": 402
+    },
+    {
+      "id": "662699",
+      "nombre": "Yuriel Celi",
+      "posicion": "Attacking Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "77125",
+      "nombre": "Horacio Calcaterra",
+      "posicion": "Central Midfield",
+      "partidos": 12,
+      "minutos": 305
+    },
+    {
+      "id": "207246",
+      "nombre": "Martín Pérez Guedes",
+      "posicion": "Central Midfield",
+      "partidos": 19,
+      "minutos": 1254
+    },
+    {
+      "id": "1456578",
+      "nombre": "Adrián Cáceres",
+      "posicion": "Attacking Midfield",
+      "partidos": 2,
+      "minutos": 135
+    },
+    {
+      "id": "1384301",
+      "nombre": "Robinho Ormeño",
+      "posicion": "Defensive Midfield",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "1506461",
+      "nombre": "Diogo Vásquez",
+      "posicion": "Defensive Midfield",
+      "partidos": 2,
+      "minutos": 135
+    },
+    {
+      "id": "1271264",
+      "nombre": "Fabián Cabanillas",
+      "posicion": "Attacking Midfield",
+      "partidos": 2,
+      "minutos": 180
+    },
+    {
+      "id": "1369248",
+      "nombre": "Sebastian Flores",
+      "posicion": "Central Midfield",
+      "partidos": 2,
+      "minutos": 180
+    },
+    {
+      "id": "738716",
+      "nombre": "Álex Valera",
+      "posicion": "Centre-Forward",
+      "partidos": 31,
+      "minutos": 2516
+    },
+    {
+      "id": "458461",
+      "nombre": "José Rivera",
+      "posicion": "Centre-Forward",
+      "partidos": 18,
+      "minutos": 484
+    },
+    {
+      "id": "194998",
+      "nombre": "Edison Flores",
+      "posicion": "Centre-Forward",
+      "partidos": 20,
+      "minutos": 835
+    },
+    {
+      "id": "440312",
+      "nombre": "Bryan Reyna",
+      "posicion": "Left Winger",
+      "partidos": 10,
+      "minutos": 238
+    },
+    {
+      "id": "130394",
+      "nombre": "Gianluca Lapadula",
+      "posicion": "Centre-Forward",
+      "partidos": 10,
+      "minutos": 555
+    },
+    {
+      "id": "424024",
+      "nombre": "Héctor Fértoli",
+      "posicion": "Left Winger",
+      "partidos": 20,
+      "minutos": 732
+    },
+    {
+      "id": "337070",
+      "nombre": "Sekou Gassama",
+      "posicion": "Centre-Forward",
+      "partidos": 7,
+      "minutos": 222
+    },
+    {
+      "id": "396920",
+      "nombre": "Lisandro Alzugaray",
+      "posicion": "Right Winger",
+      "partidos": 24,
+      "minutos": 1369
+    },
+    {
+      "id": "1369249",
+      "nombre": "Nicolás Rengifo",
+      "posicion": "Centre-Forward",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1277814",
+      "nombre": "Rodrigo Dioses",
+      "posicion": "Centre-Forward",
+      "partidos": 2,
+      "minutos": 160
+    },
+    {
+      "id": "1432143",
+      "nombre": "Gonzalo Álvarez",
+      "posicion": "Right Winger",
+      "partidos": 2,
+      "minutos": 122
+    },
+    {
+      "id": "1432145",
+      "nombre": "Sandro Cometivos",
+      "posicion": "Centre-Forward",
+      "partidos": 2,
+      "minutos": 103
+    },
+    {
+      "id": "1433244",
+      "nombre": "Eystin Córdova",
+      "posicion": "Right Winger",
+      "partidos": 2,
+      "minutos": 99
+    },
+    {
+      "id": "1379867",
+      "nombre": "Christopher Loayza",
+      "posicion": "Left Winger",
+      "partidos": 2,
+      "minutos": 101
+    },
+    {
+      "id": "1435901",
+      "nombre": "Jhon Guzmán",
+      "posicion": "Centre-Forward",
+      "partidos": 0,
+      "minutos": 0
+    }
+  ]
+}

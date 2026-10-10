@@ -1,0 +1,532 @@
+{
+  "partido_id": "5034401",
+  "ruta": "/spielbericht/index/spielbericht/5034401",
+  "fecha_extraccion": "2026-10-02T22:50:10",
+  "equipos": [
+    {
+      "club_id": "120792",
+      "club_nombre": "FC Cajamarca",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "1284244",
+          "nombre": "Aspajo",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "981819",
+          "nombre": "Pósito",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "338977",
+          "nombre": "Vílchez",
+          "dorsal": 95,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "1149627",
+          "nombre": "Suárez",
+          "dorsal": 5,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "242996",
+          "nombre": "Orejuela",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "358338",
+          "nombre": "Correa",
+          "dorsal": 13,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "1096324",
+          "nombre": "Arrasco",
+          "dorsal": 11,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "641820",
+          "nombre": "Palacios",
+          "dorsal": 17,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "904940",
+          "nombre": "Enciso",
+          "dorsal": 31,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "621031",
+          "nombre": "Rasmussen",
+          "dorsal": 6,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "763898",
+          "nombre": "Cejas",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "260429",
+          "nombre": "Jonathan Medina",
+          "dorsal": 3,
+          "posicion": "GK"
+        },
+        {
+          "id": "895056",
+          "nombre": "Arthur Gutiérrez",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "662696",
+          "nombre": "José Soto",
+          "dorsal": 4,
+          "posicion": "LB"
+        },
+        {
+          "id": "1029758",
+          "nombre": "Carlos Gómez",
+          "dorsal": 44,
+          "posicion": "RB"
+        },
+        {
+          "id": "582318",
+          "nombre": "Jhon Vega",
+          "dorsal": 21,
+          "posicion": "DM"
+        },
+        {
+          "id": "106283",
+          "nombre": "Edson Aubert",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "662714",
+          "nombre": "Carlos Meza",
+          "dorsal": 20,
+          "posicion": "RW"
+        },
+        {
+          "id": "212300",
+          "nombre": "José Lugo",
+          "dorsal": 77,
+          "posicion": "CF"
+        },
+        {
+          "id": "795440",
+          "nombre": "Sebastien Pineau",
+          "dorsal": 7,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "2729",
+      "club_nombre": "Club Cienciano",
+      "local": false,
+      "formacion": "4-4-2 double 6",
+      "titulares": [
+        {
+          "id": "347660",
+          "nombre": "Falcón",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "246548",
+          "nombre": "Amondarain",
+          "dorsal": 4,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "704884",
+          "nombre": "Becerra",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "538612",
+          "nombre": "Martinich",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "1239936",
+          "nombre": "Caparó",
+          "dorsal": 39,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "752977",
+          "nombre": "Robles",
+          "dorsal": 29,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "335217",
+          "nombre": "Barreto",
+          "dorsal": 88,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "312151",
+          "nombre": "Sandoval",
+          "dorsal": 17,
+          "top": 23.0,
+          "left": 12.0
+        },
+        {
+          "id": "477378",
+          "nombre": "Cabello",
+          "dorsal": 22,
+          "top": 23.0,
+          "left": 68.0
+        },
+        {
+          "id": "415544",
+          "nombre": "Bandiera",
+          "dorsal": 11,
+          "top": 2.0,
+          "left": 30.0
+        },
+        {
+          "id": "626179",
+          "nombre": "Succar",
+          "dorsal": 19,
+          "top": 2.0,
+          "left": 50.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "420866",
+          "nombre": "Ítalo Espinoza",
+          "dorsal": 31,
+          "posicion": "GK"
+        },
+        {
+          "id": "657221",
+          "nombre": "Rotceh Aguilar",
+          "dorsal": 26,
+          "posicion": "CB"
+        },
+        {
+          "id": "739664",
+          "nombre": "Claudio Nuñez",
+          "dorsal": 13,
+          "posicion": "CB"
+        },
+        {
+          "id": "662706",
+          "nombre": "Sebastián Cavero",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "817656",
+          "nombre": "Alonso Yovera",
+          "dorsal": 27,
+          "posicion": "LB"
+        },
+        {
+          "id": "795946",
+          "nombre": "Renzo Salazar",
+          "dorsal": 25,
+          "posicion": "RB"
+        },
+        {
+          "id": "1039039",
+          "nombre": "Gonzalo Aguirre",
+          "dorsal": 8,
+          "posicion": "CM"
+        },
+        {
+          "id": "391237",
+          "nombre": "Cristian Souza",
+          "dorsal": 7,
+          "posicion": "RW"
+        },
+        {
+          "id": "242436",
+          "nombre": "Carlos Garcés",
+          "dorsal": 21,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "120792",
+      "minuto": 4,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "641820",
+        "nombre": "Brandon Palacios"
+      },
+      "asistencia": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 19,
+      "anadido": 0,
+      "marcador": "2:0",
+      "autor": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      },
+      "asistencia": {
+        "id": "641820",
+        "nombre": "Brandon Palacios"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 21,
+      "anadido": 0,
+      "marcador": "2:1",
+      "autor": {
+        "id": "477378",
+        "nombre": "Carlos Cabello"
+      },
+      "asistencia": {
+        "id": "335217",
+        "nombre": "Gerson Barreto"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 36,
+      "anadido": 0,
+      "marcador": "2:2",
+      "autor": {
+        "id": "312151",
+        "nombre": "Ray Sandoval"
+      },
+      "asistencia": {
+        "id": "477378",
+        "nombre": "Carlos Cabello"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 40,
+      "anadido": 0,
+      "marcador": "2:3",
+      "autor": {
+        "id": "415544",
+        "nombre": "Neri Bandiera"
+      },
+      "asistencia": {
+        "id": "312151",
+        "nombre": "Ray Sandoval"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 74,
+      "anadido": 0,
+      "marcador": "2:4",
+      "autor": {
+        "id": "391237",
+        "nombre": "Cristian Souza"
+      },
+      "asistencia": {
+        "id": "538612",
+        "nombre": "Marcos Martinich"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 84,
+      "anadido": 0,
+      "marcador": "2:5",
+      "autor": {
+        "id": "242436",
+        "nombre": "Carlos Garcés"
+      },
+      "asistencia": {
+        "id": "752977",
+        "nombre": "Ademar Robles"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "2729",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "312151",
+        "nombre": "Ray Sandoval"
+      },
+      "entra": {
+        "id": "391237",
+        "nombre": "Cristian Souza"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "1239936",
+        "nombre": "Henry Caparó"
+      },
+      "entra": {
+        "id": "739664",
+        "nombre": "Claudio Nuñez"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "621031",
+        "nombre": "Michel Rasmussen"
+      },
+      "entra": {
+        "id": "212300",
+        "nombre": "José Lugo"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "904940",
+        "nombre": "Sebastián Enciso"
+      },
+      "entra": {
+        "id": "895056",
+        "nombre": "Arthur Gutiérrez"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "1149627",
+        "nombre": "Renato Suárez"
+      },
+      "entra": {
+        "id": "1029758",
+        "nombre": "Carlos Gómez"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 59,
+      "anadido": 0,
+      "sale": {
+        "id": "626179",
+        "nombre": "Matías Succar"
+      },
+      "entra": {
+        "id": "242436",
+        "nombre": "Carlos Garcés"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 66,
+      "anadido": 0,
+      "sale": {
+        "id": "477378",
+        "nombre": "Carlos Cabello"
+      },
+      "entra": {
+        "id": "795946",
+        "nombre": "Renzo Salazar"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "641820",
+        "nombre": "Brandon Palacios"
+      },
+      "entra": {
+        "id": "662714",
+        "nombre": "Carlos Meza"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 83,
+      "anadido": 0,
+      "sale": {
+        "id": "415544",
+        "nombre": "Neri Bandiera"
+      },
+      "entra": {
+        "id": "662706",
+        "nombre": "Sebastián Cavero"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "120792",
+      "minuto": 62,
+      "anadido": 0,
+      "jugador": {
+        "id": "242996",
+        "nombre": "Jefferson Orejuela"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jefferson Orejuela 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 64,
+      "anadido": 0,
+      "jugador": {
+        "id": "335217",
+        "nombre": "Gerson Barreto"
+      },
+      "tipo": "amarilla",
+      "detalle": "Gerson Barreto 2. Yellow card , Time wasting"
+    }
+  ]
+}

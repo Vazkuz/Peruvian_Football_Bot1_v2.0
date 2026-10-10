@@ -1,0 +1,197 @@
+{
+  "club_id": "1450",
+  "club_nombre": "Club Sporting Cristal",
+  "formacion": "4-3-3",
+  "variante": "4-3-3 Attacking",
+  "fecha_generacion": "2026-10-03T00:44:01",
+  "casillas": [
+    {
+      "casilla": 1,
+      "rol": "arquero",
+      "titular": {
+        "id": "662693",
+        "nombre": "Diego Enríquez",
+        "rol": "arquero",
+        "puntaje": 25.327
+      },
+      "suplente": {
+        "id": "1239934",
+        "nombre": "César Bautista",
+        "rol": "arquero",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 10
+      }
+    },
+    {
+      "casilla": 2,
+      "rol": "lateral_izq",
+      "titular": {
+        "id": "375813",
+        "nombre": "Cristiano",
+        "rol": "lateral_izq",
+        "puntaje": 20.861
+      },
+      "suplente": {
+        "id": "1145987",
+        "nombre": "Fabrizio Lora",
+        "rol": "lateral_izq",
+        "puntaje": 0,
+        "origen": "plantel"
+      }
+    },
+    {
+      "casilla": 3,
+      "rol": "central",
+      "titular": {
+        "id": "211420",
+        "nombre": "Miguel Araujo",
+        "rol": "central",
+        "puntaje": 25.327
+      },
+      "suplente": {
+        "id": "908423",
+        "nombre": "Leonardo Díaz",
+        "rol": "central",
+        "puntaje": 3.089,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 4,
+      "rol": "central",
+      "titular": {
+        "id": "665112",
+        "nombre": "Rafael Lutiger",
+        "rol": "central",
+        "puntaje": 21.75
+      },
+      "suplente": {
+        "id": "330684",
+        "nombre": "Luis Abram",
+        "rol": "central",
+        "puntaje": 2.354,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 5,
+      "rol": "lateral_der",
+      "titular": {
+        "id": "248094",
+        "nombre": "Leandro Sosa",
+        "rol": "lateral_der",
+        "puntaje": 17.359
+      },
+      "suplente": {
+        "id": "457536",
+        "nombre": "Juan González",
+        "rol": "lateral_der",
+        "puntaje": 7.19,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 6,
+      "rol": "volante_central",
+      "titular": {
+        "id": "441718",
+        "nombre": "Martín Távara",
+        "rol": "volante_central",
+        "puntaje": 5.741
+      },
+      "suplente": {
+        "id": "1011264",
+        "nombre": "Catriel Cabellos",
+        "rol": "volante_central",
+        "puntaje": 4.654,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 7,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "94880",
+        "nombre": "Yoshimar Yotún",
+        "rol": "volante_defensivo",
+        "puntaje": 13.15
+      },
+      "suplente": {
+        "id": "577258",
+        "nombre": "Agustín Álvarez",
+        "rol": "volante_defensivo",
+        "puntaje": 6.475,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 8,
+      "rol": "volante_central",
+      "titular": {
+        "id": "1118789",
+        "nombre": "Ian Wisdom",
+        "rol": "volante_central",
+        "puntaje": 5.332
+      },
+      "suplente": {
+        "id": "174570",
+        "nombre": "Gabriel",
+        "rol": "volante_central",
+        "puntaje": 2.407,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 9,
+      "rol": "volante_extremo_izq",
+      "titular": {
+        "id": "1226873",
+        "nombre": "Maxloren Castro",
+        "rol": "volante_extremo_izq",
+        "puntaje": 13.84
+      },
+      "suplente": {
+        "id": "660840",
+        "nombre": "Juan Manuel Cuesta",
+        "rol": "volante_extremo_izq",
+        "puntaje": 9.511,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 10,
+      "rol": "delantero",
+      "titular": {
+        "id": "138387",
+        "nombre": "Michael Hoyos",
+        "rol": "delantero",
+        "puntaje": 15.532
+      },
+      "suplente": {
+        "id": "53847",
+        "nombre": "Hernán Barcos",
+        "rol": "delantero",
+        "puntaje": 10.573,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 11,
+      "rol": "volante_extremo_der",
+      "titular": {
+        "id": "597455",
+        "nombre": "Santiago González",
+        "rol": "volante_extremo_der",
+        "puntaje": 19.056
+      },
+      "suplente": {
+        "id": "82589",
+        "nombre": "Írven Ávila",
+        "rol": "volante_extremo_der",
+        "puntaje": 1.489,
+        "origen": "minutos"
+      }
+    }
+  ]
+}

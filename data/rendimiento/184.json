@@ -1,0 +1,351 @@
+{
+  "club_id": "184",
+  "club_nombre": "Club Alianza Lima",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:02:29",
+  "jugadores": [
+    {
+      "id": "258964",
+      "nombre": "Guillermo Viscarra",
+      "posicion": "Goalkeeper",
+      "partidos": 2,
+      "minutos": 180
+    },
+    {
+      "id": "158515",
+      "nombre": "Alejandro Duarte",
+      "posicion": "Goalkeeper",
+      "partidos": 27,
+      "minutos": 2430
+    },
+    {
+      "id": "662712",
+      "nombre": "Ángel de la Cruz",
+      "posicion": "Goalkeeper",
+      "partidos": 3,
+      "minutos": 270
+    },
+    {
+      "id": "1227315",
+      "nombre": "Fabrisio Mesías",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "539067",
+      "nombre": "Nicolás Díaz",
+      "posicion": "Centre-Back",
+      "partidos": 6,
+      "minutos": 436
+    },
+    {
+      "id": "335677",
+      "nombre": "Renzo Garcés",
+      "posicion": "Centre-Back",
+      "partidos": 27,
+      "minutos": 2404
+    },
+    {
+      "id": "988661",
+      "nombre": "Mateo Antoni",
+      "posicion": "Centre-Back",
+      "partidos": 26,
+      "minutos": 2149
+    },
+    {
+      "id": "441727",
+      "nombre": "Gianfranco Chávez",
+      "posicion": "Centre-Back",
+      "partidos": 18,
+      "minutos": 1248
+    },
+    {
+      "id": "837617",
+      "nombre": "Marco Huamán",
+      "posicion": "Right-Back",
+      "partidos": 23,
+      "minutos": 1959
+    },
+    {
+      "id": "1227156",
+      "nombre": "D'Alessandro Montenegro",
+      "posicion": "Right-Back",
+      "partidos": 2,
+      "minutos": 103
+    },
+    {
+      "id": "656061",
+      "nombre": "Cristian Carbajal",
+      "posicion": "Left-Back",
+      "partidos": 13,
+      "minutos": 606
+    },
+    {
+      "id": "260324",
+      "nombre": "Josué Estrada",
+      "posicion": "Right-Back",
+      "partidos": 2,
+      "minutos": 2
+    },
+    {
+      "id": "103890",
+      "nombre": "Luis Advíncula",
+      "posicion": "Right-Back",
+      "partidos": 27,
+      "minutos": 2320
+    },
+    {
+      "id": "1140448",
+      "nombre": "Jhoao Velásquez",
+      "posicion": "Centre-Back",
+      "partidos": 1,
+      "minutos": 90
+    },
+    {
+      "id": "1123587",
+      "nombre": "Jonathan García",
+      "posicion": "Centre-Back",
+      "partidos": 3,
+      "minutos": 192
+    },
+    {
+      "id": "1252495",
+      "nombre": "Rait Alarcón",
+      "posicion": "Left-Back",
+      "partidos": 2,
+      "minutos": 162
+    },
+    {
+      "id": "1409251",
+      "nombre": "Jefferson Muñoz",
+      "posicion": "Centre-Back",
+      "partidos": 2,
+      "minutos": 116
+    },
+    {
+      "id": "1506786",
+      "nombre": "Yosimar Gomez",
+      "posicion": "Right-Back",
+      "partidos": 1,
+      "minutos": 83
+    },
+    {
+      "id": "1410184",
+      "nombre": "Giordan Gallardo",
+      "posicion": "Left-Back",
+      "partidos": 1,
+      "minutos": 7
+    },
+    {
+      "id": "323432",
+      "nombre": "Jairo Vélez",
+      "posicion": "Attacking Midfield",
+      "partidos": 28,
+      "minutos": 2305
+    },
+    {
+      "id": "582655",
+      "nombre": "Jesús Castillo",
+      "posicion": "Defensive Midfield",
+      "partidos": 15,
+      "minutos": 687
+    },
+    {
+      "id": "1328288",
+      "nombre": "Piero Cari",
+      "posicion": "Central Midfield",
+      "partidos": 6,
+      "minutos": 155
+    },
+    {
+      "id": "657479",
+      "nombre": "Alessandro Burlamaqui",
+      "posicion": "Central Midfield",
+      "partidos": 11,
+      "minutos": 167
+    },
+    {
+      "id": "818499",
+      "nombre": "Cristian Neira",
+      "posicion": "Attacking Midfield",
+      "partidos": 4,
+      "minutos": 68
+    },
+    {
+      "id": "273638",
+      "nombre": "Pedro Aquino",
+      "posicion": "Defensive Midfield",
+      "partidos": 1,
+      "minutos": 4
+    },
+    {
+      "id": "250437",
+      "nombre": "Jean Pierre Archimbaud",
+      "posicion": "Defensive Midfield",
+      "partidos": 10,
+      "minutos": 129
+    },
+    {
+      "id": "147263",
+      "nombre": "Fernando Gaibor",
+      "posicion": "Central Midfield",
+      "partidos": 24,
+      "minutos": 1676
+    },
+    {
+      "id": "131233",
+      "nombre": "Esteban Pavez",
+      "posicion": "Defensive Midfield",
+      "partidos": 25,
+      "minutos": 2209
+    },
+    {
+      "id": "1150488",
+      "nombre": "Adriano Neciosup",
+      "posicion": "Attacking Midfield",
+      "partidos": 2,
+      "minutos": 124
+    },
+    {
+      "id": "1123589",
+      "nombre": "Braidy Paz",
+      "posicion": "Attacking Midfield",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "1370514",
+      "nombre": "Carlos Aramburú",
+      "posicion": "Central Midfield",
+      "partidos": 2,
+      "minutos": 154
+    },
+    {
+      "id": "1339363",
+      "nombre": "Mateo Arakaki",
+      "posicion": "Defensive Midfield",
+      "partidos": 1,
+      "minutos": 7
+    },
+    {
+      "id": "1506803",
+      "nombre": "Mathias Muñoz",
+      "posicion": "Central Midfield",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1506806",
+      "nombre": "Zait Gonzales",
+      "posicion": "Defensive Midfield",
+      "partidos": 1,
+      "minutos": 83
+    },
+    {
+      "id": "1558611",
+      "nombre": "Ángelo Vidaurre",
+      "posicion": "Central Midfield",
+      "partidos": 2,
+      "minutos": 134
+    },
+    {
+      "id": "1506807",
+      "nombre": "Diego Hidalgo",
+      "posicion": "Defensive Midfield",
+      "partidos": 2,
+      "minutos": 180
+    },
+    {
+      "id": "639149",
+      "nombre": "Federico Girotti",
+      "posicion": "Centre-Forward",
+      "partidos": 22,
+      "minutos": 1166
+    },
+    {
+      "id": "687529",
+      "nombre": "Luis Ramos",
+      "posicion": "Centre-Forward",
+      "partidos": 17,
+      "minutos": 501
+    },
+    {
+      "id": "836494",
+      "nombre": "Alan Cantero",
+      "posicion": "Left Winger",
+      "partidos": 24,
+      "minutos": 998
+    },
+    {
+      "id": "266451",
+      "nombre": "Eryc Castillo",
+      "posicion": "Left Winger",
+      "partidos": 28,
+      "minutos": 2269
+    },
+    {
+      "id": "439631",
+      "nombre": "Kevin Quevedo",
+      "posicion": "Right Winger",
+      "partidos": 10,
+      "minutos": 497
+    },
+    {
+      "id": "537255",
+      "nombre": "Gaspar Gentile",
+      "posicion": "Left Winger",
+      "partidos": 22,
+      "minutos": 660
+    },
+    {
+      "id": "966185",
+      "nombre": "Stefano Olaya",
+      "posicion": "Left Winger",
+      "partidos": 1,
+      "minutos": 30
+    },
+    {
+      "id": "2989",
+      "nombre": "Paolo Guerrero",
+      "posicion": "Centre-Forward",
+      "partidos": 21,
+      "minutos": 1355
+    },
+    {
+      "id": "1339335",
+      "nombre": "Geray Motta",
+      "posicion": "Centre-Forward",
+      "partidos": 4,
+      "minutos": 187
+    },
+    {
+      "id": "909477",
+      "nombre": "Marcelo Matzuda",
+      "posicion": "Left Winger",
+      "partidos": 2,
+      "minutos": 107
+    },
+    {
+      "id": "984645",
+      "nombre": "Brando Paladines",
+      "posicion": "Centre-Forward",
+      "partidos": 1,
+      "minutos": 90
+    },
+    {
+      "id": "1410182",
+      "nombre": "Piero Arroyo",
+      "posicion": "Left Winger",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1433245",
+      "nombre": "Carlos Alvarado",
+      "posicion": "Centre-Forward",
+      "partidos": 0,
+      "minutos": 0
+    }
+  ]
+}

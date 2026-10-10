@@ -1,0 +1,523 @@
+{
+  "partido_id": "5034397",
+  "ruta": "/spielbericht/index/spielbericht/5034397",
+  "fecha_extraccion": "2026-10-02T22:48:07",
+  "equipos": [
+    {
+      "club_id": "47107",
+      "club_nombre": "Comerciantes Unidos",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "805148",
+          "nombre": "Córdova",
+          "dorsal": 17,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "891814",
+          "nombre": "Alcedo",
+          "dorsal": 40,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "671846",
+          "nombre": "Rodríguez",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "292729",
+          "nombre": "Cossio",
+          "dorsal": 15,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "501586",
+          "nombre": "Rojas",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "897924",
+          "nombre": "Rodríguez",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "325589",
+          "nombre": "Arias",
+          "dorsal": 4,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "639763",
+          "nombre": "Vilca",
+          "dorsal": 25,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "641826",
+          "nombre": "Herrera",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "355639",
+          "nombre": "Ayoví",
+          "dorsal": 8,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "458756",
+          "nombre": "Pérez",
+          "dorsal": 13,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "441704",
+          "nombre": "José Charún",
+          "dorsal": 99,
+          "posicion": "GK"
+        },
+        {
+          "id": "871653",
+          "nombre": "Piero Guzmán",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "639458",
+          "nombre": "José Parodi",
+          "dorsal": 20,
+          "posicion": "DM"
+        },
+        {
+          "id": "1076593",
+          "nombre": "Thiago Salinas",
+          "dorsal": 14,
+          "posicion": "CM"
+        },
+        {
+          "id": "739725",
+          "nombre": "Mathías Carpio",
+          "dorsal": 10,
+          "posicion": "LW"
+        },
+        {
+          "id": "662709",
+          "nombre": "Óscar Pinto",
+          "dorsal": 28,
+          "posicion": "LW"
+        },
+        {
+          "id": "653429",
+          "nombre": "Jhon Sánchez",
+          "dorsal": 32,
+          "posicion": "RW"
+        },
+        {
+          "id": "1182403",
+          "nombre": "Jean Carlo Olivares",
+          "dorsal": 50,
+          "posicion": "CF"
+        },
+        {
+          "id": "347003",
+          "nombre": "Matías Sen",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "120792",
+      "club_nombre": "FC Cajamarca",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "1284244",
+          "nombre": "Aspajo",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "981819",
+          "nombre": "Pósito",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "338977",
+          "nombre": "Vílchez",
+          "dorsal": 95,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "1149627",
+          "nombre": "Suárez",
+          "dorsal": 5,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "242996",
+          "nombre": "Orejuela",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "358338",
+          "nombre": "Correa",
+          "dorsal": 13,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "1096324",
+          "nombre": "Arrasco",
+          "dorsal": 11,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "641820",
+          "nombre": "Palacios",
+          "dorsal": 17,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "904940",
+          "nombre": "Enciso",
+          "dorsal": 31,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "621031",
+          "nombre": "Rasmussen",
+          "dorsal": 6,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "763898",
+          "nombre": "Cejas",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "260429",
+          "nombre": "Jonathan Medina",
+          "dorsal": 3,
+          "posicion": "GK"
+        },
+        {
+          "id": "895056",
+          "nombre": "Arthur Gutiérrez",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "1029758",
+          "nombre": "Carlos Gómez",
+          "dorsal": 44,
+          "posicion": "RB"
+        },
+        {
+          "id": "582318",
+          "nombre": "Jhon Vega",
+          "dorsal": 21,
+          "posicion": "DM"
+        },
+        {
+          "id": "106283",
+          "nombre": "Edson Aubert",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "250929",
+          "nombre": "Paulo Goyoneche",
+          "dorsal": 25,
+          "posicion": "DM"
+        },
+        {
+          "id": "1445319",
+          "nombre": "Patrick Alegría",
+          "dorsal": 32,
+          "posicion": "AM"
+        },
+        {
+          "id": "1277814",
+          "nombre": "Rodrigo Dioses",
+          "dorsal": 35,
+          "posicion": "CF"
+        },
+        {
+          "id": "212300",
+          "nombre": "José Lugo",
+          "dorsal": 77,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "120792",
+      "minuto": 7,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "621031",
+        "nombre": "Michel Rasmussen"
+      },
+      "asistencia": {
+        "id": "358338",
+        "nombre": "Carlos Correa"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 10,
+      "anadido": 0,
+      "marcador": "0:2",
+      "autor": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      },
+      "asistencia": {
+        "id": "981819",
+        "nombre": "Alejandro Pósito"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 52,
+      "anadido": 0,
+      "marcador": "1:2",
+      "autor": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      },
+      "asistencia": {
+        "id": "458756",
+        "nombre": "Maximiliano Pérez"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 59,
+      "anadido": 0,
+      "marcador": "2:2",
+      "autor": {
+        "id": "639763",
+        "nombre": "Rodrigo Vilca"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "120792",
+      "minuto": 89,
+      "anadido": 0,
+      "marcador": "2:3",
+      "autor": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      },
+      "asistencia": {
+        "id": "904940",
+        "nombre": "Sebastián Enciso"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "47107",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "355639",
+        "nombre": "Wilter Ayoví"
+      },
+      "entra": {
+        "id": "653429",
+        "nombre": "Jhon Sánchez"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "641826",
+        "nombre": "Josuee Herrera"
+      },
+      "entra": {
+        "id": "1076593",
+        "nombre": "Thiago Salinas"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "897924",
+        "nombre": "Agustín Rodríguez"
+      },
+      "entra": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 58,
+      "anadido": 0,
+      "sale": {
+        "id": "458756",
+        "nombre": "Maximiliano Pérez"
+      },
+      "entra": {
+        "id": "347003",
+        "nombre": "Matías Sen"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "358338",
+        "nombre": "Carlos Correa"
+      },
+      "entra": {
+        "id": "250929",
+        "nombre": "Paulo Goyoneche"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "641820",
+        "nombre": "Brandon Palacios"
+      },
+      "entra": {
+        "id": "895056",
+        "nombre": "Arthur Gutiérrez"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "621031",
+        "nombre": "Michel Rasmussen"
+      },
+      "entra": {
+        "id": "1029758",
+        "nombre": "Carlos Gómez"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      },
+      "entra": {
+        "id": "739725",
+        "nombre": "Mathías Carpio"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 85,
+      "anadido": 0,
+      "sale": {
+        "id": "763898",
+        "nombre": "Pedro Cejas"
+      },
+      "entra": {
+        "id": "212300",
+        "nombre": "José Lugo"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "120792",
+      "minuto": 45,
+      "anadido": 6,
+      "jugador": {
+        "id": "358338",
+        "nombre": "Carlos Correa"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Correa 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 49,
+      "anadido": 0,
+      "jugador": {
+        "id": "891814",
+        "nombre": "Flavio Alcedo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Flavio Alcedo 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 62,
+      "anadido": 0,
+      "jugador": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jean Carlo Olivares 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 78,
+      "anadido": 0,
+      "jugador": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      },
+      "tipo": "amarilla",
+      "detalle": "Mauricio Arrasco 2. Yellow card , Foul"
+    }
+  ]
+}

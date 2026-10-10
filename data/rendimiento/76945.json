@@ -1,0 +1,246 @@
+{
+  "club_id": "76945",
+  "club_nombre": "Deportivo Garcilaso",
+  "temporada": "Total 25/26",
+  "fecha_extraccion": "2026-10-02T23:06:08",
+  "jugadores": [
+    {
+      "id": "342051",
+      "nombre": "Patrick Zubczuk",
+      "posicion": "Goalkeeper",
+      "partidos": 30,
+      "minutos": 2700
+    },
+    {
+      "id": "456161",
+      "nombre": "Juniors Barbieri",
+      "posicion": "Goalkeeper",
+      "partidos": 2,
+      "minutos": 180
+    },
+    {
+      "id": "1226870",
+      "nombre": "Mallki Marmanillo",
+      "posicion": "Goalkeeper",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "524311",
+      "nombre": "Agustín Gómez",
+      "posicion": "Centre-Back",
+      "partidos": 32,
+      "minutos": 2864
+    },
+    {
+      "id": "741413",
+      "nombre": "Erick Canales",
+      "posicion": "Right-Back",
+      "partidos": 29,
+      "minutos": 2420
+    },
+    {
+      "id": "741727",
+      "nombre": "Orlando Núñez",
+      "posicion": "Left-Back",
+      "partidos": 15,
+      "minutos": 1164
+    },
+    {
+      "id": "260318",
+      "nombre": "Horacio Benincasa",
+      "posicion": "Centre-Back",
+      "partidos": 16,
+      "minutos": 1316
+    },
+    {
+      "id": "582098",
+      "nombre": "Jefferson Portales",
+      "posicion": "Centre-Back",
+      "partidos": 9,
+      "minutos": 442
+    },
+    {
+      "id": "866487",
+      "nombre": "Xavi Moreno",
+      "posicion": "Centre-Back",
+      "partidos": 21,
+      "minutos": 1628
+    },
+    {
+      "id": "279380",
+      "nombre": "Aldair Salazar",
+      "posicion": "Centre-Back",
+      "partidos": 24,
+      "minutos": 1700
+    },
+    {
+      "id": "356381",
+      "nombre": "Anthony Rosell",
+      "posicion": "Left-Back",
+      "partidos": 4,
+      "minutos": 76
+    },
+    {
+      "id": "1141361",
+      "nombre": "Samir Villacorta",
+      "posicion": "Right-Back",
+      "partidos": 7,
+      "minutos": 318
+    },
+    {
+      "id": "1568212",
+      "nombre": "Matías Olivera",
+      "posicion": "Left-Back",
+      "partidos": 1,
+      "minutos": 45
+    },
+    {
+      "id": "483714",
+      "nombre": "Kevin Sandoval",
+      "posicion": "Attacking Midfield",
+      "partidos": 25,
+      "minutos": 1476
+    },
+    {
+      "id": "458906",
+      "nombre": "Carlos Ramos",
+      "posicion": "Central Midfield",
+      "partidos": 31,
+      "minutos": 2332
+    },
+    {
+      "id": "810550",
+      "nombre": "Adrián Ascues",
+      "posicion": "Central Midfield",
+      "partidos": 25,
+      "minutos": 862
+    },
+    {
+      "id": "438000",
+      "nombre": "Agustín González",
+      "posicion": "Central Midfield",
+      "partidos": 28,
+      "minutos": 2201
+    },
+    {
+      "id": "168974",
+      "nombre": "Claudio Torrejón",
+      "posicion": "Defensive Midfield",
+      "partidos": 17,
+      "minutos": 1291
+    },
+    {
+      "id": "393855",
+      "nombre": "Inti Garrafa",
+      "posicion": "Defensive Midfield",
+      "partidos": 3,
+      "minutos": 114
+    },
+    {
+      "id": "1371975",
+      "nombre": "Joao Mendoza",
+      "posicion": "Attacking Midfield",
+      "partidos": 7,
+      "minutos": 284
+    },
+    {
+      "id": "1559613",
+      "nombre": "José Del Solar",
+      "posicion": "Central Midfield",
+      "partidos": 1,
+      "minutos": 16
+    },
+    {
+      "id": "1568213",
+      "nombre": "César Flores",
+      "posicion": "Defensive Midfield",
+      "partidos": 2,
+      "minutos": 108
+    },
+    {
+      "id": "851121",
+      "nombre": "Agustín Graneros",
+      "posicion": "Centre-Forward",
+      "partidos": 15,
+      "minutos": 805
+    },
+    {
+      "id": "527625",
+      "nombre": "Christopher Olivares",
+      "posicion": "Centre-Forward",
+      "partidos": 29,
+      "minutos": 1491
+    },
+    {
+      "id": "279057",
+      "nombre": "Beto da Silva",
+      "posicion": "Left Winger",
+      "partidos": 29,
+      "minutos": 2274
+    },
+    {
+      "id": "324046",
+      "nombre": "Francisco Arancibia",
+      "posicion": "Right Winger",
+      "partidos": 27,
+      "minutos": 1829
+    },
+    {
+      "id": "451338",
+      "nombre": "Fernando Pacheco",
+      "posicion": "Left Winger",
+      "partidos": 3,
+      "minutos": 41
+    },
+    {
+      "id": "443350",
+      "nombre": "Facundo Castelli",
+      "posicion": "Centre-Forward",
+      "partidos": 9,
+      "minutos": 463
+    },
+    {
+      "id": "463055",
+      "nombre": "José Sinisterra",
+      "posicion": "Centre-Forward",
+      "partidos": 17,
+      "minutos": 629
+    },
+    {
+      "id": "912299",
+      "nombre": "Lucas Ríos",
+      "posicion": "Left Winger",
+      "partidos": 3,
+      "minutos": 67
+    },
+    {
+      "id": "818970",
+      "nombre": "Sharif Ramírez",
+      "posicion": "Right Winger",
+      "partidos": 13,
+      "minutos": 403
+    },
+    {
+      "id": "824177",
+      "nombre": "Paulo Rodríguez",
+      "posicion": "Centre-Forward",
+      "partidos": 0,
+      "minutos": 0
+    },
+    {
+      "id": "1559612",
+      "nombre": "Pablo Zela",
+      "posicion": "Left Winger",
+      "partidos": 2,
+      "minutos": 33
+    },
+    {
+      "id": "1496665",
+      "nombre": "Bryan Yupanqui",
+      "posicion": "Centre-Forward",
+      "partidos": 1,
+      "minutos": 22
+    }
+  ]
+}

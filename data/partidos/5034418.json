@@ -1,0 +1,521 @@
+{
+  "partido_id": "5034418",
+  "ruta": "/spielbericht/index/spielbericht/5034418",
+  "fecha_extraccion": "2026-10-02T22:58:21",
+  "equipos": [
+    {
+      "club_id": "21655",
+      "club_nombre": "Sport Huancayo",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "372304",
+          "nombre": "Zamudio",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "482452",
+          "nombre": "Valoyes",
+          "dorsal": 70,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "814636",
+          "nombre": "Gaona",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "224652",
+          "nombre": "Ángeles",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "531177",
+          "nombre": "Falconí",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "142738",
+          "nombre": "Salcedo",
+          "dorsal": 22,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "490614",
+          "nombre": "Carabaño",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "313437",
+          "nombre": "Sanguinetti",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "325147",
+          "nombre": "Luján",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "874831",
+          "nombre": "Magallanes",
+          "dorsal": 23,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "331819",
+          "nombre": "Huaccha",
+          "dorsal": 19,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "858666",
+          "nombre": "Aldair Ccorahua",
+          "dorsal": 29,
+          "posicion": "GK"
+        },
+        {
+          "id": "242546",
+          "nombre": "Yonatan Murillo",
+          "dorsal": 92,
+          "posicion": "CB"
+        },
+        {
+          "id": "271676",
+          "nombre": "Jeremy Rostaing",
+          "dorsal": 28,
+          "posicion": "RB"
+        },
+        {
+          "id": "1188205",
+          "nombre": "Edu Villar",
+          "dorsal": 38,
+          "posicion": "DM"
+        },
+        {
+          "id": "417183",
+          "nombre": "Aldo Quiñónez",
+          "dorsal": 91,
+          "posicion": "CM"
+        },
+        {
+          "id": "422853",
+          "nombre": "Rick Campodónico",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1025975",
+          "nombre": "Juan Giménez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "279508",
+          "nombre": "Daniel Porozo",
+          "dorsal": 97,
+          "posicion": "CF"
+        },
+        {
+          "id": "1168655",
+          "nombre": "Juan Martínez",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "21170",
+      "club_nombre": "Universidad Técnica de Cajamarca",
+      "local": false,
+      "formacion": "4-4-2",
+      "titulares": [
+        {
+          "id": "785134",
+          "nombre": "Bettocchi",
+          "dorsal": 21,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "873252",
+          "nombre": "Duarte",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "443987",
+          "nombre": "Huerto",
+          "dorsal": 5,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "903834",
+          "nombre": "Paredes",
+          "dorsal": 35,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "473579",
+          "nombre": "Garro",
+          "dorsal": 17,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "653329",
+          "nombre": "Arce",
+          "dorsal": 88,
+          "top": 25.0,
+          "left": 12.0
+        },
+        {
+          "id": "434192",
+          "nombre": "Dioses",
+          "dorsal": 8,
+          "top": 25.0,
+          "left": 68.0
+        },
+        {
+          "id": "981410",
+          "nombre": "Cantt",
+          "dorsal": 15,
+          "top": 35.0,
+          "left": 53.0
+        },
+        {
+          "id": "78023",
+          "nombre": "Figuera",
+          "dorsal": 16,
+          "top": 35.0,
+          "left": 27.0
+        },
+        {
+          "id": "399496",
+          "nombre": "Lliuya",
+          "dorsal": 10,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "97013",
+          "nombre": "de Jesús",
+          "dorsal": 9,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "257991",
+          "nombre": "Ángelo Campos",
+          "dorsal": 1,
+          "posicion": "GK"
+        },
+        {
+          "id": "291339",
+          "nombre": "Ignacio Barrios",
+          "dorsal": 29,
+          "posicion": "GK"
+        },
+        {
+          "id": "621028",
+          "nombre": "Dylan Caro",
+          "dorsal": 13,
+          "posicion": "LB"
+        },
+        {
+          "id": "368417",
+          "nombre": "Adolfo Muñoz",
+          "dorsal": 19,
+          "posicion": "LW"
+        },
+        {
+          "id": "981706",
+          "nombre": "Jhosep Núñez",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1102802",
+          "nombre": "Santiago Gálvez",
+          "dorsal": 18,
+          "posicion": "RW"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "21170",
+      "minuto": 1,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "97013",
+        "nombre": "Marlon de Jesús"
+      },
+      "asistencia": {
+        "id": "434192",
+        "nombre": "David Dioses"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 43,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "814636",
+        "nombre": "Marcelo Gaona"
+      },
+      "asistencia": {
+        "id": "224652",
+        "nombre": "Hugo Ángeles"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 45,
+      "anadido": 7,
+      "marcador": "2:1",
+      "autor": {
+        "id": "313437",
+        "nombre": "Javier Sanguinetti"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "21170",
+      "minuto": 83,
+      "anadido": 0,
+      "marcador": "2:2",
+      "autor": {
+        "id": "97013",
+        "nombre": "Marlon de Jesús"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "21655",
+      "minuto": 84,
+      "anadido": 0,
+      "marcador": "3:2",
+      "autor": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "21655",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "142738",
+        "nombre": "Ricardo Salcedo"
+      },
+      "entra": {
+        "id": "417183",
+        "nombre": "Aldo Quiñónez"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 60,
+      "anadido": 0,
+      "sale": {
+        "id": "981410",
+        "nombre": "Joshua Cantt"
+      },
+      "entra": {
+        "id": "368417",
+        "nombre": "Adolfo Muñoz"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 64,
+      "anadido": 0,
+      "sale": {
+        "id": "331819",
+        "nombre": "Ronal Huaccha"
+      },
+      "entra": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 69,
+      "anadido": 0,
+      "sale": {
+        "id": "313437",
+        "nombre": "Javier Sanguinetti"
+      },
+      "entra": {
+        "id": "422853",
+        "nombre": "Rick Campodónico"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 70,
+      "anadido": 0,
+      "sale": {
+        "id": "653329",
+        "nombre": "Luis Arce"
+      },
+      "entra": {
+        "id": "981706",
+        "nombre": "Jhosep Núñez"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "874831",
+        "nombre": "Piero Magallanes"
+      },
+      "entra": {
+        "id": "1168655",
+        "nombre": "Juan Martínez"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "490614",
+        "nombre": "Diego Carabaño"
+      },
+      "entra": {
+        "id": "1188205",
+        "nombre": "Edu Villar"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "78023",
+        "nombre": "Arquímedes Figuera"
+      },
+      "entra": {
+        "id": "1102802",
+        "nombre": "Santiago Gálvez"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "903834",
+        "nombre": "Gilmar Paredes"
+      },
+      "entra": {
+        "id": "291339",
+        "nombre": "Ignacio Barrios"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "21170",
+      "minuto": 45,
+      "anadido": 0,
+      "jugador": {
+        "id": "981410",
+        "nombre": "Joshua Cantt"
+      },
+      "tipo": "amarilla",
+      "detalle": "Joshua Cantt 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 45,
+      "anadido": 2,
+      "jugador": {
+        "id": "78023",
+        "nombre": "Arquímedes Figuera"
+      },
+      "tipo": "amarilla",
+      "detalle": "Arquímedes Figuera 6. Yellow card"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 45,
+      "anadido": 3,
+      "jugador": {
+        "id": "142738",
+        "nombre": "Ricardo Salcedo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Ricardo Salcedo 2. Yellow card"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 69,
+      "anadido": 0,
+      "jugador": {
+        "id": "490614",
+        "nombre": "Diego Carabaño"
+      },
+      "tipo": "amarilla",
+      "detalle": "Diego Carabaño 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 81,
+      "anadido": 0,
+      "jugador": {
+        "id": "224652",
+        "nombre": "Hugo Ángeles"
+      },
+      "tipo": "amarilla",
+      "detalle": "Hugo Ángeles 6. Yellow card , Handball"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 86,
+      "anadido": 0,
+      "jugador": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Daniel Porozo 1. Yellow card , Taking off shirt"
+    }
+  ]
+}

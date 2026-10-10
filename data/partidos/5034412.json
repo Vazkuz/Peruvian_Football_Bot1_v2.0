@@ -1,0 +1,524 @@
+{
+  "partido_id": "5034412",
+  "ruta": "/spielbericht/index/spielbericht/5034412",
+  "fecha_extraccion": "2026-10-02T22:55:48",
+  "equipos": [
+    {
+      "club_id": "47107",
+      "club_nombre": "Comerciantes Unidos",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "805148",
+          "nombre": "Córdova",
+          "dorsal": 17,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "671846",
+          "nombre": "Rodríguez",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "891814",
+          "nombre": "Alcedo",
+          "dorsal": 40,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "292729",
+          "nombre": "Cossio",
+          "dorsal": 15,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "501586",
+          "nombre": "Rojas",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "639458",
+          "nombre": "Parodi",
+          "dorsal": 20,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "325589",
+          "nombre": "Arias",
+          "dorsal": 4,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "639763",
+          "nombre": "Vilca",
+          "dorsal": 25,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "653429",
+          "nombre": "Sánchez",
+          "dorsal": 32,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "347003",
+          "nombre": "Sen",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "1182403",
+          "nombre": "Olivares",
+          "dorsal": 50,
+          "top": 18.0,
+          "left": 15.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "441704",
+          "nombre": "José Charún",
+          "dorsal": 99,
+          "posicion": "GK"
+        },
+        {
+          "id": "375178",
+          "nombre": "Paolo Fuentes",
+          "dorsal": 66,
+          "posicion": "CB"
+        },
+        {
+          "id": "871653",
+          "nombre": "Piero Guzmán",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "897924",
+          "nombre": "Agustín Rodríguez",
+          "dorsal": 18,
+          "posicion": "DM"
+        },
+        {
+          "id": "1076593",
+          "nombre": "Thiago Salinas",
+          "dorsal": 14,
+          "posicion": "CM"
+        },
+        {
+          "id": "662709",
+          "nombre": "Óscar Pinto",
+          "dorsal": 28,
+          "posicion": "LW"
+        },
+        {
+          "id": "641826",
+          "nombre": "Josuee Herrera",
+          "dorsal": 11,
+          "posicion": "LW"
+        },
+        {
+          "id": "355639",
+          "nombre": "Wilter Ayoví",
+          "dorsal": 8,
+          "posicion": "RW"
+        },
+        {
+          "id": "458756",
+          "nombre": "Maximiliano Pérez",
+          "dorsal": 13,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "21655",
+      "club_nombre": "Sport Huancayo",
+      "local": false,
+      "formacion": "4-4-2",
+      "titulares": [
+        {
+          "id": "372304",
+          "nombre": "Zamudio",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "482452",
+          "nombre": "Valoyes",
+          "dorsal": 70,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "814636",
+          "nombre": "Gaona",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "224652",
+          "nombre": "Ángeles",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "531177",
+          "nombre": "Falconí",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "142738",
+          "nombre": "Salcedo",
+          "dorsal": 22,
+          "top": 35.0,
+          "left": 27.0
+        },
+        {
+          "id": "490614",
+          "nombre": "Carabaño",
+          "dorsal": 8,
+          "top": 35.0,
+          "left": 53.0
+        },
+        {
+          "id": "325147",
+          "nombre": "Luján",
+          "dorsal": 10,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "422853",
+          "nombre": "Campodónico",
+          "dorsal": 7,
+          "top": 25.0,
+          "left": 12.0
+        },
+        {
+          "id": "874831",
+          "nombre": "Magallanes",
+          "dorsal": 23,
+          "top": 25.0,
+          "left": 68.0
+        },
+        {
+          "id": "331819",
+          "nombre": "Huaccha",
+          "dorsal": 19,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "858666",
+          "nombre": "Aldair Ccorahua",
+          "dorsal": 29,
+          "posicion": "GK"
+        },
+        {
+          "id": "249967",
+          "nombre": "Juan Barreda",
+          "dorsal": 4,
+          "posicion": "CB"
+        },
+        {
+          "id": "271676",
+          "nombre": "Jeremy Rostaing",
+          "dorsal": 28,
+          "posicion": "RB"
+        },
+        {
+          "id": "434562",
+          "nombre": "Ronaldo Andía",
+          "dorsal": 24,
+          "posicion": "RB"
+        },
+        {
+          "id": "1188205",
+          "nombre": "Edu Villar",
+          "dorsal": 38,
+          "posicion": "DM"
+        },
+        {
+          "id": "417183",
+          "nombre": "Aldo Quiñónez",
+          "dorsal": 91,
+          "posicion": "CM"
+        },
+        {
+          "id": "1025975",
+          "nombre": "Juan Giménez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "279508",
+          "nombre": "Daniel Porozo",
+          "dorsal": 97,
+          "posicion": "CF"
+        },
+        {
+          "id": "1168655",
+          "nombre": "Juan Martínez",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "21655",
+      "minuto": 80,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "874831",
+        "nombre": "Piero Magallanes"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "21655",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "422853",
+        "nombre": "Rick Campodónico"
+      },
+      "entra": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "325589",
+        "nombre": "Alexis Arias"
+      },
+      "entra": {
+        "id": "897924",
+        "nombre": "Agustín Rodríguez"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "653429",
+        "nombre": "Jhon Sánchez"
+      },
+      "entra": {
+        "id": "355639",
+        "nombre": "Wilter Ayoví"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "331819",
+        "nombre": "Ronal Huaccha"
+      },
+      "entra": {
+        "id": "1168655",
+        "nombre": "Juan Martínez"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      },
+      "entra": {
+        "id": "641826",
+        "nombre": "Josuee Herrera"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 82,
+      "anadido": 0,
+      "sale": {
+        "id": "142738",
+        "nombre": "Ricardo Salcedo"
+      },
+      "entra": {
+        "id": "417183",
+        "nombre": "Aldo Quiñónez"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 82,
+      "anadido": 0,
+      "sale": {
+        "id": "874831",
+        "nombre": "Piero Magallanes"
+      },
+      "entra": {
+        "id": "1025975",
+        "nombre": "Juan Giménez"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 88,
+      "anadido": 0,
+      "sale": {
+        "id": "325147",
+        "nombre": "Nahuel Luján"
+      },
+      "entra": {
+        "id": "249967",
+        "nombre": "Juan Barreda"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "639458",
+        "nombre": "José Parodi"
+      },
+      "entra": {
+        "id": "1076593",
+        "nombre": "Thiago Salinas"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 90,
+      "anadido": 3,
+      "sale": {
+        "id": "641826",
+        "nombre": "Josuee Herrera"
+      },
+      "entra": {
+        "id": "458756",
+        "nombre": "Maximiliano Pérez"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "47107",
+      "minuto": 34,
+      "anadido": 0,
+      "jugador": {
+        "id": "639763",
+        "nombre": "Rodrigo Vilca"
+      },
+      "tipo": "roja",
+      "detalle": "Rodrigo Vilca Red card"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 39,
+      "anadido": 0,
+      "jugador": {
+        "id": "422853",
+        "nombre": "Rick Campodónico"
+      },
+      "tipo": "amarilla",
+      "detalle": "Rick Campodónico 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 48,
+      "anadido": 0,
+      "jugador": {
+        "id": "874831",
+        "nombre": "Piero Magallanes"
+      },
+      "tipo": "amarilla",
+      "detalle": "Piero Magallanes 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 67,
+      "anadido": 0,
+      "jugador": {
+        "id": "142738",
+        "nombre": "Ricardo Salcedo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Ricardo Salcedo 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 74,
+      "anadido": 0,
+      "jugador": {
+        "id": "671846",
+        "nombre": "Juan Rodríguez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Juan Rodríguez 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 77,
+      "anadido": 0,
+      "jugador": {
+        "id": "891814",
+        "nombre": "Flavio Alcedo"
+      },
+      "tipo": "roja",
+      "detalle": "Flavio Alcedo Red card , Violent conduct"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 85,
+      "anadido": 0,
+      "jugador": {
+        "id": "1168655",
+        "nombre": "Juan Martínez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Juan Martínez 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 90,
+      "anadido": 0,
+      "jugador": {
+        "id": "417183",
+        "nombre": "Aldo Quiñónez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Aldo Quiñónez 2. Yellow card , Foul"
+    }
+  ]
+}

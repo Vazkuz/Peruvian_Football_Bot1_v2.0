@@ -1,0 +1,93 @@
+{
+  "tabla_clausura": [
+    {"posicion": 1, "club_id": "76945", "nombre": "Deportivo Garcilaso"},
+    {"posicion": 2, "club_id": "6593", "nombre": "Universitario de Deportes"},
+    {"posicion": 3, "club_id": "1450", "nombre": "Club Sporting Cristal"},
+    {"posicion": 4, "club_id": "17479", "nombre": "Alianza Atlético Sullana"},
+    {"posicion": 5, "club_id": "21655", "nombre": "Sport Huancayo"},
+    {"posicion": 6, "club_id": "99517", "nombre": "Club Juan Pablo II College"},
+    {"posicion": 7, "club_id": "2734", "nombre": "FBC Melgar"},
+    {"posicion": 8, "club_id": "2730", "nombre": "Sport Boys Association"},
+    {"posicion": 9, "club_id": "28999", "nombre": "Cusco FC"},
+    {"posicion": 10, "club_id": "184", "nombre": "Club Alianza Lima"},
+    {"posicion": 11, "club_id": "27861", "nombre": "Club Atlético Grau"},
+    {"posicion": 12, "club_id": "120792", "nombre": "FC Cajamarca"},
+    {"posicion": 13, "club_id": "47107", "nombre": "Comerciantes Unidos"},
+    {"posicion": 14, "club_id": "2729", "nombre": "Club Cienciano"},
+    {"posicion": 15, "club_id": "54478", "nombre": "CD Los Chankas"},
+    {"posicion": 16, "club_id": "114625", "nombre": "Deportivo Moquegua"},
+    {"posicion": 17, "club_id": "35588", "nombre": "Asociación Deportiva Tarma"},
+    {"posicion": 18, "club_id": "21170", "nombre": "Universidad Técnica de Cajamarca"}
+  ],
+  "peso_rival": {
+    "formula": "1 + (ultimo_puesto - posicion_rival) / divisor",
+    "ultimo_puesto": 18,
+    "divisor": 17
+  },
+  "clasicos": [
+    {"peso": 2.8, "clubes": ["184", "6593"], "nombre": "Alianza Lima - Universitario"},
+    {"peso": 2.5, "clubes": ["184", "1450"], "nombre": "Alianza Lima - Sporting Cristal"},
+    {"peso": 2.5, "clubes": ["6593", "1450"], "nombre": "Universitario - Sporting Cristal"},
+    {"peso": 2.2, "clubes": ["2734", "2729"], "nombre": "Melgar - Cienciano"},
+    {"peso": 2.2, "clubes": ["2734", "184"], "nombre": "Melgar - Alianza Lima"},
+    {"peso": 2.2, "clubes": ["2729", "76945"], "nombre": "Cienciano - Garcilaso"},
+    {"peso": 2.2, "clubes": ["2730", "1450"], "nombre": "Sport Boys - Sporting Cristal"},
+    {"peso": 2.2, "clubes": ["184", "2730"], "nombre": "Alianza Lima - Sport Boys"},
+    {"peso": 2.2, "clubes": ["28999", "2729"], "nombre": "Cusco FC - Cienciano"},
+    {"peso": 2.2, "clubes": ["28999", "76945"], "nombre": "Cusco FC - Garcilaso"}
+  ],
+  "peso_fecha": {
+    "formula": "1 + (k - 1) / divisor, k = n.o del partido del club en el Clausura por fecha (1 = el mas antiguo)",
+    "divisor": 9
+  },
+  "minutos": {
+    "duracion": 90
+  },
+  "reglas_rol": {
+    "abierto_izquierda_left_max": 15,
+    "abierto_derecha_left_min": 65,
+    "volante_defensivo_top_min": 39,
+    "formaciones_rombo": ["4-3-1-2"]
+  },
+  "reemplazos": {
+    "descripcion": "Si falta jugador en una casilla: cada paso es un grupo de roles; se toma al de mas puntaje del grupo que no ocupe otra casilla.",
+    "arquero": [],
+    "lateral_der": [["volante_extremo_der"], ["central"]],
+    "lateral_izq": [["volante_extremo_izq"], ["central"]],
+    "central": [["volante_defensivo"], ["volante_central"], ["mediapunta"], ["lateral_der", "lateral_izq"]],
+    "volante_extremo_der": [["lateral_der"], ["volante_defensivo", "volante_central", "mediapunta"]],
+    "volante_extremo_izq": [["lateral_izq"], ["volante_defensivo", "volante_central", "mediapunta"]],
+    "volante_defensivo": [["volante_central"], ["mediapunta"], ["volante_extremo_der", "volante_extremo_izq"], ["central"]],
+    "volante_central": [["volante_defensivo"], ["mediapunta"], ["volante_extremo_der", "volante_extremo_izq"], ["central"]],
+    "mediapunta": [["volante_central"], ["volante_defensivo"], ["volante_extremo_der", "volante_extremo_izq"], ["central"]],
+    "delantero": [["volante_extremo_der", "volante_extremo_izq"], ["mediapunta"]]
+  },
+  "rol_posicion_plantel": {
+    "Goalkeeper": "arquero",
+    "Right-Back": "lateral_der",
+    "Left-Back": "lateral_izq",
+    "Centre-Back": "central",
+    "Sweeper": "central",
+    "Defensive Midfield": "volante_defensivo",
+    "Central Midfield": "volante_central",
+    "Attacking Midfield": "mediapunta",
+    "Right Winger": "volante_extremo_der",
+    "Right Midfield": "volante_extremo_der",
+    "Left Winger": "volante_extremo_izq",
+    "Left Midfield": "volante_extremo_izq",
+    "Centre-Forward": "delantero",
+    "Second Striker": "delantero"
+  },
+  "rol_banca": {
+    "GK": "arquero",
+    "RB": "lateral_der",
+    "CB": "central",
+    "LB": "lateral_izq",
+    "DM": "volante_defensivo",
+    "CM": "volante_central",
+    "AM": "mediapunta",
+    "RW": "volante_extremo_der",
+    "LW": "volante_extremo_izq",
+    "CF": "delantero"
+  }
+}

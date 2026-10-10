@@ -1,0 +1,499 @@
+{
+  "partido_id": "5010424",
+  "ruta": "/spielbericht/index/spielbericht/5010424",
+  "fecha_extraccion": "2026-10-02T22:39:56",
+  "equipos": [
+    {
+      "club_id": "99517",
+      "club_nombre": "Club Juan Pablo II College",
+      "local": true,
+      "formacion": "4-3-3 Attacking",
+      "titulares": [
+        {
+          "id": "75445",
+          "nombre": "Vega",
+          "dorsal": 23,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "936044",
+          "nombre": "Almirón",
+          "dorsal": 33,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "76717",
+          "nombre": "Míguez",
+          "dorsal": 60,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "655639",
+          "nombre": "Reyna",
+          "dorsal": 19,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "1236520",
+          "nombre": "Agurto",
+          "dorsal": 26,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "867036",
+          "nombre": "Flores",
+          "dorsal": 8,
+          "top": 39.0,
+          "left": 40.0
+        },
+        {
+          "id": "1074429",
+          "nombre": "Rojas",
+          "dorsal": 37,
+          "top": 28.0,
+          "left": 53.0
+        },
+        {
+          "id": "422934",
+          "nombre": "Ramírez",
+          "dorsal": 18,
+          "top": 10.0,
+          "left": 65.0
+        },
+        {
+          "id": "1107110",
+          "nombre": "Ramirez",
+          "dorsal": 15,
+          "top": 28.0,
+          "left": 27.0
+        },
+        {
+          "id": "94761",
+          "nombre": "Pósito",
+          "dorsal": 89,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "1029760",
+          "nombre": "Goicochea",
+          "dorsal": 79,
+          "top": 10.0,
+          "left": 15.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1508623",
+          "nombre": "Sthefano Luzquiños",
+          "dorsal": 4,
+          "posicion": ""
+        },
+        {
+          "id": "664862",
+          "nombre": "Jorge Stucchi",
+          "dorsal": 21,
+          "posicion": "GK"
+        },
+        {
+          "id": "737739",
+          "nombre": "Piero Antón",
+          "dorsal": 16,
+          "posicion": "LB"
+        },
+        {
+          "id": "489993",
+          "nombre": "Jorge Toledo",
+          "dorsal": 31,
+          "posicion": "RB"
+        },
+        {
+          "id": "1011265",
+          "nombre": "Jack Carhuallanqui",
+          "dorsal": 14,
+          "posicion": "DM"
+        },
+        {
+          "id": "1426206",
+          "nombre": "Jorge Barreto",
+          "dorsal": 80,
+          "posicion": "RW"
+        },
+        {
+          "id": "982005",
+          "nombre": "Chase Villanueva",
+          "dorsal": 71,
+          "posicion": "RW"
+        },
+        {
+          "id": "174580",
+          "nombre": "Jack Durán",
+          "dorsal": 28,
+          "posicion": "RW"
+        },
+        {
+          "id": "1076583",
+          "nombre": "Mateo Rodríguez",
+          "dorsal": 97,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "35588",
+      "club_nombre": "Asociación Deportiva Tarma",
+      "local": false,
+      "formacion": "3-4-3",
+      "titulares": [
+        {
+          "id": "255976",
+          "nombre": "Valencia",
+          "dorsal": 30,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "358736",
+          "nombre": "Pereyra",
+          "dorsal": 99,
+          "top": 62.0,
+          "left": 40.0
+        },
+        {
+          "id": "260318",
+          "nombre": "Benincasa",
+          "dorsal": 44,
+          "top": 61.0,
+          "left": 15.0
+        },
+        {
+          "id": "1059722",
+          "nombre": "Soto",
+          "dorsal": 28,
+          "top": 61.0,
+          "left": 65.0
+        },
+        {
+          "id": "140931",
+          "nombre": "Narváez",
+          "dorsal": 23,
+          "top": 35.0,
+          "left": 30.0
+        },
+        {
+          "id": "741727",
+          "nombre": "Núñez",
+          "dorsal": 59,
+          "top": 32.0,
+          "left": 12.0
+        },
+        {
+          "id": "656911",
+          "nombre": "Pérez",
+          "dorsal": 16,
+          "top": 35.0,
+          "left": 50.0
+        },
+        {
+          "id": "1227155",
+          "nombre": "Hidalgo",
+          "dorsal": 27,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "532994",
+          "nombre": "Canela",
+          "dorsal": 80,
+          "top": 10.0,
+          "left": 65.0
+        },
+        {
+          "id": "1088739",
+          "nombre": "Lucumí",
+          "dorsal": 77,
+          "top": 32.0,
+          "left": 68.0
+        },
+        {
+          "id": "130158",
+          "nombre": "Bauman",
+          "dorsal": 32,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "250672",
+          "nombre": "Carlos Solís",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "738469",
+          "nombre": "Leonardo Rugel",
+          "dorsal": 3,
+          "posicion": "CB"
+        },
+        {
+          "id": "582319",
+          "nombre": "Alejandro Ramos",
+          "dorsal": 98,
+          "posicion": "RB"
+        },
+        {
+          "id": "885263",
+          "nombre": "Jerry Navarro",
+          "dorsal": 31,
+          "posicion": "RB"
+        },
+        {
+          "id": "1257758",
+          "nombre": "Josue Alvino",
+          "dorsal": 15,
+          "posicion": "CM"
+        },
+        {
+          "id": "1502980",
+          "nombre": "Aylton Mazzo",
+          "dorsal": 18,
+          "posicion": "LW"
+        },
+        {
+          "id": "1409977",
+          "nombre": "Jhojan Garcilazo",
+          "dorsal": 26,
+          "posicion": "RW"
+        },
+        {
+          "id": "1149626",
+          "nombre": "Said Peralta",
+          "dorsal": 24,
+          "posicion": "CF"
+        },
+        {
+          "id": "51225",
+          "nombre": "Hernán Rengifo",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "99517",
+      "minuto": 2,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "94761",
+        "nombre": "Janio Pósito"
+      },
+      "asistencia": {
+        "id": "422934",
+        "nombre": "Erinson Ramírez"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 35,
+      "anadido": 0,
+      "marcador": "2:0",
+      "autor": {
+        "id": "422934",
+        "nombre": "Erinson Ramírez"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "99517",
+      "minuto": 65,
+      "anadido": 0,
+      "marcador": "3:0",
+      "autor": {
+        "id": "94761",
+        "nombre": "Janio Pósito"
+      },
+      "asistencia": {
+        "id": "422934",
+        "nombre": "Erinson Ramírez"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 67,
+      "anadido": 0,
+      "marcador": "4:0",
+      "autor": {
+        "id": "1074429",
+        "nombre": "Álvaro Rojas"
+      },
+      "asistencia": {
+        "id": "422934",
+        "nombre": "Erinson Ramírez"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 75,
+      "anadido": 0,
+      "marcador": "5:0",
+      "autor": {
+        "id": "255976",
+        "nombre": "Juan Valencia"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "35588",
+      "minuto": 84,
+      "anadido": 0,
+      "marcador": "5:1",
+      "autor": {
+        "id": "532994",
+        "nombre": "Jeremy Canela"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "35588",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "1227155",
+        "nombre": "Alexander Hidalgo"
+      },
+      "entra": {
+        "id": "1502980",
+        "nombre": "Aylton Mazzo"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "741727",
+        "nombre": "Orlando Núñez"
+      },
+      "entra": {
+        "id": "1409977",
+        "nombre": "Jhojan Garcilazo"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "358736",
+        "nombre": "Joaquín Pereyra"
+      },
+      "entra": {
+        "id": "582319",
+        "nombre": "Alejandro Ramos"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 57,
+      "anadido": 0,
+      "sale": {
+        "id": "1107110",
+        "nombre": "Nilton Ramirez"
+      },
+      "entra": {
+        "id": "174580",
+        "nombre": "Jack Durán"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "422934",
+        "nombre": "Erinson Ramírez"
+      },
+      "entra": {
+        "id": "982005",
+        "nombre": "Chase Villanueva"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "94761",
+        "nombre": "Janio Pósito"
+      },
+      "entra": {
+        "id": "1076583",
+        "nombre": "Mateo Rodríguez"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "1088739",
+        "nombre": "Juan Lucumí"
+      },
+      "entra": {
+        "id": "1257758",
+        "nombre": "Josue Alvino"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 83,
+      "anadido": 0,
+      "sale": {
+        "id": "130158",
+        "nombre": "Jonatan Bauman"
+      },
+      "entra": {
+        "id": "1149626",
+        "nombre": "Said Peralta"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "867036",
+        "nombre": "Christian Flores"
+      },
+      "entra": {
+        "id": "489993",
+        "nombre": "Jorge Toledo"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "1029760",
+        "nombre": "Juan Pablo Goicochea"
+      },
+      "entra": {
+        "id": "1426206",
+        "nombre": "Jorge Barreto"
+      }
+    }
+  ],
+  "tarjetas": []
+}

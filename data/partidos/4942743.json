@@ -1,0 +1,495 @@
+{
+  "partido_id": "4942743",
+  "ruta": "/spielbericht/index/spielbericht/4942743",
+  "fecha_extraccion": "2026-10-02T22:23:33",
+  "equipos": [
+    {
+      "club_id": "2734",
+      "club_nombre": "FBC Melgar",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "785133",
+          "nombre": "Cabezudo",
+          "dorsal": 21,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "353034",
+          "nombre": "Escobar",
+          "dorsal": 23,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "831138",
+          "nombre": "Lazo",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "302416",
+          "nombre": "González",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "491570",
+          "nombre": "Cabanillas",
+          "dorsal": 27,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "621039",
+          "nombre": "Tandazo",
+          "dorsal": 24,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "400945",
+          "nombre": "Minda",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "733083",
+          "nombre": "Quagliata",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "282350",
+          "nombre": "Bordacahar",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "224677",
+          "nombre": "Vidales",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "89317",
+          "nombre": "Cuesta",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "94359",
+          "nombre": "Carlos Cáceda",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "621029",
+          "nombre": "Alec Deneumostier",
+          "dorsal": 5,
+          "posicion": "CB"
+        },
+        {
+          "id": "796060",
+          "nombre": "Jesús Alcántar",
+          "dorsal": 90,
+          "posicion": "CB"
+        },
+        {
+          "id": "966314",
+          "nombre": "Marcos Portillo",
+          "dorsal": 26,
+          "posicion": "CM"
+        },
+        {
+          "id": "741728",
+          "nombre": "Jhamir D'Arrigo",
+          "dorsal": 80,
+          "posicion": "LW"
+        },
+        {
+          "id": "832216",
+          "nombre": "Jefferson Cáceres",
+          "dorsal": 16,
+          "posicion": "LW"
+        },
+        {
+          "id": "1442941",
+          "nombre": "Matias Zegarra",
+          "dorsal": 45,
+          "posicion": "LW"
+        },
+        {
+          "id": "626916",
+          "nombre": "Lautaro Guzmán",
+          "dorsal": 8,
+          "posicion": "RW"
+        },
+        {
+          "id": "653476",
+          "nombre": "Franco Zanelatto",
+          "dorsal": 77,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "1450",
+      "club_nombre": "Club Sporting Cristal",
+      "local": false,
+      "formacion": "4-3-3 Attacking",
+      "titulares": [
+        {
+          "id": "662693",
+          "nombre": "Enríquez",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "330684",
+          "nombre": "Abram",
+          "dorsal": 96,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "211420",
+          "nombre": "Araujo",
+          "dorsal": 20,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "375813",
+          "nombre": "Cristiano",
+          "dorsal": 90,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "457536",
+          "nombre": "González",
+          "dorsal": 18,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "441718",
+          "nombre": "Távara",
+          "dorsal": 25,
+          "top": 39.0,
+          "left": 40.0
+        },
+        {
+          "id": "1011264",
+          "nombre": "Cabellos",
+          "dorsal": 21,
+          "top": 28.0,
+          "left": 27.0
+        },
+        {
+          "id": "94880",
+          "nombre": "Yotún",
+          "dorsal": 19,
+          "top": 28.0,
+          "left": 53.0
+        },
+        {
+          "id": "1226873",
+          "nombre": "Castro",
+          "dorsal": 23,
+          "top": 10.0,
+          "left": 65.0
+        },
+        {
+          "id": "325667",
+          "nombre": "Iberico",
+          "dorsal": 16,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "138387",
+          "nombre": "Hoyos",
+          "dorsal": 22,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1239934",
+          "nombre": "César Bautista",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "908423",
+          "nombre": "Leonardo Díaz",
+          "dorsal": 32,
+          "posicion": "CB"
+        },
+        {
+          "id": "665112",
+          "nombre": "Rafael Lutiger",
+          "dorsal": 5,
+          "posicion": "CB"
+        },
+        {
+          "id": "1417299",
+          "nombre": "Duham Ballumbrosio",
+          "dorsal": 2,
+          "posicion": "RB"
+        },
+        {
+          "id": "1118789",
+          "nombre": "Ian Wisdom",
+          "dorsal": 26,
+          "posicion": "CM"
+        },
+        {
+          "id": "174570",
+          "nombre": "Gabriel",
+          "dorsal": 27,
+          "posicion": "AM"
+        },
+        {
+          "id": "597455",
+          "nombre": "Santiago González",
+          "dorsal": 7,
+          "posicion": "RW"
+        },
+        {
+          "id": "82589",
+          "nombre": "Írven Ávila",
+          "dorsal": 11,
+          "posicion": "CF"
+        },
+        {
+          "id": "53847",
+          "nombre": "Hernán Barcos",
+          "dorsal": 29,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "2734",
+      "minuto": 28,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "733083",
+        "nombre": "Nicolás Quagliata"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "2734",
+      "minuto": 62,
+      "anadido": 0,
+      "marcador": "2:0",
+      "autor": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "asistencia": {
+        "id": "831138",
+        "nombre": "Matías Lazo"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 76,
+      "anadido": 0,
+      "marcador": "2:1",
+      "autor": {
+        "id": "82589",
+        "nombre": "Írven Ávila"
+      },
+      "asistencia": {
+        "id": "1226873",
+        "nombre": "Maxloren Castro"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "1450",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "1011264",
+        "nombre": "Catriel Cabellos"
+      },
+      "entra": {
+        "id": "1118789",
+        "nombre": "Ian Wisdom"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "325667",
+        "nombre": "Luis Iberico"
+      },
+      "entra": {
+        "id": "597455",
+        "nombre": "Santiago González"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "457536",
+        "nombre": "Juan González"
+      },
+      "entra": {
+        "id": "665112",
+        "nombre": "Rafael Lutiger"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "138387",
+        "nombre": "Michael Hoyos"
+      },
+      "entra": {
+        "id": "82589",
+        "nombre": "Írven Ávila"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "441718",
+        "nombre": "Martín Távara"
+      },
+      "entra": {
+        "id": "53847",
+        "nombre": "Hernán Barcos"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "282350",
+        "nombre": "Cristian Bordacahar"
+      },
+      "entra": {
+        "id": "832216",
+        "nombre": "Jefferson Cáceres"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "entra": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "491570",
+        "nombre": "Nelson Cabanillas"
+      },
+      "entra": {
+        "id": "966314",
+        "nombre": "Marcos Portillo"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "733083",
+        "nombre": "Nicolás Quagliata"
+      },
+      "entra": {
+        "id": "741728",
+        "nombre": "Jhamir D'Arrigo"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "2734",
+      "minuto": 29,
+      "anadido": 0,
+      "jugador": {
+        "id": "400945",
+        "nombre": "Kevin Minda"
+      },
+      "tipo": "amarilla",
+      "detalle": "Kevin Minda 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "1450",
+      "minuto": 39,
+      "anadido": 0,
+      "jugador": {
+        "id": "1011264",
+        "nombre": "Catriel Cabellos"
+      },
+      "tipo": "amarilla",
+      "detalle": "Catriel Cabellos 1. Yellow card , Diving"
+    },
+    {
+      "club_id": "1450",
+      "minuto": 61,
+      "anadido": 0,
+      "jugador": {
+        "id": "665112",
+        "nombre": "Rafael Lutiger"
+      },
+      "tipo": "amarilla",
+      "detalle": "Rafael Lutiger 1. Yellow card , Dissent"
+    },
+    {
+      "club_id": "1450",
+      "minuto": 89,
+      "anadido": 0,
+      "jugador": {
+        "id": "94880",
+        "nombre": "Yoshimar Yotún"
+      },
+      "tipo": "amarilla",
+      "detalle": "Yoshimar Yotún 1. Yellow card , Dissent"
+    }
+  ]
+}

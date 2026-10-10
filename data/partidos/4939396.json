@@ -1,0 +1,437 @@
+{
+  "partido_id": "4939396",
+  "ruta": "/spielbericht/index/spielbericht/4939396",
+  "fecha_extraccion": "2026-10-02T22:18:57",
+  "equipos": [
+    {
+      "club_id": "54478",
+      "club_nombre": "CD Los Chankas",
+      "local": true,
+      "formacion": "5-3-2",
+      "titulares": [
+        {
+          "id": "250407",
+          "nombre": "Camacho",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "294886",
+          "nombre": "Pimienta",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 56.5
+        },
+        {
+          "id": "725453",
+          "nombre": "González",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 40.0
+        },
+        {
+          "id": "643536",
+          "nombre": "Gonzáles",
+          "dorsal": 26,
+          "top": 61.0,
+          "left": 23.5
+        },
+        {
+          "id": "740319",
+          "nombre": "Quintana",
+          "dorsal": 31,
+          "top": 59.0,
+          "left": 7.0
+        },
+        {
+          "id": "441728",
+          "nombre": "Sánchez",
+          "dorsal": 15,
+          "top": 38.0,
+          "left": 55.0
+        },
+        {
+          "id": "965449",
+          "nombre": "Palomino",
+          "dorsal": 5,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "384765",
+          "nombre": "Campos",
+          "dorsal": 4,
+          "top": 38.0,
+          "left": 25.0
+        },
+        {
+          "id": "357124",
+          "nombre": "Takeuchi",
+          "dorsal": 18,
+          "top": 59.0,
+          "left": 73.0
+        },
+        {
+          "id": "648289",
+          "nombre": "Torres",
+          "dorsal": 20,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "330169",
+          "nombre": "Quintero",
+          "dorsal": 11,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "988214",
+          "nombre": "Luis Pretel",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "893740",
+          "nombre": "Michael Kaufman",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "409092",
+          "nombre": "Gonzalo Rizzo",
+          "dorsal": 24,
+          "posicion": "CB"
+        },
+        {
+          "id": "639765",
+          "nombre": "Axel Chávez",
+          "dorsal": 16,
+          "posicion": "LB"
+        },
+        {
+          "id": "470023",
+          "nombre": "Brayan Guevara",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "1196477",
+          "nombre": "Sebastián Zarabia",
+          "dorsal": 22,
+          "posicion": "CM"
+        },
+        {
+          "id": "855900",
+          "nombre": "Juan Diego Ospina",
+          "dorsal": 7,
+          "posicion": "RW"
+        },
+        {
+          "id": "664841",
+          "nombre": "Kenyi Barrios",
+          "dorsal": 27,
+          "posicion": "RW"
+        },
+        {
+          "id": "653475",
+          "nombre": "Félix Espinoza",
+          "dorsal": 77,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "2730",
+      "club_nombre": "Sport Boys Association",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "303866",
+          "nombre": "Melián",
+          "dorsal": 22,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "187161",
+          "nombre": "Riojas",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "53533",
+          "nombre": "Zambrano",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "662705",
+          "nombre": "Llontop",
+          "dorsal": 13,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "621026",
+          "nombre": "Mora",
+          "dorsal": 24,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "805862",
+          "nombre": "Saba",
+          "dorsal": 17,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "671879",
+          "nombre": "Gonzales",
+          "dorsal": 28,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "347750",
+          "nombre": "Da Campo",
+          "dorsal": 8,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "285679",
+          "nombre": "Urruti",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "1095971",
+          "nombre": "Erustes",
+          "dorsal": 32,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "284728",
+          "nombre": "Nequecaur",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "738150",
+          "nombre": "Jeferson Nolasco",
+          "dorsal": 61,
+          "posicion": "GK"
+        },
+        {
+          "id": "347382",
+          "nombre": "Gustavo Dulanto",
+          "dorsal": 55,
+          "posicion": "CB"
+        },
+        {
+          "id": "492973",
+          "nombre": "Renzo Alfani",
+          "dorsal": 4,
+          "posicion": "CB"
+        },
+        {
+          "id": "333025",
+          "nombre": "Nilson Loyola",
+          "dorsal": 29,
+          "posicion": "LB"
+        },
+        {
+          "id": "360446",
+          "nombre": "Federico Illanes",
+          "dorsal": 5,
+          "posicion": "DM"
+        },
+        {
+          "id": "866488",
+          "nombre": "Jostin Alarcón",
+          "dorsal": 10,
+          "posicion": "LW"
+        },
+        {
+          "id": "579734",
+          "nombre": "Carlos López",
+          "dorsal": 7,
+          "posicion": "RW"
+        },
+        {
+          "id": "665113",
+          "nombre": "Percy Liza",
+          "dorsal": 30,
+          "posicion": "CF"
+        },
+        {
+          "id": "449112",
+          "nombre": "Rolando Díaz",
+          "dorsal": 14,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "54478",
+      "minuto": 66,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "330169",
+        "nombre": "Jarlín Quintero"
+      },
+      "asistencia": {
+        "id": "740319",
+        "nombre": "Ayrthon Quintana"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "2730",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "1095971",
+        "nombre": "Pablo Erustes"
+      },
+      "entra": {
+        "id": "866488",
+        "nombre": "Jostin Alarcón"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "805862",
+        "nombre": "Emilio Saba"
+      },
+      "entra": {
+        "id": "579734",
+        "nombre": "Carlos López"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 70,
+      "anadido": 0,
+      "sale": {
+        "id": "384765",
+        "nombre": "Accel Campos"
+      },
+      "entra": {
+        "id": "855900",
+        "nombre": "Juan Diego Ospina"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "740319",
+        "nombre": "Ayrthon Quintana"
+      },
+      "entra": {
+        "id": "639765",
+        "nombre": "Axel Chávez"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 79,
+      "anadido": 0,
+      "sale": {
+        "id": "285679",
+        "nombre": "Luis Urruti"
+      },
+      "entra": {
+        "id": "665113",
+        "nombre": "Percy Liza"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 86,
+      "anadido": 0,
+      "sale": {
+        "id": "330169",
+        "nombre": "Jarlín Quintero"
+      },
+      "entra": {
+        "id": "893740",
+        "nombre": "Michael Kaufman"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 86,
+      "anadido": 0,
+      "sale": {
+        "id": "357124",
+        "nombre": "Oshiro Takeuchi"
+      },
+      "entra": {
+        "id": "664841",
+        "nombre": "Kenyi Barrios"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 86,
+      "anadido": 0,
+      "sale": {
+        "id": "284728",
+        "nombre": "Luciano Nequecaur"
+      },
+      "entra": {
+        "id": "449112",
+        "nombre": "Rolando Díaz"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "671879",
+        "nombre": "Erick Gonzales"
+      },
+      "entra": {
+        "id": "360446",
+        "nombre": "Federico Illanes"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "2730",
+      "minuto": 56,
+      "anadido": 0,
+      "jugador": {
+        "id": "805862",
+        "nombre": "Emilio Saba"
+      },
+      "tipo": "amarilla",
+      "detalle": "Emilio Saba 1. Yellow card , Foul"
+    }
+  ]
+}
