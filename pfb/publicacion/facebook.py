@@ -190,27 +190,10 @@ class Cliente(Graph):
 
         return self._reintentar("creación del post", crear)
 
-    def buscar_comentario(self, post_id, mensaje):
-        """El id de un comentario de la propia página en el post con el mismo mensaje (sin espacios
-        al inicio ni al final), o None. Los comentarios de otros usuarios no cuentan."""
-        ruta = f"{post_id}/comments?" + urllib.parse.urlencode({"fields": "id,message,from", "limit": 25})
-        for comentario in self._llamar("búsqueda de comentarios", "GET", ruta, clave="data")["data"]:
-            if (comentario.get("from", {}).get("id") == self.page_id
-                    and comentario.get("message", "").strip() == mensaje.strip()):
-                return comentario["id"]
-        return None
-
     def comentar(self, post_id, mensaje):
         """Comenta en el post como la página. Devuelve el id del comentario.
-        Antes de cada intento busca el mismo comentario de la página: si ya está, devuelve ese id
-        sin volver a comentar."""
+        Sin anti-duplicado: leer los comentarios pide el permiso pages_read_user_content, que la app
+        no tiene. Si se pierde la respuesta, el reintento puede comentar dos veces."""
         cuerpo = urllib.parse.urlencode({"message": mensaje}).encode("utf-8")
-
-        def crear():
-            existente = self.buscar_comentario(post_id, mensaje)
-            if existente:
-                self._avisar(f"ya estaba comentado, se marca sin volver a comentar: {existente}")
-                return existente
-            return self._una_llamada("POST", f"{post_id}/comments", cuerpo, "application/x-www-form-urlencoded")["id"]
-
-        return self._reintentar("comentario", crear)
+        return self._llamar("comentario", "POST", f"{post_id}/comments", cuerpo,
+                            "application/x-www-form-urlencoded")["id"]

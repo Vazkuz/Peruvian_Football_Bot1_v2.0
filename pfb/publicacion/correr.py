@@ -5,8 +5,8 @@
 Sin --pagina es dry-run: no toca la red ni marca nada en publicados.json. Si hay algo pendiente lo
 muestra y termina; si no, juega el siguiente partido, lo muestra y termina.
 Con --pagina: primero publica lo pendiente (sin volver a simular) y después juega el siguiente y
-lo publica. Por partido: guardar registro → publicar en Facebook → marcar con el post → comentar →
-marcar con el comentario → publicar en Instagram → marcar con la publicación. Si una parte falla,
+lo publica. Por partido: guardar registro → publicar en Facebook → marcar con el post → publicar en
+Instagram → marcar con la publicación → comentar → marcar con el comentario. Si una parte falla,
 la siguiente corrida retoma desde esa parte. Cuando una fecha cierra (todos sus partidos completos),
 publica la tabla de la misma forma.
 """
@@ -63,7 +63,7 @@ def fotos_instagram(tipo, fotos, rellenar=rellenar_cuadrado):
 
 def pendientes(temporada, registros, publicados):
     """Lo que falta publicar, en el orden del fixture: ("partido", registro, falta) o
-    ("tabla", fecha, falta), con falta = "post", "comentario" o "instagram" (ver publicados.falta).
+    ("tabla", fecha, falta), con falta = "post", "instagram" o "comentario" (ver publicados.falta).
     La tabla de una fecha está pendiente cuando todos sus partidos ya están completos."""
     por_id = {r["partido_id"]: r for r in registros}
     salida = []
@@ -128,17 +128,18 @@ def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, clie
             items = [("partido", registro, "post")]
         publicados = cargar_publicados(temporada_id, base)
         for item in items:
-            parte = item[2]
-            clave, tipo, mensaje, fotos = armar(item[:2])
+            tipo, parte, clave = item[0], item[2], clave_de(item)
+            entrada = publicados.get(clave, {})
             bloques = [f"[dry-run] {clave} ({tipo})" + ("" if parte == "post" else f": falta {parte}")]
-            if parte == "post":
-                bloques.append(f"{mensaje}\nimágenes:\n" + "\n".join(f"  {r}" for r in fotos))
-            if parte in ("post", "comentario"):
-                bloques.append(f"comentario:\n{COMENTARIO_INSTAGRAM}")
-            if clave not in publicados or "ig_media_id" in publicados[clave]:
+            if parte != "comentario":
+                _, _, mensaje, fotos = armar(item[:2])
+                if parte == "post":
+                    bloques.append(f"{mensaje}\nimágenes:\n" + "\n".join(f"  {r}" for r in fotos))
                 forma = "carrusel" if tipo == "partido" else "foto sola"
                 bloques.append(f"instagram ({forma}, caption = texto del post):\n" + "\n".join(
                     f"  {i}. {r}" for i, r in enumerate(fotos_instagram(tipo, fotos, rellenar), start=1)))
+            if parte == "post" or ("comentario_id" in entrada and not entrada["comentario_id"]):
+                bloques.append(f"comentario:\n{COMENTARIO_INSTAGRAM}")
             mostrar("\n".join(bloques))
         return
 

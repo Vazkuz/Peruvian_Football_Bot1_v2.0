@@ -6,7 +6,7 @@ Aparte del registro del partido. Una entrada por publicación, con clave "F07-P3
      "fecha_hora": "2026-10-08T17:52:51-05:00", "comentario_id": ... | null, "ig_media_id": ... | null}
 
 La entrada se escribe apenas sale el post de Facebook, con comentario_id e ig_media_id null, y se
-completa en orden: comentario, después Instagram. Una entrada sin el campo comentario_id o sin el
+completa en orden: Instagram, después el comentario. Una entrada sin el campo comentario_id o sin el
 campo ig_media_id es de antes de esa parte y esa parte cuenta como hecha.
 """
 
@@ -36,14 +36,15 @@ def cargar_publicados(temporada_id, base=CARPETA_TEMPORADAS):
 
 
 def falta(publicados, clave):
-    """Qué parte falta publicar: "post", "comentario", "instagram" o None si está completa."""
+    """La primera parte que falta publicar, en orden: "post", "instagram", "comentario"; None si
+    está completa."""
     entrada = publicados.get(clave)
     if entrada is None or not entrada.get("post_id"):
         return "post"
-    if "comentario_id" in entrada and not entrada["comentario_id"]:
-        return "comentario"
     if "ig_media_id" in entrada and not entrada["ig_media_id"]:
         return "instagram"
+    if "comentario_id" in entrada and not entrada["comentario_id"]:
+        return "comentario"
     return None
 
 

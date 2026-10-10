@@ -28,18 +28,17 @@ def params():
 class HttpFalso:
     """Responde como la Graph API y anota cada llamada. fallar(n_llamada, metodo, url) -> bool.
     perder(n_feed) -> bool: ese /feed se publica pero la respuesta no llega.
-    comentarios: {post_id: [comentario, ...]} ya existentes.
     Instagram: estado(container_id, n_consulta) -> status_code (FINISHED si no se da);
     ig_media: publicaciones ya existentes en la cuenta, las más nuevas al final; ig_usuario: el
     username de IG_USER_ID."""
 
     def __init__(self, nombre="Gokú - Kakaroto", page_id=PAGE_ID, fallar=None, perder=None, posts=None,
-                 comentarios=None, estado=None, ig_media=None, ig_usuario="pfbot.1"):
+                 estado=None, ig_media=None, ig_usuario="pfbot.1"):
         self.ig_usuario = ig_usuario
         self.nombre, self.page_id, self.fallar, self.perder = nombre, page_id, fallar, perder
         self.llamadas = []
         self.posts = list(posts or [])          # los más nuevos al final
-        self.comentarios = {k: list(v) for k, v in (comentarios or {}).items()}
+        self.comentarios = {}                   # post_id -> comentarios hechos
         self.n_fotos = self.n_feeds = self.n_comentarios = 0
         self.estado = estado or (lambda cid, n: "FINISHED")
         self.ig_media = list(ig_media or [])
@@ -69,9 +68,8 @@ class HttpFalso:
             return {"id": post["id"]}
         if ruta.endswith("/comments"):
             post_id = ruta.rsplit("/", 2)[-2]
-            if metodo == "GET":
-                assert urllib.parse.parse_qs(url.split("?")[1]) == {"fields": ["id,message,from"], "limit": ["25"]}
-                return {"data": self.comentarios.get(post_id, [])[:25]}
+            # leer comentarios pide pages_read_user_content, que la app no tiene
+            assert metodo == "POST", f"GET a /comments: {url}"
             self.n_comentarios += 1
             comentario = {"id": f"{post_id}_com{self.n_comentarios}", "from": {"id": self.page_id},
                           "message": urllib.parse.parse_qs(cuerpo.decode())["message"][0]}
@@ -281,10 +279,10 @@ def test_dry_run_no_escribe_publicados_ni_acumula(tmp_path, params, monkeypatch)
     assert [r["partido_id"] for r in cargar_registros("prueba", tmp_path)] == ["F01-P1"]
     assert len(salida) == 2 and all(s.startswith("[dry-run] F01-P1 (partido)\n") for s in salida)
     assert "alineacion_visita.png" in salida[0]
-    assert f"comentario:\n{COMENTARIO_INSTAGRAM}\ninstagram (carrusel" in salida[0]
     carpeta = tmp_path / "prueba" / "imagenes" / "F01-P1"
-    assert salida[0].endswith(f"  1. {carpeta / 'marcador.png'}\n  2. {carpeta / 'alineacion_local_ig.png'}\n"
-                              f"  3. {carpeta / 'alineacion_visita_ig.png'}")
+    assert salida[0].endswith(f"instagram (carrusel, caption = texto del post):\n"
+                              f"  1. {carpeta / 'marcador.png'}\n  2. {carpeta / 'alineacion_local_ig.png'}\n"
+                              f"  3. {carpeta / 'alineacion_visita_ig.png'}\ncomentario:\n{COMENTARIO_INSTAGRAM}")
     assert (carpeta / "alineacion_local_ig.png").exists() and (carpeta / "alineacion_visita_ig.png").exists()
 
 
@@ -380,49 +378,43 @@ def test_main_sale_con_error_si_se_agotan_los_reintentos(tmp_path, params, monke
 
 # --- Comentario ---
 
-def mi_comentario(cid, mensaje=COMENTARIO_INSTAGRAM, de=PAGE_ID):
-    return {"id": cid, "message": mensaje, "from": {"id": de}}
-
-
-def test_comentar_busca_antes_y_comenta():
+def test_comentar_solo_hace_el_post_sin_leer_comentarios():
     http = HttpFalso()
     assert cliente(http).comentar("111_p", COMENTARIO_INSTAGRAM) == "111_p_com1"
-    assert [(m, r) for (m, *_), r in zip(http.llamadas, http.rutas())] == [("GET", "comments"), ("POST", "comments")]
+    assert [(m, r) for (m, *_), r in zip(http.llamadas, http.rutas())] == [("POST", "comments")]
     assert http.comentados() == [("111_p", COMENTARIO_INSTAGRAM)]
     assert all(h["Authorization"] == "Bearer token-falso" and "token-falso" not in u for m, u, c, h in http.llamadas)
 
 
-def test_comentario_ya_existente_no_comenta_de_nuevo():
-    http = HttpFalso(comentarios={"111_p": [mi_comentario("111_p_ya", "  " + COMENTARIO_INSTAGRAM + "\n")]})
-    assert cliente(http).comentar("111_p", COMENTARIO_INSTAGRAM) == "111_p_ya"
-    assert http.comentados() == []
+def test_comentar_reintenta_sin_get(tmp_path):
+    http, dormidas = HttpFalso(fallar=lambda n, m, u: n < 3), []
+    assert cliente(http, dormidas=dormidas).comentar("111_p", COMENTARIO_INSTAGRAM) == "111_p_com1"
+    assert [m for m, u, c, h in http.llamadas] == ["POST"] * 3 and dormidas == [60, 60]
 
 
-def test_comentario_igual_de_otro_usuario_no_cuenta():
-    http = HttpFalso(comentarios={"111_p": [mi_comentario("111_p_otro", de="555")]})
-    assert cliente(http).comentar("111_p", COMENTARIO_INSTAGRAM) == "111_p_com1"
-    assert http.comentados() == [("111_p", COMENTARIO_INSTAGRAM)]
-
-
-def test_partido_nuevo_post_y_comentario_completo(tmp_path, params):
+def test_partido_nuevo_feed_instagram_y_despues_comentario(tmp_path, params):
     nueva_temporada("prueba", semilla=1, base=tmp_path)
     http = HttpFalso()
     correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
     post_id = f"{PAGE_ID}_post1"
     assert http.comentados() == [(post_id, COMENTARIO_INSTAGRAM)]
-    assert http.rutas().index("feed") < http.rutas().index("comments")
+    rutas = http.rutas()
+    assert rutas.index("feed") < rutas.index("media") < rutas.index("media_publish") < rutas.index("comments")
+    assert rutas[-1] == "comments"
     entrada = cargar_publicados("prueba", tmp_path)["F01-P1"]
-    assert entrada["post_id"] == post_id and entrada["comentario_id"] == f"{post_id}_com1"
+    assert entrada["post_id"] == post_id and entrada["ig_media_id"] == "ig1"
+    assert entrada["comentario_id"] == f"{post_id}_com1"
 
 
-def test_comentario_fallido_queda_parcial_y_luego_solo_comenta(tmp_path, params):
+def test_comentario_fallido_deja_instagram_hecho_y_luego_solo_comenta(tmp_path, params):
     nueva_temporada("prueba", semilla=1, base=tmp_path)
     caida = HttpFalso(fallar=lambda n, m, u: m == "POST" and u.endswith("/comments"))
     with pytest.raises(ErrorFacebook):
         correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(caida))
     entrada = cargar_publicados("prueba", tmp_path)["F01-P1"]
-    assert entrada["post_id"] == f"{PAGE_ID}_post1" and entrada["comentario_id"] is None
-    assert caida.n_feeds == 1
+    assert entrada["post_id"] == f"{PAGE_ID}_post1" and entrada["ig_media_id"] == "ig1"
+    assert entrada["comentario_id"] is None
+    assert caida.n_feeds == 1 and caida.rutas().count("media_publish") == 1
 
     generados = []
 
@@ -432,16 +424,36 @@ def test_comentario_fallido_queda_parcial_y_luego_solo_comenta(tmp_path, params)
 
     http = HttpFalso()
     correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), generar_partido=partido_anotado)
-    # F01-P1: sin /photos ni /feed para Facebook, solo el comentario y después Instagram (que sí
-    # regenera las imágenes); luego se juega y publica F01-P2
-    assert http.rutas()[:4] == ["me", IG_ID, "comments", "comments"]
+    # F01-P1: solo el comentario (sin /photos, /feed ni /media); luego se juega y publica F01-P2
+    assert http.rutas()[:3] == ["me", IG_ID, "comments"]
     assert http.comentados()[0] == (f"{PAGE_ID}_post1", COMENTARIO_INSTAGRAM)
     assert [f["message"][0] for f in http.feeds()] == [texto_partido(cargar_registros("prueba", tmp_path)[1])]
-    assert generados == ["F01-P1", "F01-P2"]
+    assert generados == ["F01-P2"]
     publicados = cargar_publicados("prueba", tmp_path)
-    assert publicados["F01-P1"]["post_id"] == f"{PAGE_ID}_post1"
     assert publicados["F01-P1"]["comentario_id"] == f"{PAGE_ID}_post1_com1"
-    assert publicados["F01-P2"]["comentario_id"]
+    assert publicados["F01-P1"]["ig_media_id"] == "ig1"
+    assert publicados["F01-P2"]["comentario_id"] and publicados["F01-P2"]["ig_media_id"]
+
+
+def test_entrada_con_post_sin_instagram_ni_comentario_hace_instagram_y_despues_comenta(tmp_path, params):
+    """Como F01-P1 en data/temporadas/prueba-03/publicados.json."""
+    t = nueva_temporada("prueba", semilla=1, base=tmp_path)
+    registro = jugar_siguiente("prueba", params, base=tmp_path)
+    _escribir_json(ruta_publicados("prueba", tmp_path), {"F01-P1": {
+        "tipo": "partido", "post_id": f"{PAGE_ID}_p03", "pagina": "prueba", "page_id": PAGE_ID,
+        "fecha_hora": "2026-10-10T02:55:21-05:00", "comentario_id": None, "ig_media_id": None}})
+    items = pendientes(t, cargar_registros("prueba", tmp_path), cargar_publicados("prueba", tmp_path))
+    assert [(tipo, d["partido_id"], f) for tipo, d, f in items] == [("partido", "F01-P1", "instagram")]
+
+    http = HttpFalso()
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
+    rutas = http.rutas()
+    antes_de_p2 = rutas[:rutas.index("feed")]
+    assert antes_de_p2.index("media_publish") < antes_de_p2.index("comments")
+    assert http.comentados()[0] == (f"{PAGE_ID}_p03", COMENTARIO_INSTAGRAM)
+    assert http.contenedores["cont4"]["caption"] == texto_partido(registro)
+    entrada = cargar_publicados("prueba", tmp_path)["F01-P1"]
+    assert entrada["ig_media_id"] == "ig1" and entrada["comentario_id"] == f"{PAGE_ID}_p03_com1"
 
 
 def test_entrada_vieja_sin_comentario_id_es_completa(tmp_path, params):
@@ -471,13 +483,13 @@ def test_tabla_no_sale_con_un_partido_incompleto(tmp_path, params):
     t = cargar_temporada("prueba", tmp_path)
 
     items = pendientes(t, registros, cargar_publicados("prueba", tmp_path))
-    assert [(tipo, d["partido_id"], f) for tipo, d, f in items] == [("partido", "F01-P5", "comentario")]
-
-    marcar_comentario("prueba", "F01-P5", "com", base=tmp_path)
-    items = pendientes(t, registros, cargar_publicados("prueba", tmp_path))
     assert [(tipo, d["partido_id"], f) for tipo, d, f in items] == [("partido", "F01-P5", "instagram")]
 
     marcar_instagram("prueba", "F01-P5", "ig", base=tmp_path)
+    items = pendientes(t, registros, cargar_publicados("prueba", tmp_path))
+    assert [(tipo, d["partido_id"], f) for tipo, d, f in items] == [("partido", "F01-P5", "comentario")]
+
+    marcar_comentario("prueba", "F01-P5", "com", base=tmp_path)
     assert pendientes(t, registros, cargar_publicados("prueba", tmp_path)) == [("tabla", 1, "post")]
 
 
@@ -498,7 +510,7 @@ def test_partido_carrusel_de_3_en_orden_y_entrada_completa(tmp_path, params):
         "cont3": {"image_url": "https://scontent.falso/foto6.jpg", "is_carousel_item": "true"},
         "cont4": {"media_type": "CAROUSEL", "children": "cont1,cont2,cont3", "caption": texto_partido(registro)},
     }
-    assert http.rutas().index("comments") < http.rutas().index("media")
+    assert http.rutas().index("media_publish") < http.rutas().index("comments")
     # hijos creados y FINISHED antes de crear el padre; el padre FINISHED antes de publicar
     de_instagram = [(m, r) for (m, *_), r in zip(http.llamadas, http.rutas()) if r.startswith(("media", "cont"))]
     assert de_instagram == [("POST", "media")] * 3 + [("GET", "cont1"), ("GET", "cont2"), ("GET", "cont3"),
@@ -528,25 +540,28 @@ def test_tabla_en_instagram_es_una_foto_con_caption(tmp_path, params):
     assert cargar_publicados("prueba", tmp_path)["tabla-F01"]["ig_media_id"] == "ig1"
 
 
-def test_contenedor_en_error_deja_instagram_pendiente_y_se_rehace_solo_instagram(tmp_path, params):
+def test_instagram_fallido_no_comenta_y_luego_hace_instagram_y_comenta(tmp_path, params):
     nueva_temporada("prueba", semilla=1, base=tmp_path)
     caida = HttpFalso(estado=lambda cid, n: "ERROR" if cid == "cont2" else "FINISHED")
     with pytest.raises(ErrorInstagram, match="cont2 quedó en ERROR: ERROR: detalle de cont2"):
         correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(caida))
-    assert "media_publish" not in caida.rutas()
+    assert "media_publish" not in caida.rutas() and "comments" not in caida.rutas()
     entrada = cargar_publicados("prueba", tmp_path)["F01-P1"]
-    assert entrada["post_id"] == f"{PAGE_ID}_post1" and entrada["comentario_id"] and entrada["ig_media_id"] is None
+    assert entrada["post_id"] == f"{PAGE_ID}_post1"
+    assert entrada["ig_media_id"] is None and entrada["comentario_id"] is None
 
     http = HttpFalso()
     correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
     registros = cargar_registros("prueba", tmp_path)
-    # F01-P1: cero /feed y cero /comments; Instagram de cero (fotos nuevas, contenedores nuevos)
+    # F01-P1: cero /feed; Instagram de cero (fotos nuevas, contenedores nuevos) y después el comentario
     antes_de_p2 = http.rutas()[:http.rutas().index("feed")]
-    assert "comments" not in antes_de_p2
+    assert antes_de_p2.index("media_publish") < antes_de_p2.index("comments")
+    assert http.comentados()[0] == (f"{PAGE_ID}_post1", COMENTARIO_INSTAGRAM)
     assert [f["message"][0] for f in http.feeds()] == [texto_partido(registros[1])]
     assert http.subidas()[:3] == ["marcador.png", "alineacion_local_ig.png", "alineacion_visita_ig.png"]
     assert http.contenedores["cont4"]["caption"] == texto_partido(registros[0])
-    assert cargar_publicados("prueba", tmp_path)["F01-P1"]["ig_media_id"] == "ig1"
+    entrada = cargar_publicados("prueba", tmp_path)["F01-P1"]
+    assert entrada["ig_media_id"] == "ig1" and entrada["comentario_id"] == f"{PAGE_ID}_post1_com1"
 
 
 def test_contenedor_que_no_termina_falla_a_los_2_minutos(tmp_path):
