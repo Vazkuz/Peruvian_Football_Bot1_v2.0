@@ -1,0 +1,103 @@
+name: Bot
+
+on:
+  workflow_dispatch:
+    inputs:
+      temporada:
+        description: "Id de la temporada (carpeta en data/temporadas/)"
+        required: true
+        type: string
+      pagina:
+        description: "dry-run = sin --pagina; real = --pagina real"
+        required: true
+        type: choice
+        options:
+          - dry-run
+          - real
+        default: dry-run
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pfb-bot
+  cancel-in-progress: false
+
+jobs:
+  correr:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    env:
+      TEMPORADA: ${{ inputs.temporada }}
+      PAGINA: ${{ inputs.pagina }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Validar temporada
+        run: |
+          case "$TEMPORADA" in
+            prueba-*)
+              echo "::error::La temporada '$TEMPORADA' empieza con 'prueba-': esas carpetas están en .gitignore y el estado no se guardaría."
+              exit 1
+              ;;
+          esac
+
+      - name: Escribir .env
+        env:
+          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          FB_API_VERSION: ${{ secrets.FB_API_VERSION }}
+        run: |
+          umask 077
+          {
+            printf 'FB_PAGE_ID=%s\n' "$FB_PAGE_ID"
+            printf 'FB_PAGE_TOKEN=%s\n' "$FB_PAGE_TOKEN"
+            printf 'IG_USER_ID=%s\n' "$IG_USER_ID"
+            if [ -n "$FB_API_VERSION" ]; then
+              printf 'FB_API_VERSION=%s\n' "$FB_API_VERSION"
+            fi
+          } > .env
+
+      - name: Correr
+        run: |
+          if [ "$PAGINA" = "real" ]; then
+            python -m pfb.publicacion.correr "$TEMPORADA" --pagina real
+          else
+            python -m pfb.publicacion.correr "$TEMPORADA"
+          fi
+
+      - name: Commit y push
+        if: always()
+        run: |
+          case "$TEMPORADA" in
+            prueba-*) echo "Temporada de prueba: no se commitea."; exit 0 ;;
+          esac
+          carpeta="data/temporadas/$TEMPORADA"
+          if [ ! -d "$carpeta" ]; then
+            echo "No existe $carpeta: no hay nada que commitear."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- "$carpeta"
+          if git diff --cached --quiet; then
+            echo "Sin cambios en $carpeta."
+            exit 0
+          fi
+          fecha=$(TZ=America/Lima date '+%d/%m/%Y %H:%M')
+          git commit -m "Temporada $TEMPORADA: corrida $fecha"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Borrar .env
+        if: always()
+        run: rm -f .env

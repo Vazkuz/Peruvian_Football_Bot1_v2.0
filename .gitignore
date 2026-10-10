@@ -42,3 +42,4 @@ data/rendimiento/raw/
 /prueba.png
 data/temporadas/prueba-*/
 /CLAUDE.md
+*.json.tmp
