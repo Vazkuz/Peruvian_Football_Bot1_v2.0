@@ -1,6 +1,7 @@
 """Textos de los posts (§6), contra las plantillas aprobadas por Daniel."""
 
-from pfb.publicacion.texto import negrita, negrita_cursiva, sin_tildes, texto_partido, texto_tabla
+from pfb.publicacion.texto import (COMENTARIO_INSTAGRAM, negrita, negrita_cursiva, sin_tildes, texto_partido,
+                                   texto_tabla)
 
 NOMBRES = {
     "17479": "Alianza Atlético",
@@ -180,3 +181,11 @@ def test_sin_tabs_ni_espacios_al_final():
     for texto in textos:
         assert "\t" not in texto
         assert all(linea == linea.rstrip() for linea in texto.split("\n"))
+
+
+def test_comentario_instagram():
+    assert COMENTARIO_INSTAGRAM == (
+        "¿Te paltea que tu viejita que tienes agregada a Facebook te vea dándole like a huevadas como "
+        "esta? Entonces ve a seguirnos en Instagram https://www.instagram.com/pfbot.1/"
+    )
+    assert "\n" not in COMENTARIO_INSTAGRAM and "\r" not in COMENTARIO_INSTAGRAM

@@ -3,7 +3,11 @@
 Aparte del registro del partido. Una entrada por publicación, con clave "F07-P3" (partido) o
 "tabla-F07" (tabla de la fecha 7):
     {"tipo": "partido" | "tabla", "post_id": ..., "pagina": "prueba" | "real", "page_id": ...,
-     "fecha_hora": "2026-10-08T17:52:51-05:00"}
+     "fecha_hora": "2026-10-08T17:52:51-05:00", "comentario_id": ... | null, "ig_media_id": ... | null}
+
+La entrada se escribe apenas sale el post de Facebook, con comentario_id e ig_media_id null, y se
+completa en orden: comentario, después Instagram. Una entrada sin el campo comentario_id o sin el
+campo ig_media_id es de antes de esa parte y esa parte cuenta como hecha.
 """
 
 from datetime import datetime
@@ -31,6 +35,18 @@ def cargar_publicados(temporada_id, base=CARPETA_TEMPORADAS):
     return _leer_json(ruta) if ruta.exists() else {}
 
 
+def falta(publicados, clave):
+    """Qué parte falta publicar: "post", "comentario", "instagram" o None si está completa."""
+    entrada = publicados.get(clave)
+    if entrada is None or not entrada.get("post_id"):
+        return "post"
+    if "comentario_id" in entrada and not entrada["comentario_id"]:
+        return "comentario"
+    if "ig_media_id" in entrada and not entrada["ig_media_id"]:
+        return "instagram"
+    return None
+
+
 def comprobar_pagina(publicados, page_id):
     """Aborta si alguna publicación de la temporada fue en otra página."""
     otras = {e["page_id"] for e in publicados.values()} - {page_id}
@@ -47,6 +63,22 @@ def marcar(temporada_id, clave, tipo, post_id, pagina, page_id, base=CARPETA_TEM
         "pagina": pagina,
         "page_id": page_id,
         "fecha_hora": (ahora or datetime.now(ZONA)).isoformat(timespec="seconds"),
+        "comentario_id": None,
+        "ig_media_id": None,
     }
+    _escribir_json(ruta_publicados(temporada_id, base), publicados)
+    return publicados
+
+
+def marcar_comentario(temporada_id, clave, comentario_id, base=CARPETA_TEMPORADAS):
+    publicados = cargar_publicados(temporada_id, base)
+    publicados[clave]["comentario_id"] = comentario_id
+    _escribir_json(ruta_publicados(temporada_id, base), publicados)
+    return publicados
+
+
+def marcar_instagram(temporada_id, clave, ig_media_id, base=CARPETA_TEMPORADAS):
+    publicados = cargar_publicados(temporada_id, base)
+    publicados[clave]["ig_media_id"] = ig_media_id
     _escribir_json(ruta_publicados(temporada_id, base), publicados)
     return publicados

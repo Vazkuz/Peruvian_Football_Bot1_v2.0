@@ -74,16 +74,11 @@ def _multipart(campos, archivo):
     return b"".join(partes), f"multipart/form-data; boundary={limite}"
 
 
-class Cliente:
-    def __init__(self, pagina, page_id, token, version=VERSION_POR_DEFECTO,
-                 transporte=transporte_urllib, dormir=time.sleep, espera=ESPERA, duracion=DURACION,
-                 avisar=None):
-        if pagina not in PAGINAS:
-            raise ValueError(f"página desconocida: {pagina}")
-        if not page_id or not token:
-            raise ErrorFacebook(f"faltan {PAGINAS[pagina]['id']} o {PAGINAS[pagina]['token']} en el .env")
-        self.pagina = pagina
-        self.page_id = page_id
+class Graph:
+    """Llamadas a la Graph API con un token, con reintentos. Base de Cliente e Instagram."""
+
+    def __init__(self, token, version=VERSION_POR_DEFECTO, transporte=transporte_urllib, dormir=time.sleep,
+                 espera=ESPERA, duracion=DURACION, avisar=None):
         self._token = token
         self.api = f"https://graph.facebook.com/{version or VERSION_POR_DEFECTO}"
         self._transporte = transporte
@@ -91,15 +86,6 @@ class Cliente:
         self._espera = espera
         self._intentos = 1 + duracion // espera
         self._avisar = avisar or (lambda m: print(m, file=sys.stderr))
-
-    @classmethod
-    def desde_env(cls, pagina, ruta_env=RUTA_ENV, **kwargs):
-        if pagina not in PAGINAS:
-            raise ValueError(f"página desconocida: {pagina}")
-        claves = PAGINAS[pagina]
-        env = leer_env({claves["id"], claves["token"], "FB_API_VERSION"}, ruta_env)
-        return cls(pagina, env.get(claves["id"], ""), env.get(claves["token"], ""),
-                   env.get("FB_API_VERSION") or VERSION_POR_DEFECTO, **kwargs)
 
     def _reintentar(self, paso, funcion):
         """Llama a funcion() cada `espera` segundos hasta que salga bien o se agoten los intentos.
@@ -130,6 +116,42 @@ class Cliente:
         """Una llamada con reintentos."""
         return self._reintentar(paso, lambda: self._una_llamada(metodo, ruta, cuerpo, content_type, clave))
 
+
+class Cliente(Graph):
+    def __init__(self, pagina, page_id, token, version=VERSION_POR_DEFECTO, **kwargs):
+        if pagina not in PAGINAS:
+            raise ValueError(f"página desconocida: {pagina}")
+        if not page_id or not token:
+            raise ErrorFacebook(f"faltan {PAGINAS[pagina]['id']} o {PAGINAS[pagina]['token']} en el .env")
+        super().__init__(token, version, **kwargs)
+        self.pagina = pagina
+        self.page_id = page_id
+
+    @classmethod
+    def desde_env(cls, pagina, ruta_env=RUTA_ENV, **kwargs):
+        if pagina not in PAGINAS:
+            raise ValueError(f"página desconocida: {pagina}")
+        claves = PAGINAS[pagina]
+        env = leer_env({claves["id"], claves["token"], "FB_API_VERSION"}, ruta_env)
+        return cls(pagina, env.get(claves["id"], ""), env.get(claves["token"], ""),
+                   env.get("FB_API_VERSION") or VERSION_POR_DEFECTO, **kwargs)
+
+    def _subir_foto(self, ruta):
+        """Sube la foto a la página sin publicar. Devuelve su id."""
+        ruta = Path(ruta)
+        cuerpo, tipo = _multipart({"published": "false"}, ("source", ruta))
+        return self._llamar(f"subida de {ruta.name}", "POST", f"{self.page_id}/photos", cuerpo, tipo)["id"]
+
+    def subir_para_url(self, ruta):
+        """Sube la foto a la página sin publicar y devuelve la URL de su versión más grande (para
+        pasarla a Instagram como image_url)."""
+        foto_id = self._subir_foto(ruta)
+        ruta_images = f"{foto_id}?" + urllib.parse.urlencode({"fields": "images"})
+        imagenes = self._llamar(f"URL de {Path(ruta).name}", "GET", ruta_images, clave="images")["images"]
+        if not imagenes:
+            raise ErrorFacebook(f"la foto {foto_id} no tiene versiones en images")
+        return max(imagenes, key=lambda i: i.get("width", 0) * i.get("height", 0))["source"]
+
     def buscar_post(self, mensaje):
         """El id de un post reciente de la página con el mismo mensaje (sin espacios al inicio ni al
         final), o None."""
@@ -153,11 +175,7 @@ class Cliente:
         Antes de cada intento de /feed busca el mismo mensaje entre los posts recientes: si ya está
         (respuesta perdida, o una corrida que se cayó antes de marcar), devuelve ese id sin volver
         a publicar. Las fotos subidas en esta corrida quedan sueltas."""
-        ids = []
-        for ruta in rutas_fotos:
-            ruta = Path(ruta)
-            cuerpo, tipo = _multipart({"published": "false"}, ("source", ruta))
-            ids.append(self._llamar(f"subida de {ruta.name}", "POST", f"{self.page_id}/photos", cuerpo, tipo)["id"])
+        ids = [self._subir_foto(ruta) for ruta in rutas_fotos]
         datos = {"message": mensaje}
         for i, fid in enumerate(ids):
             datos[f"attached_media[{i}]"] = json.dumps({"media_fbid": fid})
@@ -171,3 +189,28 @@ class Cliente:
             return self._una_llamada("POST", f"{self.page_id}/feed", cuerpo, "application/x-www-form-urlencoded")["id"]
 
         return self._reintentar("creación del post", crear)
+
+    def buscar_comentario(self, post_id, mensaje):
+        """El id de un comentario de la propia página en el post con el mismo mensaje (sin espacios
+        al inicio ni al final), o None. Los comentarios de otros usuarios no cuentan."""
+        ruta = f"{post_id}/comments?" + urllib.parse.urlencode({"fields": "id,message,from", "limit": 25})
+        for comentario in self._llamar("búsqueda de comentarios", "GET", ruta, clave="data")["data"]:
+            if (comentario.get("from", {}).get("id") == self.page_id
+                    and comentario.get("message", "").strip() == mensaje.strip()):
+                return comentario["id"]
+        return None
+
+    def comentar(self, post_id, mensaje):
+        """Comenta en el post como la página. Devuelve el id del comentario.
+        Antes de cada intento busca el mismo comentario de la página: si ya está, devuelve ese id
+        sin volver a comentar."""
+        cuerpo = urllib.parse.urlencode({"message": mensaje}).encode("utf-8")
+
+        def crear():
+            existente = self.buscar_comentario(post_id, mensaje)
+            if existente:
+                self._avisar(f"ya estaba comentado, se marca sin volver a comentar: {existente}")
+                return existente
+            return self._una_llamada("POST", f"{post_id}/comments", cuerpo, "application/x-www-form-urlencoded")["id"]
+
+        return self._reintentar("comentario", crear)

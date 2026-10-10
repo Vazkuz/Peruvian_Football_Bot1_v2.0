@@ -11,6 +11,8 @@ from pfb.motor.temporada import cargar_nombres
 
 HASHTAG = "#PorLosMemesDeNuestroFutbol"
 SANGRIA = "   "
+COMENTARIO_INSTAGRAM = ("¿Te paltea que tu viejita que tienes agregada a Facebook te vea dándole like a huevadas "
+                        "como esta? Entonces ve a seguirnos en Instagram https://www.instagram.com/pfbot.1/")
 
 
 def _convertir(texto, mayuscula, minuscula, digito=None):
