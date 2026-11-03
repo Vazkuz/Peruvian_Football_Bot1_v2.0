@@ -1,4 +1,4 @@
-"""Textos de los posts (§6): partido y tabla. Sin red.
+"""Textos de los posts (§6 y §13.1): partido, tabla y votaciones. Sin red.
 
 La negrita y la cursiva son letras Unicode (Mathematical Sans-Serif): Facebook no tiene formato
 en posts de página. Unicode no tiene esas letras con tilde ni ñ, así que quedan igual.
@@ -89,3 +89,76 @@ def texto_tabla(fecha):
         "Mira la tabla de posiciones actualizada aquí.",
         HASHTAG,
     ])
+
+
+# --- Votaciones (§13.1) ---
+
+VOTA_INSTAGRAM = "VOTA REACCIONANDO EN LOS COMENTARIOS!"
+
+# Cosas random de la votación 2, tal cual. {local} y {visita} = nombres de los equipos; {equipo} = el
+# equipo que sorteó la votación (solo la 10).
+TEXTOS_RANDOM = {
+    1: "El presidente de la federación está amañado con ambos equipos, por lo que el partido acaba en un empate 1-1",
+    2: "Encontraron al goleador de {visita} amañando el partido en Apesta Potal, por lo que {local} gana el partido 3-0",
+    3: "El arquero de {local} salió positivo en el doping, {visita} gana el partido",
+    4: "La barra brava de {visita} ajustó al presidente de la federación, por lo que {visita} gana en mesa por 1-0",
+    5: ("El TAS resuelve que {visita} debía dinero por la construcción de su estadio. De todos modos, esto no "
+        "impacta en el resultado del partido, que se mantiene"),
+    6: ("El Congreso dictamina que {local} merece campeonar este año, por lo que obliga a la FPF a darlo como "
+        "ganador con un marcador de 2-1"),
+    7: "Aliens han sido contactados por primera vez, e indican que el partido debe mantener su score o nos invadirán",
+    8: ("El FREPAP gana las elecciones y predice que si {local} y {visita} no empatan este partido por 1-1, el fin "
+        "del mundo se acercará."),
+    9: ("El VAR de {local} estaba desconectado porque usaron las pantallas para meterle un dotita. Los goles fueron "
+        "anulados y queda 0-0"),
+    10: "La FPF perdió el acta del partido y como es {equipo} a nadie le importa. El resultado queda en 1-1",
+    11: "Un huaico se llevó el arco de {visita}. La FPF decreta empate 2-2",
+    12: "El árbitro confesó en TikTok que es hincha de {local}. {visita} gana 3-0",
+}
+
+OPCIONES_SANCION = ["❤️ 1 fecha", "😡 2 fechas", "😢 3 fechas", "😂 4 fechas"]
+
+
+def texto_random(registro, nombres=None):
+    """Texto de la cosa random que salió en la votación 2, con los nombres puestos."""
+    if nombres is None:
+        nombres = cargar_nombres()
+    votacion = registro["votacion"]
+    return TEXTOS_RANDOM[votacion["opcion"]].format(
+        local=nombres[registro["local"]["club_id"]],
+        visita=nombres[registro["visita"]["club_id"]],
+        equipo=nombres[votacion["equipo"]] if "equipo" in votacion else "",
+    )
+
+
+def opciones_votacion(registro, nombres=None):
+    """Una línea por opción, con su emoji: van al final del post de Facebook (mesa) y como
+    comentarios en Instagram (mesa y sanción)."""
+    if registro["votacion"]["tipo"] == "sancion":
+        return list(OPCIONES_SANCION)
+    return ["👍 No procede", f"😂 {texto_random(registro, nombres)}", "😡 Que se repita el partido"]
+
+
+def texto_votacion(registro, nombres=None):
+    """Texto del post de la votación en Facebook. registro["votacion"] no puede ser None."""
+    if nombres is None:
+        nombres = cargar_nombres()
+    votacion = registro["votacion"]
+    if votacion["tipo"] == "sancion":
+        bloques = [f"¿Cuántas fechas de sanción se lleva el jugador {votacion['jugador']['nombre']} "
+                   f"del {nombres[votacion['club_id']]}?"]
+    else:
+        local, visita = nombres[registro["local"]["club_id"]], nombres[registro["visita"]["club_id"]]
+        bloques = [
+            "PROBLEMAS EN MESA!",
+            f"Se presentaron reclamos por el último partido ({local} vs {visita}), reacciona para votar el "
+            "resultado del reclamo",
+            "\n".join(opciones_votacion(registro, nombres)),
+        ]
+    bloques.append(HASHTAG)
+    return "\n\n".join(bloques)
+
+
+def caption_votacion(registro, nombres=None):
+    """Caption del post de la votación en Instagram: el aviso al comienzo y luego el texto de Facebook."""
+    return f"{VOTA_INSTAGRAM}\n\n{texto_votacion(registro, nombres)}"

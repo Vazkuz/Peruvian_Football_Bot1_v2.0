@@ -1,5 +1,7 @@
 """Publicación en Instagram con la Graph API (Instagram con Facebook Login). Solo urllib.
 
+Comentar (los comentarios de las votaciones, §13.1) pide el permiso instagram_manage_comments.
+
 Usa siempre FB_PAGE_TOKEN e IG_USER_ID del .env (la cuenta de Instagram está vinculada a la página
 real), también con --pagina prueba. Las imágenes van como image_url: se suben sin publicar a la
 página del modo (el `subidor`, un facebook.Cliente) y se pasa la URL de su versión más grande.
@@ -129,3 +131,26 @@ class Instagram(Graph):
         contenedor = self._crear_contenedor("contenedor de la foto", {"image_url": url, "caption": caption})
         self.esperar(contenedor)
         return self._publicar(contenedor, caption, desde)
+
+    def buscar_comentario(self, ig_media_id, texto):
+        """El id de un comentario de la publicación con el mismo texto, o None."""
+        ruta = f"{ig_media_id}/comments?" + urllib.parse.urlencode({"fields": "id,text", "limit": 50})
+        for comentario in self._llamar("búsqueda de comentarios de Instagram", "GET", ruta, clave="data")["data"]:
+            if comentario.get("text", "").strip() == texto.strip():
+                return comentario["id"]
+        return None
+
+    def comentar(self, ig_media_id, texto):
+        """Comenta en la publicación. Devuelve el id del comentario. Antes de cada intento busca el
+        mismo texto entre los comentarios: si ya está (respuesta perdida), devuelve ese id."""
+        cuerpo = urllib.parse.urlencode({"message": texto}).encode("utf-8")
+
+        def comentar():
+            existente = self.buscar_comentario(ig_media_id, texto)
+            if existente:
+                self._avisar(f"el comentario ya estaba en Instagram, se marca sin volver a comentar: {existente}")
+                return existente
+            return self._una_llamada("POST", f"{ig_media_id}/comments", cuerpo,
+                                     "application/x-www-form-urlencoded")["id"]
+
+        return self._reintentar("comentario en Instagram", comentar)

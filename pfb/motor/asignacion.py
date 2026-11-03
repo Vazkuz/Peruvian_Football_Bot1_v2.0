@@ -81,11 +81,12 @@ def _jugador(j):
     return {"id": j.id, "nombre": j.nombre}
 
 
-def linea_de_tiempo(rng, params, plantilla, goles, rojas, amarillas, ventanas):
+def linea_de_tiempo(rng, params, plantilla, goles, rojas, amarillas, ventanas, bloqueadas=frozenset()):
     """Eventos de un equipo en orden cronológico: quién recibe cada tarjeta, quién sale en cada
     ventana y quién hace cada gol, respetando cambios y expulsiones.
     goles: [(tiempo, minuto, casilla)]; rojas / amarillas: [(tiempo, minuto)];
-    ventanas: la salida de eventos.ventanas_de_cambio."""
+    ventanas: la salida de eventos.ventanas_de_cambio. bloqueadas: casillas que no se pueden cambiar
+    (sanción, §13.1); cuentan como ya cambiadas."""
     casillas = {c.numero: c for c in plantilla.casillas}
     arquero = next(c.numero for c in plantilla.casillas if c.rol == "arquero")
 
@@ -114,7 +115,7 @@ def linea_de_tiempo(rng, params, plantilla, goles, rojas, amarillas, ventanas):
 
     ocupante = {n: c.titular for n, c in casillas.items()}
     expulsadas = set()
-    cambiadas = set()
+    cambiadas = set(bloqueadas)
     con_amarilla = set()
     prob_gol = probabilidades_goleador(params, plantilla)
     eventos = []

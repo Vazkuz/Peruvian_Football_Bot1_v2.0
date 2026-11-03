@@ -43,8 +43,10 @@ def _alineacion(plantilla):
     }
 
 
-def simular_partido(params, local, visita, estado_local, estado_visita, semilla=None, partido_id=None, fecha=None):
+def simular_partido(params, local, visita, estado_local, estado_visita, semilla=None, partido_id=None, fecha=None,
+                    bloqueadas_local=frozenset(), bloqueadas_visita=frozenset()):
     """local / visita: Plantilla. estado_*: {"ult_res": 1 | 0 | -1 | None, "g5": int | None}.
+    bloqueadas_*: casillas que no se pueden cambiar (sanción, §13.1).
     Devuelve el registro del partido, serializable con json.dumps."""
     if semilla is None:
         semilla = random.SystemRandom().randrange(2**32)
@@ -74,9 +76,10 @@ def simular_partido(params, local, visita, estado_local, estado_visita, semilla=
     t_rojas_visita, t_amarillas_visita = minutos_tarjetas(rng, rojas_v, amarillas_v)
 
     # g. Línea de tiempo de cada equipo
-    linea_local = linea_de_tiempo(rng, params, local, goles_local, t_rojas_local, t_amarillas_local, ventanas_local)
+    linea_local = linea_de_tiempo(rng, params, local, goles_local, t_rojas_local, t_amarillas_local, ventanas_local,
+                                  bloqueadas_local)
     linea_visita = linea_de_tiempo(rng, params, visita, goles_visita, t_rojas_visita, t_amarillas_visita,
-                                   ventanas_visita)
+                                   ventanas_visita, bloqueadas_visita)
 
     # Unión de los dos equipos: en un mismo minuto, por tipo y local antes que visita.
     # El sort es estable, así que dentro de cada equipo se respeta el orden de su línea.

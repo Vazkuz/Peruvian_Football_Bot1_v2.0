@@ -1,7 +1,8 @@
-"""Textos de los posts (§6), contra las plantillas aprobadas por Daniel."""
+"""Textos de los posts (§6 y §13.1), contra las plantillas aprobadas por Daniel."""
 
-from pfb.publicacion.texto import (COMENTARIO_INSTAGRAM, negrita, negrita_cursiva, sin_tildes, texto_partido,
-                                   texto_tabla)
+from pfb.publicacion.texto import (COMENTARIO_INSTAGRAM, HASHTAG, TEXTOS_RANDOM, caption_votacion, negrita,
+                                   negrita_cursiva, opciones_votacion, sin_tildes, texto_partido, texto_random,
+                                   texto_tabla, texto_votacion)
 
 NOMBRES = {
     "17479": "Alianza Atlético",
@@ -189,3 +190,83 @@ def test_comentario_instagram():
         "esta? Entonces ve a seguirnos en Instagram https://www.instagram.com/pfbot.1/"
     )
     assert "\n" not in COMENTARIO_INSTAGRAM and "\r" not in COMENTARIO_INSTAGRAM
+
+
+# --- Votaciones (§13.1) ---
+
+def con_votacion(votacion, local="2734", visita="1450"):
+    r = registro(local, visita, [])
+    r["votacion"] = votacion
+    return r
+
+
+def test_post_de_mesa():
+    r = con_votacion({"tipo": "mesa", "opcion": 1})
+    assert texto_votacion(r, NOMBRES) == (
+        "PROBLEMAS EN MESA!\n\n"
+        "Se presentaron reclamos por el último partido (Melgar vs Sporting Cristal), reacciona para votar el "
+        "resultado del reclamo\n\n"
+        "👍 No procede\n"
+        "😂 El presidente de la federación está amañado con ambos equipos, por lo que el partido acaba en un "
+        "empate 1-1\n"
+        "😡 Que se repita el partido\n\n"
+        "#PorLosMemesDeNuestroFutbol")
+
+
+def test_post_de_sancion_con_nombre_completo():
+    r = con_votacion({"tipo": "sancion", "club_id": "17479", "casilla": 4,
+                      "jugador": {"id": "1", "nombre": "Ángel de la Cruz"}}, local="17479")
+    assert texto_votacion(r, NOMBRES) == ("¿Cuántas fechas de sanción se lleva el jugador Ángel de la Cruz del "
+                                          "Alianza Atlético?\n\n#PorLosMemesDeNuestroFutbol")
+    assert opciones_votacion(r, NOMBRES) == ["❤️ 1 fecha", "😡 2 fechas", "😢 3 fechas", "😂 4 fechas"]
+
+
+def test_caption_de_instagram():
+    for v in ({"tipo": "mesa", "opcion": 5},
+              {"tipo": "sancion", "club_id": "2734", "casilla": 4, "jugador": {"id": "1", "nombre": "X Y"}}):
+        r = con_votacion(v)
+        assert caption_votacion(r, NOMBRES) == "VOTA REACCIONANDO EN LOS COMENTARIOS!\n\n" + texto_votacion(r, NOMBRES)
+
+
+def test_comentarios_de_mesa():
+    r = con_votacion({"tipo": "mesa", "opcion": 11})
+    assert opciones_votacion(r, NOMBRES) == [
+        "👍 No procede", "😂 Un huaico se llevó el arco de Sporting Cristal. La FPF decreta empate 2-2",
+        "😡 Que se repita el partido"]
+
+
+def test_las_12_random_con_nombres():
+    assert sorted(TEXTOS_RANDOM) == list(range(1, 13))
+    esperados = {
+        2: "Encontraron al goleador de Sporting Cristal amañando el partido en Apesta Potal, por lo que Melgar gana "
+           "el partido 3-0",
+        3: "El arquero de Melgar salió positivo en el doping, Sporting Cristal gana el partido",
+        4: "La barra brava de Sporting Cristal ajustó al presidente de la federación, por lo que Sporting Cristal "
+           "gana en mesa por 1-0",
+        6: "El Congreso dictamina que Melgar merece campeonar este año, por lo que obliga a la FPF a darlo como "
+           "ganador con un marcador de 2-1",
+        8: "El FREPAP gana las elecciones y predice que si Melgar y Sporting Cristal no empatan este partido por "
+           "1-1, el fin del mundo se acercará.",
+        9: "El VAR de Melgar estaba desconectado porque usaron las pantallas para meterle un dotita. Los goles "
+           "fueron anulados y queda 0-0",
+        12: "El árbitro confesó en TikTok que es hincha de Melgar. Sporting Cristal gana 3-0",
+    }
+    for n in range(1, 13):
+        v = {"tipo": "mesa", "opcion": n}
+        if n == 10:
+            v["equipo"] = "1450"
+        texto = texto_random(con_votacion(v), NOMBRES)
+        assert "{" not in texto and "<" not in texto
+        if n in esperados:
+            assert texto == esperados[n]
+
+
+def test_random_10_nombra_al_equipo_sorteado():
+    for equipo, nombre in (("2734", "Melgar"), ("1450", "Sporting Cristal")):
+        r = con_votacion({"tipo": "mesa", "opcion": 10, "equipo": equipo})
+        assert texto_random(r, NOMBRES) == (f"La FPF perdió el acta del partido y como es {nombre} a nadie le "
+                                            "importa. El resultado queda en 1-1")
+
+
+def test_votacion_termina_con_hashtag():
+    assert texto_votacion(con_votacion({"tipo": "mesa", "opcion": 7}), NOMBRES).endswith("\n\n" + HASHTAG)

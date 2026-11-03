@@ -16,7 +16,8 @@ import sys
 import unicodedata
 
 from pfb.motor.partido import cargar_parametros, simular_partido
-from pfb.motor.plantillas import RAIZ, cargar_plantilla, cargar_plantillas
+from pfb.motor.plantillas import RAIZ, cargar_plantilla, cargar_plantillas, con_suspendidos
+from pfb.motor.votaciones import aplicar_mesa, sortear_votacion
 
 CARPETA_TEMPORADAS = RAIZ / "data" / "temporadas"
 RUTA_COLORES = RAIZ / "data" / "colores_clubes.json"
@@ -148,6 +149,59 @@ def estado_equipo(registros, club_id, params):
     return {"ult_res": ult_res, "g5": g5}
 
 
+# --- Sanciones (§13.1) ---
+
+def sanciones(registros):
+    """Las votaciones de sanción, con lo que falta cumplir. "fechas" es lo que decidió la votación
+    (None si todavía no se resolvió); "faltan" cuenta los partidos del club jugados después del de
+    la roja (None si no está resuelta)."""
+    jugados = _jugados(registros)
+    salida = []
+    for r in jugados:
+        v = r.get("votacion")
+        if not v or v["tipo"] != "sancion":
+            continue
+        fechas = v.get("fechas")
+        faltan = None
+        if fechas is not None:
+            cumplidas = sum(1 for o in jugados if o["fecha"] > r["fecha"] and _juega(o, v["club_id"]))
+            faltan = max(fechas - cumplidas, 0)
+        salida.append({"club_id": v["club_id"], "casilla": v["casilla"], "jugador": v["jugador"],
+                       "partido_id": r["partido_id"], "fechas": fechas, "faltan": faltan})
+    return salida
+
+
+def suspendidos(registros, club_id):
+    """{casilla: jugador_id} de los sancionados del club que no pueden jugar su próximo partido.
+    Solo cuentan las sanciones ya resueltas."""
+    return {s["casilla"]: s["jugador"]["id"] for s in sanciones(registros)
+            if s["club_id"] == club_id and s["faltan"]}
+
+
+def casillas_bloqueadas(registros):
+    """{(club_id, casilla)} con alguien sancionado (o con una votación de sanción sin resolver):
+    el sorteo de la sanción no puede elegir a nadie de esas casillas."""
+    return {(s["club_id"], s["casilla"]) for s in sanciones(registros) if s["faltan"] is None or s["faltan"] > 0}
+
+
+def resolver_mesa(temporada_id, partido_id, ganador, params, base=CARPETA_TEMPORADAS):
+    """Aplica el resultado de la votación 2 al partido guardado (§13.1) y lo reescribe. La tabla,
+    la racha y el G5 salen del registro, así que quedan al día solos. Devuelve el registro nuevo."""
+    ruta = carpeta_temporada(temporada_id, base) / "partidos" / f"{partido_id}.json"
+    registro = _leer_json(ruta)
+    if not registro.get("votacion") or registro["votacion"]["tipo"] != "mesa":
+        raise ValueError(f"{partido_id} no tiene votación de mesa")
+    if "mesa" in registro:
+        raise ValueError(f"{partido_id} ya tiene la mesa resuelta")
+    clave = (registro["fecha"], registro["partido_id"])
+    anteriores = [r for r in cargar_registros(temporada_id, base) if (r["fecha"], r["partido_id"]) < clave]
+    nuevo = aplicar_mesa(registro, ganador, params,
+                         estado_equipo(anteriores, registro["local"]["club_id"], params),
+                         estado_equipo(anteriores, registro["visita"]["club_id"], params))
+    _escribir_json(ruta, nuevo)
+    return nuevo
+
+
 # --- Tabla ---
 
 def cargar_nombres():
@@ -219,8 +273,8 @@ def tabla_en_texto(filas):
 # --- Jugar ---
 
 def jugar_siguiente(temporada_id, params, base=CARPETA_TEMPORADAS):
-    """Juega el primer partido del fixture que no tenga archivo. Devuelve su registro, o None si la
-    temporada terminó."""
+    """Juega el primer partido del fixture que no tenga archivo y sortea su votación (§13.1).
+    Devuelve su registro, o None si la temporada terminó."""
     temporada = cargar_temporada(temporada_id, base)
     carpeta = carpeta_temporada(temporada_id, base) / "partidos"
     for f, partidos in enumerate(temporada["fixture"], start=1):
@@ -230,10 +284,19 @@ def jugar_siguiente(temporada_id, params, base=CARPETA_TEMPORADAS):
             if ruta.exists():
                 continue
             registros = cargar_registros(temporada_id, base)
-            registro = simular_partido(params, cargar_plantilla(local), cargar_plantilla(visita),
+            fuera = {club: suspendidos(registros, club) for club in (local, visita)}
+            plantilla_local, bloqueadas_local = con_suspendidos(cargar_plantilla(local), fuera[local])
+            plantilla_visita, bloqueadas_visita = con_suspendidos(cargar_plantilla(visita), fuera[visita])
+            registro = simular_partido(params, plantilla_local, plantilla_visita,
                                        estado_equipo(registros, local, params),
                                        estado_equipo(registros, visita, params),
-                                       partido_id=pid, fecha=f)
+                                       partido_id=pid, fecha=f,
+                                       bloqueadas_local=bloqueadas_local, bloqueadas_visita=bloqueadas_visita)
+            registro["suspendidos"] = {club: [{"casilla": c, "jugador_id": j} for c, j in sorted(fuera[club].items())]
+                                       for club in (local, visita) if fuera[club]}
+            registro["votacion"] = sortear_votacion(
+                registro, params, any(r.get("votacion") for r in registros if r["fecha"] == f),
+                casillas_bloqueadas(registros + [registro]))
             _escribir_json(ruta, registro)
             return registro
     return None

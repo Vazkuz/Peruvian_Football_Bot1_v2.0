@@ -1,7 +1,7 @@
 """Carga y valida las plantillas de data/plantillas/<club_id>.json."""
 
 import json
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 
 RAIZ = Path(__file__).resolve().parents[2]
@@ -110,3 +110,25 @@ def cargar_plantilla(club_id):
 def cargar_plantillas():
     """Devuelve {club_id: Plantilla} con todos los archivos de data/plantillas/."""
     return {ruta.stem: cargar_plantilla(ruta.stem) for ruta in sorted(CARPETA_PLANTILLAS.glob("*.json"))}
+
+
+def con_suspendidos(plantilla, suspendidos):
+    """Plantilla del partido con los sancionados afuera (§13.1). suspendidos: {casilla: jugador_id}.
+    Si el sancionado es el titular, juega su suplente; si es el suplente, juega el titular. En los
+    dos casos la casilla queda sin cambio posible. Devuelve (plantilla, casillas bloqueadas)."""
+    casillas = []
+    bloqueadas = set()
+    for c in plantilla.casillas:
+        jugador_id = suspendidos.get(c.numero)
+        if jugador_id is None:
+            casillas.append(c)
+            continue
+        if jugador_id == c.titular.id:
+            casillas.append(replace(c, titular=c.suplente))
+        elif jugador_id == c.suplente.id:
+            casillas.append(replace(c, suplente=c.titular))
+        else:
+            raise ErrorPlantilla(f"plantilla {plantilla.club_id}: el sancionado {jugador_id} no está en la "
+                                 f"casilla {c.numero}")
+        bloqueadas.add(c.numero)
+    return replace(plantilla, casillas=tuple(casillas)), frozenset(bloqueadas)

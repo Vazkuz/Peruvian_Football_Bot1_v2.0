@@ -2,7 +2,7 @@
 
 Se corre a mano solo cuando cambia una foto: el bot usa las imagenes ya armadas.
 
-Parte de assets/TAS.png (foto de arriba, Like con la mesa tachada y Me enoja con su foto) y en
+Parte de assets/Tas_Final.png (foto de arriba, Like con la mesa tachada y Me enoja con su foto) y en
 el hueco del medio pega la foto de la opcion (assets/votacion_2/Opcion_<n>.<ext>) con el icono
 de Me da risa encima. La base, las fotos y el icono no se modifican.
 
@@ -16,7 +16,7 @@ from pathlib import Path
 from PIL import Image
 
 RAIZ = Path(__file__).resolve().parents[1]
-BASE = RAIZ / "assets" / "TAS.png"
+BASE = RAIZ / "assets" / "Tas_Final.png"
 CARPETA_FOTOS = RAIZ / "assets" / "votacion_2"
 CARPETA_SALIDA = CARPETA_FOTOS / "TAS"
 ICONO_RISA = RAIZ / "assets" / "reacciones" / "me_da_risa.png"
@@ -24,10 +24,11 @@ ICONO_RISA = RAIZ / "assets" / "reacciones" / "me_da_risa.png"
 OPCIONES = range(1, 13)
 EXTENSIONES = (".jpg", ".jpeg", ".png")
 
-# Medidas sobre la base de 720x606, tomadas del boceto de Daniel (15/10/2026).
-FOTO_CAJA = (277, 435, 181, 140)  # x, y, ancho, alto; la foto entra sin deformarse, centrada
-ICONO_POS = (268, 417)  # esquina superior izquierda del icono
-ICONO_LADO = 90  # mismo tamano que el Like y el Me enoja de la base
+# Medidas sobre la base de 1080x1077 (Tas_Final.png, 18/10/2026). Son las del boceto de Daniel
+# del 15/10/2026 llevadas a esta base, donde el diseno anterior entra escalado x1.267.
+FOTO_CAJA = (435, 718, 229, 177)  # x, y, ancho, alto; la foto entra sin deformarse, centrada
+ICONO_POS = (424, 695)  # esquina superior izquierda del icono
+ICONO_LADO = 114  # mismo tamano que el Like y el Me enoja de la base
 
 
 def ruta_foto(n):

@@ -29,5 +29,6 @@
     "tope_por_equipo": 5,
     "ventana_en_1t": 0.05,
     "arquero_sale": 0.02
-  }
+  },
+  "votaciones": {"sancion": 0.05, "mesa": 0.05}
 }
