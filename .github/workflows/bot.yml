@@ -1,11 +1,12 @@
 name: Bot
+run-name: ${{ inputs.cron && 'Bot (cron)' || 'Bot (manual)' }} - ${{ inputs.temporada }}
 
-# Cron: 9:17 a 19:17 de Lima (UTC-5), una corrida por hora, sobre la temporada real. Candado: si
-# data/temporadas/<temporada real>/temporada.json no existe, la corrida programada termina en verde sin
-# hacer nada. Arrancar la temporada = crear esa carpeta y pushearla.
+# El horario lo pone cron-job.org (una corrida por hora, de 9 a 19 de Lima): llama a la API de
+# GitHub para disparar este workflow con temporada = la real, pagina = real y cron = true. El cron
+# propio de GitHub (schedule) se saco el 16/11/2026: llegaba tarde o no llegaba.
+# Candado (solo el cron): si data/temporadas/<temporada>/temporada.json no existe, la corrida termina
+# en verde sin hacer nada. Arrancar la temporada = crear esa carpeta y pushearla.
 on:
-  schedule:
-    - cron: "17 14-23,0 * * *"  # en UTC: 14-23 y 0 = 9:17 a 19:17 de Lima
   workflow_dispatch:
     inputs:
       temporada:
@@ -20,6 +21,11 @@ on:
           - dry-run
           - real
         default: dry-run
+      cron:
+        description: "true solo cuando dispara cron-job.org (activa el candado)"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -33,14 +39,13 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 180
     env:
-      # en el cron no hay inputs: va la temporada real con --pagina real
-      TEMPORADA: ${{ inputs.temporada || 'pfbot1-2026.1' }}
-      PAGINA: ${{ inputs.pagina || 'real' }}
+      TEMPORADA: ${{ inputs.temporada }}
+      PAGINA: ${{ inputs.pagina }}
     steps:
       - uses: actions/checkout@v7
 
       - name: Candado (solo el cron)
-        if: github.event_name == 'schedule'
+        if: inputs.cron
         run: |
           if [ ! -f "data/temporadas/$TEMPORADA/temporada.json" ]; then
             echo "La temporada $TEMPORADA no existe todavía: no se hace nada."
