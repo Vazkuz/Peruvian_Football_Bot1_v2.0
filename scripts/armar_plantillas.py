@@ -93,6 +93,9 @@ def casillas_por_coordenadas(formacion, coords, reglas):
         raise ErrorPlantilla(f"linea de ataque de {len(ataque)} no contemplada")
 
     rombo = "-".join(map(str, tamanos)) in reglas["formaciones_rombo"]
+    # 3-4-3 (defensa de 3 y ataque de 3): los abiertos del medio son carrileros y van como laterales; los
+    # extremos son los dos de afuera de la línea de ataque (Daniel, 15/11/2026)
+    carrileros = len(defensa) == 3 and len(ataque) == 3
     for k, bloque in enumerate(medio):
         if rombo and k == 0 and len(bloque) == 3:  # rombo: VD al centro, VC a los lados
             roles[bloque[0]], roles[bloque[1]], roles[bloque[2]] = "volante_central", "volante_defensivo", "volante_central"
@@ -100,8 +103,8 @@ def casillas_por_coordenadas(formacion, coords, reglas):
         abiertos_izq = [c for c in bloque if c[1] <= izq_max]
         abiertos_der = [c for c in bloque if c[1] >= der_min]
         centrales = [c for c in bloque if izq_max < c[1] < der_min]
-        roles.update({c: "volante_extremo_izq" for c in abiertos_izq})
-        roles.update({c: "volante_extremo_der" for c in abiertos_der})
+        roles.update({c: "lateral_izq" if carrileros else "volante_extremo_izq" for c in abiertos_izq})
+        roles.update({c: "lateral_der" if carrileros else "volante_extremo_der" for c in abiertos_der})
         ultimo = k == len(medio) - 1 and len(medio) >= 2
         mediapunta = ultimo and (len(centrales) == 1 or len(centrales) == len(bloque))
         for c in centrales:
