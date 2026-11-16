@@ -5,7 +5,7 @@ name: Bot
 # hacer nada. Arrancar la temporada = crear esa carpeta y pushearla.
 on:
   schedule:
-    - cron: "17 14-23,0 * * *"
+    - cron: "17 14-23,0 * * *"  # en UTC: 14-23 y 0 = 9:17 a 19:17 de Lima
   workflow_dispatch:
     inputs:
       temporada:
