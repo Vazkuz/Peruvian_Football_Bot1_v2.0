@@ -1,0 +1,484 @@
+{
+  "partido_id": "5096920",
+  "ruta": "/spielbericht/index/spielbericht/5096920",
+  "fecha_extraccion": "2026-11-16T01:17:51",
+  "equipos": [
+    {
+      "club_id": "2729",
+      "club_nombre": "Club Cienciano",
+      "local": true,
+      "formacion": "3-4-3 Diamond",
+      "titulares": [
+        {
+          "id": "347660",
+          "nombre": "Falcón",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "246548",
+          "nombre": "Amondarain",
+          "dorsal": 4,
+          "top": 62.0,
+          "left": 40.0
+        },
+        {
+          "id": "704884",
+          "nombre": "Becerra",
+          "dorsal": 3,
+          "top": 61.0,
+          "left": 15.0
+        },
+        {
+          "id": "739664",
+          "nombre": "Nuñez",
+          "dorsal": 13,
+          "top": 61.0,
+          "left": 65.0
+        },
+        {
+          "id": "538612",
+          "nombre": "Martinich",
+          "dorsal": 16,
+          "top": 35.0,
+          "left": 20.0
+        },
+        {
+          "id": "335217",
+          "nombre": "Barreto",
+          "dorsal": 88,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "752977",
+          "nombre": "Robles",
+          "dorsal": 29,
+          "top": 43.0,
+          "left": 40.0
+        },
+        {
+          "id": "477378",
+          "nombre": "Cabello",
+          "dorsal": 22,
+          "top": 35.0,
+          "left": 60.0
+        },
+        {
+          "id": "242436",
+          "nombre": "Garcés",
+          "dorsal": 21,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "415544",
+          "nombre": "Bandiera",
+          "dorsal": 11,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "626179",
+          "nombre": "Succar",
+          "dorsal": 19,
+          "top": 10.0,
+          "left": 65.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "420866",
+          "nombre": "Ítalo Espinoza",
+          "dorsal": 31,
+          "posicion": "GK"
+        },
+        {
+          "id": "657221",
+          "nombre": "Rotceh Aguilar",
+          "dorsal": 26,
+          "posicion": "CB"
+        },
+        {
+          "id": "817656",
+          "nombre": "Alonso Yovera",
+          "dorsal": 27,
+          "posicion": "LB"
+        },
+        {
+          "id": "662706",
+          "nombre": "Sebastián Cavero",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "531624",
+          "nombre": "Santiago Arias",
+          "dorsal": 5,
+          "posicion": "DM"
+        },
+        {
+          "id": "1239936",
+          "nombre": "Henry Caparó",
+          "dorsal": 39,
+          "posicion": "DM"
+        },
+        {
+          "id": "1039039",
+          "nombre": "Gonzalo Aguirre",
+          "dorsal": 8,
+          "posicion": "CM"
+        },
+        {
+          "id": "312151",
+          "nombre": "Ray Sandoval",
+          "dorsal": 17,
+          "posicion": "LW"
+        },
+        {
+          "id": "662703",
+          "nombre": "Didier La Torre",
+          "dorsal": 18,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "21655",
+      "club_nombre": "Sport Huancayo",
+      "local": false,
+      "formacion": "4-4-1-1",
+      "titulares": [
+        {
+          "id": "372304",
+          "nombre": "Zamudio",
+          "dorsal": 12,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "814636",
+          "nombre": "Gaona",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "242546",
+          "nombre": "Murillo",
+          "dorsal": 92,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "224652",
+          "nombre": "Ángeles",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "531177",
+          "nombre": "Falconí",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "142738",
+          "nombre": "Salcedo",
+          "dorsal": 22,
+          "top": 43.0,
+          "left": 30.0
+        },
+        {
+          "id": "490614",
+          "nombre": "Carabaño",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "325147",
+          "nombre": "Luján",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "313437",
+          "nombre": "Sanguinetti",
+          "dorsal": 11,
+          "top": 34.0,
+          "left": 15.0
+        },
+        {
+          "id": "874831",
+          "nombre": "Magallanes",
+          "dorsal": 23,
+          "top": 34.0,
+          "left": 65.0
+        },
+        {
+          "id": "279508",
+          "nombre": "Porozo",
+          "dorsal": 97,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "858666",
+          "nombre": "Aldair Ccorahua",
+          "dorsal": 29,
+          "posicion": "GK"
+        },
+        {
+          "id": "249967",
+          "nombre": "Juan Barreda",
+          "dorsal": 4,
+          "posicion": "CB"
+        },
+        {
+          "id": "271676",
+          "nombre": "Jeremy Rostaing",
+          "dorsal": 28,
+          "posicion": "RB"
+        },
+        {
+          "id": "1188205",
+          "nombre": "Edu Villar",
+          "dorsal": 38,
+          "posicion": "DM"
+        },
+        {
+          "id": "417183",
+          "nombre": "Aldo Quiñónez",
+          "dorsal": 91,
+          "posicion": "CM"
+        },
+        {
+          "id": "422853",
+          "nombre": "Rick Campodónico",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1025975",
+          "nombre": "Juan Giménez",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "1168655",
+          "nombre": "Juan Martínez",
+          "dorsal": 9,
+          "posicion": "CF"
+        },
+        {
+          "id": "331819",
+          "nombre": "Ronal Huaccha",
+          "dorsal": 19,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "2729",
+      "minuto": 5,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "415544",
+        "nombre": "Neri Bandiera"
+      },
+      "asistencia": {
+        "id": "477378",
+        "nombre": "Carlos Cabello"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 40,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "313437",
+        "nombre": "Javier Sanguinetti"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "21655",
+      "minuto": 58,
+      "anadido": 0,
+      "marcador": "1:2",
+      "autor": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      },
+      "asistencia": {
+        "id": "313437",
+        "nombre": "Javier Sanguinetti"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "2729",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "739664",
+        "nombre": "Claudio Nuñez"
+      },
+      "entra": {
+        "id": "662703",
+        "nombre": "Didier La Torre"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 62,
+      "anadido": 0,
+      "sale": {
+        "id": "874831",
+        "nombre": "Piero Magallanes"
+      },
+      "entra": {
+        "id": "417183",
+        "nombre": "Aldo Quiñónez"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 66,
+      "anadido": 0,
+      "sale": {
+        "id": "814636",
+        "nombre": "Marcelo Gaona"
+      },
+      "entra": {
+        "id": "249967",
+        "nombre": "Juan Barreda"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 78,
+      "anadido": 0,
+      "sale": {
+        "id": "752977",
+        "nombre": "Ademar Robles"
+      },
+      "entra": {
+        "id": "817656",
+        "nombre": "Alonso Yovera"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 83,
+      "anadido": 0,
+      "sale": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      },
+      "entra": {
+        "id": "1168655",
+        "nombre": "Juan Martínez"
+      }
+    },
+    {
+      "club_id": "21655",
+      "minuto": 83,
+      "anadido": 0,
+      "sale": {
+        "id": "490614",
+        "nombre": "Diego Carabaño"
+      },
+      "entra": {
+        "id": "1188205",
+        "nombre": "Edu Villar"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 85,
+      "anadido": 0,
+      "sale": {
+        "id": "626179",
+        "nombre": "Matías Succar"
+      },
+      "entra": {
+        "id": "312151",
+        "nombre": "Ray Sandoval"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 90,
+      "anadido": 1,
+      "sale": {
+        "id": "335217",
+        "nombre": "Gerson Barreto"
+      },
+      "entra": {
+        "id": "1239936",
+        "nombre": "Henry Caparó"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 90,
+      "anadido": 2,
+      "sale": {
+        "id": "415544",
+        "nombre": "Neri Bandiera"
+      },
+      "entra": {
+        "id": "1039039",
+        "nombre": "Gonzalo Aguirre"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "21655",
+      "minuto": 59,
+      "anadido": 0,
+      "jugador": {
+        "id": "279508",
+        "nombre": "Daniel Porozo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Daniel Porozo 2. Yellow card , Taking off shirt"
+    },
+    {
+      "club_id": "21655",
+      "minuto": 67,
+      "anadido": 0,
+      "jugador": {
+        "id": "224652",
+        "nombre": "Hugo Ángeles"
+      },
+      "tipo": "amarilla",
+      "detalle": "Hugo Ángeles 8. Yellow card , Foul"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 75,
+      "anadido": 0,
+      "jugador": {
+        "id": "246548",
+        "nombre": "Maximiliano Amondarain"
+      },
+      "tipo": "roja",
+      "detalle": "Maximiliano Amondarain Red card"
+    }
+  ]
+}

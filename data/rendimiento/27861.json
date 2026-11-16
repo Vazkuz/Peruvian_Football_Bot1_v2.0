@@ -2,14 +2,14 @@
   "club_id": "27861",
   "club_nombre": "Club Atlético Grau",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:08:44",
+  "fecha_extraccion": "2026-11-16T00:40:29",
   "jugadores": [
     {
       "id": "250711",
       "nombre": "Patricio Álvarez",
       "posicion": "Goalkeeper",
-      "partidos": 26,
-      "minutos": 2340
+      "partidos": 32,
+      "minutos": 2880
     },
     {
       "id": "969946",
@@ -36,57 +36,57 @@
       "id": "460830",
       "nombre": "Ignacio Tapia",
       "posicion": "Centre-Back",
-      "partidos": 24,
-      "minutos": 1899
+      "partidos": 30,
+      "minutos": 2439
     },
     {
       "id": "422398",
       "nombre": "Rodrigo Tapia",
       "posicion": "Centre-Back",
-      "partidos": 29,
-      "minutos": 2529
+      "partidos": 35,
+      "minutos": 3012
     },
     {
       "id": "639467",
       "nombre": "Christian Vásquez",
       "posicion": "Right-Back",
-      "partidos": 7,
-      "minutos": 429
+      "partidos": 12,
+      "minutos": 710
     },
     {
       "id": "325711",
       "nombre": "Elsar Rodas",
       "posicion": "Left-Back",
-      "partidos": 28,
-      "minutos": 1891
+      "partidos": 30,
+      "minutos": 1893
     },
     {
       "id": "981804",
       "nombre": "Gabriel Alfaro",
       "posicion": "Left-Back",
-      "partidos": 20,
-      "minutos": 991
+      "partidos": 26,
+      "minutos": 1468
     },
     {
       "id": "864707",
       "nombre": "José Ataupillco",
       "posicion": "Centre-Back",
-      "partidos": 7,
-      "minutos": 606
+      "partidos": 8,
+      "minutos": 679
     },
     {
       "id": "865640",
       "nombre": "Diego Rodríguez",
       "posicion": "Right-Back",
-      "partidos": 20,
-      "minutos": 1584
+      "partidos": 24,
+      "minutos": 1854
     },
     {
       "id": "284306",
       "nombre": "Lucas Acevedo",
       "posicion": "Centre-Back",
-      "partidos": 22,
-      "minutos": 1771
+      "partidos": 27,
+      "minutos": 2119
     },
     {
       "id": "1227749",
@@ -113,22 +113,22 @@
       "id": "892756",
       "nombre": "Aldair Vásquez",
       "posicion": "Attacking Midfield",
-      "partidos": 23,
-      "minutos": 968
+      "partidos": 27,
+      "minutos": 1179
     },
     {
       "id": "491560",
       "nombre": "Freddy Oncoy",
       "posicion": "Central Midfield",
-      "partidos": 18,
-      "minutos": 1033
+      "partidos": 23,
+      "minutos": 1332
     },
     {
       "id": "250737",
       "nombre": "Rafael Guarderas",
       "posicion": "Defensive Midfield",
-      "partidos": 27,
-      "minutos": 2365
+      "partidos": 33,
+      "minutos": 2905
     },
     {
       "id": "1246792",
@@ -148,22 +148,22 @@
       "id": "196037",
       "nombre": "Pablo Lavandeira",
       "posicion": "Attacking Midfield",
-      "partidos": 8,
-      "minutos": 375
+      "partidos": 14,
+      "minutos": 602
     },
     {
       "id": "572038",
       "nombre": "Diego Barreto",
       "posicion": "Attacking Midfield",
-      "partidos": 21,
-      "minutos": 903
+      "partidos": 25,
+      "minutos": 1092
     },
     {
       "id": "1102800",
       "nombre": "Eslyn Correa",
       "posicion": "Central Midfield",
-      "partidos": 10,
-      "minutos": 240
+      "partidos": 14,
+      "minutos": 481
     },
     {
       "id": "1561653",
@@ -197,22 +197,22 @@
       "id": "563398",
       "nombre": "Paulo de la Cruz",
       "posicion": "Right Winger",
-      "partidos": 24,
-      "minutos": 1246
+      "partidos": 28,
+      "minutos": 1449
     },
     {
       "id": "422855",
       "nombre": "Luis Benites",
       "posicion": "Left Winger",
-      "partidos": 11,
-      "minutos": 527
+      "partidos": 15,
+      "minutos": 664
     },
     {
       "id": "458603",
       "nombre": "Mauro Da Luz",
       "posicion": "Right Winger",
-      "partidos": 11,
-      "minutos": 557
+      "partidos": 14,
+      "minutos": 706
     },
     {
       "id": "906422",
@@ -232,36 +232,36 @@
       "id": "129724",
       "nombre": "Raúl Ruidíaz",
       "posicion": "Centre-Forward",
-      "partidos": 24,
-      "minutos": 1409
+      "partidos": 25,
+      "minutos": 1426
     },
     {
       "id": "372163",
       "nombre": "Nicolás Delgadillo",
       "posicion": "Left Winger",
-      "partidos": 15,
-      "minutos": 534
+      "partidos": 17,
+      "minutos": 586
     },
     {
       "id": "239623",
       "nombre": "Adrián Fernández",
       "posicion": "Centre-Forward",
-      "partidos": 11,
-      "minutos": 671
+      "partidos": 17,
+      "minutos": 1092
     },
     {
       "id": "869156",
       "nombre": "Yamir Ruidíaz",
       "posicion": "Centre-Forward",
-      "partidos": 13,
-      "minutos": 362
+      "partidos": 17,
+      "minutos": 508
     },
     {
       "id": "1482719",
       "nombre": "Henri Espinoza",
       "posicion": "Right Winger",
-      "partidos": 5,
-      "minutos": 268
+      "partidos": 7,
+      "minutos": 299
     }
   ]
 }

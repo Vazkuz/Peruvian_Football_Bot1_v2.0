@@ -3,7 +3,7 @@
   "club_nombre": "Deportivo Moquegua",
   "formacion": "4-2-3-1",
   "variante": "4-2-3-1",
-  "fecha_generacion": "2026-10-03T00:44:01",
+  "fecha_generacion": "2026-11-16T01:49:58",
   "casillas": [
     {
       "casilla": 1,
@@ -12,7 +12,7 @@
         "id": "330687",
         "nombre": "Carlos Grados",
         "rol": "arquero",
-        "puntaje": 24.85
+        "puntaje": 36.667
       },
       "suplente": {
         "id": "1221999",
@@ -20,23 +20,23 @@
         "rol": "arquero",
         "puntaje": 0,
         "origen": "banca",
-        "convocatorias": 10
+        "convocatorias": 16
       }
     },
     {
       "casilla": 2,
       "rol": "lateral_izq",
       "titular": {
-        "id": "330691",
-        "nombre": "Aldair Perleche",
-        "rol": "lateral_izq",
-        "puntaje": 15.826
-      },
-      "suplente": {
         "id": "1064183",
         "nombre": "Nicolás Amasifuén",
         "rol": "lateral_izq",
-        "puntaje": 6.864,
+        "puntaje": 11.793
+      },
+      "suplente": {
+        "id": "984451",
+        "nombre": "Jimmy Jiménez",
+        "rol": "lateral_izq",
+        "puntaje": 2.233,
         "origen": "minutos"
       }
     },
@@ -47,13 +47,13 @@
         "id": "96295",
         "nombre": "Juan Diego Lojas",
         "rol": "central",
-        "puntaje": 24.336
+        "puntaje": 36.141
       },
       "suplente": {
         "id": "144214",
         "nombre": "José Luis Granda",
         "rol": "central",
-        "puntaje": 1.066,
+        "puntaje": 5.397,
         "origen": "minutos"
       }
     },
@@ -64,7 +64,7 @@
         "id": "358618",
         "nombre": "Cristian Enciso",
         "rol": "central",
-        "puntaje": 23.46
+        "puntaje": 32.027
       },
       "suplente": {
         "id": "1408713",
@@ -78,18 +78,17 @@
       "casilla": 5,
       "rol": "lateral_der",
       "titular": {
+        "id": "330691",
+        "nombre": "Aldair Perleche",
+        "rol": "lateral_der",
+        "puntaje": 20.114
+      },
+      "suplente": {
         "id": "1015947",
         "nombre": "Eros Montenegro",
         "rol": "lateral_der",
-        "puntaje": 15.958
-      },
-      "suplente": {
-        "id": "430685",
-        "nombre": "Edgar Santillán",
-        "rol": "lateral_der",
-        "puntaje": 0.97,
-        "reemplazo_de_rol": "volante_extremo_der",
-        "origen": "reemplazo"
+        "puntaje": 14.918,
+        "origen": "minutos"
       }
     },
     {
@@ -99,13 +98,13 @@
         "id": "1103422",
         "nombre": "Ricardo Chipao",
         "rol": "volante_defensivo",
-        "puntaje": 19.689
+        "puntaje": 30.314
       },
       "suplente": {
-        "id": "325706",
-        "nombre": "Diego Ramírez",
+        "id": "815106",
+        "nombre": "Claudio Ramírez",
         "rol": "volante_defensivo",
-        "puntaje": 1.553,
+        "puntaje": 7.951,
         "origen": "minutos"
       }
     },
@@ -113,17 +112,17 @@
       "casilla": 7,
       "rol": "volante_defensivo",
       "titular": {
-        "id": "815106",
-        "nombre": "Claudio Ramírez",
+        "id": "375353",
+        "nombre": "Cristian Mejía",
         "rol": "volante_defensivo",
-        "puntaje": 7.728
+        "puntaje": 14.804
       },
       "suplente": {
-        "id": "419034",
-        "nombre": "Nicolás Chávez",
+        "id": "1408859",
+        "nombre": "Juan Agreda",
         "rol": "volante_defensivo",
-        "puntaje": 1.029,
-        "origen": "minutos"
+        "puntaje": 0,
+        "origen": "plantel"
       }
     },
     {
@@ -133,13 +132,13 @@
         "id": "727998",
         "nombre": "Yorman Zapata",
         "rol": "volante_extremo_izq",
-        "puntaje": 15.652
+        "puntaje": 25.668
       },
       "suplente": {
         "id": "400254",
         "nombre": "Alexander Lecaros",
         "rol": "volante_extremo_izq",
-        "puntaje": 3.271,
+        "puntaje": 4.513,
         "origen": "minutos"
       }
     },
@@ -147,18 +146,17 @@
       "casilla": 9,
       "rol": "mediapunta",
       "titular": {
-        "id": "375353",
-        "nombre": "Cristian Mejía",
+        "id": "325706",
+        "nombre": "Diego Ramírez",
         "rol": "mediapunta",
-        "puntaje": 5.052
+        "puntaje": 4.923
       },
       "suplente": {
-        "id": "126042",
-        "nombre": "Róger Torres",
+        "id": "419034",
+        "nombre": "Nicolás Chávez",
         "rol": "mediapunta",
-        "puntaje": 0,
-        "origen": "banca",
-        "convocatorias": 1
+        "puntaje": 3.632,
+        "origen": "minutos"
       }
     },
     {
@@ -168,13 +166,13 @@
         "id": "829971",
         "nombre": "Edgar Lastre",
         "rol": "volante_extremo_der",
-        "puntaje": 17.295
+        "puntaje": 25.568
       },
       "suplente": {
         "id": "986001",
         "nombre": "Allonso Dávila",
         "rol": "volante_extremo_der",
-        "puntaje": 4.98,
+        "puntaje": 6.679,
         "origen": "minutos"
       }
     },
@@ -185,13 +183,13 @@
         "id": "319911",
         "nombre": "Bryan Angulo",
         "rol": "delantero",
-        "puntaje": 12.866
+        "puntaje": 18.085
       },
       "suplente": {
         "id": "477383",
         "nombre": "Jeferson Collazos",
         "rol": "delantero",
-        "puntaje": 10.255,
+        "puntaje": 17.641,
         "origen": "minutos"
       }
     }

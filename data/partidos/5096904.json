@@ -1,0 +1,512 @@
+{
+  "partido_id": "5096904",
+  "ruta": "/spielbericht/index/spielbericht/5096904",
+  "fecha_extraccion": "2026-11-16T01:09:39",
+  "equipos": [
+    {
+      "club_id": "35588",
+      "club_nombre": "Asociación Deportiva Tarma",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "255976",
+          "nombre": "Valencia",
+          "dorsal": 30,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "260318",
+          "nombre": "Benincasa",
+          "dorsal": 44,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "358736",
+          "nombre": "Pereyra",
+          "dorsal": 99,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "741727",
+          "nombre": "Núñez",
+          "dorsal": 59,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "582319",
+          "nombre": "Ramos",
+          "dorsal": 98,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "149771",
+          "nombre": "Ojeda",
+          "dorsal": 6,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "656911",
+          "nombre": "Pérez",
+          "dorsal": 16,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "92729",
+          "nombre": "Rojas",
+          "dorsal": 7,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "1088739",
+          "nombre": "Lucumí",
+          "dorsal": 77,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "1149626",
+          "nombre": "Peralta",
+          "dorsal": 24,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "249975",
+          "nombre": "Rodríguez",
+          "dorsal": 22,
+          "top": 18.0,
+          "left": 15.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "250672",
+          "nombre": "Carlos Solís",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "738469",
+          "nombre": "Leonardo Rugel",
+          "dorsal": 3,
+          "posicion": "CB"
+        },
+        {
+          "id": "1059722",
+          "nombre": "Jhair Soto",
+          "dorsal": 28,
+          "posicion": "CB"
+        },
+        {
+          "id": "885263",
+          "nombre": "Jerry Navarro",
+          "dorsal": 31,
+          "posicion": "RB"
+        },
+        {
+          "id": "1257758",
+          "nombre": "Josue Alvino",
+          "dorsal": 15,
+          "posicion": "CM"
+        },
+        {
+          "id": "178893",
+          "nombre": "Víctor Cedrón",
+          "dorsal": 10,
+          "posicion": "AM"
+        },
+        {
+          "id": "1227155",
+          "nombre": "Alexander Hidalgo",
+          "dorsal": 27,
+          "posicion": "AM"
+        },
+        {
+          "id": "1502980",
+          "nombre": "Aylton Mazzo",
+          "dorsal": 18,
+          "posicion": "LW"
+        },
+        {
+          "id": "1409977",
+          "nombre": "Jhojan Garcilazo",
+          "dorsal": 26,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "114625",
+      "club_nombre": "Deportivo Moquegua",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "330687",
+          "nombre": "Grados",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "358618",
+          "nombre": "Enciso",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "96295",
+          "nombre": "Lojas",
+          "dorsal": 13,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "1064183",
+          "nombre": "Amasifuén",
+          "dorsal": 15,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "330691",
+          "nombre": "Perleche",
+          "dorsal": 4,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "1103422",
+          "nombre": "Chipao",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "375353",
+          "nombre": "Mejía",
+          "dorsal": 8,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "325706",
+          "nombre": "Ramírez",
+          "dorsal": 20,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "727998",
+          "nombre": "Zapata",
+          "dorsal": 17,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "829971",
+          "nombre": "Lastre",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "319911",
+          "nombre": "Angulo",
+          "dorsal": 11,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1221999",
+          "nombre": "Renzo Figueroa",
+          "dorsal": 29,
+          "posicion": "GK"
+        },
+        {
+          "id": "144214",
+          "nombre": "José Luis Granda",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "1015947",
+          "nombre": "Eros Montenegro",
+          "dorsal": 22,
+          "posicion": "RB"
+        },
+        {
+          "id": "815106",
+          "nombre": "Claudio Ramírez",
+          "dorsal": 14,
+          "posicion": "DM"
+        },
+        {
+          "id": "419034",
+          "nombre": "Nicolás Chávez",
+          "dorsal": 10,
+          "posicion": "CM"
+        },
+        {
+          "id": "400254",
+          "nombre": "Alexander Lecaros",
+          "dorsal": 24,
+          "posicion": "LW"
+        },
+        {
+          "id": "1134244",
+          "nombre": "Yhonier López",
+          "dorsal": 88,
+          "posicion": "LW"
+        },
+        {
+          "id": "986001",
+          "nombre": "Allonso Dávila",
+          "dorsal": 16,
+          "posicion": "RW"
+        },
+        {
+          "id": "477383",
+          "nombre": "Jeferson Collazos",
+          "dorsal": 90,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "35588",
+      "minuto": 18,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "1088739",
+        "nombre": "Juan Lucumí"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "35588",
+      "minuto": 66,
+      "anadido": 0,
+      "marcador": "2:0",
+      "autor": {
+        "id": "1149626",
+        "nombre": "Said Peralta"
+      },
+      "asistencia": {
+        "id": "582319",
+        "nombre": "Alejandro Ramos"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "114625",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "375353",
+        "nombre": "Cristian Mejía"
+      },
+      "entra": {
+        "id": "144214",
+        "nombre": "José Luis Granda"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "1064183",
+        "nombre": "Nicolás Amasifuén"
+      },
+      "entra": {
+        "id": "1015947",
+        "nombre": "Eros Montenegro"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "829971",
+        "nombre": "Edgar Lastre"
+      },
+      "entra": {
+        "id": "1134244",
+        "nombre": "Yhonier López"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 64,
+      "anadido": 0,
+      "sale": {
+        "id": "319911",
+        "nombre": "Bryan Angulo"
+      },
+      "entra": {
+        "id": "477383",
+        "nombre": "Jeferson Collazos"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "1149626",
+        "nombre": "Said Peralta"
+      },
+      "entra": {
+        "id": "1502980",
+        "nombre": "Aylton Mazzo"
+      }
+    },
+    {
+      "club_id": "114625",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "727998",
+        "nombre": "Yorman Zapata"
+      },
+      "entra": {
+        "id": "986001",
+        "nombre": "Allonso Dávila"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "149771",
+        "nombre": "Ángel Ojeda"
+      },
+      "entra": {
+        "id": "1257758",
+        "nombre": "Josue Alvino"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 87,
+      "anadido": 0,
+      "sale": {
+        "id": "1088739",
+        "nombre": "Juan Lucumí"
+      },
+      "entra": {
+        "id": "1409977",
+        "nombre": "Jhojan Garcilazo"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "114625",
+      "minuto": 17,
+      "anadido": 0,
+      "jugador": {
+        "id": "96295",
+        "nombre": "Juan Diego Lojas"
+      },
+      "tipo": "amarilla",
+      "detalle": "Juan Diego Lojas 5. Yellow card , Dissent"
+    },
+    {
+      "club_id": "114625",
+      "minuto": 37,
+      "anadido": 0,
+      "jugador": {
+        "id": "1064183",
+        "nombre": "Nicolás Amasifuén"
+      },
+      "tipo": "amarilla",
+      "detalle": "Nicolás Amasifuén 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "114625",
+      "minuto": 42,
+      "anadido": 0,
+      "jugador": {
+        "id": "358618",
+        "nombre": "Cristian Enciso"
+      },
+      "tipo": "roja",
+      "detalle": "Cristian Enciso Red card , Violent conduct"
+    },
+    {
+      "club_id": "114625",
+      "minuto": 69,
+      "anadido": 0,
+      "jugador": {
+        "id": "727998",
+        "nombre": "Yorman Zapata"
+      },
+      "tipo": "amarilla",
+      "detalle": "Yorman Zapata 7. Yellow card"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 70,
+      "anadido": 0,
+      "jugador": {
+        "id": "149771",
+        "nombre": "Ángel Ojeda"
+      },
+      "tipo": "amarilla",
+      "detalle": "Ángel Ojeda 3. Yellow card , Dissent"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 70,
+      "anadido": 0,
+      "jugador": {
+        "id": "656911",
+        "nombre": "Luis Pérez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Luis Pérez 4. Yellow card , Foul"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 81,
+      "anadido": 0,
+      "jugador": {
+        "id": "741727",
+        "nombre": "Orlando Núñez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Orlando Núñez 6. Yellow card"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 84,
+      "anadido": 0,
+      "jugador": {
+        "id": "1088739",
+        "nombre": "Juan Lucumí"
+      },
+      "tipo": "amarilla",
+      "detalle": "Juan Lucumí 1. Yellow card"
+    }
+  ]
+}

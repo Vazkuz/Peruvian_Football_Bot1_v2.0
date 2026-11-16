@@ -3,7 +3,7 @@
   "club_nombre": "Club Juan Pablo II College",
   "formacion": "4-2-3-1",
   "variante": "4-2-3-1",
-  "fecha_generacion": "2026-10-03T00:44:01",
+  "fecha_generacion": "2026-11-16T01:49:58",
   "casillas": [
     {
       "casilla": 1,
@@ -12,7 +12,7 @@
         "id": "75445",
         "nombre": "Matías Vega",
         "rol": "arquero",
-        "puntaje": 19.464
+        "puntaje": 38.952
       },
       "suplente": {
         "id": "670062",
@@ -20,7 +20,7 @@
         "rol": "arquero",
         "puntaje": 0,
         "origen": "banca",
-        "convocatorias": 7
+        "convocatorias": 13
       }
     },
     {
@@ -30,13 +30,13 @@
         "id": "655639",
         "nombre": "Paolo Reyna",
         "rol": "lateral_izq",
-        "puntaje": 14.565
+        "puntaje": 30.853
       },
       "suplente": {
         "id": "737739",
         "nombre": "Piero Antón",
         "rol": "lateral_izq",
-        "puntaje": 0.245,
+        "puntaje": 0.936,
         "origen": "minutos"
       }
     },
@@ -44,10 +44,27 @@
       "casilla": 3,
       "rol": "central",
       "titular": {
+        "id": "76717",
+        "nombre": "Pablo Míguez",
+        "rol": "central",
+        "puntaje": 34.07
+      },
+      "suplente": {
+        "id": "489993",
+        "nombre": "Jorge Toledo",
+        "rol": "central",
+        "puntaje": 16.241,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 4,
+      "rol": "central",
+      "titular": {
         "id": "936044",
         "nombre": "Matías Almirón",
         "rol": "central",
-        "puntaje": 18.371
+        "puntaje": 19.953
       },
       "suplente": {
         "id": "1003846",
@@ -58,36 +75,19 @@
       }
     },
     {
-      "casilla": 4,
-      "rol": "central",
-      "titular": {
-        "id": "76717",
-        "nombre": "Pablo Míguez",
-        "rol": "central",
-        "puntaje": 18.111
-      },
-      "suplente": {
-        "id": "891771",
-        "nombre": "Iago Iriarte",
-        "rol": "central",
-        "puntaje": 0,
-        "origen": "plantel"
-      }
-    },
-    {
       "casilla": 5,
       "rol": "lateral_der",
       "titular": {
+        "id": "672263",
+        "nombre": "Hugo Ancajima",
+        "rol": "lateral_der",
+        "puntaje": 21.911
+      },
+      "suplente": {
         "id": "1236520",
         "nombre": "Fabio Agurto",
         "rol": "lateral_der",
-        "puntaje": 13.974
-      },
-      "suplente": {
-        "id": "489993",
-        "nombre": "Jorge Toledo",
-        "rol": "lateral_der",
-        "puntaje": 2.997,
+        "puntaje": 12.391,
         "origen": "minutos"
       }
     },
@@ -98,13 +98,13 @@
         "id": "867036",
         "nombre": "Christian Flores",
         "rol": "volante_defensivo",
-        "puntaje": 12.837
+        "puntaje": 17.461
       },
       "suplente": {
-        "id": "174580",
-        "nombre": "Jack Durán",
+        "id": "1011265",
+        "nombre": "Jack Carhuallanqui",
         "rol": "volante_defensivo",
-        "puntaje": 5.026,
+        "puntaje": 8.111,
         "origen": "minutos"
       }
     },
@@ -112,17 +112,18 @@
       "casilla": 7,
       "rol": "volante_defensivo",
       "titular": {
-        "id": "1074429",
-        "nombre": "Álvaro Rojas",
-        "rol": "volante_defensivo",
-        "puntaje": 5.812
-      },
-      "suplente": {
         "id": "662695",
         "nombre": "Arón Sánchez",
         "rol": "volante_defensivo",
-        "puntaje": 2.235,
-        "origen": "minutos"
+        "puntaje": 11.346
+      },
+      "suplente": {
+        "id": "1508622",
+        "nombre": "Bairon Puño",
+        "rol": "volante_defensivo",
+        "puntaje": 0,
+        "origen": "banca",
+        "convocatorias": 7
       }
     },
     {
@@ -132,13 +133,13 @@
         "id": "1029760",
         "nombre": "Juan Pablo Goicochea",
         "rol": "volante_extremo_izq",
-        "puntaje": 9.26
+        "puntaje": 21.503
       },
       "suplente": {
         "id": "1244025",
         "nombre": "Josué Torres",
         "rol": "volante_extremo_izq",
-        "puntaje": 5.658,
+        "puntaje": 6.719,
         "origen": "minutos"
       }
     },
@@ -146,16 +147,16 @@
       "casilla": 9,
       "rol": "mediapunta",
       "titular": {
-        "id": "204587",
-        "nombre": "Martín Alaníz",
-        "rol": "mediapunta",
-        "puntaje": 5.713
-      },
-      "suplente": {
         "id": "1107110",
         "nombre": "Nilton Ramirez",
         "rol": "mediapunta",
-        "puntaje": 5.648,
+        "puntaje": 8.493
+      },
+      "suplente": {
+        "id": "1074429",
+        "nombre": "Álvaro Rojas",
+        "rol": "mediapunta",
+        "puntaje": 5.56,
         "origen": "minutos"
       }
     },
@@ -166,13 +167,13 @@
         "id": "422934",
         "nombre": "Erinson Ramírez",
         "rol": "volante_extremo_der",
-        "puntaje": 10.061
+        "puntaje": 18.029
       },
       "suplente": {
-        "id": "982005",
-        "nombre": "Chase Villanueva",
+        "id": "174580",
+        "nombre": "Jack Durán",
         "rol": "volante_extremo_der",
-        "puntaje": 2.495,
+        "puntaje": 9.134,
         "origen": "minutos"
       }
     },
@@ -183,13 +184,13 @@
         "id": "94761",
         "nombre": "Janio Pósito",
         "rol": "delantero",
-        "puntaje": 11.861
+        "puntaje": 24.182
       },
       "suplente": {
-        "id": "437962",
-        "nombre": "Nicolás Leguizamón",
+        "id": "1076583",
+        "nombre": "Mateo Rodríguez",
         "rol": "delantero",
-        "puntaje": 4.009,
+        "puntaje": 10.815,
         "origen": "minutos"
       }
     }

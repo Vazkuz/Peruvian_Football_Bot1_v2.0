@@ -15,7 +15,8 @@ spec = importlib.util.spec_from_file_location("armar_plantillas", RAIZ / "script
 armar_plantillas = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(armar_plantillas)
 
-NUEVAS = ("3-4-3", "3-5-2", "3-4-1-2", "3-4-2-1", "4-1-4-1", "4-3-1-2", "4-4-1-1", "4-5-1", "5-3-2", "5-4-1")
+NUEVAS = ("3-4-3", "3-5-2", "3-4-1-2", "3-4-2-1", "4-1-4-1", "4-3-1-2", "4-4-1-1", "4-5-1", "5-3-2", "5-4-1",
+          "4-3-2-1")  # la 4-3-2-1 aparecio en el Clausura al 16/11/2026
 
 
 @pytest.fixture(scope="module")
@@ -43,8 +44,8 @@ def roles(equipo, reglas):
     return [r for _, r in armar_plantillas.casillas_por_coordenadas(equipo["formacion"], coords, reglas)]
 
 
-def test_quince_formaciones_de_11_dentro_de_la_cancha():
-    assert len(FORMACIONES) == 15 and all(f in FORMACIONES for f in NUEVAS)
+def test_dieciseis_formaciones_de_11_dentro_de_la_cancha():
+    assert len(FORMACIONES) == 16 and all(f in FORMACIONES for f in NUEVAS)
     for nombre, casillas in FORMACIONES.items():
         assert len(casillas) == 11, nombre
         assert all(0 < x < ANCHO_M and 0 < y < LARGO_M for x, y in casillas), nombre

@@ -3,7 +3,7 @@
   "club_nombre": "Club Atlético Grau",
   "formacion": "4-2-3-1",
   "variante": "4-2-3-1",
-  "fecha_generacion": "2026-10-03T00:44:01",
+  "fecha_generacion": "2026-11-16T01:49:58",
   "casillas": [
     {
       "casilla": 1,
@@ -12,7 +12,7 @@
         "id": "250711",
         "nombre": "Patricio Álvarez",
         "rol": "arquero",
-        "puntaje": 24.66
+        "puntaje": 36.831
       },
       "suplente": {
         "id": "639452",
@@ -20,24 +20,24 @@
         "rol": "arquero",
         "puntaje": 0,
         "origen": "banca",
-        "convocatorias": 9
+        "convocatorias": 15
       }
     },
     {
       "casilla": 2,
       "rol": "lateral_izq",
       "titular": {
+        "id": "981804",
+        "nombre": "Gabriel Alfaro",
+        "rol": "lateral_izq",
+        "puntaje": 25.215
+      },
+      "suplente": {
         "id": "325711",
         "nombre": "Elsar Rodas",
         "rol": "lateral_izq",
-        "puntaje": 12.685
-      },
-      "suplente": {
-        "id": "1227749",
-        "nombre": "Arnold Flores",
-        "rol": "lateral_izq",
-        "puntaje": 0,
-        "origen": "plantel"
+        "puntaje": 10.895,
+        "origen": "minutos"
       }
     },
     {
@@ -47,13 +47,13 @@
         "id": "422398",
         "nombre": "Rodrigo Tapia",
         "rol": "central",
-        "puntaje": 21.105
+        "puntaje": 32.325
       },
       "suplente": {
         "id": "284306",
         "nombre": "Lucas Acevedo",
         "rol": "central",
-        "puntaje": 8.908,
+        "puntaje": 18.716,
         "origen": "minutos"
       }
     },
@@ -64,13 +64,13 @@
         "id": "460830",
         "nombre": "Ignacio Tapia",
         "rol": "central",
-        "puntaje": 17.035
+        "puntaje": 30.288
       },
       "suplente": {
         "id": "491560",
         "nombre": "Freddy Oncoy",
         "rol": "central",
-        "puntaje": 6.818,
+        "puntaje": 5.366,
         "origen": "minutos"
       }
     },
@@ -78,16 +78,16 @@
       "casilla": 5,
       "rol": "lateral_der",
       "titular": {
-        "id": "639467",
-        "nombre": "Christian Vásquez",
-        "rol": "lateral_der",
-        "puntaje": 12.214
-      },
-      "suplente": {
         "id": "865640",
         "nombre": "Diego Rodríguez",
         "rol": "lateral_der",
-        "puntaje": 10.679,
+        "puntaje": 20.963
+      },
+      "suplente": {
+        "id": "639467",
+        "nombre": "Christian Vásquez",
+        "rol": "lateral_der",
+        "puntaje": 18.513,
         "origen": "minutos"
       }
     },
@@ -98,15 +98,14 @@
         "id": "250737",
         "nombre": "Rafael Guarderas",
         "rol": "volante_defensivo",
-        "puntaje": 17.935
+        "puntaje": 20.024
       },
       "suplente": {
-        "id": "196037",
-        "nombre": "Pablo Lavandeira",
+        "id": "1102800",
+        "nombre": "Eslyn Correa",
         "rol": "volante_defensivo",
-        "puntaje": 6.341,
-        "reemplazo_de_rol": "volante_central",
-        "origen": "reemplazo"
+        "puntaje": 4.997,
+        "origen": "minutos"
       }
     },
     {
@@ -116,14 +115,14 @@
         "id": "1246792",
         "nombre": "Adrián de la Cruz",
         "rol": "volante_defensivo",
-        "puntaje": 9.536
+        "puntaje": 8.313
       },
       "suplente": {
-        "id": "1102800",
-        "nombre": "Eslyn Correa",
+        "id": "372163",
+        "nombre": "Nicolás Delgadillo",
         "rol": "volante_defensivo",
-        "puntaje": 1.975,
-        "reemplazo_de_rol": "volante_central",
+        "puntaje": 2.19,
+        "reemplazo_de_rol": "volante_extremo_izq",
         "origen": "reemplazo"
       }
     },
@@ -131,16 +130,16 @@
       "casilla": 8,
       "rol": "volante_extremo_izq",
       "titular": {
-        "id": "981804",
-        "nombre": "Gabriel Alfaro",
-        "rol": "volante_extremo_izq",
-        "puntaje": 5.483
-      },
-      "suplente": {
         "id": "422855",
         "nombre": "Luis Benites",
         "rol": "volante_extremo_izq",
-        "puntaje": 3.717,
+        "puntaje": 6.932
+      },
+      "suplente": {
+        "id": "892756",
+        "nombre": "Aldair Vásquez",
+        "rol": "volante_extremo_izq",
+        "puntaje": 4.274,
         "origen": "minutos"
       }
     },
@@ -148,16 +147,16 @@
       "casilla": 9,
       "rol": "mediapunta",
       "titular": {
+        "id": "196037",
+        "nombre": "Pablo Lavandeira",
+        "rol": "mediapunta",
+        "puntaje": 8.595
+      },
+      "suplente": {
         "id": "572038",
         "nombre": "Diego Barreto",
         "rol": "mediapunta",
-        "puntaje": 7.132
-      },
-      "suplente": {
-        "id": "892756",
-        "nombre": "Aldair Vásquez",
-        "rol": "mediapunta",
-        "puntaje": 4.556,
+        "puntaje": 8.227,
         "origen": "minutos"
       }
     },
@@ -168,14 +167,14 @@
         "id": "563398",
         "nombre": "Paulo de la Cruz",
         "rol": "volante_extremo_der",
-        "puntaje": 8.729
+        "puntaje": 13.918
       },
       "suplente": {
-        "id": "842604",
-        "nombre": "Santiago Torres González",
+        "id": "869156",
+        "nombre": "Yamir Ruidíaz",
         "rol": "volante_extremo_der",
-        "puntaje": 0,
-        "origen": "plantel"
+        "puntaje": 1.307,
+        "origen": "minutos"
       }
     },
     {
@@ -185,13 +184,13 @@
         "id": "239623",
         "nombre": "Adrián Fernández",
         "rol": "delantero",
-        "puntaje": 16.102
+        "puntaje": 26.342
       },
       "suplente": {
         "id": "458603",
         "nombre": "Mauro Da Luz",
         "rol": "delantero",
-        "puntaje": 6.938,
+        "puntaje": 7.791,
         "origen": "minutos"
       }
     }

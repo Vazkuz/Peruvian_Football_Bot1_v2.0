@@ -1,0 +1,496 @@
+{
+  "partido_id": "5074475",
+  "ruta": "/spielbericht/index/spielbericht/5074475",
+  "fecha_extraccion": "2026-11-16T00:53:18",
+  "equipos": [
+    {
+      "club_id": "6593",
+      "club_nombre": "Universitario de Deportes",
+      "local": true,
+      "formacion": "3-1-4-2",
+      "titulares": [
+        {
+          "id": "643063",
+          "nombre": "Romero",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "619072",
+          "nombre": "Fara",
+          "dorsal": 2,
+          "top": 62.0,
+          "left": 40.0
+        },
+        {
+          "id": "457058",
+          "nombre": "Riveros",
+          "dorsal": 3,
+          "top": 61.0,
+          "left": 15.0
+        },
+        {
+          "id": "142745",
+          "nombre": "Santamaría",
+          "dorsal": 4,
+          "top": 61.0,
+          "left": 65.0
+        },
+        {
+          "id": "965846",
+          "nombre": "Inga",
+          "dorsal": 33,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "486265",
+          "nombre": "Murrugarra",
+          "dorsal": 23,
+          "top": 43.0,
+          "left": 40.0
+        },
+        {
+          "id": "77125",
+          "nombre": "Calcaterra",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 50.0
+        },
+        {
+          "id": "490717",
+          "nombre": "Concha",
+          "dorsal": 17,
+          "top": 23.0,
+          "left": 30.0
+        },
+        {
+          "id": "189236",
+          "nombre": "Polo",
+          "dorsal": 24,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "130394",
+          "nombre": "Lapadula",
+          "dorsal": 18,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "738716",
+          "nombre": "Valera",
+          "dorsal": 20,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "352338",
+          "nombre": "Miguel Vargas",
+          "dorsal": 25,
+          "posicion": "GK"
+        },
+        {
+          "id": "94437",
+          "nombre": "Aldo Corzo",
+          "dorsal": 29,
+          "posicion": "CB"
+        },
+        {
+          "id": "637902",
+          "nombre": "Juan Manuel Requena",
+          "dorsal": 15,
+          "posicion": "DM"
+        },
+        {
+          "id": "871655",
+          "nombre": "Piero Quispe",
+          "dorsal": 39,
+          "posicion": "AM"
+        },
+        {
+          "id": "424024",
+          "nombre": "Héctor Fértoli",
+          "dorsal": 8,
+          "posicion": "LW"
+        },
+        {
+          "id": "440312",
+          "nombre": "Bryan Reyna",
+          "dorsal": 77,
+          "posicion": "LW"
+        },
+        {
+          "id": "396920",
+          "nombre": "Lisandro Alzugaray",
+          "dorsal": 30,
+          "posicion": "RW"
+        },
+        {
+          "id": "194998",
+          "nombre": "Edison Flores",
+          "dorsal": 19,
+          "posicion": "CF"
+        },
+        {
+          "id": "458461",
+          "nombre": "José Rivera",
+          "dorsal": 11,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "2734",
+      "club_nombre": "FBC Melgar",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "785133",
+          "nombre": "Cabezudo",
+          "dorsal": 21,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "353034",
+          "nombre": "Escobar",
+          "dorsal": 23,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "302416",
+          "nombre": "González",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "831138",
+          "nombre": "Lazo",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "491570",
+          "nombre": "Cabanillas",
+          "dorsal": 27,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "621039",
+          "nombre": "Tandazo",
+          "dorsal": 24,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "400945",
+          "nombre": "Minda",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "733083",
+          "nombre": "Quagliata",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "282350",
+          "nombre": "Bordacahar",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "626916",
+          "nombre": "Guzmán",
+          "dorsal": 8,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "89317",
+          "nombre": "Cuesta",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "94359",
+          "nombre": "Carlos Cáceda",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "796060",
+          "nombre": "Jesús Alcántar",
+          "dorsal": 90,
+          "posicion": "CB"
+        },
+        {
+          "id": "621029",
+          "nombre": "Alec Deneumostier",
+          "dorsal": 5,
+          "posicion": "CB"
+        },
+        {
+          "id": "832216",
+          "nombre": "Jefferson Cáceres",
+          "dorsal": 16,
+          "posicion": "LW"
+        },
+        {
+          "id": "741728",
+          "nombre": "Jhamir D'Arrigo",
+          "dorsal": 80,
+          "posicion": "LW"
+        },
+        {
+          "id": "1442941",
+          "nombre": "Matias Zegarra",
+          "dorsal": 45,
+          "posicion": "LW"
+        },
+        {
+          "id": "1371976",
+          "nombre": "Patricio Núñez",
+          "dorsal": 36,
+          "posicion": "RW"
+        },
+        {
+          "id": "653476",
+          "nombre": "Franco Zanelatto",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "224677",
+          "nombre": "Jhonny Vidales",
+          "dorsal": 11,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "2734",
+      "minuto": 39,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "89317",
+        "nombre": "Bernardo Cuesta"
+      },
+      "asistencia": {
+        "id": "733083",
+        "nombre": "Nicolás Quagliata"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 56,
+      "anadido": 0,
+      "marcador": "0:2",
+      "autor": {
+        "id": "282350",
+        "nombre": "Cristian Bordacahar"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "6593",
+      "minuto": 84,
+      "anadido": 0,
+      "marcador": "1:2",
+      "autor": {
+        "id": "738716",
+        "nombre": "Álex Valera"
+      },
+      "asistencia": {
+        "id": "77125",
+        "nombre": "Horacio Calcaterra"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 86,
+      "anadido": 0,
+      "marcador": "2:2",
+      "autor": {
+        "id": "738716",
+        "nombre": "Álex Valera"
+      },
+      "asistencia": {
+        "id": "194998",
+        "nombre": "Edison Flores"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "6593",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "486265",
+        "nombre": "Jorge Murrugarra"
+      },
+      "entra": {
+        "id": "871655",
+        "nombre": "Piero Quispe"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 66,
+      "anadido": 0,
+      "sale": {
+        "id": "130394",
+        "nombre": "Gianluca Lapadula"
+      },
+      "entra": {
+        "id": "396920",
+        "nombre": "Lisandro Alzugaray"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 67,
+      "anadido": 0,
+      "sale": {
+        "id": "619072",
+        "nombre": "Caín Fara"
+      },
+      "entra": {
+        "id": "194998",
+        "nombre": "Edison Flores"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 69,
+      "anadido": 0,
+      "sale": {
+        "id": "89317",
+        "nombre": "Bernardo Cuesta"
+      },
+      "entra": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 70,
+      "anadido": 0,
+      "sale": {
+        "id": "626916",
+        "nombre": "Lautaro Guzmán"
+      },
+      "entra": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "491570",
+        "nombre": "Nelson Cabanillas"
+      },
+      "entra": {
+        "id": "796060",
+        "nombre": "Jesús Alcántar"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 82,
+      "anadido": 0,
+      "sale": {
+        "id": "490717",
+        "nombre": "Jairo Concha"
+      },
+      "entra": {
+        "id": "458461",
+        "nombre": "José Rivera"
+      }
+    },
+    {
+      "club_id": "6593",
+      "minuto": 90,
+      "anadido": 2,
+      "sale": {
+        "id": "77125",
+        "nombre": "Horacio Calcaterra"
+      },
+      "entra": {
+        "id": "637902",
+        "nombre": "Juan Manuel Requena"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "6593",
+      "minuto": 16,
+      "anadido": 0,
+      "jugador": {
+        "id": "619072",
+        "nombre": "Caín Fara"
+      },
+      "tipo": "amarilla",
+      "detalle": "Caín Fara 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "2734",
+      "minuto": 20,
+      "anadido": 0,
+      "jugador": {
+        "id": "353034",
+        "nombre": "Juan Escobar"
+      },
+      "tipo": "amarilla",
+      "detalle": "Juan Escobar 4. Yellow card , Foul"
+    },
+    {
+      "club_id": "2734",
+      "minuto": 61,
+      "anadido": 0,
+      "jugador": {
+        "id": "621039",
+        "nombre": "Walter Tandazo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Walter Tandazo 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "2734",
+      "minuto": 86,
+      "anadido": 0,
+      "jugador": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra"
+      },
+      "tipo": "amarilla",
+      "detalle": "Matias Zegarra 2. Yellow card , Foul"
+    }
+  ]
+}

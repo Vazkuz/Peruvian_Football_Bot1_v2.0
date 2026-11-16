@@ -3,22 +3,22 @@
   "club_nombre": "Universidad Técnica de Cajamarca",
   "formacion": "4-2-3-1",
   "variante": "4-2-3-1",
-  "fecha_generacion": "2026-10-03T00:44:01",
+  "fecha_generacion": "2026-11-16T01:49:58",
   "casillas": [
     {
       "casilla": 1,
       "rol": "arquero",
       "titular": {
+        "id": "257991",
+        "nombre": "Ángelo Campos",
+        "rol": "arquero",
+        "puntaje": 17.663
+      },
+      "suplente": {
         "id": "785134",
         "nombre": "Ricardo Bettocchi",
         "rol": "arquero",
-        "puntaje": 13.699
-      },
-      "suplente": {
-        "id": "291339",
-        "nombre": "Ignacio Barrios",
-        "rol": "arquero",
-        "puntaje": 9.641,
+        "puntaje": 11.41,
         "origen": "minutos"
       }
     },
@@ -29,13 +29,13 @@
         "id": "621028",
         "nombre": "Dylan Caro",
         "rol": "lateral_izq",
-        "puntaje": 8.271
+        "puntaje": 16.57
       },
       "suplente": {
         "id": "443987",
         "nombre": "Junior Huerto",
         "rol": "lateral_izq",
-        "puntaje": 5.946,
+        "puntaje": 6.505,
         "origen": "minutos"
       }
     },
@@ -46,13 +46,13 @@
         "id": "873252",
         "nombre": "Bruno Duarte",
         "rol": "central",
-        "puntaje": 18.178
+        "puntaje": 30.446
       },
       "suplente": {
         "id": "664362",
         "nombre": "Francesco Cavagna",
         "rol": "central",
-        "puntaje": 9.086,
+        "puntaje": 16.514,
         "origen": "minutos"
       }
     },
@@ -63,7 +63,7 @@
         "id": "638929",
         "nombre": "Manuel Ganoza",
         "rol": "central",
-        "puntaje": 15.14
+        "puntaje": 24.835
       },
       "suplente": {
         "id": "639764",
@@ -80,15 +80,14 @@
         "id": "473579",
         "nombre": "Luis Garro",
         "rol": "lateral_der",
-        "puntaje": 16.696
+        "puntaje": 28.309
       },
       "suplente": {
-        "id": "1102802",
-        "nombre": "Santiago Gálvez",
+        "id": "903834",
+        "nombre": "Gilmar Paredes",
         "rol": "lateral_der",
-        "puntaje": 1.608,
-        "reemplazo_de_rol": "volante_extremo_der",
-        "origen": "reemplazo"
+        "puntaje": 6.813,
+        "origen": "minutos"
       }
     },
     {
@@ -98,13 +97,13 @@
         "id": "78023",
         "nombre": "Arquímedes Figuera",
         "rol": "volante_defensivo",
-        "puntaje": 14.425
+        "puntaje": 24.968
       },
       "suplente": {
         "id": "981410",
         "nombre": "Joshua Cantt",
         "rol": "volante_defensivo",
-        "puntaje": 9.02,
+        "puntaje": 13.676,
         "origen": "minutos"
       }
     },
@@ -115,15 +114,14 @@
         "id": "653329",
         "nombre": "Luis Arce",
         "rol": "volante_defensivo",
-        "puntaje": 11.264
+        "puntaje": 15.516
       },
       "suplente": {
-        "id": "981706",
-        "nombre": "Jhosep Núñez",
+        "id": "434192",
+        "nombre": "David Dioses",
         "rol": "volante_defensivo",
-        "puntaje": 2.443,
-        "reemplazo_de_rol": "volante_extremo_izq",
-        "origen": "reemplazo"
+        "puntaje": 11.5,
+        "origen": "minutos"
       }
     },
     {
@@ -133,13 +131,13 @@
         "id": "368417",
         "nombre": "Adolfo Muñoz",
         "rol": "volante_extremo_izq",
-        "puntaje": 9.65
+        "puntaje": 23.221
       },
       "suplente": {
-        "id": "903834",
-        "nombre": "Gilmar Paredes",
+        "id": "981706",
+        "nombre": "Jhosep Núñez",
         "rol": "volante_extremo_izq",
-        "puntaje": 5.641,
+        "puntaje": 5.212,
         "origen": "minutos"
       }
     },
@@ -150,7 +148,7 @@
         "id": "399496",
         "nombre": "Marcos Lliuya",
         "rol": "mediapunta",
-        "puntaje": 10.825
+        "puntaje": 26.1
       },
       "suplente": {
         "id": "1559624",
@@ -167,13 +165,13 @@
         "id": "580632",
         "nombre": "David Camacho",
         "rol": "volante_extremo_der",
-        "puntaje": 12.537
+        "puntaje": 27.66
       },
       "suplente": {
-        "id": "434192",
-        "nombre": "David Dioses",
+        "id": "1102802",
+        "nombre": "Santiago Gálvez",
         "rol": "volante_extremo_der",
-        "puntaje": 3.529,
+        "puntaje": 1.745,
         "origen": "minutos"
       }
     },
@@ -181,16 +179,16 @@
       "casilla": 11,
       "rol": "delantero",
       "titular": {
-        "id": "283472",
-        "nombre": "Abdiel Arroyo",
-        "rol": "delantero",
-        "puntaje": 7.422
-      },
-      "suplente": {
         "id": "97013",
         "nombre": "Marlon de Jesús",
         "rol": "delantero",
-        "puntaje": 6.861,
+        "puntaje": 19.137
+      },
+      "suplente": {
+        "id": "283472",
+        "nombre": "Abdiel Arroyo",
+        "rol": "delantero",
+        "puntaje": 11.413,
         "origen": "minutos"
       }
     }

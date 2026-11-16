@@ -2,7 +2,7 @@
   "club_id": "120792",
   "club_nombre": "FC Cajamarca",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:09:47",
+  "fecha_extraccion": "2026-11-16T00:41:32",
   "jugadores": [
     {
       "id": "1284244",
@@ -22,15 +22,15 @@
       "id": "260429",
       "nombre": "Jonathan Medina",
       "posicion": "Goalkeeper",
-      "partidos": 4,
-      "minutos": 360
+      "partidos": 10,
+      "minutos": 900
     },
     {
       "id": "338977",
       "nombre": "Yordi Vílchez",
       "posicion": "Centre-Back",
-      "partidos": 10,
-      "minutos": 900
+      "partidos": 16,
+      "minutos": 1440
     },
     {
       "id": "653364",
@@ -50,8 +50,8 @@
       "id": "893513",
       "nombre": "Hairo Timaná",
       "posicion": "Centre-Back",
-      "partidos": 11,
-      "minutos": 668
+      "partidos": 12,
+      "minutos": 758
     },
     {
       "id": "1083681",
@@ -71,8 +71,8 @@
       "id": "1029758",
       "nombre": "Carlos Gómez",
       "posicion": "Right-Back",
-      "partidos": 21,
-      "minutos": 1444
+      "partidos": 24,
+      "minutos": 1677
     },
     {
       "id": "936044",
@@ -85,8 +85,8 @@
       "id": "662696",
       "nombre": "José Soto",
       "posicion": "Left-Back",
-      "partidos": 2,
-      "minutos": 168
+      "partidos": 4,
+      "minutos": 348
     },
     {
       "id": "686497",
@@ -96,6 +96,13 @@
       "minutos": 315
     },
     {
+      "id": "895056",
+      "nombre": "Arthur Gutiérrez",
+      "posicion": "Left-Back",
+      "partidos": 7,
+      "minutos": 209
+    },
+    {
       "id": "312140",
       "nombre": "Brian Bernaola",
       "posicion": "Centre-Back",
@@ -103,18 +110,11 @@
       "minutos": 600
     },
     {
-      "id": "895056",
-      "nombre": "Arthur Gutiérrez",
-      "posicion": "Left-Back",
-      "partidos": 4,
-      "minutos": 98
-    },
-    {
       "id": "1149627",
       "nombre": "Renato Suárez",
       "posicion": "Right-Back",
-      "partidos": 5,
-      "minutos": 320
+      "partidos": 8,
+      "minutos": 522
     },
     {
       "id": "1394407",
@@ -131,18 +131,11 @@
       "minutos": 773
     },
     {
-      "id": "894310",
-      "nombre": "Renato Montufar",
-      "posicion": "Centre-Back",
-      "partidos": 0,
-      "minutos": 0
-    },
-    {
       "id": "1096324",
       "nombre": "Mauricio Arrasco",
       "posicion": "Attacking Midfield",
-      "partidos": 28,
-      "minutos": 1940
+      "partidos": 33,
+      "minutos": 2245
     },
     {
       "id": "389152",
@@ -155,8 +148,8 @@
       "id": "358338",
       "nombre": "Carlos Correa",
       "posicion": "Central Midfield",
-      "partidos": 10,
-      "minutos": 601
+      "partidos": 14,
+      "minutos": 790
     },
     {
       "id": "330690",
@@ -183,8 +176,8 @@
       "id": "582318",
       "nombre": "Jhon Vega",
       "posicion": "Defensive Midfield",
-      "partidos": 5,
-      "minutos": 161
+      "partidos": 11,
+      "minutos": 701
     },
     {
       "id": "984374",
@@ -204,22 +197,22 @@
       "id": "242996",
       "nombre": "Jefferson Orejuela",
       "posicion": "Defensive Midfield",
-      "partidos": 26,
-      "minutos": 2139
+      "partidos": 32,
+      "minutos": 2677
     },
     {
       "id": "250929",
       "nombre": "Paulo Goyoneche",
       "posicion": "Defensive Midfield",
-      "partidos": 4,
-      "minutos": 176
+      "partidos": 8,
+      "minutos": 493
     },
     {
       "id": "106283",
       "nombre": "Edson Aubert",
       "posicion": "Defensive Midfield",
-      "partidos": 3,
-      "minutos": 108
+      "partidos": 5,
+      "minutos": 118
     },
     {
       "id": "1445319",
@@ -232,36 +225,36 @@
       "id": "763898",
       "nombre": "Pedro Cejas",
       "posicion": "Centre-Forward",
-      "partidos": 5,
-      "minutos": 365
+      "partidos": 11,
+      "minutos": 703
     },
     {
       "id": "641820",
       "nombre": "Brandon Palacios",
       "posicion": "Left Winger",
-      "partidos": 27,
-      "minutos": 1799
+      "partidos": 33,
+      "minutos": 2302
     },
     {
       "id": "904940",
       "nombre": "Sebastián Enciso",
       "posicion": "Right Winger",
-      "partidos": 21,
-      "minutos": 1625
+      "partidos": 26,
+      "minutos": 1975
     },
     {
       "id": "621031",
       "nombre": "Michel Rasmussen",
       "posicion": "Right Winger",
-      "partidos": 7,
-      "minutos": 349
+      "partidos": 9,
+      "minutos": 410
     },
     {
       "id": "662714",
       "nombre": "Carlos Meza",
       "posicion": "Right Winger",
-      "partidos": 25,
-      "minutos": 1561
+      "partidos": 30,
+      "minutos": 1943
     },
     {
       "id": "1149626",
@@ -274,29 +267,22 @@
       "id": "212300",
       "nombre": "José Lugo",
       "posicion": "Centre-Forward",
-      "partidos": 6,
-      "minutos": 172
-    },
-    {
-      "id": "208714",
-      "nombre": "Arley Rodríguez",
-      "posicion": "Right Winger",
-      "partidos": 8,
-      "minutos": 612
+      "partidos": 12,
+      "minutos": 537
     },
     {
       "id": "795440",
       "nombre": "Sebastien Pineau",
       "posicion": "Centre-Forward",
-      "partidos": 10,
-      "minutos": 258
+      "partidos": 11,
+      "minutos": 261
     },
     {
       "id": "285855",
       "nombre": "Jonathan Betancourt",
       "posicion": "Left Winger",
-      "partidos": 20,
-      "minutos": 989
+      "partidos": 24,
+      "minutos": 1053
     },
     {
       "id": "1368788",
@@ -304,6 +290,13 @@
       "posicion": "Left Winger",
       "partidos": 6,
       "minutos": 101
+    },
+    {
+      "id": "208714",
+      "nombre": "Arley Rodríguez",
+      "posicion": "Right Winger",
+      "partidos": 8,
+      "minutos": 612
     },
     {
       "id": "53847",

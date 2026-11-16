@@ -2,14 +2,14 @@
   "club_id": "114625",
   "club_nombre": "Deportivo Moquegua",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:10:49",
+  "fecha_extraccion": "2026-11-16T00:42:33",
   "jugadores": [
     {
       "id": "330687",
       "nombre": "Carlos Grados",
       "posicion": "Goalkeeper",
-      "partidos": 24,
-      "minutos": 2160
+      "partidos": 30,
+      "minutos": 2700
     },
     {
       "id": "1221999",
@@ -43,36 +43,29 @@
       "id": "330691",
       "nombre": "Aldair Perleche",
       "posicion": "Right-Back",
-      "partidos": 27,
-      "minutos": 2194
+      "partidos": 33,
+      "minutos": 2734
     },
     {
       "id": "1064183",
       "nombre": "Nicolás Amasifuén",
       "posicion": "Left-Back",
-      "partidos": 23,
-      "minutos": 1816
+      "partidos": 26,
+      "minutos": 2041
     },
     {
       "id": "1015947",
       "nombre": "Eros Montenegro",
       "posicion": "Right-Back",
-      "partidos": 22,
-      "minutos": 1199
-    },
-    {
-      "id": "486264",
-      "nombre": "Kevin Moreno",
-      "posicion": "Centre-Back",
-      "partidos": 1,
-      "minutos": 82
+      "partidos": 25,
+      "minutos": 1424
     },
     {
       "id": "984451",
       "nombre": "Jimmy Jiménez",
       "posicion": "Left-Back",
-      "partidos": 13,
-      "minutos": 509
+      "partidos": 14,
+      "minutos": 599
     },
     {
       "id": "1031608",
@@ -85,22 +78,22 @@
       "id": "358618",
       "nombre": "Cristian Enciso",
       "posicion": "Centre-Back",
-      "partidos": 26,
-      "minutos": 2188
+      "partidos": 31,
+      "minutos": 2590
     },
     {
       "id": "144214",
       "nombre": "José Luis Granda",
       "posicion": "Centre-Back",
-      "partidos": 15,
-      "minutos": 892
+      "partidos": 19,
+      "minutos": 1073
     },
     {
       "id": "96295",
       "nombre": "Juan Diego Lojas",
       "posicion": "Centre-Back",
-      "partidos": 25,
-      "minutos": 2012
+      "partidos": 31,
+      "minutos": 2548
     },
     {
       "id": "1408713",
@@ -110,39 +103,46 @@
       "minutos": 235
     },
     {
+      "id": "486264",
+      "nombre": "Kevin Moreno",
+      "posicion": "Centre-Back",
+      "partidos": 1,
+      "minutos": 82
+    },
+    {
       "id": "325706",
       "nombre": "Diego Ramírez",
       "posicion": "Central Midfield",
-      "partidos": 16,
-      "minutos": 643
+      "partidos": 21,
+      "minutos": 909
     },
     {
       "id": "1103422",
       "nombre": "Ricardo Chipao",
       "posicion": "Defensive Midfield",
-      "partidos": 29,
-      "minutos": 2251
+      "partidos": 35,
+      "minutos": 2791
     },
     {
       "id": "375353",
       "nombre": "Cristian Mejía",
       "posicion": "Central Midfield",
-      "partidos": 29,
-      "minutos": 2214
+      "partidos": 35,
+      "minutos": 2659
     },
     {
       "id": "419034",
       "nombre": "Nicolás Chávez",
       "posicion": "Central Midfield",
-      "partidos": 26,
-      "minutos": 1232
+      "partidos": 29,
+      "minutos": 1427
     },
     {
       "id": "815106",
       "nombre": "Claudio Ramírez",
       "posicion": "Defensive Midfield",
-      "partidos": 25,
-      "minutos": 777
+      "partidos": 27,
+      "minutos": 828
     },
     {
       "id": "126042",
@@ -169,29 +169,36 @@
       "id": "727998",
       "nombre": "Yorman Zapata",
       "posicion": "Left Winger",
-      "partidos": 28,
-      "minutos": 2177
+      "partidos": 33,
+      "minutos": 2579
     },
     {
       "id": "829971",
       "nombre": "Edgar Lastre",
       "posicion": "Right Winger",
-      "partidos": 28,
-      "minutos": 1869
+      "partidos": 34,
+      "minutos": 2316
     },
     {
       "id": "986001",
       "nombre": "Allonso Dávila",
       "posicion": "Right Winger",
-      "partidos": 29,
-      "minutos": 1567
+      "partidos": 33,
+      "minutos": 1654
+    },
+    {
+      "id": "1071511",
+      "nombre": "José López",
+      "posicion": "Right Winger",
+      "partidos": 5,
+      "minutos": 89
     },
     {
       "id": "400254",
       "nombre": "Alexander Lecaros",
       "posicion": "Left Winger",
-      "partidos": 6,
-      "minutos": 258
+      "partidos": 8,
+      "minutos": 316
     },
     {
       "id": "325591",
@@ -201,32 +208,25 @@
       "minutos": 318
     },
     {
-      "id": "1071511",
-      "nombre": "José López",
-      "posicion": "Left Winger",
-      "partidos": 5,
-      "minutos": 89
-    },
-    {
       "id": "1169725",
       "nombre": "Marcello Negrón",
       "posicion": "Centre-Forward",
-      "partidos": 8,
-      "minutos": 257
+      "partidos": 9,
+      "minutos": 269
     },
     {
       "id": "430685",
       "nombre": "Edgar Santillán",
       "posicion": "Right Winger",
-      "partidos": 4,
-      "minutos": 40
+      "partidos": 7,
+      "minutos": 49
     },
     {
       "id": "319911",
       "nombre": "Bryan Angulo",
       "posicion": "Centre-Forward",
-      "partidos": 21,
-      "minutos": 881
+      "partidos": 27,
+      "minutos": 1148
     },
     {
       "id": "582807",
@@ -239,15 +239,15 @@
       "id": "477383",
       "nombre": "Jeferson Collazos",
       "posicion": "Centre-Forward",
-      "partidos": 28,
-      "minutos": 1647
+      "partidos": 34,
+      "minutos": 1931
     },
     {
       "id": "1134244",
       "nombre": "Yhonier López",
       "posicion": "Left Winger",
-      "partidos": 5,
-      "minutos": 102
+      "partidos": 8,
+      "minutos": 193
     },
     {
       "id": "1565111",

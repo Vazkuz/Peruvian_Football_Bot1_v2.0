@@ -1,9 +1,9 @@
 {
   "club_id": "2729",
   "club_nombre": "Club Cienciano",
-  "formacion": "4-4-2",
-  "variante": "4-4-2 double 6",
-  "fecha_generacion": "2026-10-03T00:44:01",
+  "formacion": "4-2-3-1",
+  "variante": "4-2-3-1",
+  "fecha_generacion": "2026-11-16T02:16:47",
   "casillas": [
     {
       "casilla": 1,
@@ -12,13 +12,13 @@
         "id": "347660",
         "nombre": "Gonzalo Falcón",
         "rol": "arquero",
-        "puntaje": 15.472
+        "puntaje": 28.981
       },
       "suplente": {
         "id": "420866",
         "nombre": "Ítalo Espinoza",
         "rol": "arquero",
-        "puntaje": 9.501,
+        "puntaje": 8.219,
         "origen": "minutos"
       }
     },
@@ -29,13 +29,13 @@
         "id": "538612",
         "nombre": "Marcos Martinich",
         "rol": "lateral_izq",
-        "puntaje": 12.285
+        "puntaje": 25.417
       },
       "suplente": {
         "id": "662706",
         "nombre": "Sebastián Cavero",
         "rol": "lateral_izq",
-        "puntaje": 6.757,
+        "puntaje": 5.926,
         "origen": "minutos"
       }
     },
@@ -46,13 +46,13 @@
         "id": "704884",
         "nombre": "Kevin Becerra",
         "rol": "central",
-        "puntaje": 22.13
+        "puntaje": 34.673
       },
       "suplente": {
         "id": "657221",
         "nombre": "Rotceh Aguilar",
         "rol": "central",
-        "puntaje": 6.447,
+        "puntaje": 5.921,
         "origen": "minutos"
       }
     },
@@ -63,13 +63,13 @@
         "id": "246548",
         "nombre": "Maximiliano Amondarain",
         "rol": "central",
-        "puntaje": 18.175
+        "puntaje": 30.808
       },
       "suplente": {
         "id": "817656",
         "nombre": "Alonso Yovera",
         "rol": "central",
-        "puntaje": 4.401,
+        "puntaje": 3.724,
         "origen": "minutos"
       }
     },
@@ -80,30 +80,30 @@
         "id": "477378",
         "nombre": "Carlos Cabello",
         "rol": "lateral_der",
-        "puntaje": 11.021
+        "puntaje": 15.703
       },
       "suplente": {
         "id": "739664",
         "nombre": "Claudio Nuñez",
         "rol": "lateral_der",
-        "puntaje": 6.074,
+        "puntaje": 13.574,
         "origen": "minutos"
       }
     },
     {
       "casilla": 6,
-      "rol": "volante_extremo_izq",
+      "rol": "volante_defensivo",
       "titular": {
-        "id": "415544",
-        "nombre": "Neri Bandiera",
-        "rol": "volante_extremo_izq",
-        "puntaje": 10.481
+        "id": "531624",
+        "nombre": "Santiago Arias",
+        "rol": "volante_defensivo",
+        "puntaje": 26.043
       },
       "suplente": {
-        "id": "212434",
-        "nombre": "Alejandro Hohberg",
-        "rol": "volante_extremo_izq",
-        "puntaje": 1.189,
+        "id": "335217",
+        "nombre": "Gerson Barreto",
+        "rol": "volante_defensivo",
+        "puntaje": 14.285,
         "origen": "minutos"
       }
     },
@@ -111,67 +111,67 @@
       "casilla": 7,
       "rol": "volante_defensivo",
       "titular": {
-        "id": "531624",
-        "nombre": "Santiago Arias",
-        "rol": "volante_defensivo",
-        "puntaje": 18.472
-      },
-      "suplente": {
         "id": "752977",
         "nombre": "Ademar Robles",
         "rol": "volante_defensivo",
-        "puntaje": 7.267,
+        "puntaje": 14.821
+      },
+      "suplente": {
+        "id": "1239936",
+        "nombre": "Henry Caparó",
+        "rol": "volante_defensivo",
+        "puntaje": 4.393,
         "origen": "minutos"
       }
     },
     {
       "casilla": 8,
-      "rol": "volante_defensivo",
+      "rol": "volante_extremo_izq",
       "titular": {
-        "id": "335217",
-        "nombre": "Gerson Barreto",
-        "rol": "volante_defensivo",
-        "puntaje": 12.755
+        "id": "415544",
+        "nombre": "Neri Bandiera",
+        "rol": "volante_extremo_izq",
+        "puntaje": 20.152
       },
       "suplente": {
         "id": "1039039",
         "nombre": "Gonzalo Aguirre",
-        "rol": "volante_defensivo",
-        "puntaje": 2.471,
+        "rol": "volante_extremo_izq",
+        "puntaje": 0.834,
         "origen": "minutos"
       }
     },
     {
       "casilla": 9,
-      "rol": "volante_extremo_der",
+      "rol": "mediapunta",
       "titular": {
-        "id": "391237",
-        "nombre": "Cristian Souza",
-        "rol": "volante_extremo_der",
-        "puntaje": 13.735
+        "id": "212434",
+        "nombre": "Alejandro Hohberg",
+        "rol": "mediapunta",
+        "puntaje": 6.711
       },
       "suplente": {
         "id": "312151",
         "nombre": "Ray Sandoval",
-        "rol": "volante_extremo_der",
-        "puntaje": 1.867,
+        "rol": "mediapunta",
+        "puntaje": 3.409,
         "origen": "minutos"
       }
     },
     {
       "casilla": 10,
-      "rol": "delantero",
+      "rol": "volante_extremo_der",
       "titular": {
-        "id": "242436",
-        "nombre": "Carlos Garcés",
-        "rol": "delantero",
-        "puntaje": 21.84
+        "id": "391237",
+        "nombre": "Cristian Souza",
+        "rol": "volante_extremo_der",
+        "puntaje": 16.768
       },
       "suplente": {
         "id": "662703",
         "nombre": "Didier La Torre",
-        "rol": "delantero",
-        "puntaje": 1.264,
+        "rol": "volante_extremo_der",
+        "puntaje": 3.897,
         "origen": "minutos"
       }
     },
@@ -179,18 +179,17 @@
       "casilla": 11,
       "rol": "delantero",
       "titular": {
+        "id": "242436",
+        "nombre": "Carlos Garcés",
+        "rol": "delantero",
+        "puntaje": 31.885
+      },
+      "suplente": {
         "id": "626179",
         "nombre": "Matías Succar",
         "rol": "delantero",
-        "puntaje": 12.824
-      },
-      "suplente": {
-        "id": "1102806",
-        "nombre": "Nadhir Colunga",
-        "rol": "delantero",
-        "puntaje": 0,
-        "origen": "banca",
-        "convocatorias": 1
+        "puntaje": 15.838,
+        "origen": "minutos"
       }
     }
   ]

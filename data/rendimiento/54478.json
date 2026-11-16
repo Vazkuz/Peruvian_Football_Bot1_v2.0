@@ -2,14 +2,14 @@
   "club_id": "54478",
   "club_nombre": "CD Los Chankas",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:09:15",
+  "fecha_extraccion": "2026-11-16T00:41:00",
   "jugadores": [
     {
       "id": "250407",
       "nombre": "Hairo Camacho",
       "posicion": "Goalkeeper",
-      "partidos": 26,
-      "minutos": 2340
+      "partidos": 32,
+      "minutos": 2880
     },
     {
       "id": "988214",
@@ -36,50 +36,50 @@
       "id": "470023",
       "nombre": "Brayan Guevara",
       "posicion": "Left-Back",
-      "partidos": 20,
-      "minutos": 795
+      "partidos": 22,
+      "minutos": 921
     },
     {
       "id": "409092",
       "nombre": "Gonzalo Rizzo",
       "posicion": "Centre-Back",
-      "partidos": 17,
-      "minutos": 927
+      "partidos": 22,
+      "minutos": 1160
     },
     {
       "id": "639765",
       "nombre": "Axel Chávez",
       "posicion": "Left-Back",
-      "partidos": 3,
-      "minutos": 64
+      "partidos": 9,
+      "minutos": 248
     },
     {
       "id": "643536",
       "nombre": "David Gonzáles",
       "posicion": "Left-Back",
-      "partidos": 24,
-      "minutos": 1912
+      "partidos": 29,
+      "minutos": 2201
     },
     {
       "id": "893740",
       "nombre": "Michael Kaufman",
       "posicion": "Centre-Back",
-      "partidos": 18,
-      "minutos": 806
+      "partidos": 23,
+      "minutos": 1066
     },
     {
       "id": "725453",
       "nombre": "Héctor González",
       "posicion": "Centre-Back",
-      "partidos": 20,
-      "minutos": 1558
+      "partidos": 26,
+      "minutos": 2098
     },
     {
       "id": "294886",
       "nombre": "Carlos Pimienta",
       "posicion": "Centre-Back",
-      "partidos": 26,
-      "minutos": 2313
+      "partidos": 32,
+      "minutos": 2841
     },
     {
       "id": "1509341",
@@ -106,36 +106,36 @@
       "id": "873510",
       "nombre": "Franco Torres",
       "posicion": "Attacking Midfield",
-      "partidos": 25,
-      "minutos": 2045
+      "partidos": 30,
+      "minutos": 2462
     },
     {
       "id": "441728",
       "nombre": "Kelvin Sánchez",
       "posicion": "Defensive Midfield",
-      "partidos": 29,
-      "minutos": 1551
+      "partidos": 34,
+      "minutos": 1667
     },
     {
       "id": "965449",
       "nombre": "Jorge Palomino",
       "posicion": "Defensive Midfield",
-      "partidos": 24,
-      "minutos": 2069
+      "partidos": 29,
+      "minutos": 2462
     },
     {
       "id": "447932",
       "nombre": "Christian Velarde",
       "posicion": "Defensive Midfield",
-      "partidos": 13,
-      "minutos": 689
+      "partidos": 18,
+      "minutos": 1035
     },
     {
       "id": "653673",
       "nombre": "Abdiel Ayarza",
       "posicion": "Central Midfield",
-      "partidos": 24,
-      "minutos": 759
+      "partidos": 28,
+      "minutos": 906
     },
     {
       "id": "1196477",
@@ -169,50 +169,50 @@
       "id": "330169",
       "nombre": "Jarlín Quintero",
       "posicion": "Centre-Forward",
-      "partidos": 26,
-      "minutos": 1878
+      "partidos": 32,
+      "minutos": 2285
     },
     {
       "id": "357124",
       "nombre": "Oshiro Takeuchi",
       "posicion": "Right Winger",
-      "partidos": 27,
-      "minutos": 2242
+      "partidos": 33,
+      "minutos": 2605
     },
     {
       "id": "384765",
       "nombre": "Accel Campos",
       "posicion": "Right Winger",
-      "partidos": 4,
-      "minutos": 244
+      "partidos": 7,
+      "minutos": 367
     },
     {
       "id": "648289",
       "nombre": "Marlon Torres",
       "posicion": "Centre-Forward",
-      "partidos": 23,
-      "minutos": 1147
+      "partidos": 29,
+      "minutos": 1660
     },
     {
       "id": "664841",
       "nombre": "Kenyi Barrios",
       "posicion": "Right Winger",
-      "partidos": 25,
-      "minutos": 681
+      "partidos": 29,
+      "minutos": 867
     },
     {
       "id": "653475",
       "nombre": "Félix Espinoza",
       "posicion": "Right Winger",
-      "partidos": 10,
-      "minutos": 418
+      "partidos": 13,
+      "minutos": 492
     },
     {
       "id": "855900",
       "nombre": "Juan Diego Ospina",
       "posicion": "Right Winger",
-      "partidos": 12,
-      "minutos": 522
+      "partidos": 15,
+      "minutos": 641
     },
     {
       "id": "94761",

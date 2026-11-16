@@ -3,22 +3,22 @@
   "club_nombre": "FC Cajamarca",
   "formacion": "4-2-3-1",
   "variante": "4-2-3-1",
-  "fecha_generacion": "2026-10-03T00:44:01",
+  "fecha_generacion": "2026-11-16T01:49:58",
   "casillas": [
     {
       "casilla": 1,
       "rol": "arquero",
       "titular": {
-        "id": "1284244",
-        "nombre": "Samuel Aspajo",
-        "rol": "arquero",
-        "puntaje": 15.438
-      },
-      "suplente": {
         "id": "260429",
         "nombre": "Jonathan Medina",
         "rol": "arquero",
-        "puntaje": 7.477,
+        "puntaje": 21.51
+      },
+      "suplente": {
+        "id": "1284244",
+        "nombre": "Samuel Aspajo",
+        "rol": "arquero",
+        "puntaje": 14.035,
         "origen": "minutos"
       }
     },
@@ -29,13 +29,13 @@
         "id": "904940",
         "nombre": "Sebastián Enciso",
         "rol": "lateral_izq",
-        "puntaje": 15.756
+        "puntaje": 20.888
       },
       "suplente": {
         "id": "662696",
         "nombre": "José Soto",
         "rol": "lateral_izq",
-        "puntaje": 3.632,
+        "puntaje": 7.909,
         "origen": "minutos"
       }
     },
@@ -46,13 +46,13 @@
         "id": "338977",
         "nombre": "Yordi Vílchez",
         "rol": "central",
-        "puntaje": 22.915
+        "puntaje": 35.545
       },
       "suplente": {
         "id": "582318",
         "nombre": "Jhon Vega",
         "rol": "central",
-        "puntaje": 3.059,
+        "puntaje": 14.529,
         "origen": "minutos"
       }
     },
@@ -63,13 +63,13 @@
         "id": "981819",
         "nombre": "Alejandro Pósito",
         "rol": "central",
-        "puntaje": 17.683
+        "puntaje": 15.864
       },
       "suplente": {
         "id": "893513",
         "nombre": "Hairo Timaná",
         "rol": "central",
-        "puntaje": 2.642,
+        "puntaje": 5.57,
         "origen": "minutos"
       }
     },
@@ -80,13 +80,13 @@
         "id": "1029758",
         "nombre": "Carlos Gómez",
         "rol": "lateral_der",
-        "puntaje": 12.367
+        "puntaje": 16.624
       },
       "suplente": {
         "id": "1149627",
         "nombre": "Renato Suárez",
         "rol": "lateral_der",
-        "puntaje": 8.403,
+        "puntaje": 13.541,
         "origen": "minutos"
       }
     },
@@ -97,13 +97,13 @@
         "id": "242996",
         "nombre": "Jefferson Orejuela",
         "rol": "volante_defensivo",
-        "puntaje": 22.779
+        "puntaje": 35.367
       },
       "suplente": {
-        "id": "106283",
-        "nombre": "Edson Aubert",
+        "id": "250929",
+        "nombre": "Paulo Goyoneche",
         "rol": "volante_defensivo",
-        "puntaje": 2.804,
+        "puntaje": 9.472,
         "origen": "minutos"
       }
     },
@@ -114,13 +114,13 @@
         "id": "358338",
         "nombre": "Carlos Correa",
         "rol": "volante_defensivo",
-        "puntaje": 11.607
+        "puntaje": 15.897
       },
       "suplente": {
-        "id": "250929",
-        "nombre": "Paulo Goyoneche",
+        "id": "106283",
+        "nombre": "Edson Aubert",
         "rol": "volante_defensivo",
-        "puntaje": 2.491,
+        "puntaje": 2.695,
         "origen": "minutos"
       }
     },
@@ -131,13 +131,13 @@
         "id": "641820",
         "nombre": "Brandon Palacios",
         "rol": "volante_extremo_izq",
-        "puntaje": 13.423
+        "puntaje": 22.574
       },
       "suplente": {
         "id": "285855",
         "nombre": "Jonathan Betancourt",
         "rol": "volante_extremo_izq",
-        "puntaje": 5.85,
+        "puntaje": 7.284,
         "origen": "minutos"
       }
     },
@@ -148,13 +148,13 @@
         "id": "1096324",
         "nombre": "Mauricio Arrasco",
         "rol": "mediapunta",
-        "puntaje": 11.162
+        "puntaje": 15.224
       },
       "suplente": {
         "id": "984374",
         "nombre": "Valentino Sandoval",
         "rol": "mediapunta",
-        "puntaje": 0.322,
+        "puntaje": 0.282,
         "origen": "minutos"
       }
     },
@@ -165,13 +165,13 @@
         "id": "662714",
         "nombre": "Carlos Meza",
         "rol": "volante_extremo_der",
-        "puntaje": 14.913
+        "puntaje": 25.214
       },
       "suplente": {
         "id": "621031",
         "nombre": "Michel Rasmussen",
         "rol": "volante_extremo_der",
-        "puntaje": 3.925,
+        "puntaje": 3.575,
         "origen": "minutos"
       }
     },
@@ -182,13 +182,13 @@
         "id": "763898",
         "nombre": "Pedro Cejas",
         "rol": "delantero",
-        "puntaje": 9.753
+        "puntaje": 18.16
       },
       "suplente": {
         "id": "212300",
         "nombre": "José Lugo",
         "rol": "delantero",
-        "puntaje": 4.507,
+        "puntaje": 15.379,
         "origen": "minutos"
       }
     }

@@ -3,7 +3,7 @@
   "club_nombre": "Deportivo Garcilaso",
   "formacion": "4-2-3-1",
   "variante": "4-2-3-1",
-  "fecha_generacion": "2026-10-03T00:44:01",
+  "fecha_generacion": "2026-11-16T01:49:58",
   "casillas": [
     {
       "casilla": 1,
@@ -12,7 +12,7 @@
         "id": "342051",
         "nombre": "Patrick Zubczuk",
         "rol": "arquero",
-        "puntaje": 24.613
+        "puntaje": 39.932
       },
       "suplente": {
         "id": "456161",
@@ -20,7 +20,7 @@
         "rol": "arquero",
         "puntaje": 0,
         "origen": "banca",
-        "convocatorias": 10
+        "convocatorias": 16
       }
     },
     {
@@ -30,13 +30,13 @@
         "id": "866487",
         "nombre": "Xavi Moreno",
         "rol": "lateral_izq",
-        "puntaje": 21.033
+        "puntaje": 24.225
       },
       "suplente": {
         "id": "356381",
         "nombre": "Anthony Rosell",
         "rol": "lateral_izq",
-        "puntaje": 2.57,
+        "puntaje": 14.851,
         "origen": "minutos"
       }
     },
@@ -47,13 +47,13 @@
         "id": "524311",
         "nombre": "Agustín Gómez",
         "rol": "central",
-        "puntaje": 24.613
+        "puntaje": 39.932
       },
       "suplente": {
         "id": "582098",
         "nombre": "Jefferson Portales",
         "rol": "central",
-        "puntaje": 0.837,
+        "puntaje": 0.863,
         "origen": "minutos"
       }
     },
@@ -64,15 +64,14 @@
         "id": "279380",
         "nombre": "Aldair Salazar",
         "rol": "central",
-        "puntaje": 23.776
+        "puntaje": 37.01
       },
       "suplente": {
-        "id": "1371975",
-        "nombre": "Joao Mendoza",
+        "id": "851121",
+        "nombre": "Agustín Graneros",
         "rol": "central",
-        "puntaje": 0.717,
-        "reemplazo_de_rol": "mediapunta",
-        "origen": "reemplazo"
+        "puntaje": 0,
+        "origen": "ultimo_recurso"
       }
     },
     {
@@ -82,15 +81,14 @@
         "id": "741413",
         "nombre": "Erick Canales",
         "rol": "lateral_der",
-        "puntaje": 24.613
+        "puntaje": 34.888
       },
       "suplente": {
-        "id": "1141361",
-        "nombre": "Samir Villacorta",
+        "id": "1371975",
+        "nombre": "Joao Mendoza",
         "rol": "lateral_der",
-        "puntaje": 0,
-        "origen": "banca",
-        "convocatorias": 6
+        "puntaje": 2.985,
+        "origen": "minutos"
       }
     },
     {
@@ -100,13 +98,13 @@
         "id": "458906",
         "nombre": "Carlos Ramos",
         "rol": "volante_defensivo",
-        "puntaje": 22.688
+        "puntaje": 31.682
       },
       "suplente": {
         "id": "168974",
         "nombre": "Claudio Torrejón",
         "rol": "volante_defensivo",
-        "puntaje": 1.652,
+        "puntaje": 6.676,
         "origen": "minutos"
       }
     },
@@ -117,13 +115,13 @@
         "id": "438000",
         "nombre": "Agustín González",
         "rol": "volante_defensivo",
-        "puntaje": 17.805
+        "puntaje": 27.991
       },
       "suplente": {
         "id": "1568213",
         "nombre": "César Flores",
         "rol": "volante_defensivo",
-        "puntaje": 1.318,
+        "puntaje": 1.359,
         "origen": "minutos"
       }
     },
@@ -134,13 +132,13 @@
         "id": "279057",
         "nombre": "Beto da Silva",
         "rol": "volante_extremo_izq",
-        "puntaje": 21.908
+        "puntaje": 30.661
       },
       "suplente": {
-        "id": "451338",
-        "nombre": "Fernando Pacheco",
+        "id": "912299",
+        "nombre": "Lucas Ríos",
         "rol": "volante_extremo_izq",
-        "puntaje": 1.395,
+        "puntaje": 3.829,
         "origen": "minutos"
       }
     },
@@ -151,13 +149,13 @@
         "id": "483714",
         "nombre": "Kevin Sandoval",
         "rol": "mediapunta",
-        "puntaje": 15.947
+        "puntaje": 19.464
       },
       "suplente": {
         "id": "810550",
         "nombre": "Adrián Ascues",
         "rol": "mediapunta",
-        "puntaje": 1.464,
+        "puntaje": 7.914,
         "origen": "minutos"
       }
     },
@@ -168,13 +166,13 @@
         "id": "324046",
         "nombre": "Francisco Arancibia",
         "rol": "volante_extremo_der",
-        "puntaje": 20.184
+        "puntaje": 24.12
       },
       "suplente": {
         "id": "818970",
         "nombre": "Sharif Ramírez",
         "rol": "volante_extremo_der",
-        "puntaje": 1.315,
+        "puntaje": 1.222,
         "origen": "minutos"
       }
     },
@@ -185,13 +183,13 @@
         "id": "443350",
         "nombre": "Facundo Castelli",
         "rol": "delantero",
-        "puntaje": 14.687
+        "puntaje": 28.146
       },
       "suplente": {
         "id": "527625",
         "nombre": "Christopher Olivares",
         "rol": "delantero",
-        "puntaje": 9.711,
+        "puntaje": 11.489,
         "origen": "minutos"
       }
     }

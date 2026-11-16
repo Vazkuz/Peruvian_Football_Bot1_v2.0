@@ -60,9 +60,9 @@ def test_probabilidades_suman_1_en_las_18(params, plantillas):
         assert sum(probabilidades_goleador(params, p).values()) == pytest.approx(1)
 
 
-def test_probabilidades_4_4_2(params, plantillas):
-    p = plantillas["2729"]
-    assert p.formacion == "4-4-2"
+def test_probabilidades_dos_delanteros(params, plantillas):
+    p = plantillas["184"]
+    assert p.formacion == "4-1-3-2"
     prob = probabilidades_goleador(params, p)
     for c in p.casillas:
         esperado = {"delantero": 20, "arquero": 0.91}.get(c.rol, 7.39)
@@ -78,7 +78,7 @@ def test_probabilidades_4_2_3_1(params, plantillas):
         assert 100 * prob[c.numero] == pytest.approx(esperados.get(c.rol, 6.57), abs=0.005)
 
 
-@pytest.mark.parametrize("club_id", ["2729", "114625"])
+@pytest.mark.parametrize("club_id", ["184", "114625"])
 def test_frecuencias_goleador(params, plantillas, club_id):
     p = plantillas[club_id]
     prob = probabilidades_goleador(params, p)
@@ -119,7 +119,7 @@ def test_un_delantero_y_un_solo_extremo_se_lleva_el_extra(params, plantillas):
 
 @pytest.mark.parametrize("delanteros", [0, 3])
 def test_cero_o_tres_delanteros_dan_error(params, plantillas, delanteros):
-    p = plantillas["2729"]
+    p = plantillas["184"]
     actuales = [c.numero for c in p.casillas if c.rol == "delantero"]
     if delanteros == 0:
         cambios = {n: "mediapunta" for n in actuales}

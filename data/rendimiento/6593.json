@@ -2,21 +2,21 @@
   "club_id": "6593",
   "club_nombre": "Universitario de Deportes",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:01:57",
+  "fecha_extraccion": "2026-11-16T00:33:43",
   "jugadores": [
     {
       "id": "643063",
       "nombre": "Diego Romero",
       "posicion": "Goalkeeper",
-      "partidos": 21,
-      "minutos": 1890
+      "partidos": 25,
+      "minutos": 2250
     },
     {
       "id": "352338",
       "nombre": "Miguel Vargas",
       "posicion": "Goalkeeper",
-      "partidos": 12,
-      "minutos": 1080
+      "partidos": 14,
+      "minutos": 1260
     },
     {
       "id": "1076585",
@@ -36,8 +36,8 @@
       "id": "965846",
       "nombre": "César Inga",
       "posicion": "Left-Back",
-      "partidos": 27,
-      "minutos": 1898
+      "partidos": 33,
+      "minutos": 2317
     },
     {
       "id": "729032",
@@ -50,8 +50,8 @@
       "id": "443379",
       "nombre": "Jorge Gutiérrez",
       "posicion": "Left-Back",
-      "partidos": 2,
-      "minutos": 28
+      "partidos": 5,
+      "minutos": 93
     },
     {
       "id": "655639",
@@ -64,8 +64,8 @@
       "id": "142745",
       "nombre": "Anderson Santamaría",
       "posicion": "Centre-Back",
-      "partidos": 19,
-      "minutos": 1346
+      "partidos": 25,
+      "minutos": 1852
     },
     {
       "id": "672263",
@@ -78,15 +78,15 @@
       "id": "457058",
       "nombre": "Williams Riveros",
       "posicion": "Centre-Back",
-      "partidos": 24,
-      "minutos": 1828
+      "partidos": 30,
+      "minutos": 2368
     },
     {
       "id": "619072",
       "nombre": "Caín Fara",
       "posicion": "Centre-Back",
-      "partidos": 32,
-      "minutos": 2777
+      "partidos": 38,
+      "minutos": 3294
     },
     {
       "id": "441344",
@@ -99,8 +99,8 @@
       "id": "94437",
       "nombre": "Aldo Corzo",
       "posicion": "Centre-Back",
-      "partidos": 5,
-      "minutos": 279
+      "partidos": 6,
+      "minutos": 284
     },
     {
       "id": "1263210",
@@ -162,15 +162,15 @@
       "id": "871655",
       "nombre": "Piero Quispe",
       "posicion": "Attacking Midfield",
-      "partidos": 6,
-      "minutos": 263
+      "partidos": 12,
+      "minutos": 392
     },
     {
       "id": "490717",
       "nombre": "Jairo Concha",
       "posicion": "Central Midfield",
-      "partidos": 31,
-      "minutos": 2383
+      "partidos": 37,
+      "minutos": 2826
     },
     {
       "id": "658848",
@@ -183,15 +183,15 @@
       "id": "189236",
       "nombre": "Andy Polo",
       "posicion": "Right Midfield",
-      "partidos": 30,
-      "minutos": 2622
+      "partidos": 36,
+      "minutos": 3162
     },
     {
       "id": "486265",
       "nombre": "Jorge Murrugarra",
       "posicion": "Defensive Midfield",
-      "partidos": 25,
-      "minutos": 1022
+      "partidos": 29,
+      "minutos": 1125
     },
     {
       "id": "744083",
@@ -204,8 +204,8 @@
       "id": "637902",
       "nombre": "Juan Manuel Requena",
       "posicion": "Defensive Midfield",
-      "partidos": 8,
-      "minutos": 449
+      "partidos": 9,
+      "minutos": 450
     },
     {
       "id": "486641",
@@ -232,8 +232,8 @@
       "id": "77125",
       "nombre": "Horacio Calcaterra",
       "posicion": "Central Midfield",
-      "partidos": 12,
-      "minutos": 305
+      "partidos": 18,
+      "minutos": 800
     },
     {
       "id": "207246",
@@ -273,7 +273,7 @@
     {
       "id": "1369248",
       "nombre": "Sebastian Flores",
-      "posicion": "Central Midfield",
+      "posicion": "Defensive Midfield",
       "partidos": 2,
       "minutos": 180
     },
@@ -281,43 +281,43 @@
       "id": "738716",
       "nombre": "Álex Valera",
       "posicion": "Centre-Forward",
-      "partidos": 31,
-      "minutos": 2516
+      "partidos": 37,
+      "minutos": 3039
     },
     {
       "id": "458461",
       "nombre": "José Rivera",
       "posicion": "Centre-Forward",
-      "partidos": 18,
-      "minutos": 484
+      "partidos": 22,
+      "minutos": 531
     },
     {
       "id": "194998",
       "nombre": "Edison Flores",
       "posicion": "Centre-Forward",
-      "partidos": 20,
-      "minutos": 835
+      "partidos": 26,
+      "minutos": 1170
     },
     {
       "id": "440312",
       "nombre": "Bryan Reyna",
       "posicion": "Left Winger",
-      "partidos": 10,
-      "minutos": 238
+      "partidos": 14,
+      "minutos": 351
     },
     {
       "id": "130394",
       "nombre": "Gianluca Lapadula",
       "posicion": "Centre-Forward",
-      "partidos": 10,
-      "minutos": 555
+      "partidos": 16,
+      "minutos": 1023
     },
     {
       "id": "424024",
       "nombre": "Héctor Fértoli",
       "posicion": "Left Winger",
-      "partidos": 20,
-      "minutos": 732
+      "partidos": 22,
+      "minutos": 767
     },
     {
       "id": "337070",
@@ -330,8 +330,8 @@
       "id": "396920",
       "nombre": "Lisandro Alzugaray",
       "posicion": "Right Winger",
-      "partidos": 24,
-      "minutos": 1369
+      "partidos": 29,
+      "minutos": 1486
     },
     {
       "id": "1369249",

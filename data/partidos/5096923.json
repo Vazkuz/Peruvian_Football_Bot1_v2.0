@@ -1,0 +1,495 @@
+{
+  "partido_id": "5096923",
+  "ruta": "/spielbericht/index/spielbericht/5096923",
+  "fecha_extraccion": "2026-11-16T01:19:24",
+  "equipos": [
+    {
+      "club_id": "76945",
+      "club_nombre": "Deportivo Garcilaso",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "342051",
+          "nombre": "Zubczuk",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "524311",
+          "nombre": "Gómez",
+          "dorsal": 19,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "279380",
+          "nombre": "Salazar",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "356381",
+          "nombre": "Rosell",
+          "dorsal": 20,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "741413",
+          "nombre": "Canales",
+          "dorsal": 55,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "438000",
+          "nombre": "González",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "458906",
+          "nombre": "Ramos",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "810550",
+          "nombre": "Ascues",
+          "dorsal": 27,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "279057",
+          "nombre": "da Silva",
+          "dorsal": 30,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "443350",
+          "nombre": "Castelli",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "527625",
+          "nombre": "Olivares",
+          "dorsal": 24,
+          "top": 18.0,
+          "left": 65.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "456161",
+          "nombre": "Juniors Barbieri",
+          "dorsal": 31,
+          "posicion": "GK"
+        },
+        {
+          "id": "582098",
+          "nombre": "Jefferson Portales",
+          "dorsal": 22,
+          "posicion": "CB"
+        },
+        {
+          "id": "1141361",
+          "nombre": "Samir Villacorta",
+          "dorsal": 33,
+          "posicion": "RB"
+        },
+        {
+          "id": "168974",
+          "nombre": "Claudio Torrejón",
+          "dorsal": 14,
+          "posicion": "DM"
+        },
+        {
+          "id": "1568213",
+          "nombre": "César Flores",
+          "dorsal": 6,
+          "posicion": "DM"
+        },
+        {
+          "id": "818970",
+          "nombre": "Sharif Ramírez",
+          "dorsal": 17,
+          "posicion": "AM"
+        },
+        {
+          "id": "912299",
+          "nombre": "Lucas Ríos",
+          "dorsal": 7,
+          "posicion": "LW"
+        },
+        {
+          "id": "1371975",
+          "nombre": "Joao Mendoza",
+          "dorsal": 35,
+          "posicion": "RW"
+        },
+        {
+          "id": "1496665",
+          "nombre": "Bryan Yupanqui",
+          "dorsal": 34,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "47107",
+      "club_nombre": "Comerciantes Unidos",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "805148",
+          "nombre": "Córdova",
+          "dorsal": 17,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "891814",
+          "nombre": "Alcedo",
+          "dorsal": 40,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "671846",
+          "nombre": "Rodríguez",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "292729",
+          "nombre": "Cossio",
+          "dorsal": 15,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "897924",
+          "nombre": "Rodríguez",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "639458",
+          "nombre": "Parodi",
+          "dorsal": 20,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "1076593",
+          "nombre": "Salinas",
+          "dorsal": 14,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "639763",
+          "nombre": "Vilca",
+          "dorsal": 25,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "641826",
+          "nombre": "Herrera",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "1182403",
+          "nombre": "Olivares",
+          "dorsal": 50,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "347003",
+          "nombre": "Sen",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "441704",
+          "nombre": "José Charún",
+          "dorsal": 99,
+          "posicion": "GK"
+        },
+        {
+          "id": "871653",
+          "nombre": "Piero Guzmán",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "661866",
+          "nombre": "Daniel Lino",
+          "dorsal": 19,
+          "posicion": "LB"
+        },
+        {
+          "id": "832217",
+          "nombre": "Yimy Gamero",
+          "dorsal": 54,
+          "posicion": "DM"
+        },
+        {
+          "id": "325589",
+          "nombre": "Alexis Arias",
+          "dorsal": 4,
+          "posicion": "CM"
+        },
+        {
+          "id": "739725",
+          "nombre": "Mathías Carpio",
+          "dorsal": 10,
+          "posicion": "LW"
+        },
+        {
+          "id": "1484029",
+          "nombre": "Marco Guevara",
+          "dorsal": 35,
+          "posicion": "LW"
+        },
+        {
+          "id": "653429",
+          "nombre": "Jhon Sánchez",
+          "dorsal": 32,
+          "posicion": "RW"
+        },
+        {
+          "id": "458756",
+          "nombre": "Maximiliano Pérez",
+          "dorsal": 13,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [],
+  "cambios": [
+    {
+      "club_id": "47107",
+      "minuto": 63,
+      "anadido": 0,
+      "sale": {
+        "id": "897924",
+        "nombre": "Agustín Rodríguez"
+      },
+      "entra": {
+        "id": "325589",
+        "nombre": "Alexis Arias"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 63,
+      "anadido": 0,
+      "sale": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      },
+      "entra": {
+        "id": "653429",
+        "nombre": "Jhon Sánchez"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 64,
+      "anadido": 0,
+      "sale": {
+        "id": "641826",
+        "nombre": "Josuee Herrera"
+      },
+      "entra": {
+        "id": "739725",
+        "nombre": "Mathías Carpio"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "810550",
+        "nombre": "Adrián Ascues"
+      },
+      "entra": {
+        "id": "818970",
+        "nombre": "Sharif Ramírez"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "527625",
+        "nombre": "Christopher Olivares"
+      },
+      "entra": {
+        "id": "912299",
+        "nombre": "Lucas Ríos"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "639458",
+        "nombre": "José Parodi"
+      },
+      "entra": {
+        "id": "871653",
+        "nombre": "Piero Guzmán"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 90,
+      "anadido": 5,
+      "sale": {
+        "id": "739725",
+        "nombre": "Mathías Carpio"
+      },
+      "entra": {
+        "id": "832217",
+        "nombre": "Yimy Gamero"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "76945",
+      "minuto": 7,
+      "anadido": 0,
+      "jugador": {
+        "id": "458906",
+        "nombre": "Carlos Ramos"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Ramos 5. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 42,
+      "anadido": 0,
+      "jugador": {
+        "id": "639458",
+        "nombre": "José Parodi"
+      },
+      "tipo": "amarilla",
+      "detalle": "José Parodi 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 47,
+      "anadido": 0,
+      "jugador": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jean Carlo Olivares 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 54,
+      "anadido": 0,
+      "jugador": {
+        "id": "671846",
+        "nombre": "Juan Rodríguez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Juan Rodríguez 5. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 55,
+      "anadido": 0,
+      "jugador": {
+        "id": "639763",
+        "nombre": "Rodrigo Vilca"
+      },
+      "tipo": "amarilla",
+      "detalle": "Rodrigo Vilca 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 77,
+      "anadido": 0,
+      "jugador": {
+        "id": "347003",
+        "nombre": "Matías Sen"
+      },
+      "tipo": "amarilla",
+      "detalle": "Matías Sen 5. Yellow card , Dissent"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 78,
+      "anadido": 0,
+      "jugador": {
+        "id": "741413",
+        "nombre": "Erick Canales"
+      },
+      "tipo": "amarilla",
+      "detalle": "Erick Canales 2. Yellow card , Dissent"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 87,
+      "anadido": 0,
+      "jugador": {
+        "id": "456161",
+        "nombre": "Juniors Barbieri"
+      },
+      "tipo": "roja",
+      "detalle": "Juniors Barbieri Red card , Violent conduct"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 89,
+      "anadido": 0,
+      "jugador": {
+        "id": "1076593",
+        "nombre": "Thiago Salinas"
+      },
+      "tipo": "roja",
+      "detalle": "Thiago Salinas Red card , Violent conduct"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 90,
+      "anadido": 4,
+      "jugador": {
+        "id": "891814",
+        "nombre": "Flavio Alcedo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Flavio Alcedo 5. Yellow card , Foul"
+    }
+  ]
+}

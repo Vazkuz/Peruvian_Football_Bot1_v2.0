@@ -2,14 +2,14 @@
   "club_id": "28999",
   "club_nombre": "Cusco FC",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:04:03",
+  "fecha_extraccion": "2026-11-16T00:35:49",
   "jugadores": [
     {
       "id": "653363",
       "nombre": "Pedro Díaz",
       "posicion": "Goalkeeper",
-      "partidos": 31,
-      "minutos": 2726
+      "partidos": 37,
+      "minutos": 3266
     },
     {
       "id": "227796",
@@ -43,22 +43,22 @@
       "id": "655641",
       "nombre": "Carlos Gamarra",
       "posicion": "Centre-Back",
-      "partidos": 21,
-      "minutos": 1218
+      "partidos": 27,
+      "minutos": 1758
     },
     {
       "id": "738710",
       "nombre": "Marlon Ruidías",
       "posicion": "Right-Back",
-      "partidos": 26,
-      "minutos": 2011
+      "partidos": 32,
+      "minutos": 2279
     },
     {
       "id": "752999",
       "nombre": "Gu-rum Choi",
       "posicion": "Centre-Back",
-      "partidos": 6,
-      "minutos": 378
+      "partidos": 7,
+      "minutos": 394
     },
     {
       "id": "433698",
@@ -71,15 +71,15 @@
       "id": "653364",
       "nombre": "Ricardo Lagos",
       "posicion": "Left-Back",
-      "partidos": 10,
-      "minutos": 867
+      "partidos": 15,
+      "minutos": 1267
     },
     {
       "id": "480523",
       "nombre": "Aldair Fuentes",
       "posicion": "Centre-Back",
-      "partidos": 31,
-      "minutos": 2696
+      "partidos": 35,
+      "minutos": 3011
     },
     {
       "id": "747666",
@@ -92,15 +92,15 @@
       "id": "621037",
       "nombre": "José Zevallos",
       "posicion": "Right-Back",
-      "partidos": 26,
-      "minutos": 1874
+      "partidos": 32,
+      "minutos": 2287
     },
     {
       "id": "195002",
       "nombre": "Álvaro Ampuero",
       "posicion": "Centre-Back",
-      "partidos": 29,
-      "minutos": 2540
+      "partidos": 32,
+      "minutos": 2762
     },
     {
       "id": "1211527",
@@ -141,22 +141,22 @@
       "id": "662605",
       "nombre": "Diego Soto",
       "posicion": "Central Midfield",
-      "partidos": 32,
-      "minutos": 2105
+      "partidos": 38,
+      "minutos": 2544
     },
     {
       "id": "380603",
       "nombre": "Iván Colman",
       "posicion": "Attacking Midfield",
-      "partidos": 33,
-      "minutos": 2360
+      "partidos": 39,
+      "minutos": 2877
     },
     {
       "id": "654298",
       "nombre": "Oswaldo Valenzuela",
       "posicion": "Defensive Midfield",
-      "partidos": 31,
-      "minutos": 1942
+      "partidos": 34,
+      "minutos": 1956
     },
     {
       "id": "451950",
@@ -169,22 +169,22 @@
       "id": "351561",
       "nombre": "Carlo Diez",
       "posicion": "Defensive Midfield",
-      "partidos": 27,
-      "minutos": 1290
+      "partidos": 31,
+      "minutos": 1418
     },
     {
       "id": "507653",
       "nombre": "Carlos Montaño",
       "posicion": "Defensive Midfield",
-      "partidos": 9,
-      "minutos": 683
+      "partidos": 15,
+      "minutos": 1185
     },
     {
       "id": "662338",
       "nombre": "Miguel Silveira",
       "posicion": "Attacking Midfield",
-      "partidos": 7,
-      "minutos": 267
+      "partidos": 9,
+      "minutos": 339
     },
     {
       "id": "280157",
@@ -253,29 +253,29 @@
       "id": "268031",
       "nombre": "Facundo Callejo",
       "posicion": "Centre-Forward",
-      "partidos": 28,
-      "minutos": 1987
+      "partidos": 34,
+      "minutos": 2511
     },
     {
       "id": "329212",
       "nombre": "Lucas Colitto",
-      "posicion": "Right Winger",
-      "partidos": 28,
-      "minutos": 1918
+      "posicion": "Left Winger",
+      "partidos": 34,
+      "minutos": 2286
     },
     {
       "id": "279387",
       "nombre": "José Manzaneda",
       "posicion": "Left Winger",
-      "partidos": 31,
-      "minutos": 1582
+      "partidos": 35,
+      "minutos": 1853
     },
     {
       "id": "981817",
       "nombre": "Joel Herrera",
       "posicion": "Right Winger",
-      "partidos": 13,
-      "minutos": 376
+      "partidos": 15,
+      "minutos": 409
     },
     {
       "id": "1368957",
@@ -288,15 +288,15 @@
       "id": "422914",
       "nombre": "Nicolás Silva",
       "posicion": "Right Winger",
-      "partidos": 33,
-      "minutos": 1539
+      "partidos": 39,
+      "minutos": 1753
     },
     {
       "id": "210553",
       "nombre": "Juan Manuel Tévez",
       "posicion": "Centre-Forward",
-      "partidos": 33,
-      "minutos": 1308
+      "partidos": 37,
+      "minutos": 1357
     },
     {
       "id": "1558893",

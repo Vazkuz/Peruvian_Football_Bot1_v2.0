@@ -3,7 +3,7 @@
   "club_nombre": "Cusco FC",
   "formacion": "4-3-3",
   "variante": "4-3-3 Attacking",
-  "fecha_generacion": "2026-10-03T00:44:01",
+  "fecha_generacion": "2026-11-16T01:49:58",
   "casillas": [
     {
       "casilla": 1,
@@ -12,13 +12,13 @@
         "id": "653363",
         "nombre": "Pedro Díaz",
         "rol": "arquero",
-        "puntaje": 18.185
+        "puntaje": 33.326
       },
       "suplente": {
         "id": "227796",
         "nombre": "Andy Vidal",
         "rol": "arquero",
-        "puntaje": 5.796,
+        "puntaje": 4.905,
         "origen": "minutos"
       }
     },
@@ -29,13 +29,13 @@
         "id": "653364",
         "nombre": "Ricardo Lagos",
         "rol": "lateral_izq",
-        "puntaje": 23.187
+        "puntaje": 33.002
       },
       "suplente": {
         "id": "433698",
         "nombre": "José Bolívar",
         "rol": "lateral_izq",
-        "puntaje": 0.168,
+        "puntaje": 0.156,
         "origen": "minutos"
       }
     },
@@ -46,13 +46,13 @@
         "id": "195002",
         "nombre": "Álvaro Ampuero",
         "rol": "central",
-        "puntaje": 21.579
+        "puntaje": 26.446
       },
       "suplente": {
         "id": "655641",
         "nombre": "Carlos Gamarra",
         "rol": "central",
-        "puntaje": 8.959,
+        "puntaje": 25.018,
         "origen": "minutos"
       }
     },
@@ -63,15 +63,14 @@
         "id": "480523",
         "nombre": "Aldair Fuentes",
         "rol": "central",
-        "puntaje": 18.455
+        "puntaje": 25.752
       },
       "suplente": {
         "id": "752999",
         "nombre": "Gu-rum Choi",
         "rol": "central",
-        "puntaje": 0,
-        "origen": "banca",
-        "convocatorias": 1
+        "puntaje": 0.616,
+        "origen": "minutos"
       }
     },
     {
@@ -81,13 +80,13 @@
         "id": "621037",
         "nombre": "José Zevallos",
         "rol": "lateral_der",
-        "puntaje": 23.943
+        "puntaje": 31.509
       },
       "suplente": {
         "id": "738710",
         "nombre": "Marlon Ruidías",
         "rol": "lateral_der",
-        "puntaje": 1.219,
+        "puntaje": 9.317,
         "origen": "minutos"
       }
     },
@@ -98,13 +97,13 @@
         "id": "380603",
         "nombre": "Iván Colman",
         "rol": "volante_central",
-        "puntaje": 20.849
+        "puntaje": 34.735
       },
       "suplente": {
         "id": "351561",
         "nombre": "Carlo Diez",
         "rol": "volante_central",
-        "puntaje": 7.455,
+        "puntaje": 7.705,
         "origen": "minutos"
       }
     },
@@ -115,13 +114,13 @@
         "id": "507653",
         "nombre": "Carlos Montaño",
         "rol": "volante_defensivo",
-        "puntaje": 17.499
+        "puntaje": 29.121
       },
       "suplente": {
         "id": "654298",
         "nombre": "Oswaldo Valenzuela",
         "rol": "volante_defensivo",
-        "puntaje": 2.566,
+        "puntaje": 2.564,
         "origen": "minutos"
       }
     },
@@ -132,13 +131,13 @@
         "id": "662605",
         "nombre": "Diego Soto",
         "rol": "volante_central",
-        "puntaje": 9.684
+        "puntaje": 22.75
       },
       "suplente": {
         "id": "981817",
         "nombre": "Joel Herrera",
         "rol": "volante_central",
-        "puntaje": 0.908,
+        "puntaje": 1.856,
         "reemplazo_de_rol": "volante_extremo_der",
         "origen": "reemplazo"
       }
@@ -150,13 +149,13 @@
         "id": "279387",
         "nombre": "José Manzaneda",
         "rol": "volante_extremo_izq",
-        "puntaje": 10.206
+        "puntaje": 17.311
       },
       "suplente": {
         "id": "662338",
         "nombre": "Miguel Silveira",
         "rol": "volante_extremo_izq",
-        "puntaje": 2.222,
+        "puntaje": 4.198,
         "origen": "minutos"
       }
     },
@@ -167,13 +166,13 @@
         "id": "268031",
         "nombre": "Facundo Callejo",
         "rol": "delantero",
-        "puntaje": 19.719
+        "puntaje": 33.971
       },
       "suplente": {
         "id": "210553",
         "nombre": "Juan Manuel Tévez",
         "rol": "delantero",
-        "puntaje": 6.213,
+        "puntaje": 6.825,
         "origen": "minutos"
       }
     },
@@ -184,13 +183,13 @@
         "id": "329212",
         "nombre": "Lucas Colitto",
         "rol": "volante_extremo_der",
-        "puntaje": 13.829
+        "puntaje": 22.339
       },
       "suplente": {
         "id": "422914",
         "nombre": "Nicolás Silva",
         "rol": "volante_extremo_der",
-        "puntaje": 9.954,
+        "puntaje": 13.289,
         "origen": "minutos"
       }
     }

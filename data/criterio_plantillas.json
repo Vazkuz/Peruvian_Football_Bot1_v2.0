@@ -1,22 +1,22 @@
 {
   "tabla_clausura": [
-    {"posicion": 1, "club_id": "76945", "nombre": "Deportivo Garcilaso"},
-    {"posicion": 2, "club_id": "6593", "nombre": "Universitario de Deportes"},
-    {"posicion": 3, "club_id": "1450", "nombre": "Club Sporting Cristal"},
-    {"posicion": 4, "club_id": "17479", "nombre": "Alianza Atlético Sullana"},
-    {"posicion": 5, "club_id": "21655", "nombre": "Sport Huancayo"},
-    {"posicion": 6, "club_id": "99517", "nombre": "Club Juan Pablo II College"},
-    {"posicion": 7, "club_id": "2734", "nombre": "FBC Melgar"},
+    {"posicion": 1, "club_id": "21655", "nombre": "Sport Huancayo"},
+    {"posicion": 2, "club_id": "1450", "nombre": "Club Sporting Cristal"},
+    {"posicion": 3, "club_id": "6593", "nombre": "Universitario de Deportes"},
+    {"posicion": 4, "club_id": "76945", "nombre": "Deportivo Garcilaso"},
+    {"posicion": 5, "club_id": "2734", "nombre": "FBC Melgar"},
+    {"posicion": 6, "club_id": "184", "nombre": "Club Alianza Lima"},
+    {"posicion": 7, "club_id": "17479", "nombre": "Alianza Atlético Sullana"},
     {"posicion": 8, "club_id": "2730", "nombre": "Sport Boys Association"},
-    {"posicion": 9, "club_id": "28999", "nombre": "Cusco FC"},
-    {"posicion": 10, "club_id": "184", "nombre": "Club Alianza Lima"},
+    {"posicion": 9, "club_id": "99517", "nombre": "Club Juan Pablo II College"},
+    {"posicion": 10, "club_id": "28999", "nombre": "Cusco FC"},
     {"posicion": 11, "club_id": "27861", "nombre": "Club Atlético Grau"},
-    {"posicion": 12, "club_id": "120792", "nombre": "FC Cajamarca"},
-    {"posicion": 13, "club_id": "47107", "nombre": "Comerciantes Unidos"},
-    {"posicion": 14, "club_id": "2729", "nombre": "Club Cienciano"},
+    {"posicion": 12, "club_id": "47107", "nombre": "Comerciantes Unidos"},
+    {"posicion": 13, "club_id": "2729", "nombre": "Club Cienciano"},
+    {"posicion": 14, "club_id": "120792", "nombre": "FC Cajamarca"},
     {"posicion": 15, "club_id": "54478", "nombre": "CD Los Chankas"},
-    {"posicion": 16, "club_id": "114625", "nombre": "Deportivo Moquegua"},
-    {"posicion": 17, "club_id": "35588", "nombre": "Asociación Deportiva Tarma"},
+    {"posicion": 16, "club_id": "35588", "nombre": "Asociación Deportiva Tarma"},
+    {"posicion": 17, "club_id": "114625", "nombre": "Deportivo Moquegua"},
     {"posicion": 18, "club_id": "21170", "nombre": "Universidad Técnica de Cajamarca"}
   ],
   "peso_rival": {
@@ -37,8 +37,7 @@
     {"peso": 2.2, "clubes": ["28999", "76945"], "nombre": "Cusco FC - Garcilaso"}
   ],
   "peso_fecha": {
-    "formula": "1 + (k - 1) / divisor, k = n.o del partido del club en el Clausura por fecha (1 = el mas antiguo)",
-    "divisor": 9
+    "formula": "1 + (k - 1) / (n - 1), k = n.o del partido del club en el Clausura por fecha (1 = el mas antiguo), n = partidos jugados por el club"
   },
   "minutos": {
     "duracion": 90

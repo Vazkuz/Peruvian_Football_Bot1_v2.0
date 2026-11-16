@@ -1,0 +1,473 @@
+{
+  "partido_id": "5074479",
+  "ruta": "/spielbericht/index/spielbericht/5074479",
+  "fecha_extraccion": "2026-11-16T00:55:20",
+  "equipos": [
+    {
+      "club_id": "21170",
+      "club_nombre": "Universidad Técnica de Cajamarca",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "257991",
+          "nombre": "Campos",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "664362",
+          "nombre": "Cavagna",
+          "dorsal": 6,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "873252",
+          "nombre": "Duarte",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "638929",
+          "nombre": "Ganoza",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "903834",
+          "nombre": "Paredes",
+          "dorsal": 35,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "78023",
+          "nombre": "Figuera",
+          "dorsal": 16,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "981410",
+          "nombre": "Cantt",
+          "dorsal": 15,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "399496",
+          "nombre": "Lliuya",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "981706",
+          "nombre": "Núñez",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "580632",
+          "nombre": "Camacho",
+          "dorsal": 22,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "97013",
+          "nombre": "de Jesús",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "785134",
+          "nombre": "Ricardo Bettocchi",
+          "dorsal": 21,
+          "posicion": "GK"
+        },
+        {
+          "id": "291339",
+          "nombre": "Ignacio Barrios",
+          "dorsal": 29,
+          "posicion": "GK"
+        },
+        {
+          "id": "621028",
+          "nombre": "Dylan Caro",
+          "dorsal": 13,
+          "posicion": "LB"
+        },
+        {
+          "id": "473579",
+          "nombre": "Luis Garro",
+          "dorsal": 17,
+          "posicion": "RB"
+        },
+        {
+          "id": "653329",
+          "nombre": "Luis Arce",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "368417",
+          "nombre": "Adolfo Muñoz",
+          "dorsal": 19,
+          "posicion": "LW"
+        },
+        {
+          "id": "1102802",
+          "nombre": "Santiago Gálvez",
+          "dorsal": 18,
+          "posicion": "RW"
+        },
+        {
+          "id": "283472",
+          "nombre": "Abdiel Arroyo",
+          "dorsal": 11,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "1450",
+      "club_nombre": "Club Sporting Cristal",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "662693",
+          "nombre": "Enríquez",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "211420",
+          "nombre": "Araujo",
+          "dorsal": 20,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "665112",
+          "nombre": "Lutiger",
+          "dorsal": 5,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "375813",
+          "nombre": "Cristiano",
+          "dorsal": 90,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "248094",
+          "nombre": "Sosa",
+          "dorsal": 8,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "577258",
+          "nombre": "Álvarez",
+          "dorsal": 6,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "94880",
+          "nombre": "Yotún",
+          "dorsal": 19,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "1226873",
+          "nombre": "Castro",
+          "dorsal": 23,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "597455",
+          "nombre": "González",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "138387",
+          "nombre": "Hoyos",
+          "dorsal": 22,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "325667",
+          "nombre": "Iberico",
+          "dorsal": 16,
+          "top": 23.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1239934",
+          "nombre": "César Bautista",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "330684",
+          "nombre": "Luis Abram",
+          "dorsal": 96,
+          "posicion": "CB"
+        },
+        {
+          "id": "457536",
+          "nombre": "Juan González",
+          "dorsal": 18,
+          "posicion": "RB"
+        },
+        {
+          "id": "1011264",
+          "nombre": "Catriel Cabellos",
+          "dorsal": 21,
+          "posicion": "CM"
+        },
+        {
+          "id": "441718",
+          "nombre": "Martín Távara",
+          "dorsal": 25,
+          "posicion": "CM"
+        },
+        {
+          "id": "174570",
+          "nombre": "Gabriel",
+          "dorsal": 27,
+          "posicion": "AM"
+        },
+        {
+          "id": "660840",
+          "nombre": "Juan Manuel Cuesta",
+          "dorsal": 77,
+          "posicion": "LW"
+        },
+        {
+          "id": "82589",
+          "nombre": "Írven Ávila",
+          "dorsal": 11,
+          "posicion": "CF"
+        },
+        {
+          "id": "53847",
+          "nombre": "Hernán Barcos",
+          "dorsal": 29,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "1450",
+      "minuto": 12,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "325667",
+        "nombre": "Luis Iberico"
+      },
+      "asistencia": {
+        "id": "94880",
+        "nombre": "Yoshimar Yotún"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "21170",
+      "minuto": 57,
+      "anadido": 0,
+      "sale": {
+        "id": "981706",
+        "nombre": "Jhosep Núñez"
+      },
+      "entra": {
+        "id": "368417",
+        "nombre": "Adolfo Muñoz"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "981410",
+        "nombre": "Joshua Cantt"
+      },
+      "entra": {
+        "id": "283472",
+        "nombre": "Abdiel Arroyo"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 69,
+      "anadido": 0,
+      "sale": {
+        "id": "325667",
+        "nombre": "Luis Iberico"
+      },
+      "entra": {
+        "id": "174570",
+        "nombre": "Gabriel"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 69,
+      "anadido": 0,
+      "sale": {
+        "id": "1226873",
+        "nombre": "Maxloren Castro"
+      },
+      "entra": {
+        "id": "330684",
+        "nombre": "Luis Abram"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "138387",
+        "nombre": "Michael Hoyos"
+      },
+      "entra": {
+        "id": "53847",
+        "nombre": "Hernán Barcos"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "94880",
+        "nombre": "Yoshimar Yotún"
+      },
+      "entra": {
+        "id": "441718",
+        "nombre": "Martín Távara"
+      }
+    },
+    {
+      "club_id": "1450",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "597455",
+        "nombre": "Santiago González"
+      },
+      "entra": {
+        "id": "660840",
+        "nombre": "Juan Manuel Cuesta"
+      }
+    },
+    {
+      "club_id": "21170",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "97013",
+        "nombre": "Marlon de Jesús"
+      },
+      "entra": {
+        "id": "1102802",
+        "nombre": "Santiago Gálvez"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "21170",
+      "minuto": 20,
+      "anadido": 0,
+      "jugador": {
+        "id": "903834",
+        "nombre": "Gilmar Paredes"
+      },
+      "tipo": "amarilla",
+      "detalle": "Gilmar Paredes 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "1450",
+      "minuto": 31,
+      "anadido": 0,
+      "jugador": {
+        "id": "597455",
+        "nombre": "Santiago González"
+      },
+      "tipo": "amarilla",
+      "detalle": "Santiago González 4. Yellow card , Diving"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 51,
+      "anadido": 0,
+      "jugador": {
+        "id": "78023",
+        "nombre": "Arquímedes Figuera"
+      },
+      "tipo": "amarilla",
+      "detalle": "Arquímedes Figuera 7. Yellow card , Foul"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 56,
+      "anadido": 0,
+      "jugador": {
+        "id": "638929",
+        "nombre": "Manuel Ganoza"
+      },
+      "tipo": "amarilla",
+      "detalle": "Manuel Ganoza 4. Yellow card , Foul"
+    },
+    {
+      "club_id": "1450",
+      "minuto": 72,
+      "anadido": 0,
+      "jugador": {
+        "id": "138387",
+        "nombre": "Michael Hoyos"
+      },
+      "tipo": "amarilla",
+      "detalle": "Michael Hoyos 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "21170",
+      "minuto": 82,
+      "anadido": 0,
+      "jugador": {
+        "id": "903834",
+        "nombre": "Gilmar Paredes"
+      },
+      "tipo": "doble_amarilla",
+      "detalle": "Gilmar Paredes Second yellow , Foul"
+    }
+  ]
+}

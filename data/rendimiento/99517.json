@@ -2,7 +2,7 @@
   "club_id": "99517",
   "club_nombre": "Club Juan Pablo II College",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:07:41",
+  "fecha_extraccion": "2026-11-16T00:39:26",
   "jugadores": [
     {
       "id": "670062",
@@ -22,15 +22,15 @@
       "id": "75445",
       "nombre": "Matías Vega",
       "posicion": "Goalkeeper",
-      "partidos": 29,
-      "minutos": 2610
+      "partidos": 36,
+      "minutos": 3240
     },
     {
       "id": "655639",
       "nombre": "Paolo Reyna",
       "posicion": "Left-Back",
-      "partidos": 9,
-      "minutos": 772
+      "partidos": 15,
+      "minutos": 1251
     },
     {
       "id": "375178",
@@ -50,15 +50,15 @@
       "id": "672263",
       "nombre": "Hugo Ancajima",
       "posicion": "Right-Back",
-      "partidos": 2,
-      "minutos": 71
+      "partidos": 9,
+      "minutos": 666
     },
     {
       "id": "662695",
       "nombre": "Arón Sánchez",
       "posicion": "Centre-Back",
-      "partidos": 14,
-      "minutos": 1207
+      "partidos": 21,
+      "minutos": 1758
     },
     {
       "id": "1236520",
@@ -78,22 +78,22 @@
       "id": "489993",
       "nombre": "Jorge Toledo",
       "posicion": "Right-Back",
-      "partidos": 25,
-      "minutos": 1703
+      "partidos": 32,
+      "minutos": 2333
     },
     {
       "id": "737739",
       "nombre": "Piero Antón",
       "posicion": "Left-Back",
-      "partidos": 13,
-      "minutos": 545
+      "partidos": 14,
+      "minutos": 565
     },
     {
       "id": "936044",
       "nombre": "Matías Almirón",
       "posicion": "Centre-Back",
-      "partidos": 10,
-      "minutos": 855
+      "partidos": 12,
+      "minutos": 955
     },
     {
       "id": "1243429",
@@ -106,8 +106,8 @@
       "id": "76717",
       "nombre": "Pablo Míguez",
       "posicion": "Centre-Back",
-      "partidos": 10,
-      "minutos": 855
+      "partidos": 16,
+      "minutos": 1395
     },
     {
       "id": "1508623",
@@ -120,29 +120,29 @@
       "id": "1107110",
       "nombre": "Nilton Ramirez",
       "posicion": "Attacking Midfield",
-      "partidos": 22,
-      "minutos": 1186
+      "partidos": 29,
+      "minutos": 1545
     },
     {
       "id": "1074429",
       "nombre": "Álvaro Rojas",
       "posicion": "Central Midfield",
-      "partidos": 9,
-      "minutos": 711
+      "partidos": 15,
+      "minutos": 1197
     },
     {
       "id": "867036",
       "nombre": "Christian Flores",
       "posicion": "Defensive Midfield",
-      "partidos": 24,
-      "minutos": 1505
+      "partidos": 28,
+      "minutos": 1664
     },
     {
       "id": "422934",
       "nombre": "Erinson Ramírez",
       "posicion": "Attacking Midfield",
-      "partidos": 25,
-      "minutos": 1623
+      "partidos": 31,
+      "minutos": 2052
     },
     {
       "id": "204587",
@@ -169,8 +169,8 @@
       "id": "1011265",
       "nombre": "Jack Carhuallanqui",
       "posicion": "Defensive Midfield",
-      "partidos": 3,
-      "minutos": 79
+      "partidos": 8,
+      "minutos": 359
     },
     {
       "id": "143726",
@@ -211,8 +211,8 @@
       "id": "982005",
       "nombre": "Chase Villanueva",
       "posicion": "Right Winger",
-      "partidos": 6,
-      "minutos": 159
+      "partidos": 7,
+      "minutos": 185
     },
     {
       "id": "672132",
@@ -225,29 +225,29 @@
       "id": "1244025",
       "nombre": "Josué Torres",
       "posicion": "Left Winger",
-      "partidos": 7,
-      "minutos": 272
+      "partidos": 9,
+      "minutos": 354
     },
     {
       "id": "1020367",
       "nombre": "Adán Henricks",
       "posicion": "Centre-Forward",
-      "partidos": 17,
-      "minutos": 567
+      "partidos": 18,
+      "minutos": 575
     },
     {
       "id": "1029760",
       "nombre": "Juan Pablo Goicochea",
       "posicion": "Centre-Forward",
-      "partidos": 6,
-      "minutos": 447
+      "partidos": 13,
+      "minutos": 987
     },
     {
       "id": "670523",
       "nombre": "Héctor Bazán",
       "posicion": "Centre-Forward",
-      "partidos": 13,
-      "minutos": 269
+      "partidos": 20,
+      "minutos": 444
     },
     {
       "id": "1308034",
@@ -267,29 +267,29 @@
       "id": "174580",
       "nombre": "Jack Durán",
       "posicion": "Right Winger",
-      "partidos": 27,
-      "minutos": 2031
+      "partidos": 33,
+      "minutos": 2193
     },
     {
       "id": "94761",
       "nombre": "Janio Pósito",
       "posicion": "Centre-Forward",
-      "partidos": 9,
-      "minutos": 557
+      "partidos": 16,
+      "minutos": 961
     },
     {
       "id": "1076583",
       "nombre": "Mateo Rodríguez",
       "posicion": "Centre-Forward",
-      "partidos": 5,
-      "minutos": 136
+      "partidos": 12,
+      "minutos": 366
     },
     {
       "id": "1426206",
       "nombre": "Jorge Barreto",
       "posicion": "Right Winger",
-      "partidos": 6,
-      "minutos": 64
+      "partidos": 7,
+      "minutos": 101
     },
     {
       "id": "653527",

@@ -1,0 +1,530 @@
+{
+  "partido_id": "5074486",
+  "ruta": "/spielbericht/index/spielbericht/5074486",
+  "fecha_extraccion": "2026-11-16T00:58:55",
+  "equipos": [
+    {
+      "club_id": "184",
+      "club_nombre": "Club Alianza Lima",
+      "local": true,
+      "formacion": "4-3-1-2",
+      "titulares": [
+        {
+          "id": "158515",
+          "nombre": "Duarte",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "988661",
+          "nombre": "Antoni",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "335677",
+          "nombre": "Garcés",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "103890",
+          "nombre": "Advíncula",
+          "dorsal": 17,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "837617",
+          "nombre": "Huamán",
+          "dorsal": 13,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "131233",
+          "nombre": "Pavez",
+          "dorsal": 5,
+          "top": 42.0,
+          "left": 40.0
+        },
+        {
+          "id": "147263",
+          "nombre": "Gaibor",
+          "dorsal": 7,
+          "top": 42.0,
+          "left": 15.0
+        },
+        {
+          "id": "323432",
+          "nombre": "Vélez",
+          "dorsal": 20,
+          "top": 42.0,
+          "left": 65.0
+        },
+        {
+          "id": "266451",
+          "nombre": "Castillo",
+          "dorsal": 8,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "439631",
+          "nombre": "Quevedo",
+          "dorsal": 27,
+          "top": 22.0,
+          "left": 40.0
+        },
+        {
+          "id": "639149",
+          "nombre": "Girotti",
+          "dorsal": 99,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "662712",
+          "nombre": "Ángel de la Cruz",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "441727",
+          "nombre": "Gianfranco Chávez",
+          "dorsal": 4,
+          "posicion": "CB"
+        },
+        {
+          "id": "539067",
+          "nombre": "Nicolás Díaz",
+          "dorsal": 2,
+          "posicion": "CB"
+        },
+        {
+          "id": "656061",
+          "nombre": "Cristian Carbajal",
+          "dorsal": 31,
+          "posicion": "LB"
+        },
+        {
+          "id": "582655",
+          "nombre": "Jesús Castillo",
+          "dorsal": 15,
+          "posicion": "DM"
+        },
+        {
+          "id": "1328288",
+          "nombre": "Piero Cari",
+          "dorsal": 21,
+          "posicion": "AM"
+        },
+        {
+          "id": "836494",
+          "nombre": "Alan Cantero",
+          "dorsal": 11,
+          "posicion": "LW"
+        },
+        {
+          "id": "537255",
+          "nombre": "Gaspar Gentile",
+          "dorsal": 25,
+          "posicion": "LW"
+        },
+        {
+          "id": "687529",
+          "nombre": "Luis Ramos",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "27861",
+      "club_nombre": "Club Atlético Grau",
+      "local": false,
+      "formacion": "5-3-2",
+      "titulares": [
+        {
+          "id": "250711",
+          "nombre": "Álvarez",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "284306",
+          "nombre": "Acevedo",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 56.5
+        },
+        {
+          "id": "460830",
+          "nombre": "Tapia",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 40.0
+        },
+        {
+          "id": "422398",
+          "nombre": "Tapia",
+          "dorsal": 27,
+          "top": 61.0,
+          "left": 23.5
+        },
+        {
+          "id": "981804",
+          "nombre": "Alfaro",
+          "dorsal": 25,
+          "top": 59.0,
+          "left": 7.0
+        },
+        {
+          "id": "639467",
+          "nombre": "Vásquez",
+          "dorsal": 8,
+          "top": 59.0,
+          "left": 73.0
+        },
+        {
+          "id": "250737",
+          "nombre": "Guarderas",
+          "dorsal": 5,
+          "top": 38.0,
+          "left": 55.0
+        },
+        {
+          "id": "491560",
+          "nombre": "Oncoy",
+          "dorsal": 13,
+          "top": 38.0,
+          "left": 25.0
+        },
+        {
+          "id": "572038",
+          "nombre": "Barreto",
+          "dorsal": 7,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "892756",
+          "nombre": "Vásquez",
+          "dorsal": 20,
+          "top": 2.0,
+          "left": 30.0
+        },
+        {
+          "id": "239623",
+          "nombre": "Fernández",
+          "dorsal": 99,
+          "top": 2.0,
+          "left": 50.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "639452",
+          "nombre": "Aamet Calderón",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "864707",
+          "nombre": "José Ataupillco",
+          "dorsal": 16,
+          "posicion": "CB"
+        },
+        {
+          "id": "325711",
+          "nombre": "Elsar Rodas",
+          "dorsal": 6,
+          "posicion": "LB"
+        },
+        {
+          "id": "865640",
+          "nombre": "Diego Rodríguez",
+          "dorsal": 4,
+          "posicion": "RB"
+        },
+        {
+          "id": "1102800",
+          "nombre": "Eslyn Correa",
+          "dorsal": 21,
+          "posicion": "CM"
+        },
+        {
+          "id": "196037",
+          "nombre": "Pablo Lavandeira",
+          "dorsal": 15,
+          "posicion": "AM"
+        },
+        {
+          "id": "422855",
+          "nombre": "Luis Benites",
+          "dorsal": 96,
+          "posicion": "LW"
+        },
+        {
+          "id": "372163",
+          "nombre": "Nicolás Delgadillo",
+          "dorsal": 11,
+          "posicion": "LW"
+        },
+        {
+          "id": "869156",
+          "nombre": "Yamir Ruidíaz",
+          "dorsal": 24,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "184",
+      "minuto": 11,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "439631",
+        "nombre": "Kevin Quevedo"
+      },
+      "asistencia": {
+        "id": "639149",
+        "nombre": "Federico Girotti"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 44,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "892756",
+        "nombre": "Aldair Vásquez"
+      },
+      "asistencia": {
+        "id": "981804",
+        "nombre": "Gabriel Alfaro"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 50,
+      "anadido": 0,
+      "marcador": "2:1",
+      "autor": {
+        "id": "266451",
+        "nombre": "Eryc Castillo"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "184",
+      "minuto": 83,
+      "anadido": 0,
+      "marcador": "3:1",
+      "autor": {
+        "id": "323432",
+        "nombre": "Jairo Vélez"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "184",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "439631",
+        "nombre": "Kevin Quevedo"
+      },
+      "entra": {
+        "id": "537255",
+        "nombre": "Gaspar Gentile"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "131233",
+        "nombre": "Esteban Pavez"
+      },
+      "entra": {
+        "id": "582655",
+        "nombre": "Jesús Castillo"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 54,
+      "anadido": 0,
+      "sale": {
+        "id": "988661",
+        "nombre": "Mateo Antoni"
+      },
+      "entra": {
+        "id": "441727",
+        "nombre": "Gianfranco Chávez"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 61,
+      "anadido": 0,
+      "sale": {
+        "id": "892756",
+        "nombre": "Aldair Vásquez"
+      },
+      "entra": {
+        "id": "196037",
+        "nombre": "Pablo Lavandeira"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 61,
+      "anadido": 0,
+      "sale": {
+        "id": "572038",
+        "nombre": "Diego Barreto"
+      },
+      "entra": {
+        "id": "372163",
+        "nombre": "Nicolás Delgadillo"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "239623",
+        "nombre": "Adrián Fernández"
+      },
+      "entra": {
+        "id": "422855",
+        "nombre": "Luis Benites"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 78,
+      "anadido": 0,
+      "sale": {
+        "id": "422398",
+        "nombre": "Rodrigo Tapia"
+      },
+      "entra": {
+        "id": "869156",
+        "nombre": "Yamir Ruidíaz"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 85,
+      "anadido": 0,
+      "sale": {
+        "id": "266451",
+        "nombre": "Eryc Castillo"
+      },
+      "entra": {
+        "id": "1328288",
+        "nombre": "Piero Cari"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "981804",
+        "nombre": "Gabriel Alfaro"
+      },
+      "entra": {
+        "id": "325711",
+        "nombre": "Elsar Rodas"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 90,
+      "anadido": 2,
+      "sale": {
+        "id": "639149",
+        "nombre": "Federico Girotti"
+      },
+      "entra": {
+        "id": "687529",
+        "nombre": "Luis Ramos"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "184",
+      "minuto": 33,
+      "anadido": 0,
+      "jugador": {
+        "id": "131233",
+        "nombre": "Esteban Pavez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Esteban Pavez 2. Yellow card , Dissent"
+    },
+    {
+      "club_id": "184",
+      "minuto": 45,
+      "anadido": 2,
+      "jugador": {
+        "id": "439631",
+        "nombre": "Kevin Quevedo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Kevin Quevedo 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "27861",
+      "minuto": 65,
+      "anadido": 0,
+      "jugador": {
+        "id": "239623",
+        "nombre": "Adrián Fernández"
+      },
+      "tipo": "amarilla",
+      "detalle": "Adrián Fernández 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "184",
+      "minuto": 81,
+      "anadido": 0,
+      "jugador": {
+        "id": "323432",
+        "nombre": "Jairo Vélez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jairo Vélez 3. Yellow card , Diving"
+    },
+    {
+      "club_id": "184",
+      "minuto": 87,
+      "anadido": 0,
+      "jugador": {
+        "id": "582655",
+        "nombre": "Jesús Castillo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jesús Castillo 1. Yellow card , Foul"
+    }
+  ]
+}

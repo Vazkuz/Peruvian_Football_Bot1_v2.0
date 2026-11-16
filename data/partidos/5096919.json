@@ -1,0 +1,481 @@
+{
+  "partido_id": "5096919",
+  "ruta": "/spielbericht/index/spielbericht/5096919",
+  "fecha_extraccion": "2026-11-16T01:17:20",
+  "equipos": [
+    {
+      "club_id": "54478",
+      "club_nombre": "CD Los Chankas",
+      "local": true,
+      "formacion": "3-4-1-2",
+      "titulares": [
+        {
+          "id": "250407",
+          "nombre": "Camacho",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "294886",
+          "nombre": "Pimienta",
+          "dorsal": 33,
+          "top": 62.0,
+          "left": 40.0
+        },
+        {
+          "id": "725453",
+          "nombre": "González",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 15.0
+        },
+        {
+          "id": "643536",
+          "nombre": "Gonzáles",
+          "dorsal": 26,
+          "top": 61.0,
+          "left": 65.0
+        },
+        {
+          "id": "470023",
+          "nombre": "Guevara",
+          "dorsal": 14,
+          "top": 34.0,
+          "left": 15.0
+        },
+        {
+          "id": "965449",
+          "nombre": "Palomino",
+          "dorsal": 5,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "447932",
+          "nombre": "Velarde",
+          "dorsal": 17,
+          "top": 43.0,
+          "left": 30.0
+        },
+        {
+          "id": "873510",
+          "nombre": "Torres",
+          "dorsal": 10,
+          "top": 22.0,
+          "left": 40.0
+        },
+        {
+          "id": "653475",
+          "nombre": "Espinoza",
+          "dorsal": 77,
+          "top": 34.0,
+          "left": 65.0
+        },
+        {
+          "id": "648289",
+          "nombre": "Torres",
+          "dorsal": 20,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "330169",
+          "nombre": "Quintero",
+          "dorsal": 11,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "988214",
+          "nombre": "Luis Pretel",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "409092",
+          "nombre": "Gonzalo Rizzo",
+          "dorsal": 24,
+          "posicion": "CB"
+        },
+        {
+          "id": "639765",
+          "nombre": "Axel Chávez",
+          "dorsal": 16,
+          "posicion": "LB"
+        },
+        {
+          "id": "441728",
+          "nombre": "Kelvin Sánchez",
+          "dorsal": 15,
+          "posicion": "DM"
+        },
+        {
+          "id": "653673",
+          "nombre": "Abdiel Ayarza",
+          "dorsal": 6,
+          "posicion": "CM"
+        },
+        {
+          "id": "357124",
+          "nombre": "Oshiro Takeuchi",
+          "dorsal": 18,
+          "posicion": "RW"
+        },
+        {
+          "id": "664841",
+          "nombre": "Kenyi Barrios",
+          "dorsal": 27,
+          "posicion": "RW"
+        },
+        {
+          "id": "384765",
+          "nombre": "Accel Campos",
+          "dorsal": 4,
+          "posicion": "RW"
+        },
+        {
+          "id": "855900",
+          "nombre": "Juan Diego Ospina",
+          "dorsal": 7,
+          "posicion": "RW"
+        }
+      ]
+    },
+    {
+      "club_id": "184",
+      "club_nombre": "Club Alianza Lima",
+      "local": false,
+      "formacion": "5-3-2",
+      "titulares": [
+        {
+          "id": "158515",
+          "nombre": "Duarte",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "539067",
+          "nombre": "Díaz",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 56.5
+        },
+        {
+          "id": "988661",
+          "nombre": "Antoni",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 40.0
+        },
+        {
+          "id": "1123587",
+          "nombre": "García",
+          "dorsal": 32,
+          "top": 59.0,
+          "left": 7.0
+        },
+        {
+          "id": "103890",
+          "nombre": "Advíncula",
+          "dorsal": 17,
+          "top": 61.0,
+          "left": 23.5
+        },
+        {
+          "id": "1227156",
+          "nombre": "Montenegro",
+          "dorsal": 14,
+          "top": 59.0,
+          "left": 73.0
+        },
+        {
+          "id": "131233",
+          "nombre": "Pavez",
+          "dorsal": 5,
+          "top": 38.0,
+          "left": 55.0
+        },
+        {
+          "id": "147263",
+          "nombre": "Gaibor",
+          "dorsal": 7,
+          "top": 38.0,
+          "left": 25.0
+        },
+        {
+          "id": "266451",
+          "nombre": "Castillo",
+          "dorsal": 8,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "537255",
+          "nombre": "Gentile",
+          "dorsal": 25,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "639149",
+          "nombre": "Girotti",
+          "dorsal": 99,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "662712",
+          "nombre": "Ángel de la Cruz",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "441727",
+          "nombre": "Gianfranco Chávez",
+          "dorsal": 4,
+          "posicion": "CB"
+        },
+        {
+          "id": "656061",
+          "nombre": "Cristian Carbajal",
+          "dorsal": 31,
+          "posicion": "LB"
+        },
+        {
+          "id": "250437",
+          "nombre": "Jean Pierre Archimbaud",
+          "dorsal": 29,
+          "posicion": "DM"
+        },
+        {
+          "id": "582655",
+          "nombre": "Jesús Castillo",
+          "dorsal": 15,
+          "posicion": "DM"
+        },
+        {
+          "id": "657479",
+          "nombre": "Alessandro Burlamaqui",
+          "dorsal": 18,
+          "posicion": "CM"
+        },
+        {
+          "id": "836494",
+          "nombre": "Alan Cantero",
+          "dorsal": 11,
+          "posicion": "LW"
+        },
+        {
+          "id": "439631",
+          "nombre": "Kevin Quevedo",
+          "dorsal": 27,
+          "posicion": "RW"
+        },
+        {
+          "id": "687529",
+          "nombre": "Luis Ramos",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "184",
+      "minuto": 51,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "266451",
+        "nombre": "Eryc Castillo"
+      },
+      "asistencia": {
+        "id": "147263",
+        "nombre": "Fernando Gaibor"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 59,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "441728",
+        "nombre": "Kelvin Sánchez"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "184",
+      "minuto": 54,
+      "anadido": 0,
+      "sale": {
+        "id": "1227156",
+        "nombre": "D'Alessandro Montenegro"
+      },
+      "entra": {
+        "id": "657479",
+        "nombre": "Alessandro Burlamaqui"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 56,
+      "anadido": 0,
+      "sale": {
+        "id": "447932",
+        "nombre": "Christian Velarde"
+      },
+      "entra": {
+        "id": "441728",
+        "nombre": "Kelvin Sánchez"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 56,
+      "anadido": 0,
+      "sale": {
+        "id": "653475",
+        "nombre": "Félix Espinoza"
+      },
+      "entra": {
+        "id": "653673",
+        "nombre": "Abdiel Ayarza"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 56,
+      "anadido": 0,
+      "sale": {
+        "id": "470023",
+        "nombre": "Brayan Guevara"
+      },
+      "entra": {
+        "id": "639765",
+        "nombre": "Axel Chávez"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 69,
+      "anadido": 0,
+      "sale": {
+        "id": "639149",
+        "nombre": "Federico Girotti"
+      },
+      "entra": {
+        "id": "687529",
+        "nombre": "Luis Ramos"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 69,
+      "anadido": 0,
+      "sale": {
+        "id": "266451",
+        "nombre": "Eryc Castillo"
+      },
+      "entra": {
+        "id": "439631",
+        "nombre": "Kevin Quevedo"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 78,
+      "anadido": 0,
+      "sale": {
+        "id": "648289",
+        "nombre": "Marlon Torres"
+      },
+      "entra": {
+        "id": "664841",
+        "nombre": "Kenyi Barrios"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 80,
+      "anadido": 0,
+      "sale": {
+        "id": "147263",
+        "nombre": "Fernando Gaibor"
+      },
+      "entra": {
+        "id": "836494",
+        "nombre": "Alan Cantero"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "330169",
+        "nombre": "Jarlín Quintero"
+      },
+      "entra": {
+        "id": "357124",
+        "nombre": "Oshiro Takeuchi"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "184",
+      "minuto": 45,
+      "anadido": 2,
+      "jugador": {
+        "id": "1227156",
+        "nombre": "D'Alessandro Montenegro"
+      },
+      "tipo": "amarilla",
+      "detalle": "D'Alessandro Montenegro 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "184",
+      "minuto": 54,
+      "anadido": 0,
+      "jugador": {
+        "id": "539067",
+        "nombre": "Nicolás Díaz"
+      },
+      "tipo": "amarilla",
+      "detalle": "Nicolás Díaz 4. Yellow card , Foul"
+    },
+    {
+      "club_id": "54478",
+      "minuto": 81,
+      "anadido": 0,
+      "jugador": {
+        "id": "330169",
+        "nombre": "Jarlín Quintero"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jarlín Quintero 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "54478",
+      "minuto": 82,
+      "anadido": 0,
+      "jugador": {
+        "id": "725453",
+        "nombre": "Héctor González"
+      },
+      "tipo": "amarilla",
+      "detalle": "Héctor González 4. Yellow card , Dissent"
+    }
+  ]
+}

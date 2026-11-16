@@ -1,0 +1,525 @@
+{
+  "partido_id": "5074474",
+  "ruta": "/spielbericht/index/spielbericht/5074474",
+  "fecha_extraccion": "2026-11-16T00:52:47",
+  "equipos": [
+    {
+      "club_id": "2730",
+      "club_nombre": "Sport Boys Association",
+      "local": true,
+      "formacion": "4-1-4-1",
+      "titulares": [
+        {
+          "id": "303866",
+          "nombre": "Melián",
+          "dorsal": 22,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "53533",
+          "nombre": "Zambrano",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "187161",
+          "nombre": "Riojas",
+          "dorsal": 26,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "662705",
+          "nombre": "Llontop",
+          "dorsal": 13,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "621026",
+          "nombre": "Mora",
+          "dorsal": 24,
+          "top": 43.0,
+          "left": 40.0
+        },
+        {
+          "id": "805862",
+          "nombre": "Saba",
+          "dorsal": 17,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "662699",
+          "nombre": "Celi",
+          "dorsal": 77,
+          "top": 23.0,
+          "left": 50.0
+        },
+        {
+          "id": "95280",
+          "nombre": "Cueva",
+          "dorsal": 99,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "866488",
+          "nombre": "Alarcón",
+          "dorsal": 10,
+          "top": 23.0,
+          "left": 30.0
+        },
+        {
+          "id": "285679",
+          "nombre": "Urruti",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "665113",
+          "nombre": "Liza",
+          "dorsal": 30,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "738150",
+          "nombre": "Jeferson Nolasco",
+          "dorsal": 61,
+          "posicion": "GK"
+        },
+        {
+          "id": "1555106",
+          "nombre": "Luciano Zambrano",
+          "dorsal": 2,
+          "posicion": "CB"
+        },
+        {
+          "id": "492973",
+          "nombre": "Renzo Alfani",
+          "dorsal": 4,
+          "posicion": "CB"
+        },
+        {
+          "id": "333025",
+          "nombre": "Nilson Loyola",
+          "dorsal": 29,
+          "posicion": "LB"
+        },
+        {
+          "id": "177690",
+          "nombre": "Miguel Trauco",
+          "dorsal": 47,
+          "posicion": "LB"
+        },
+        {
+          "id": "360446",
+          "nombre": "Federico Illanes",
+          "dorsal": 5,
+          "posicion": "DM"
+        },
+        {
+          "id": "1370570",
+          "nombre": "Nicolas Paz",
+          "dorsal": 36,
+          "posicion": "DM"
+        },
+        {
+          "id": "449112",
+          "nombre": "Rolando Díaz",
+          "dorsal": 14,
+          "posicion": "CF"
+        },
+        {
+          "id": "1563702",
+          "nombre": "Adrián Santana",
+          "dorsal": 37,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "17479",
+      "club_nombre": "Alianza Atlético Sullana",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "217130",
+          "nombre": "Prieto",
+          "dorsal": 95,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "764367",
+          "nombre": "Guzmán",
+          "dorsal": 25,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "441758",
+          "nombre": "Luján",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "332776",
+          "nombre": "Gordillo",
+          "dorsal": 24,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "1225745",
+          "nombre": "Lupu",
+          "dorsal": 15,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "966369",
+          "nombre": "Fernández",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "872158",
+          "nombre": "Díaz",
+          "dorsal": 10,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "981694",
+          "nombre": "Muñoz",
+          "dorsal": 23,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "212309",
+          "nombre": "Penilla",
+          "dorsal": 17,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "1082743",
+          "nombre": "del Castillo",
+          "dorsal": 22,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "696729",
+          "nombre": "Ingratti",
+          "dorsal": 27,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1264078",
+          "nombre": "Jesus Rossi",
+          "dorsal": 28,
+          "posicion": "GK"
+        },
+        {
+          "id": "827586",
+          "nombre": "Juan Quiñones",
+          "dorsal": 40,
+          "posicion": "CB"
+        },
+        {
+          "id": "515413",
+          "nombre": "Jesús Mendieta",
+          "dorsal": 19,
+          "posicion": "LB"
+        },
+        {
+          "id": "653484",
+          "nombre": "Erick Perleche",
+          "dorsal": 21,
+          "posicion": "RB"
+        },
+        {
+          "id": "857805",
+          "nombre": "Jimmy Pérez",
+          "dorsal": 20,
+          "posicion": "CM"
+        },
+        {
+          "id": "741594",
+          "nombre": "Franchesco Flores",
+          "dorsal": 8,
+          "posicion": "RW"
+        },
+        {
+          "id": "870966",
+          "nombre": "Guillermo Larios",
+          "dorsal": 11,
+          "posicion": "RW"
+        },
+        {
+          "id": "254123",
+          "nombre": "Jairo Molina",
+          "dorsal": 29,
+          "posicion": "CF"
+        },
+        {
+          "id": "1220638",
+          "nombre": "Valentín Robaldo",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "2730",
+      "minuto": 16,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "665113",
+        "nombre": "Percy Liza"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "17479",
+      "minuto": 59,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "1082743",
+        "nombre": "Jorge del Castillo"
+      },
+      "asistencia": {
+        "id": "872158",
+        "nombre": "Germán Díaz"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 68,
+      "anadido": 0,
+      "marcador": "1:2",
+      "autor": {
+        "id": "1082743",
+        "nombre": "Jorge del Castillo"
+      },
+      "asistencia": {
+        "id": "212309",
+        "nombre": "Cristian Penilla"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 90,
+      "anadido": 3,
+      "marcador": "1:3",
+      "autor": {
+        "id": "870966",
+        "nombre": "Guillermo Larios"
+      },
+      "asistencia": {
+        "id": "827586",
+        "nombre": "Juan Quiñones"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "2730",
+      "minuto": 63,
+      "anadido": 0,
+      "sale": {
+        "id": "662699",
+        "nombre": "Yuriel Celi"
+      },
+      "entra": {
+        "id": "177690",
+        "nombre": "Miguel Trauco"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "966369",
+        "nombre": "Stefano Fernández"
+      },
+      "entra": {
+        "id": "653484",
+        "nombre": "Erick Perleche"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 74,
+      "anadido": 0,
+      "sale": {
+        "id": "1082743",
+        "nombre": "Jorge del Castillo"
+      },
+      "entra": {
+        "id": "870966",
+        "nombre": "Guillermo Larios"
+      }
+    },
+    {
+      "club_id": "2730",
+      "minuto": 79,
+      "anadido": 0,
+      "sale": {
+        "id": "866488",
+        "nombre": "Jostin Alarcón"
+      },
+      "entra": {
+        "id": "449112",
+        "nombre": "Rolando Díaz"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 82,
+      "anadido": 0,
+      "sale": {
+        "id": "212309",
+        "nombre": "Cristian Penilla"
+      },
+      "entra": {
+        "id": "827586",
+        "nombre": "Juan Quiñones"
+      }
+    },
+    {
+      "club_id": "17479",
+      "minuto": 90,
+      "anadido": 0,
+      "sale": {
+        "id": "981694",
+        "nombre": "Ariel Muñoz"
+      },
+      "entra": {
+        "id": "515413",
+        "nombre": "Jesús Mendieta"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "2730",
+      "minuto": 28,
+      "anadido": 0,
+      "jugador": {
+        "id": "662699",
+        "nombre": "Yuriel Celi"
+      },
+      "tipo": "amarilla",
+      "detalle": "Yuriel Celi 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "17479",
+      "minuto": 42,
+      "anadido": 0,
+      "jugador": {
+        "id": "441758",
+        "nombre": "José Luján"
+      },
+      "tipo": "amarilla",
+      "detalle": "José Luján 3. Yellow card"
+    },
+    {
+      "club_id": "17479",
+      "minuto": 42,
+      "anadido": 0,
+      "jugador": {
+        "id": "1082743",
+        "nombre": "Jorge del Castillo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jorge del Castillo 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "2730",
+      "minuto": 45,
+      "anadido": 2,
+      "jugador": {
+        "id": "187161",
+        "nombre": "Hansell Riojas"
+      },
+      "tipo": "amarilla",
+      "detalle": "Hansell Riojas 4. Yellow card , Foul"
+    },
+    {
+      "club_id": "2730",
+      "minuto": 51,
+      "anadido": 0,
+      "jugador": {
+        "id": "621026",
+        "nombre": "Oslimg Mora"
+      },
+      "tipo": "amarilla",
+      "detalle": "Oslimg Mora 3. Yellow card"
+    },
+    {
+      "club_id": "17479",
+      "minuto": 53,
+      "anadido": 0,
+      "jugador": {
+        "id": "966369",
+        "nombre": "Stefano Fernández"
+      },
+      "tipo": "amarilla",
+      "detalle": "Stefano Fernández 2. Yellow card"
+    },
+    {
+      "club_id": "2730",
+      "minuto": 55,
+      "anadido": 0,
+      "jugador": {
+        "id": "53533",
+        "nombre": "Carlos Zambrano"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Zambrano 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "2730",
+      "minuto": 71,
+      "anadido": 0,
+      "jugador": {
+        "id": "665113",
+        "nombre": "Percy Liza"
+      },
+      "tipo": "amarilla",
+      "detalle": "Percy Liza 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "17479",
+      "minuto": 86,
+      "anadido": 0,
+      "jugador": {
+        "id": "653484",
+        "nombre": "Erick Perleche"
+      },
+      "tipo": "amarilla",
+      "detalle": "Erick Perleche 3. Yellow card , Foul"
+    }
+  ]
+}

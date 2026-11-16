@@ -2,14 +2,14 @@
   "club_id": "2734",
   "club_nombre": "FBC Melgar",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:03:32",
+  "fecha_extraccion": "2026-11-16T00:35:17",
   "jugadores": [
     {
       "id": "785133",
       "nombre": "Jorge Cabezudo",
       "posicion": "Goalkeeper",
-      "partidos": 21,
-      "minutos": 1890
+      "partidos": 27,
+      "minutos": 2430
     },
     {
       "id": "94359",
@@ -36,29 +36,29 @@
       "id": "831138",
       "nombre": "Matías Lazo",
       "posicion": "Centre-Back",
-      "partidos": 27,
-      "minutos": 2292
+      "partidos": 33,
+      "minutos": 2832
     },
     {
       "id": "353034",
       "nombre": "Juan Escobar",
       "posicion": "Centre-Back",
-      "partidos": 21,
-      "minutos": 1830
+      "partidos": 26,
+      "minutos": 2280
     },
     {
       "id": "796060",
       "nombre": "Jesús Alcántar",
       "posicion": "Centre-Back",
-      "partidos": 18,
-      "minutos": 1206
+      "partidos": 21,
+      "minutos": 1242
     },
     {
       "id": "621029",
       "nombre": "Alec Deneumostier",
       "posicion": "Centre-Back",
-      "partidos": 16,
-      "minutos": 1105
+      "partidos": 18,
+      "minutos": 1196
     },
     {
       "id": "582319",
@@ -71,15 +71,15 @@
       "id": "491570",
       "nombre": "Nelson Cabanillas",
       "posicion": "Left-Back",
-      "partidos": 18,
-      "minutos": 1261
+      "partidos": 24,
+      "minutos": 1758
     },
     {
       "id": "302416",
       "nombre": "Leonel González",
       "posicion": "Centre-Back",
-      "partidos": 10,
-      "minutos": 900
+      "partidos": 16,
+      "minutos": 1440
     },
     {
       "id": "1370516",
@@ -113,29 +113,22 @@
       "id": "733083",
       "nombre": "Nicolás Quagliata",
       "posicion": "Attacking Midfield",
-      "partidos": 24,
-      "minutos": 1913
+      "partidos": 29,
+      "minutos": 2273
     },
     {
       "id": "621039",
       "nombre": "Walter Tandazo",
       "posicion": "Defensive Midfield",
-      "partidos": 25,
-      "minutos": 2163
+      "partidos": 29,
+      "minutos": 2470
     },
     {
       "id": "400945",
       "nombre": "Kevin Minda",
       "posicion": "Defensive Midfield",
-      "partidos": 10,
-      "minutos": 859
-    },
-    {
-      "id": "228255",
-      "nombre": "Javier Salas",
-      "posicion": "Defensive Midfield",
-      "partidos": 18,
-      "minutos": 1475
+      "partidos": 15,
+      "minutos": 1301
     },
     {
       "id": "832217",
@@ -145,11 +138,18 @@
       "minutos": 165
     },
     {
+      "id": "228255",
+      "nombre": "Javier Salas",
+      "posicion": "Defensive Midfield",
+      "partidos": 18,
+      "minutos": 1475
+    },
+    {
       "id": "966314",
       "nombre": "Marcos Portillo",
       "posicion": "Central Midfield",
-      "partidos": 8,
-      "minutos": 162
+      "partidos": 11,
+      "minutos": 235
     },
     {
       "id": "918394",
@@ -169,8 +169,8 @@
       "id": "249468",
       "nombre": "Horacio Orzán",
       "posicion": "Defensive Midfield",
-      "partidos": 8,
-      "minutos": 417
+      "partidos": 12,
+      "minutos": 623
     },
     {
       "id": "1369250",
@@ -182,7 +182,7 @@
     {
       "id": "1369247",
       "nombre": "Cesar Doy",
-      "posicion": "Central Midfield",
+      "posicion": "Defensive Midfield",
       "partidos": 0,
       "minutos": 0
     },
@@ -204,36 +204,36 @@
       "id": "1442941",
       "nombre": "Matias Zegarra",
       "posicion": "Left Winger",
-      "partidos": 27,
-      "minutos": 1675
+      "partidos": 31,
+      "minutos": 1868
     },
     {
       "id": "832216",
       "nombre": "Jefferson Cáceres",
       "posicion": "Left Winger",
-      "partidos": 17,
-      "minutos": 574
+      "partidos": 18,
+      "minutos": 619
     },
     {
       "id": "626916",
       "nombre": "Lautaro Guzmán",
       "posicion": "Right Winger",
-      "partidos": 23,
-      "minutos": 868
+      "partidos": 28,
+      "minutos": 1161
     },
     {
       "id": "653476",
       "nombre": "Franco Zanelatto",
       "posicion": "Right Winger",
-      "partidos": 13,
-      "minutos": 413
+      "partidos": 18,
+      "minutos": 500
     },
     {
       "id": "741728",
       "nombre": "Jhamir D'Arrigo",
       "posicion": "Left Winger",
-      "partidos": 19,
-      "minutos": 363
+      "partidos": 20,
+      "minutos": 371
     },
     {
       "id": "1095971",
@@ -253,15 +253,15 @@
       "id": "282350",
       "nombre": "Cristian Bordacahar",
       "posicion": "Right Winger",
-      "partidos": 19,
-      "minutos": 1330
+      "partidos": 25,
+      "minutos": 1846
     },
     {
       "id": "224677",
       "nombre": "Jhonny Vidales",
       "posicion": "Centre-Forward",
-      "partidos": 28,
-      "minutos": 2064
+      "partidos": 34,
+      "minutos": 2483
     },
     {
       "id": "662708",
@@ -274,8 +274,8 @@
       "id": "89317",
       "nombre": "Bernardo Cuesta",
       "posicion": "Centre-Forward",
-      "partidos": 28,
-      "minutos": 1992
+      "partidos": 31,
+      "minutos": 2196
     },
     {
       "id": "1369251",
@@ -288,8 +288,8 @@
       "id": "1371976",
       "nombre": "Patricio Núñez",
       "posicion": "Right Winger",
-      "partidos": 1,
-      "minutos": 15
+      "partidos": 2,
+      "minutos": 23
     }
   ]
 }

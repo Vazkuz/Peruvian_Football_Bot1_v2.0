@@ -2,14 +2,14 @@
   "club_id": "47107",
   "club_nombre": "Comerciantes Unidos",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:05:06",
+  "fecha_extraccion": "2026-11-16T00:36:51",
   "jugadores": [
     {
       "id": "805148",
       "nombre": "Matías Córdova",
       "posicion": "Goalkeeper",
-      "partidos": 28,
-      "minutos": 2520
+      "partidos": 34,
+      "minutos": 3060
     },
     {
       "id": "227112",
@@ -22,8 +22,8 @@
       "id": "441704",
       "nombre": "José Charún",
       "posicion": "Goalkeeper",
-      "partidos": 1,
-      "minutos": 90
+      "partidos": 2,
+      "minutos": 180
     },
     {
       "id": "817557",
@@ -50,22 +50,22 @@
       "id": "375178",
       "nombre": "Paolo Fuentes",
       "posicion": "Centre-Back",
-      "partidos": 2,
-      "minutos": 91
+      "partidos": 3,
+      "minutos": 178
     },
     {
       "id": "661866",
       "nombre": "Daniel Lino",
       "posicion": "Left-Back",
-      "partidos": 6,
-      "minutos": 479
+      "partidos": 11,
+      "minutos": 863
     },
     {
       "id": "871653",
       "nombre": "Piero Guzmán",
       "posicion": "Centre-Back",
-      "partidos": 21,
-      "minutos": 1432
+      "partidos": 25,
+      "minutos": 1539
     },
     {
       "id": "639467",
@@ -78,29 +78,29 @@
       "id": "501586",
       "nombre": "Fabio Rojas",
       "posicion": "Right-Back",
-      "partidos": 24,
-      "minutos": 1909
+      "partidos": 25,
+      "minutos": 1938
     },
     {
       "id": "292729",
       "nombre": "Alexis Cossio",
       "posicion": "Left-Back",
-      "partidos": 26,
-      "minutos": 2167
+      "partidos": 31,
+      "minutos": 2500
     },
     {
       "id": "891814",
       "nombre": "Flavio Alcedo",
       "posicion": "Centre-Back",
-      "partidos": 23,
-      "minutos": 1753
+      "partidos": 29,
+      "minutos": 2205
     },
     {
       "id": "671846",
       "nombre": "Juan Rodríguez",
       "posicion": "Centre-Back",
-      "partidos": 27,
-      "minutos": 2396
+      "partidos": 33,
+      "minutos": 2936
     },
     {
       "id": "1504917",
@@ -113,29 +113,29 @@
       "id": "325589",
       "nombre": "Alexis Arias",
       "posicion": "Central Midfield",
-      "partidos": 29,
-      "minutos": 2378
+      "partidos": 33,
+      "minutos": 2624
     },
     {
       "id": "639763",
       "nombre": "Rodrigo Vilca",
       "posicion": "Attacking Midfield",
-      "partidos": 27,
-      "minutos": 2203
+      "partidos": 34,
+      "minutos": 2704
     },
     {
       "id": "832217",
       "nombre": "Yimy Gamero",
       "posicion": "Defensive Midfield",
-      "partidos": 1,
-      "minutos": 4
+      "partidos": 7,
+      "minutos": 283
     },
     {
       "id": "897924",
       "nombre": "Agustín Rodríguez",
       "posicion": "Defensive Midfield",
-      "partidos": 24,
-      "minutos": 1487
+      "partidos": 30,
+      "minutos": 1922
     },
     {
       "id": "358338",
@@ -148,57 +148,57 @@
       "id": "639458",
       "nombre": "José Parodi",
       "posicion": "Defensive Midfield",
-      "partidos": 16,
-      "minutos": 789
+      "partidos": 23,
+      "minutos": 1363
     },
     {
       "id": "1076593",
       "nombre": "Thiago Salinas",
       "posicion": "Central Midfield",
-      "partidos": 19,
-      "minutos": 637
+      "partidos": 24,
+      "minutos": 843
     },
     {
       "id": "653429",
       "nombre": "Jhon Sánchez",
       "posicion": "Right Winger",
-      "partidos": 5,
-      "minutos": 261
+      "partidos": 12,
+      "minutos": 720
     },
     {
       "id": "355639",
       "nombre": "Wilter Ayoví",
       "posicion": "Right Winger",
-      "partidos": 18,
-      "minutos": 539
+      "partidos": 21,
+      "minutos": 595
     },
     {
       "id": "662709",
       "nombre": "Óscar Pinto",
       "posicion": "Left Winger",
-      "partidos": 9,
-      "minutos": 210
+      "partidos": 11,
+      "minutos": 230
     },
     {
       "id": "641826",
       "nombre": "Josuee Herrera",
       "posicion": "Left Winger",
-      "partidos": 27,
-      "minutos": 1455
+      "partidos": 34,
+      "minutos": 1871
     },
     {
       "id": "347003",
       "nombre": "Matías Sen",
       "posicion": "Centre-Forward",
-      "partidos": 28,
-      "minutos": 2117
+      "partidos": 34,
+      "minutos": 2657
     },
     {
       "id": "739725",
       "nombre": "Mathías Carpio",
       "posicion": "Left Winger",
-      "partidos": 11,
-      "minutos": 462
+      "partidos": 14,
+      "minutos": 562
     },
     {
       "id": "331818",
@@ -211,15 +211,15 @@
       "id": "458756",
       "nombre": "Maximiliano Pérez",
       "posicion": "Centre-Forward",
-      "partidos": 24,
-      "minutos": 709
+      "partidos": 29,
+      "minutos": 875
     },
     {
       "id": "1182403",
       "nombre": "Jean Carlo Olivares",
       "posicion": "Centre-Forward",
-      "partidos": 20,
-      "minutos": 788
+      "partidos": 27,
+      "minutos": 1116
     },
     {
       "id": "1186940",

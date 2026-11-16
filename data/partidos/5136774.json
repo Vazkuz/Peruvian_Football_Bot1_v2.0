@@ -1,0 +1,490 @@
+{
+  "partido_id": "5136774",
+  "ruta": "/spielbericht/index/spielbericht/5136774",
+  "fecha_extraccion": "2026-11-16T01:19:55",
+  "equipos": [
+    {
+      "club_id": "99517",
+      "club_nombre": "Club Juan Pablo II College",
+      "local": true,
+      "formacion": "4-1-4-1",
+      "titulares": [
+        {
+          "id": "75445",
+          "nombre": "Vega",
+          "dorsal": 23,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "662695",
+          "nombre": "Sánchez",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "655639",
+          "nombre": "Reyna",
+          "dorsal": 19,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "672263",
+          "nombre": "Ancajima",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "489993",
+          "nombre": "Toledo",
+          "dorsal": 31,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "1011265",
+          "nombre": "Carhuallan.",
+          "dorsal": 14,
+          "top": 43.0,
+          "left": 40.0
+        },
+        {
+          "id": "1074429",
+          "nombre": "Rojas",
+          "dorsal": 37,
+          "top": 23.0,
+          "left": 50.0
+        },
+        {
+          "id": "1107110",
+          "nombre": "Ramirez",
+          "dorsal": 15,
+          "top": 23.0,
+          "left": 30.0
+        },
+        {
+          "id": "670523",
+          "nombre": "Bazán",
+          "dorsal": 20,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "1029760",
+          "nombre": "Goicochea",
+          "dorsal": 79,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "94761",
+          "nombre": "Pósito",
+          "dorsal": 89,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1508623",
+          "nombre": "Sthefano Luzquiños",
+          "dorsal": 4,
+          "posicion": ""
+        },
+        {
+          "id": "664862",
+          "nombre": "Jorge Stucchi",
+          "dorsal": 21,
+          "posicion": "GK"
+        },
+        {
+          "id": "737739",
+          "nombre": "Piero Antón",
+          "dorsal": 16,
+          "posicion": "LB"
+        },
+        {
+          "id": "1508622",
+          "nombre": "Bairon Puño",
+          "dorsal": 13,
+          "posicion": "DM"
+        },
+        {
+          "id": "867036",
+          "nombre": "Christian Flores",
+          "dorsal": 8,
+          "posicion": "DM"
+        },
+        {
+          "id": "1244025",
+          "nombre": "Josué Torres",
+          "dorsal": 88,
+          "posicion": "LW"
+        },
+        {
+          "id": "1426206",
+          "nombre": "Jorge Barreto",
+          "dorsal": 80,
+          "posicion": "RW"
+        },
+        {
+          "id": "1020367",
+          "nombre": "Adán Henricks",
+          "dorsal": 7,
+          "posicion": "CF"
+        },
+        {
+          "id": "1076583",
+          "nombre": "Mateo Rodríguez",
+          "dorsal": 97,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "76945",
+      "club_nombre": "Deportivo Garcilaso",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "342051",
+          "nombre": "Zubczuk",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "524311",
+          "nombre": "Gómez",
+          "dorsal": 19,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "866487",
+          "nombre": "Moreno",
+          "dorsal": 23,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "279380",
+          "nombre": "Salazar",
+          "dorsal": 2,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "356381",
+          "nombre": "Rosell",
+          "dorsal": 20,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "741413",
+          "nombre": "Canales",
+          "dorsal": 55,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "438000",
+          "nombre": "González",
+          "dorsal": 8,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "810550",
+          "nombre": "Ascues",
+          "dorsal": 27,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "912299",
+          "nombre": "Ríos",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "443350",
+          "nombre": "Castelli",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "527625",
+          "nombre": "Olivares",
+          "dorsal": 24,
+          "top": 18.0,
+          "left": 65.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1226870",
+          "nombre": "Mallki Marmanillo",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "582098",
+          "nombre": "Jefferson Portales",
+          "dorsal": 22,
+          "posicion": "CB"
+        },
+        {
+          "id": "1141361",
+          "nombre": "Samir Villacorta",
+          "dorsal": 33,
+          "posicion": "RB"
+        },
+        {
+          "id": "168974",
+          "nombre": "Claudio Torrejón",
+          "dorsal": 14,
+          "posicion": "DM"
+        },
+        {
+          "id": "818970",
+          "nombre": "Sharif Ramírez",
+          "dorsal": 17,
+          "posicion": "AM"
+        },
+        {
+          "id": "451338",
+          "nombre": "Fernando Pacheco",
+          "dorsal": 88,
+          "posicion": "LW"
+        },
+        {
+          "id": "1371975",
+          "nombre": "Joao Mendoza",
+          "dorsal": 35,
+          "posicion": "RW"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "99517",
+      "minuto": 8,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "94761",
+        "nombre": "Janio Pósito"
+      },
+      "asistencia": {
+        "id": "672263",
+        "nombre": "Hugo Ancajima"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 40,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "438000",
+        "nombre": "Agustín González"
+      },
+      "asistencia": {
+        "id": "524311",
+        "nombre": "Agustín Gómez"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 50,
+      "anadido": 0,
+      "marcador": "1:2",
+      "autor": {
+        "id": "912299",
+        "nombre": "Lucas Ríos"
+      },
+      "asistencia": null
+    },
+    {
+      "club_id": "99517",
+      "minuto": 69,
+      "anadido": 0,
+      "marcador": "2:2",
+      "autor": {
+        "id": "1244025",
+        "nombre": "Josué Torres"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "99517",
+      "minuto": 53,
+      "anadido": 0,
+      "sale": {
+        "id": "1011265",
+        "nombre": "Jack Carhuallanqui"
+      },
+      "entra": {
+        "id": "867036",
+        "nombre": "Christian Flores"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 53,
+      "anadido": 0,
+      "sale": {
+        "id": "1107110",
+        "nombre": "Nilton Ramirez"
+      },
+      "entra": {
+        "id": "1244025",
+        "nombre": "Josué Torres"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 53,
+      "anadido": 0,
+      "sale": {
+        "id": "670523",
+        "nombre": "Héctor Bazán"
+      },
+      "entra": {
+        "id": "1426206",
+        "nombre": "Jorge Barreto"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 57,
+      "anadido": 0,
+      "sale": {
+        "id": "912299",
+        "nombre": "Lucas Ríos"
+      },
+      "entra": {
+        "id": "451338",
+        "nombre": "Fernando Pacheco"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 64,
+      "anadido": 0,
+      "sale": {
+        "id": "866487",
+        "nombre": "Xavi Moreno"
+      },
+      "entra": {
+        "id": "168974",
+        "nombre": "Claudio Torrejón"
+      }
+    },
+    {
+      "club_id": "76945",
+      "minuto": 64,
+      "anadido": 0,
+      "sale": {
+        "id": "810550",
+        "nombre": "Adrián Ascues"
+      },
+      "entra": {
+        "id": "818970",
+        "nombre": "Sharif Ramírez"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 86,
+      "anadido": 0,
+      "sale": {
+        "id": "1029760",
+        "nombre": "Juan Pablo Goicochea"
+      },
+      "entra": {
+        "id": "1076583",
+        "nombre": "Mateo Rodríguez"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "76945",
+      "minuto": 36,
+      "anadido": 0,
+      "jugador": {
+        "id": "443350",
+        "nombre": "Facundo Castelli"
+      },
+      "tipo": "amarilla",
+      "detalle": "Facundo Castelli 5. Yellow card , Dissent"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 45,
+      "anadido": 1,
+      "jugador": {
+        "id": "912299",
+        "nombre": "Lucas Ríos"
+      },
+      "tipo": "amarilla",
+      "detalle": "Lucas Ríos 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "99517",
+      "minuto": 48,
+      "anadido": 0,
+      "jugador": {
+        "id": "1011265",
+        "nombre": "Jack Carhuallanqui"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jack Carhuallanqui 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "99517",
+      "minuto": 63,
+      "anadido": 0,
+      "jugador": {
+        "id": "489993",
+        "nombre": "Jorge Toledo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jorge Toledo 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 67,
+      "anadido": 0,
+      "jugador": {
+        "id": "741413",
+        "nombre": "Erick Canales"
+      },
+      "tipo": "amarilla",
+      "detalle": "Erick Canales 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "76945",
+      "minuto": 90,
+      "anadido": 6,
+      "jugador": {
+        "id": "818970",
+        "nombre": "Sharif Ramírez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Sharif Ramírez 1. Yellow card , Foul"
+    }
+  ]
+}

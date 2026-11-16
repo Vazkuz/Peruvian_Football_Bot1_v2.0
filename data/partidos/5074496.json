@@ -1,0 +1,536 @@
+{
+  "partido_id": "5074496",
+  "ruta": "/spielbericht/index/spielbericht/5074496",
+  "fecha_extraccion": "2026-11-16T01:04:02",
+  "equipos": [
+    {
+      "club_id": "47107",
+      "club_nombre": "Comerciantes Unidos",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "805148",
+          "nombre": "Córdova",
+          "dorsal": 17,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "891814",
+          "nombre": "Alcedo",
+          "dorsal": 40,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "671846",
+          "nombre": "Rodríguez",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "661866",
+          "nombre": "Lino",
+          "dorsal": 19,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "832217",
+          "nombre": "Gamero",
+          "dorsal": 54,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "639458",
+          "nombre": "Parodi",
+          "dorsal": 20,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "897924",
+          "nombre": "Rodríguez",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "639763",
+          "nombre": "Vilca",
+          "dorsal": 25,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "641826",
+          "nombre": "Herrera",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "653429",
+          "nombre": "Sánchez",
+          "dorsal": 32,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "347003",
+          "nombre": "Sen",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "441704",
+          "nombre": "José Charún",
+          "dorsal": 99,
+          "posicion": "GK"
+        },
+        {
+          "id": "871653",
+          "nombre": "Piero Guzmán",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "292729",
+          "nombre": "Alexis Cossio",
+          "dorsal": 15,
+          "posicion": "LB"
+        },
+        {
+          "id": "1076593",
+          "nombre": "Thiago Salinas",
+          "dorsal": 14,
+          "posicion": "CM"
+        },
+        {
+          "id": "739725",
+          "nombre": "Mathías Carpio",
+          "dorsal": 10,
+          "posicion": "LW"
+        },
+        {
+          "id": "662709",
+          "nombre": "Óscar Pinto",
+          "dorsal": 28,
+          "posicion": "LW"
+        },
+        {
+          "id": "355639",
+          "nombre": "Wilter Ayoví",
+          "dorsal": 8,
+          "posicion": "RW"
+        },
+        {
+          "id": "1182403",
+          "nombre": "Jean Carlo Olivares",
+          "dorsal": 50,
+          "posicion": "CF"
+        },
+        {
+          "id": "458756",
+          "nombre": "Maximiliano Pérez",
+          "dorsal": 13,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "2729",
+      "club_nombre": "Club Cienciano",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "347660",
+          "nombre": "Falcón",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "246548",
+          "nombre": "Amondarain",
+          "dorsal": 4,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "704884",
+          "nombre": "Becerra",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "739664",
+          "nombre": "Nuñez",
+          "dorsal": 13,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "538612",
+          "nombre": "Martinich",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "531624",
+          "nombre": "Arias",
+          "dorsal": 5,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "335217",
+          "nombre": "Barreto",
+          "dorsal": 88,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "477378",
+          "nombre": "Cabello",
+          "dorsal": 22,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "391237",
+          "nombre": "Souza",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "415544",
+          "nombre": "Bandiera",
+          "dorsal": 11,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "626179",
+          "nombre": "Succar",
+          "dorsal": 19,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "420866",
+          "nombre": "Ítalo Espinoza",
+          "dorsal": 31,
+          "posicion": "GK"
+        },
+        {
+          "id": "657221",
+          "nombre": "Rotceh Aguilar",
+          "dorsal": 26,
+          "posicion": "CB"
+        },
+        {
+          "id": "662706",
+          "nombre": "Sebastián Cavero",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "817656",
+          "nombre": "Alonso Yovera",
+          "dorsal": 27,
+          "posicion": "LB"
+        },
+        {
+          "id": "795946",
+          "nombre": "Renzo Salazar",
+          "dorsal": 25,
+          "posicion": "RB"
+        },
+        {
+          "id": "1239936",
+          "nombre": "Henry Caparó",
+          "dorsal": 39,
+          "posicion": "DM"
+        },
+        {
+          "id": "1039039",
+          "nombre": "Gonzalo Aguirre",
+          "dorsal": 8,
+          "posicion": "CM"
+        },
+        {
+          "id": "312151",
+          "nombre": "Ray Sandoval",
+          "dorsal": 17,
+          "posicion": "LW"
+        },
+        {
+          "id": "1102806",
+          "nombre": "Nadhir Colunga",
+          "dorsal": 99,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "47107",
+      "minuto": 31,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "653429",
+        "nombre": "Jhon Sánchez"
+      },
+      "asistencia": {
+        "id": "832217",
+        "nombre": "Yimy Gamero"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 50,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "626179",
+        "nombre": "Matías Succar"
+      },
+      "asistencia": {
+        "id": "531624",
+        "nombre": "Santiago Arias"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 90,
+      "anadido": 1,
+      "marcador": "2:1",
+      "autor": {
+        "id": "639763",
+        "nombre": "Rodrigo Vilca"
+      },
+      "asistencia": {
+        "id": "1076593",
+        "nombre": "Thiago Salinas"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 90,
+      "anadido": 6,
+      "marcador": "3:1",
+      "autor": {
+        "id": "671846",
+        "nombre": "Juan Rodríguez"
+      },
+      "asistencia": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "2729",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "477378",
+        "nombre": "Carlos Cabello"
+      },
+      "entra": {
+        "id": "312151",
+        "nombre": "Ray Sandoval"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "538612",
+        "nombre": "Marcos Martinich"
+      },
+      "entra": {
+        "id": "1039039",
+        "nombre": "Gonzalo Aguirre"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 65,
+      "anadido": 0,
+      "sale": {
+        "id": "653429",
+        "nombre": "Jhon Sánchez"
+      },
+      "entra": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "661866",
+        "nombre": "Daniel Lino"
+      },
+      "entra": {
+        "id": "292729",
+        "nombre": "Alexis Cossio"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 72,
+      "anadido": 0,
+      "sale": {
+        "id": "641826",
+        "nombre": "Josuee Herrera"
+      },
+      "entra": {
+        "id": "871653",
+        "nombre": "Piero Guzmán"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "639458",
+        "nombre": "José Parodi"
+      },
+      "entra": {
+        "id": "1076593",
+        "nombre": "Thiago Salinas"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "335217",
+        "nombre": "Gerson Barreto"
+      },
+      "entra": {
+        "id": "1239936",
+        "nombre": "Henry Caparó"
+      }
+    },
+    {
+      "club_id": "47107",
+      "minuto": 76,
+      "anadido": 0,
+      "sale": {
+        "id": "832217",
+        "nombre": "Yimy Gamero"
+      },
+      "entra": {
+        "id": "355639",
+        "nombre": "Wilter Ayoví"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 79,
+      "anadido": 0,
+      "sale": {
+        "id": "739664",
+        "nombre": "Claudio Nuñez"
+      },
+      "entra": {
+        "id": "657221",
+        "nombre": "Rotceh Aguilar"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 79,
+      "anadido": 0,
+      "sale": {
+        "id": "415544",
+        "nombre": "Neri Bandiera"
+      },
+      "entra": {
+        "id": "662706",
+        "nombre": "Sebastián Cavero"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "2729",
+      "minuto": 26,
+      "anadido": 0,
+      "jugador": {
+        "id": "626179",
+        "nombre": "Matías Succar"
+      },
+      "tipo": "amarilla",
+      "detalle": "Matías Succar 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 38,
+      "anadido": 0,
+      "jugador": {
+        "id": "832217",
+        "nombre": "Yimy Gamero"
+      },
+      "tipo": "amarilla",
+      "detalle": "Yimy Gamero 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "47107",
+      "minuto": 47,
+      "anadido": 0,
+      "jugador": {
+        "id": "897924",
+        "nombre": "Agustín Rodríguez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Agustín Rodríguez 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 54,
+      "anadido": 0,
+      "jugador": {
+        "id": "1039039",
+        "nombre": "Gonzalo Aguirre"
+      },
+      "tipo": "amarilla",
+      "detalle": "Gonzalo Aguirre 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 84,
+      "anadido": 0,
+      "jugador": {
+        "id": "246548",
+        "nombre": "Maximiliano Amondarain"
+      },
+      "tipo": "amarilla",
+      "detalle": "Maximiliano Amondarain 1. Yellow card , Foul"
+    }
+  ]
+}

@@ -1,0 +1,465 @@
+{
+  "partido_id": "5096909",
+  "ruta": "/spielbericht/index/spielbericht/5096909",
+  "fecha_extraccion": "2026-11-16T01:12:13",
+  "equipos": [
+    {
+      "club_id": "184",
+      "club_nombre": "Club Alianza Lima",
+      "local": true,
+      "formacion": "4-4-2",
+      "titulares": [
+        {
+          "id": "158515",
+          "nombre": "Duarte",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "988661",
+          "nombre": "Antoni",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "539067",
+          "nombre": "Díaz",
+          "dorsal": 2,
+          "top": 35.0,
+          "left": 53.0
+        },
+        {
+          "id": "335677",
+          "nombre": "Garcés",
+          "dorsal": 6,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "103890",
+          "nombre": "Advíncula",
+          "dorsal": 17,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "837617",
+          "nombre": "Huamán",
+          "dorsal": 13,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "131233",
+          "nombre": "Pavez",
+          "dorsal": 5,
+          "top": 35.0,
+          "left": 27.0
+        },
+        {
+          "id": "323432",
+          "nombre": "Vélez",
+          "dorsal": 20,
+          "top": 25.0,
+          "left": 68.0
+        },
+        {
+          "id": "836494",
+          "nombre": "Cantero",
+          "dorsal": 11,
+          "top": 25.0,
+          "left": 12.0
+        },
+        {
+          "id": "266451",
+          "nombre": "Castillo",
+          "dorsal": 8,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "639149",
+          "nombre": "Girotti",
+          "dorsal": 99,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "662712",
+          "nombre": "Ángel de la Cruz",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "1123587",
+          "nombre": "Jonathan García",
+          "dorsal": 32,
+          "posicion": "CB"
+        },
+        {
+          "id": "1227156",
+          "nombre": "D'Alessandro Montenegro",
+          "dorsal": 14,
+          "posicion": "RB"
+        },
+        {
+          "id": "250437",
+          "nombre": "Jean Pierre Archimbaud",
+          "dorsal": 29,
+          "posicion": "DM"
+        },
+        {
+          "id": "657479",
+          "nombre": "Alessandro Burlamaqui",
+          "dorsal": 18,
+          "posicion": "CM"
+        },
+        {
+          "id": "147263",
+          "nombre": "Fernando Gaibor",
+          "dorsal": 7,
+          "posicion": "CM"
+        },
+        {
+          "id": "537255",
+          "nombre": "Gaspar Gentile",
+          "dorsal": 25,
+          "posicion": "LW"
+        },
+        {
+          "id": "439631",
+          "nombre": "Kevin Quevedo",
+          "dorsal": 27,
+          "posicion": "RW"
+        },
+        {
+          "id": "687529",
+          "nombre": "Luis Ramos",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "2729",
+      "club_nombre": "Club Cienciano",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "347660",
+          "nombre": "Falcón",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "246548",
+          "nombre": "Amondarain",
+          "dorsal": 4,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "704884",
+          "nombre": "Becerra",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "739664",
+          "nombre": "Nuñez",
+          "dorsal": 13,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "538612",
+          "nombre": "Martinich",
+          "dorsal": 16,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "531624",
+          "nombre": "Arias",
+          "dorsal": 5,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "335217",
+          "nombre": "Barreto",
+          "dorsal": 88,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "752977",
+          "nombre": "Robles",
+          "dorsal": 29,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "391237",
+          "nombre": "Souza",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "415544",
+          "nombre": "Bandiera",
+          "dorsal": 11,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "242436",
+          "nombre": "Garcés",
+          "dorsal": 21,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "420866",
+          "nombre": "Ítalo Espinoza",
+          "dorsal": 31,
+          "posicion": "GK"
+        },
+        {
+          "id": "657221",
+          "nombre": "Rotceh Aguilar",
+          "dorsal": 26,
+          "posicion": "CB"
+        },
+        {
+          "id": "662706",
+          "nombre": "Sebastián Cavero",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "817656",
+          "nombre": "Alonso Yovera",
+          "dorsal": 27,
+          "posicion": "LB"
+        },
+        {
+          "id": "1239936",
+          "nombre": "Henry Caparó",
+          "dorsal": 39,
+          "posicion": "DM"
+        },
+        {
+          "id": "1039039",
+          "nombre": "Gonzalo Aguirre",
+          "dorsal": 8,
+          "posicion": "CM"
+        },
+        {
+          "id": "312151",
+          "nombre": "Ray Sandoval",
+          "dorsal": 17,
+          "posicion": "LW"
+        },
+        {
+          "id": "477378",
+          "nombre": "Carlos Cabello",
+          "dorsal": 22,
+          "posicion": "RW"
+        },
+        {
+          "id": "662703",
+          "nombre": "Didier La Torre",
+          "dorsal": 18,
+          "posicion": "RW"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "184",
+      "minuto": 72,
+      "anadido": 0,
+      "marcador": "1:0",
+      "autor": {
+        "id": "266451",
+        "nombre": "Eryc Castillo"
+      },
+      "asistencia": null
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "2729",
+      "minuto": 19,
+      "anadido": 0,
+      "sale": {
+        "id": "391237",
+        "nombre": "Cristian Souza"
+      },
+      "entra": {
+        "id": "477378",
+        "nombre": "Carlos Cabello"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 46,
+      "anadido": 0,
+      "sale": {
+        "id": "335677",
+        "nombre": "Renzo Garcés"
+      },
+      "entra": {
+        "id": "147263",
+        "nombre": "Fernando Gaibor"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 54,
+      "anadido": 0,
+      "sale": {
+        "id": "836494",
+        "nombre": "Alan Cantero"
+      },
+      "entra": {
+        "id": "687529",
+        "nombre": "Luis Ramos"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 60,
+      "anadido": 0,
+      "sale": {
+        "id": "752977",
+        "nombre": "Ademar Robles"
+      },
+      "entra": {
+        "id": "1039039",
+        "nombre": "Gonzalo Aguirre"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 70,
+      "anadido": 0,
+      "sale": {
+        "id": "837617",
+        "nombre": "Marco Huamán"
+      },
+      "entra": {
+        "id": "439631",
+        "nombre": "Kevin Quevedo"
+      }
+    },
+    {
+      "club_id": "184",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "323432",
+        "nombre": "Jairo Vélez"
+      },
+      "entra": {
+        "id": "657479",
+        "nombre": "Alessandro Burlamaqui"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "335217",
+        "nombre": "Gerson Barreto"
+      },
+      "entra": {
+        "id": "312151",
+        "nombre": "Ray Sandoval"
+      }
+    },
+    {
+      "club_id": "2729",
+      "minuto": 77,
+      "anadido": 0,
+      "sale": {
+        "id": "1039039",
+        "nombre": "Gonzalo Aguirre"
+      },
+      "entra": {
+        "id": "662703",
+        "nombre": "Didier La Torre"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "2729",
+      "minuto": 42,
+      "anadido": 0,
+      "jugador": {
+        "id": "335217",
+        "nombre": "Gerson Barreto"
+      },
+      "tipo": "amarilla",
+      "detalle": "Gerson Barreto 4. Yellow card , Foul"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 45,
+      "anadido": 2,
+      "jugador": {
+        "id": "752977",
+        "nombre": "Ademar Robles"
+      },
+      "tipo": "amarilla",
+      "detalle": "Ademar Robles 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "184",
+      "minuto": 49,
+      "anadido": 0,
+      "jugador": {
+        "id": "539067",
+        "nombre": "Nicolás Díaz"
+      },
+      "tipo": "amarilla",
+      "detalle": "Nicolás Díaz 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "2729",
+      "minuto": 85,
+      "anadido": 0,
+      "jugador": {
+        "id": "312151",
+        "nombre": "Ray Sandoval"
+      },
+      "tipo": "amarilla",
+      "detalle": "Ray Sandoval 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "184",
+      "minuto": 89,
+      "anadido": 0,
+      "jugador": {
+        "id": "687529",
+        "nombre": "Luis Ramos"
+      },
+      "tipo": "amarilla",
+      "detalle": "Luis Ramos 1. Yellow card , Foul"
+    }
+  ]
+}

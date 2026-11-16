@@ -2,21 +2,21 @@
   "club_id": "35588",
   "club_nombre": "Asociación Deportiva Tarma",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:08:12",
+  "fecha_extraccion": "2026-11-16T00:39:58",
   "jugadores": [
     {
       "id": "255976",
       "nombre": "Juan Valencia",
       "posicion": "Goalkeeper",
-      "partidos": 20,
-      "minutos": 1755
+      "partidos": 25,
+      "minutos": 2205
     },
     {
       "id": "250672",
       "nombre": "Carlos Solís",
       "posicion": "Goalkeeper",
-      "partidos": 15,
-      "minutos": 1305
+      "partidos": 16,
+      "minutos": 1395
     },
     {
       "id": "1267727",
@@ -36,8 +36,8 @@
       "id": "1059722",
       "nombre": "Jhair Soto",
       "posicion": "Centre-Back",
-      "partidos": 23,
-      "minutos": 1982
+      "partidos": 27,
+      "minutos": 2127
     },
     {
       "id": "750442",
@@ -50,43 +50,43 @@
       "id": "741727",
       "nombre": "Orlando Núñez",
       "posicion": "Left-Back",
-      "partidos": 13,
-      "minutos": 1016
+      "partidos": 18,
+      "minutos": 1466
     },
     {
       "id": "582319",
       "nombre": "Alejandro Ramos",
       "posicion": "Right-Back",
-      "partidos": 8,
-      "minutos": 598
+      "partidos": 14,
+      "minutos": 1102
     },
     {
       "id": "358736",
       "nombre": "Joaquín Pereyra",
       "posicion": "Centre-Back",
-      "partidos": 9,
-      "minutos": 583
+      "partidos": 15,
+      "minutos": 1096
     },
     {
       "id": "738469",
       "nombre": "Leonardo Rugel",
       "posicion": "Centre-Back",
-      "partidos": 10,
-      "minutos": 389
+      "partidos": 11,
+      "minutos": 390
     },
     {
       "id": "885263",
       "nombre": "Jerry Navarro",
       "posicion": "Right-Back",
-      "partidos": 7,
-      "minutos": 200
+      "partidos": 9,
+      "minutos": 235
     },
     {
       "id": "260318",
       "nombre": "Horacio Benincasa",
       "posicion": "Centre-Back",
-      "partidos": 11,
-      "minutos": 867
+      "partidos": 17,
+      "minutos": 1380
     },
     {
       "id": "895056",
@@ -99,8 +99,8 @@
       "id": "140931",
       "nombre": "John Narváez",
       "posicion": "Centre-Back",
-      "partidos": 27,
-      "minutos": 2224
+      "partidos": 28,
+      "minutos": 2306
     },
     {
       "id": "1553914",
@@ -120,22 +120,22 @@
       "id": "656911",
       "nombre": "Luis Pérez",
       "posicion": "Defensive Midfield",
-      "partidos": 30,
-      "minutos": 2424
+      "partidos": 36,
+      "minutos": 2964
     },
     {
       "id": "178893",
       "nombre": "Víctor Cedrón",
       "posicion": "Attacking Midfield",
-      "partidos": 18,
-      "minutos": 1311
+      "partidos": 20,
+      "minutos": 1338
     },
     {
       "id": "1257758",
       "nombre": "Josue Alvino",
       "posicion": "Central Midfield",
-      "partidos": 24,
-      "minutos": 1636
+      "partidos": 28,
+      "minutos": 1742
     },
     {
       "id": "582318",
@@ -148,15 +148,15 @@
       "id": "149771",
       "nombre": "Ángel Ojeda",
       "posicion": "Defensive Midfield",
-      "partidos": 26,
-      "minutos": 1794
+      "partidos": 30,
+      "minutos": 2145
     },
     {
       "id": "92729",
       "nombre": "Joao Rojas",
       "posicion": "Attacking Midfield",
-      "partidos": 23,
-      "minutos": 1766
+      "partidos": 29,
+      "minutos": 2292
     },
     {
       "id": "1391185",
@@ -225,43 +225,43 @@
       "id": "1088739",
       "nombre": "Juan Lucumí",
       "posicion": "Right Winger",
-      "partidos": 9,
-      "minutos": 544
+      "partidos": 15,
+      "minutos": 1072
     },
     {
       "id": "249975",
       "nombre": "Aldair Rodríguez",
       "posicion": "Centre-Forward",
-      "partidos": 18,
-      "minutos": 712
+      "partidos": 23,
+      "minutos": 1086
     },
     {
       "id": "1149626",
       "nombre": "Said Peralta",
       "posicion": "Centre-Forward",
-      "partidos": 10,
-      "minutos": 306
+      "partidos": 16,
+      "minutos": 725
     },
     {
       "id": "1502980",
       "nombre": "Aylton Mazzo",
       "posicion": "Left Winger",
-      "partidos": 14,
-      "minutos": 646
+      "partidos": 20,
+      "minutos": 824
     },
     {
       "id": "1409977",
       "nombre": "Jhojan Garcilazo",
       "posicion": "Right Winger",
-      "partidos": 17,
-      "minutos": 916
+      "partidos": 20,
+      "minutos": 968
     },
     {
       "id": "130158",
       "nombre": "Jonatan Bauman",
       "posicion": "Centre-Forward",
-      "partidos": 28,
-      "minutos": 2038
+      "partidos": 31,
+      "minutos": 2085
     },
     {
       "id": "1369249",
@@ -302,8 +302,8 @@
       "id": "1531236",
       "nombre": "Omar Riveros",
       "posicion": "Centre-Forward",
-      "partidos": 2,
-      "minutos": 18
+      "partidos": 3,
+      "minutos": 26
     }
   ]
 }

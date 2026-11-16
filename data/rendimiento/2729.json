@@ -2,7 +2,7 @@
   "club_id": "2729",
   "club_nombre": "Club Cienciano",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:04:35",
+  "fecha_extraccion": "2026-11-16T00:36:20",
   "jugadores": [
     {
       "id": "420866",
@@ -15,8 +15,8 @@
       "id": "347660",
       "nombre": "Gonzalo Falcón",
       "posicion": "Goalkeeper",
-      "partidos": 19,
-      "minutos": 1620
+      "partidos": 25,
+      "minutos": 2160
     },
     {
       "id": "1248855",
@@ -29,36 +29,36 @@
       "id": "704884",
       "nombre": "Kevin Becerra",
       "posicion": "Centre-Back",
-      "partidos": 37,
-      "minutos": 3132
+      "partidos": 43,
+      "minutos": 3672
     },
     {
       "id": "739664",
       "nombre": "Claudio Nuñez",
       "posicion": "Centre-Back",
-      "partidos": 35,
-      "minutos": 2539
+      "partidos": 41,
+      "minutos": 2899
     },
     {
       "id": "817656",
       "nombre": "Alonso Yovera",
       "posicion": "Left-Back",
-      "partidos": 19,
-      "minutos": 1174
+      "partidos": 20,
+      "minutos": 1186
     },
     {
       "id": "657221",
       "nombre": "Rotceh Aguilar",
       "posicion": "Centre-Back",
-      "partidos": 25,
-      "minutos": 1476
+      "partidos": 27,
+      "minutos": 1492
     },
     {
       "id": "662706",
       "nombre": "Sebastián Cavero",
       "posicion": "Left-Back",
-      "partidos": 21,
-      "minutos": 849
+      "partidos": 22,
+      "minutos": 860
     },
     {
       "id": "795946",
@@ -71,15 +71,15 @@
       "id": "246548",
       "nombre": "Maximiliano Amondarain",
       "posicion": "Centre-Back",
-      "partidos": 32,
-      "minutos": 2597
+      "partidos": 38,
+      "minutos": 3122
     },
     {
       "id": "538612",
       "nombre": "Marcos Martinich",
       "posicion": "Left-Back",
-      "partidos": 34,
-      "minutos": 2307
+      "partidos": 40,
+      "minutos": 2802
     },
     {
       "id": "1410634",
@@ -99,36 +99,36 @@
       "id": "531624",
       "nombre": "Santiago Arias",
       "posicion": "Defensive Midfield",
-      "partidos": 28,
-      "minutos": 1761
+      "partidos": 32,
+      "minutos": 2112
     },
     {
       "id": "1039039",
       "nombre": "Gonzalo Aguirre",
       "posicion": "Central Midfield",
-      "partidos": 22,
-      "minutos": 942
+      "partidos": 28,
+      "minutos": 1049
     },
     {
       "id": "1239936",
       "nombre": "Henry Caparó",
       "posicion": "Defensive Midfield",
-      "partidos": 28,
-      "minutos": 1365
+      "partidos": 32,
+      "minutos": 1491
     },
     {
       "id": "335217",
       "nombre": "Gerson Barreto",
       "posicion": "Central Midfield",
-      "partidos": 38,
-      "minutos": 2659
+      "partidos": 43,
+      "minutos": 3016
     },
     {
       "id": "752977",
       "nombre": "Ademar Robles",
       "posicion": "Central Midfield",
-      "partidos": 38,
-      "minutos": 2593
+      "partidos": 42,
+      "minutos": 2866
     },
     {
       "id": "1553217",
@@ -141,15 +141,15 @@
       "id": "477378",
       "nombre": "Carlos Cabello",
       "posicion": "Right Winger",
-      "partidos": 14,
-      "minutos": 950
+      "partidos": 19,
+      "minutos": 1280
     },
     {
       "id": "626179",
       "nombre": "Matías Succar",
       "posicion": "Centre-Forward",
-      "partidos": 39,
-      "minutos": 1712
+      "partidos": 44,
+      "minutos": 2007
     },
     {
       "id": "212434",
@@ -169,36 +169,36 @@
       "id": "312151",
       "nombre": "Ray Sandoval",
       "posicion": "Left Winger",
-      "partidos": 16,
-      "minutos": 477
+      "partidos": 22,
+      "minutos": 690
     },
     {
       "id": "662703",
       "nombre": "Didier La Torre",
       "posicion": "Right Winger",
-      "partidos": 9,
-      "minutos": 297
+      "partidos": 14,
+      "minutos": 376
     },
     {
       "id": "391237",
       "nombre": "Cristian Souza",
       "posicion": "Right Winger",
-      "partidos": 37,
-      "minutos": 2732
+      "partidos": 42,
+      "minutos": 3099
     },
     {
       "id": "242436",
       "nombre": "Carlos Garcés",
       "posicion": "Centre-Forward",
-      "partidos": 42,
-      "minutos": 3205
+      "partidos": 47,
+      "minutos": 3641
     },
     {
       "id": "415544",
       "nombre": "Neri Bandiera",
       "posicion": "Centre-Forward",
-      "partidos": 36,
-      "minutos": 2501
+      "partidos": 42,
+      "minutos": 2995
     },
     {
       "id": "1102806",

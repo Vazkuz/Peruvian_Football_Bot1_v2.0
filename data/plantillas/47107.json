@@ -3,7 +3,7 @@
   "club_nombre": "Comerciantes Unidos",
   "formacion": "4-2-3-1",
   "variante": "4-2-3-1",
-  "fecha_generacion": "2026-10-03T00:44:01",
+  "fecha_generacion": "2026-11-16T01:49:58",
   "casillas": [
     {
       "casilla": 1,
@@ -12,15 +12,14 @@
         "id": "805148",
         "nombre": "Matías Córdova",
         "rol": "arquero",
-        "puntaje": 22.51
+        "puntaje": 34.086
       },
       "suplente": {
         "id": "441704",
         "nombre": "José Charún",
         "rol": "arquero",
-        "puntaje": 0,
-        "origen": "banca",
-        "convocatorias": 10
+        "puntaje": 2.549,
+        "origen": "minutos"
       }
     },
     {
@@ -30,15 +29,14 @@
         "id": "292729",
         "nombre": "Alexis Cossio",
         "rol": "lateral_izq",
-        "puntaje": 22.51
+        "puntaje": 27.174
       },
       "suplente": {
         "id": "661866",
         "nombre": "Daniel Lino",
         "rol": "lateral_izq",
-        "puntaje": 0,
-        "origen": "banca",
-        "convocatorias": 6
+        "puntaje": 9.376,
+        "origen": "minutos"
       }
     },
     {
@@ -48,13 +46,13 @@
         "id": "671846",
         "nombre": "Juan Rodríguez",
         "rol": "central",
-        "puntaje": 20.448
+        "puntaje": 34.827
       },
       "suplente": {
         "id": "871653",
         "nombre": "Piero Guzmán",
         "rol": "central",
-        "puntaje": 7.037,
+        "puntaje": 8.403,
         "origen": "minutos"
       }
     },
@@ -65,13 +63,13 @@
         "id": "891814",
         "nombre": "Flavio Alcedo",
         "rol": "central",
-        "puntaje": 14.229
+        "puntaje": 23.598
       },
       "suplente": {
         "id": "375178",
         "nombre": "Paolo Fuentes",
         "rol": "central",
-        "puntaje": 3.647,
+        "puntaje": 5.099,
         "origen": "minutos"
       }
     },
@@ -82,13 +80,13 @@
         "id": "501586",
         "nombre": "Fabio Rojas",
         "rol": "lateral_der",
-        "puntaje": 22.51
+        "puntaje": 19.29
       },
       "suplente": {
         "id": "355639",
         "nombre": "Wilter Ayoví",
         "rol": "lateral_der",
-        "puntaje": 3.68,
+        "puntaje": 4.654,
         "reemplazo_de_rol": "volante_extremo_der",
         "origen": "reemplazo"
       }
@@ -97,16 +95,16 @@
       "casilla": 6,
       "rol": "volante_defensivo",
       "titular": {
-        "id": "325589",
-        "nombre": "Alexis Arias",
-        "rol": "volante_defensivo",
-        "puntaje": 19.895
-      },
-      "suplente": {
         "id": "897924",
         "nombre": "Agustín Rodríguez",
         "rol": "volante_defensivo",
-        "puntaje": 9.739,
+        "puntaje": 19.257
+      },
+      "suplente": {
+        "id": "639458",
+        "nombre": "José Parodi",
+        "rol": "volante_defensivo",
+        "puntaje": 15.141,
         "origen": "minutos"
       }
     },
@@ -114,16 +112,16 @@
       "casilla": 7,
       "rol": "volante_defensivo",
       "titular": {
-        "id": "639458",
-        "nombre": "José Parodi",
+        "id": "325589",
+        "nombre": "Alexis Arias",
         "rol": "volante_defensivo",
-        "puntaje": 10.399
+        "puntaje": 18.572
       },
       "suplente": {
         "id": "832217",
         "nombre": "Yimy Gamero",
         "rol": "volante_defensivo",
-        "puntaje": 0.162,
+        "puntaje": 6.77,
         "origen": "minutos"
       }
     },
@@ -131,16 +129,16 @@
       "casilla": 8,
       "rol": "volante_extremo_izq",
       "titular": {
-        "id": "739725",
-        "nombre": "Mathías Carpio",
-        "rol": "volante_extremo_izq",
-        "puntaje": 5.953
-      },
-      "suplente": {
         "id": "1182403",
         "nombre": "Jean Carlo Olivares",
         "rol": "volante_extremo_izq",
-        "puntaje": 5.858,
+        "puntaje": 10.669
+      },
+      "suplente": {
+        "id": "739725",
+        "nombre": "Mathías Carpio",
+        "rol": "volante_extremo_izq",
+        "puntaje": 7.931,
         "origen": "minutos"
       }
     },
@@ -151,13 +149,13 @@
         "id": "639763",
         "nombre": "Rodrigo Vilca",
         "rol": "mediapunta",
-        "puntaje": 16.165
+        "puntaje": 29.815
       },
       "suplente": {
         "id": "1076593",
         "nombre": "Thiago Salinas",
         "rol": "mediapunta",
-        "puntaje": 2.618,
+        "puntaje": 5.594,
         "reemplazo_de_rol": "volante_central",
         "origen": "reemplazo"
       }
@@ -166,16 +164,16 @@
       "casilla": 10,
       "rol": "volante_extremo_der",
       "titular": {
-        "id": "653429",
-        "nombre": "Jhon Sánchez",
-        "rol": "volante_extremo_der",
-        "puntaje": 9.067
-      },
-      "suplente": {
         "id": "641826",
         "nombre": "Josuee Herrera",
         "rol": "volante_extremo_der",
-        "puntaje": 9.05,
+        "puntaje": 14.858
+      },
+      "suplente": {
+        "id": "653429",
+        "nombre": "Jhon Sánchez",
+        "rol": "volante_extremo_der",
+        "puntaje": 10.64,
         "origen": "minutos"
       }
     },
@@ -186,13 +184,13 @@
         "id": "347003",
         "nombre": "Matías Sen",
         "rol": "delantero",
-        "puntaje": 19.626
+        "puntaje": 34.278
       },
       "suplente": {
         "id": "458756",
         "nombre": "Maximiliano Pérez",
         "rol": "delantero",
-        "puntaje": 3.041,
+        "puntaje": 4.931,
         "origen": "minutos"
       }
     }

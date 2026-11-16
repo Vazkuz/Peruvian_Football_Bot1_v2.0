@@ -1,7 +1,7 @@
 {
   "competicion": "TDeC",
   "temporada_id": "2025",
-  "fecha_extraccion": "2026-10-02T22:15:52",
+  "fecha_extraccion": "2026-11-16T00:51:21",
   "partidos": [
     {
       "id": "4939391",
@@ -362,6 +362,226 @@
     {
       "id": "5034424",
       "ruta": "/spielbericht/index/spielbericht/5034424"
+    },
+    {
+      "id": "5074473",
+      "ruta": "/spielbericht/index/spielbericht/5074473"
+    },
+    {
+      "id": "5074474",
+      "ruta": "/spielbericht/index/spielbericht/5074474"
+    },
+    {
+      "id": "5074475",
+      "ruta": "/spielbericht/index/spielbericht/5074475"
+    },
+    {
+      "id": "5074476",
+      "ruta": "/spielbericht/index/spielbericht/5074476"
+    },
+    {
+      "id": "5074477",
+      "ruta": "/spielbericht/index/spielbericht/5074477"
+    },
+    {
+      "id": "5074478",
+      "ruta": "/spielbericht/index/spielbericht/5074478"
+    },
+    {
+      "id": "5074479",
+      "ruta": "/spielbericht/index/spielbericht/5074479"
+    },
+    {
+      "id": "5074480",
+      "ruta": "/spielbericht/index/spielbericht/5074480"
+    },
+    {
+      "id": "5074481",
+      "ruta": "/spielbericht/index/spielbericht/5074481"
+    },
+    {
+      "id": "5074482",
+      "ruta": "/spielbericht/index/spielbericht/5074482"
+    },
+    {
+      "id": "5074483",
+      "ruta": "/spielbericht/index/spielbericht/5074483"
+    },
+    {
+      "id": "5074484",
+      "ruta": "/spielbericht/index/spielbericht/5074484"
+    },
+    {
+      "id": "5074485",
+      "ruta": "/spielbericht/index/spielbericht/5074485"
+    },
+    {
+      "id": "5074486",
+      "ruta": "/spielbericht/index/spielbericht/5074486"
+    },
+    {
+      "id": "5074487",
+      "ruta": "/spielbericht/index/spielbericht/5074487"
+    },
+    {
+      "id": "5074488",
+      "ruta": "/spielbericht/index/spielbericht/5074488"
+    },
+    {
+      "id": "5074489",
+      "ruta": "/spielbericht/index/spielbericht/5074489"
+    },
+    {
+      "id": "5074490",
+      "ruta": "/spielbericht/index/spielbericht/5074490"
+    },
+    {
+      "id": "5074491",
+      "ruta": "/spielbericht/index/spielbericht/5074491"
+    },
+    {
+      "id": "5074492",
+      "ruta": "/spielbericht/index/spielbericht/5074492"
+    },
+    {
+      "id": "5074493",
+      "ruta": "/spielbericht/index/spielbericht/5074493"
+    },
+    {
+      "id": "5074494",
+      "ruta": "/spielbericht/index/spielbericht/5074494"
+    },
+    {
+      "id": "5074495",
+      "ruta": "/spielbericht/index/spielbericht/5074495"
+    },
+    {
+      "id": "5074496",
+      "ruta": "/spielbericht/index/spielbericht/5074496"
+    },
+    {
+      "id": "5074497",
+      "ruta": "/spielbericht/index/spielbericht/5074497"
+    },
+    {
+      "id": "5074498",
+      "ruta": "/spielbericht/index/spielbericht/5074498"
+    },
+    {
+      "id": "5074499",
+      "ruta": "/spielbericht/index/spielbericht/5074499"
+    },
+    {
+      "id": "5096897",
+      "ruta": "/spielbericht/index/spielbericht/5096897"
+    },
+    {
+      "id": "5096898",
+      "ruta": "/spielbericht/index/spielbericht/5096898"
+    },
+    {
+      "id": "5096899",
+      "ruta": "/spielbericht/index/spielbericht/5096899"
+    },
+    {
+      "id": "5096900",
+      "ruta": "/spielbericht/index/spielbericht/5096900"
+    },
+    {
+      "id": "5096901",
+      "ruta": "/spielbericht/index/spielbericht/5096901"
+    },
+    {
+      "id": "5096902",
+      "ruta": "/spielbericht/index/spielbericht/5096902"
+    },
+    {
+      "id": "5096903",
+      "ruta": "/spielbericht/index/spielbericht/5096903"
+    },
+    {
+      "id": "5096904",
+      "ruta": "/spielbericht/index/spielbericht/5096904"
+    },
+    {
+      "id": "5096905",
+      "ruta": "/spielbericht/index/spielbericht/5096905"
+    },
+    {
+      "id": "5096906",
+      "ruta": "/spielbericht/index/spielbericht/5096906"
+    },
+    {
+      "id": "5096907",
+      "ruta": "/spielbericht/index/spielbericht/5096907"
+    },
+    {
+      "id": "5096908",
+      "ruta": "/spielbericht/index/spielbericht/5096908"
+    },
+    {
+      "id": "5096909",
+      "ruta": "/spielbericht/index/spielbericht/5096909"
+    },
+    {
+      "id": "5096910",
+      "ruta": "/spielbericht/index/spielbericht/5096910"
+    },
+    {
+      "id": "5096911",
+      "ruta": "/spielbericht/index/spielbericht/5096911"
+    },
+    {
+      "id": "5096912",
+      "ruta": "/spielbericht/index/spielbericht/5096912"
+    },
+    {
+      "id": "5096913",
+      "ruta": "/spielbericht/index/spielbericht/5096913"
+    },
+    {
+      "id": "5096914",
+      "ruta": "/spielbericht/index/spielbericht/5096914"
+    },
+    {
+      "id": "5096915",
+      "ruta": "/spielbericht/index/spielbericht/5096915"
+    },
+    {
+      "id": "5096916",
+      "ruta": "/spielbericht/index/spielbericht/5096916"
+    },
+    {
+      "id": "5096917",
+      "ruta": "/spielbericht/index/spielbericht/5096917"
+    },
+    {
+      "id": "5096918",
+      "ruta": "/spielbericht/index/spielbericht/5096918"
+    },
+    {
+      "id": "5096919",
+      "ruta": "/spielbericht/index/spielbericht/5096919"
+    },
+    {
+      "id": "5096920",
+      "ruta": "/spielbericht/index/spielbericht/5096920"
+    },
+    {
+      "id": "5096921",
+      "ruta": "/spielbericht/index/spielbericht/5096921"
+    },
+    {
+      "id": "5096922",
+      "ruta": "/spielbericht/index/spielbericht/5096922"
+    },
+    {
+      "id": "5096923",
+      "ruta": "/spielbericht/index/spielbericht/5096923"
+    },
+    {
+      "id": "5136774",
+      "ruta": "/spielbericht/index/spielbericht/5136774"
     }
   ]
 }

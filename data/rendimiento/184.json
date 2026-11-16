@@ -2,21 +2,21 @@
   "club_id": "184",
   "club_nombre": "Club Alianza Lima",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:02:29",
+  "fecha_extraccion": "2026-11-16T00:34:14",
   "jugadores": [
+    {
+      "id": "158515",
+      "nombre": "Alejandro Duarte",
+      "posicion": "Goalkeeper",
+      "partidos": 33,
+      "minutos": 2970
+    },
     {
       "id": "258964",
       "nombre": "Guillermo Viscarra",
       "posicion": "Goalkeeper",
       "partidos": 2,
       "minutos": 180
-    },
-    {
-      "id": "158515",
-      "nombre": "Alejandro Duarte",
-      "posicion": "Goalkeeper",
-      "partidos": 27,
-      "minutos": 2430
     },
     {
       "id": "662712",
@@ -36,50 +36,50 @@
       "id": "539067",
       "nombre": "Nicolás Díaz",
       "posicion": "Centre-Back",
-      "partidos": 6,
-      "minutos": 436
+      "partidos": 10,
+      "minutos": 710
     },
     {
       "id": "335677",
       "nombre": "Renzo Garcés",
       "posicion": "Centre-Back",
-      "partidos": 27,
-      "minutos": 2404
+      "partidos": 32,
+      "minutos": 2809
     },
     {
       "id": "988661",
       "nombre": "Mateo Antoni",
       "posicion": "Centre-Back",
-      "partidos": 26,
-      "minutos": 2149
+      "partidos": 30,
+      "minutos": 2473
     },
     {
       "id": "441727",
       "nombre": "Gianfranco Chávez",
       "posicion": "Centre-Back",
-      "partidos": 18,
-      "minutos": 1248
+      "partidos": 21,
+      "minutos": 1406
     },
     {
       "id": "837617",
       "nombre": "Marco Huamán",
       "posicion": "Right-Back",
-      "partidos": 23,
-      "minutos": 1959
+      "partidos": 28,
+      "minutos": 2389
     },
     {
       "id": "1227156",
       "nombre": "D'Alessandro Montenegro",
       "posicion": "Right-Back",
-      "partidos": 2,
-      "minutos": 103
+      "partidos": 3,
+      "minutos": 157
     },
     {
       "id": "656061",
       "nombre": "Cristian Carbajal",
       "posicion": "Left-Back",
-      "partidos": 13,
-      "minutos": 606
+      "partidos": 16,
+      "minutos": 683
     },
     {
       "id": "260324",
@@ -92,8 +92,8 @@
       "id": "103890",
       "nombre": "Luis Advíncula",
       "posicion": "Right-Back",
-      "partidos": 27,
-      "minutos": 2320
+      "partidos": 33,
+      "minutos": 2860
     },
     {
       "id": "1140448",
@@ -106,8 +106,8 @@
       "id": "1123587",
       "nombre": "Jonathan García",
       "posicion": "Centre-Back",
-      "partidos": 3,
-      "minutos": 192
+      "partidos": 6,
+      "minutos": 401
     },
     {
       "id": "1252495",
@@ -138,39 +138,46 @@
       "minutos": 7
     },
     {
+      "id": "1558611",
+      "nombre": "Ángelo Vidaurre",
+      "posicion": "Right-Back",
+      "partidos": 2,
+      "minutos": 134
+    },
+    {
       "id": "323432",
       "nombre": "Jairo Vélez",
       "posicion": "Attacking Midfield",
-      "partidos": 28,
-      "minutos": 2305
+      "partidos": 33,
+      "minutos": 2691
     },
     {
       "id": "582655",
       "nombre": "Jesús Castillo",
       "posicion": "Defensive Midfield",
-      "partidos": 15,
-      "minutos": 687
+      "partidos": 19,
+      "minutos": 806
     },
     {
       "id": "1328288",
       "nombre": "Piero Cari",
-      "posicion": "Central Midfield",
-      "partidos": 6,
-      "minutos": 155
+      "posicion": "Attacking Midfield",
+      "partidos": 7,
+      "minutos": 160
     },
     {
       "id": "657479",
       "nombre": "Alessandro Burlamaqui",
       "posicion": "Central Midfield",
-      "partidos": 11,
-      "minutos": 167
+      "partidos": 14,
+      "minutos": 222
     },
     {
       "id": "818499",
       "nombre": "Cristian Neira",
       "posicion": "Attacking Midfield",
-      "partidos": 4,
-      "minutos": 68
+      "partidos": 5,
+      "minutos": 85
     },
     {
       "id": "273638",
@@ -190,15 +197,15 @@
       "id": "147263",
       "nombre": "Fernando Gaibor",
       "posicion": "Central Midfield",
-      "partidos": 24,
-      "minutos": 1676
+      "partidos": 30,
+      "minutos": 2125
     },
     {
       "id": "131233",
       "nombre": "Esteban Pavez",
       "posicion": "Defensive Midfield",
-      "partidos": 25,
-      "minutos": 2209
+      "partidos": 28,
+      "minutos": 2434
     },
     {
       "id": "1150488",
@@ -243,13 +250,6 @@
       "minutos": 83
     },
     {
-      "id": "1558611",
-      "nombre": "Ángelo Vidaurre",
-      "posicion": "Central Midfield",
-      "partidos": 2,
-      "minutos": 134
-    },
-    {
       "id": "1506807",
       "nombre": "Diego Hidalgo",
       "posicion": "Defensive Midfield",
@@ -260,50 +260,43 @@
       "id": "639149",
       "nombre": "Federico Girotti",
       "posicion": "Centre-Forward",
-      "partidos": 22,
-      "minutos": 1166
+      "partidos": 28,
+      "minutos": 1609
     },
     {
       "id": "687529",
       "nombre": "Luis Ramos",
       "posicion": "Centre-Forward",
-      "partidos": 17,
-      "minutos": 501
+      "partidos": 21,
+      "minutos": 575
     },
     {
       "id": "836494",
       "nombre": "Alan Cantero",
       "posicion": "Left Winger",
-      "partidos": 24,
-      "minutos": 998
+      "partidos": 28,
+      "minutos": 1093
     },
     {
       "id": "266451",
       "nombre": "Eryc Castillo",
       "posicion": "Left Winger",
-      "partidos": 28,
-      "minutos": 2269
+      "partidos": 34,
+      "minutos": 2734
     },
     {
       "id": "439631",
       "nombre": "Kevin Quevedo",
       "posicion": "Right Winger",
-      "partidos": 10,
-      "minutos": 497
+      "partidos": 16,
+      "minutos": 751
     },
     {
       "id": "537255",
       "nombre": "Gaspar Gentile",
       "posicion": "Left Winger",
-      "partidos": 22,
-      "minutos": 660
-    },
-    {
-      "id": "966185",
-      "nombre": "Stefano Olaya",
-      "posicion": "Left Winger",
-      "partidos": 1,
-      "minutos": 30
+      "partidos": 27,
+      "minutos": 1002
     },
     {
       "id": "2989",
@@ -332,6 +325,13 @@
       "posicion": "Centre-Forward",
       "partidos": 1,
       "minutos": 90
+    },
+    {
+      "id": "966185",
+      "nombre": "Stefano Olaya",
+      "posicion": "Left Winger",
+      "partidos": 1,
+      "minutos": 30
     },
     {
       "id": "1410182",

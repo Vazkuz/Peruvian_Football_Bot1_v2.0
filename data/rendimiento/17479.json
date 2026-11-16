@@ -2,21 +2,21 @@
   "club_id": "17479",
   "club_nombre": "Alianza Atlético Sullana",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:06:39",
+  "fecha_extraccion": "2026-11-16T00:38:24",
   "jugadores": [
     {
       "id": "325709",
       "nombre": "Steven Rivadeneyra",
       "posicion": "Goalkeeper",
-      "partidos": 10,
-      "minutos": 900
+      "partidos": 13,
+      "minutos": 1170
     },
     {
       "id": "217130",
       "nombre": "Daniel Prieto",
       "posicion": "Goalkeeper",
-      "partidos": 23,
-      "minutos": 2070
+      "partidos": 28,
+      "minutos": 2550
     },
     {
       "id": "94444",
@@ -36,22 +36,22 @@
       "id": "653484",
       "nombre": "Erick Perleche",
       "posicion": "Right-Back",
-      "partidos": 32,
-      "minutos": 2688
+      "partidos": 40,
+      "minutos": 3143
     },
     {
       "id": "974335",
       "nombre": "Román Suárez",
       "posicion": "Centre-Back",
-      "partidos": 33,
-      "minutos": 2596
+      "partidos": 39,
+      "minutos": 3166
     },
     {
       "id": "515413",
       "nombre": "Jesús Mendieta",
       "posicion": "Left-Back",
-      "partidos": 16,
-      "minutos": 802
+      "partidos": 22,
+      "minutos": 1162
     },
     {
       "id": "717686",
@@ -64,29 +64,29 @@
       "id": "441758",
       "nombre": "José Luján",
       "posicion": "Centre-Back",
-      "partidos": 25,
-      "minutos": 1891
+      "partidos": 33,
+      "minutos": 2583
     },
     {
       "id": "332776",
       "nombre": "Anthony Gordillo",
       "posicion": "Left-Back",
-      "partidos": 32,
-      "minutos": 2657
+      "partidos": 36,
+      "minutos": 2948
     },
     {
       "id": "764367",
       "nombre": "Williams Guzmán",
       "posicion": "Centre-Back",
-      "partidos": 25,
-      "minutos": 1544
+      "partidos": 30,
+      "minutos": 1860
     },
     {
       "id": "827586",
       "nombre": "Juan Quiñones",
       "posicion": "Centre-Back",
-      "partidos": 3,
-      "minutos": 202
+      "partidos": 4,
+      "minutos": 210
     },
     {
       "id": "737963",
@@ -99,50 +99,43 @@
       "id": "1225745",
       "nombre": "Hernan Lupu",
       "posicion": "Defensive Midfield",
-      "partidos": 38,
-      "minutos": 2622
+      "partidos": 46,
+      "minutos": 3252
     },
     {
       "id": "857805",
       "nombre": "Jimmy Pérez",
       "posicion": "Central Midfield",
-      "partidos": 31,
-      "minutos": 1656
+      "partidos": 37,
+      "minutos": 1840
     },
     {
       "id": "981694",
       "nombre": "Ariel Muñoz",
       "posicion": "Central Midfield",
-      "partidos": 30,
-      "minutos": 1592
+      "partidos": 36,
+      "minutos": 1999
     },
     {
       "id": "872158",
       "nombre": "Germán Díaz",
       "posicion": "Central Midfield",
-      "partidos": 38,
-      "minutos": 2976
-    },
-    {
-      "id": "563817",
-      "nombre": "Alejo Antilef",
-      "posicion": "Central Midfield",
-      "partidos": 2,
-      "minutos": 29
+      "partidos": 46,
+      "minutos": 3673
     },
     {
       "id": "966369",
       "nombre": "Stefano Fernández",
       "posicion": "Defensive Midfield",
-      "partidos": 26,
-      "minutos": 1203
+      "partidos": 32,
+      "minutos": 1566
     },
     {
       "id": "1149628",
       "nombre": "Juan Delgado",
       "posicion": "Defensive Midfield",
-      "partidos": 10,
-      "minutos": 456
+      "partidos": 16,
+      "minutos": 910
     },
     {
       "id": "434715",
@@ -150,6 +143,13 @@
       "posicion": "Attacking Midfield",
       "partidos": 6,
       "minutos": 194
+    },
+    {
+      "id": "563817",
+      "nombre": "Alejo Antilef",
+      "posicion": "Central Midfield",
+      "partidos": 2,
+      "minutos": 29
     },
     {
       "id": "1108259",
@@ -162,50 +162,50 @@
       "id": "1558862",
       "nombre": "Daniel Chilo",
       "posicion": "Attacking Midfield",
-      "partidos": 2,
-      "minutos": 28
+      "partidos": 3,
+      "minutos": 73
     },
     {
       "id": "870966",
       "nombre": "Guillermo Larios",
       "posicion": "Right Winger",
-      "partidos": 27,
-      "minutos": 1157
+      "partidos": 34,
+      "minutos": 1554
     },
     {
       "id": "1082743",
       "nombre": "Jorge del Castillo",
       "posicion": "Left Winger",
-      "partidos": 30,
-      "minutos": 1572
+      "partidos": 37,
+      "minutos": 1980
     },
     {
       "id": "741594",
       "nombre": "Franchesco Flores",
       "posicion": "Right Winger",
-      "partidos": 27,
-      "minutos": 1082
+      "partidos": 28,
+      "minutos": 1112
     },
     {
       "id": "1220638",
       "nombre": "Valentín Robaldo",
       "posicion": "Centre-Forward",
-      "partidos": 30,
-      "minutos": 1325
+      "partidos": 33,
+      "minutos": 1445
     },
     {
       "id": "1171309",
       "nombre": "Cristhian Valladolid",
       "posicion": "Right Winger",
-      "partidos": 13,
-      "minutos": 509
+      "partidos": 15,
+      "minutos": 584
     },
     {
       "id": "696729",
       "nombre": "José María Ingratti",
       "posicion": "Centre-Forward",
-      "partidos": 11,
-      "minutos": 813
+      "partidos": 17,
+      "minutos": 1253
     },
     {
       "id": "1102798",
@@ -225,15 +225,15 @@
       "id": "212309",
       "nombre": "Cristian Penilla",
       "posicion": "Left Winger",
-      "partidos": 35,
-      "minutos": 2169
+      "partidos": 43,
+      "minutos": 2603
     },
     {
       "id": "254123",
       "nombre": "Jairo Molina",
       "posicion": "Centre-Forward",
-      "partidos": 10,
-      "minutos": 622
+      "partidos": 16,
+      "minutos": 749
     },
     {
       "id": "1558861",

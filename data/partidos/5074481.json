@@ -1,0 +1,490 @@
+{
+  "partido_id": "5074481",
+  "ruta": "/spielbericht/index/spielbericht/5074481",
+  "fecha_extraccion": "2026-11-16T00:56:22",
+  "equipos": [
+    {
+      "club_id": "27861",
+      "club_nombre": "Club Atlético Grau",
+      "local": true,
+      "formacion": "3-4-3",
+      "titulares": [
+        {
+          "id": "250711",
+          "nombre": "Álvarez",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "864707",
+          "nombre": "Ataupillco",
+          "dorsal": 16,
+          "top": 62.0,
+          "left": 40.0
+        },
+        {
+          "id": "422398",
+          "nombre": "Tapia",
+          "dorsal": 27,
+          "top": 61.0,
+          "left": 15.0
+        },
+        {
+          "id": "460830",
+          "nombre": "Tapia",
+          "dorsal": 3,
+          "top": 61.0,
+          "left": 65.0
+        },
+        {
+          "id": "981804",
+          "nombre": "Alfaro",
+          "dorsal": 25,
+          "top": 32.0,
+          "left": 12.0
+        },
+        {
+          "id": "639467",
+          "nombre": "Vásquez",
+          "dorsal": 8,
+          "top": 32.0,
+          "left": 68.0
+        },
+        {
+          "id": "250737",
+          "nombre": "Guarderas",
+          "dorsal": 5,
+          "top": 35.0,
+          "left": 50.0
+        },
+        {
+          "id": "491560",
+          "nombre": "Oncoy",
+          "dorsal": 13,
+          "top": 35.0,
+          "left": 30.0
+        },
+        {
+          "id": "892756",
+          "nombre": "Vásquez",
+          "dorsal": 20,
+          "top": 10.0,
+          "left": 15.0
+        },
+        {
+          "id": "239623",
+          "nombre": "Fernández",
+          "dorsal": 99,
+          "top": 3.0,
+          "left": 40.0
+        },
+        {
+          "id": "869156",
+          "nombre": "Ruidíaz",
+          "dorsal": 24,
+          "top": 10.0,
+          "left": 65.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "639452",
+          "nombre": "Aamet Calderón",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "284306",
+          "nombre": "Lucas Acevedo",
+          "dorsal": 2,
+          "posicion": "CB"
+        },
+        {
+          "id": "325711",
+          "nombre": "Elsar Rodas",
+          "dorsal": 6,
+          "posicion": "LB"
+        },
+        {
+          "id": "1102800",
+          "nombre": "Eslyn Correa",
+          "dorsal": 21,
+          "posicion": "CM"
+        },
+        {
+          "id": "572038",
+          "nombre": "Diego Barreto",
+          "dorsal": 7,
+          "posicion": "AM"
+        },
+        {
+          "id": "196037",
+          "nombre": "Pablo Lavandeira",
+          "dorsal": 15,
+          "posicion": "AM"
+        },
+        {
+          "id": "422855",
+          "nombre": "Luis Benites",
+          "dorsal": 96,
+          "posicion": "LW"
+        },
+        {
+          "id": "1482719",
+          "nombre": "Henri Espinoza",
+          "dorsal": 17,
+          "posicion": "RW"
+        },
+        {
+          "id": "129724",
+          "nombre": "Raúl Ruidíaz",
+          "dorsal": 9,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "54478",
+      "club_nombre": "CD Los Chankas",
+      "local": false,
+      "formacion": "5-3-2",
+      "titulares": [
+        {
+          "id": "250407",
+          "nombre": "Camacho",
+          "dorsal": 1,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "294886",
+          "nombre": "Pimienta",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 56.5
+        },
+        {
+          "id": "409092",
+          "nombre": "Rizzo",
+          "dorsal": 24,
+          "top": 63.0,
+          "left": 40.0
+        },
+        {
+          "id": "725453",
+          "nombre": "González",
+          "dorsal": 2,
+          "top": 61.0,
+          "left": 23.5
+        },
+        {
+          "id": "965449",
+          "nombre": "Palomino",
+          "dorsal": 5,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "653673",
+          "nombre": "Ayarza",
+          "dorsal": 6,
+          "top": 38.0,
+          "left": 55.0
+        },
+        {
+          "id": "873510",
+          "nombre": "Torres",
+          "dorsal": 10,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "855900",
+          "nombre": "Ospina",
+          "dorsal": 7,
+          "top": 38.0,
+          "left": 25.0
+        },
+        {
+          "id": "357124",
+          "nombre": "Takeuchi",
+          "dorsal": 18,
+          "top": 59.0,
+          "left": 73.0
+        },
+        {
+          "id": "664841",
+          "nombre": "Barrios",
+          "dorsal": 27,
+          "top": 59.0,
+          "left": 7.0
+        },
+        {
+          "id": "648289",
+          "nombre": "Torres",
+          "dorsal": 20,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "988214",
+          "nombre": "Luis Pretel",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "893740",
+          "nombre": "Michael Kaufman",
+          "dorsal": 30,
+          "posicion": "CB"
+        },
+        {
+          "id": "639765",
+          "nombre": "Axel Chávez",
+          "dorsal": 16,
+          "posicion": "LB"
+        },
+        {
+          "id": "643536",
+          "nombre": "David Gonzáles",
+          "dorsal": 26,
+          "posicion": "LB"
+        },
+        {
+          "id": "470023",
+          "nombre": "Brayan Guevara",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "441728",
+          "nombre": "Kelvin Sánchez",
+          "dorsal": 15,
+          "posicion": "DM"
+        },
+        {
+          "id": "384765",
+          "nombre": "Accel Campos",
+          "dorsal": 4,
+          "posicion": "RW"
+        },
+        {
+          "id": "653475",
+          "nombre": "Félix Espinoza",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "330169",
+          "nombre": "Jarlín Quintero",
+          "dorsal": 11,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [],
+  "cambios": [
+    {
+      "club_id": "54478",
+      "minuto": 57,
+      "anadido": 0,
+      "sale": {
+        "id": "965449",
+        "nombre": "Jorge Palomino"
+      },
+      "entra": {
+        "id": "441728",
+        "nombre": "Kelvin Sánchez"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 60,
+      "anadido": 0,
+      "sale": {
+        "id": "869156",
+        "nombre": "Yamir Ruidíaz"
+      },
+      "entra": {
+        "id": "422855",
+        "nombre": "Luis Benites"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 70,
+      "anadido": 0,
+      "sale": {
+        "id": "855900",
+        "nombre": "Juan Diego Ospina"
+      },
+      "entra": {
+        "id": "893740",
+        "nombre": "Michael Kaufman"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "864707",
+        "nombre": "José Ataupillco"
+      },
+      "entra": {
+        "id": "196037",
+        "nombre": "Pablo Lavandeira"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 73,
+      "anadido": 0,
+      "sale": {
+        "id": "892756",
+        "nombre": "Aldair Vásquez"
+      },
+      "entra": {
+        "id": "129724",
+        "nombre": "Raúl Ruidíaz"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "648289",
+        "nombre": "Marlon Torres"
+      },
+      "entra": {
+        "id": "653475",
+        "nombre": "Félix Espinoza"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "664841",
+        "nombre": "Kenyi Barrios"
+      },
+      "entra": {
+        "id": "639765",
+        "nombre": "Axel Chávez"
+      }
+    },
+    {
+      "club_id": "54478",
+      "minuto": 84,
+      "anadido": 0,
+      "sale": {
+        "id": "873510",
+        "nombre": "Franco Torres"
+      },
+      "entra": {
+        "id": "330169",
+        "nombre": "Jarlín Quintero"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "981804",
+        "nombre": "Gabriel Alfaro"
+      },
+      "entra": {
+        "id": "325711",
+        "nombre": "Elsar Rodas"
+      }
+    },
+    {
+      "club_id": "27861",
+      "minuto": 89,
+      "anadido": 0,
+      "sale": {
+        "id": "639467",
+        "nombre": "Christian Vásquez"
+      },
+      "entra": {
+        "id": "1482719",
+        "nombre": "Henri Espinoza"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "54478",
+      "minuto": 21,
+      "anadido": 0,
+      "jugador": {
+        "id": "409092",
+        "nombre": "Gonzalo Rizzo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Gonzalo Rizzo 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "27861",
+      "minuto": 50,
+      "anadido": 0,
+      "jugador": {
+        "id": "491560",
+        "nombre": "Freddy Oncoy"
+      },
+      "tipo": "amarilla",
+      "detalle": "Freddy Oncoy 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "27861",
+      "minuto": 60,
+      "anadido": 0,
+      "jugador": {
+        "id": "422855",
+        "nombre": "Luis Benites"
+      },
+      "tipo": "amarilla",
+      "detalle": "Luis Benites 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "54478",
+      "minuto": 63,
+      "anadido": 0,
+      "jugador": {
+        "id": "653673",
+        "nombre": "Abdiel Ayarza"
+      },
+      "tipo": "roja",
+      "detalle": "Abdiel Ayarza Red card , Serious foul"
+    },
+    {
+      "club_id": "54478",
+      "minuto": 77,
+      "anadido": 0,
+      "jugador": {
+        "id": "893740",
+        "nombre": "Michael Kaufman"
+      },
+      "tipo": "amarilla",
+      "detalle": "Michael Kaufman 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "27861",
+      "minuto": 86,
+      "anadido": 0,
+      "jugador": {
+        "id": "129724",
+        "nombre": "Raúl Ruidíaz"
+      },
+      "tipo": "amarilla",
+      "detalle": "Raúl Ruidíaz 2. Yellow card , Foul"
+    }
+  ]
+}

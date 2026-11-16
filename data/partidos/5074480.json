@@ -1,0 +1,486 @@
+{
+  "partido_id": "5074480",
+  "ruta": "/spielbericht/index/spielbericht/5074480",
+  "fecha_extraccion": "2026-11-16T00:55:51",
+  "equipos": [
+    {
+      "club_id": "35588",
+      "club_nombre": "Asociación Deportiva Tarma",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "255976",
+          "nombre": "Valencia",
+          "dorsal": 30,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "358736",
+          "nombre": "Pereyra",
+          "dorsal": 99,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "260318",
+          "nombre": "Benincasa",
+          "dorsal": 44,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "140931",
+          "nombre": "Narváez",
+          "dorsal": 23,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "741727",
+          "nombre": "Núñez",
+          "dorsal": 59,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "582319",
+          "nombre": "Ramos",
+          "dorsal": 98,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "656911",
+          "nombre": "Pérez",
+          "dorsal": 16,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "92729",
+          "nombre": "Rojas",
+          "dorsal": 7,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "1502980",
+          "nombre": "Mazzo",
+          "dorsal": 18,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "1088739",
+          "nombre": "Lucumí",
+          "dorsal": 77,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "1149626",
+          "nombre": "Peralta",
+          "dorsal": 24,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "250672",
+          "nombre": "Carlos Solís",
+          "dorsal": 33,
+          "posicion": "GK"
+        },
+        {
+          "id": "1059722",
+          "nombre": "Jhair Soto",
+          "dorsal": 28,
+          "posicion": "CB"
+        },
+        {
+          "id": "738469",
+          "nombre": "Leonardo Rugel",
+          "dorsal": 3,
+          "posicion": "CB"
+        },
+        {
+          "id": "885263",
+          "nombre": "Jerry Navarro",
+          "dorsal": 31,
+          "posicion": "RB"
+        },
+        {
+          "id": "149771",
+          "nombre": "Ángel Ojeda",
+          "dorsal": 6,
+          "posicion": "DM"
+        },
+        {
+          "id": "1227155",
+          "nombre": "Alexander Hidalgo",
+          "dorsal": 27,
+          "posicion": "AM"
+        },
+        {
+          "id": "1409977",
+          "nombre": "Jhojan Garcilazo",
+          "dorsal": 26,
+          "posicion": "RW"
+        },
+        {
+          "id": "130158",
+          "nombre": "Jonatan Bauman",
+          "dorsal": 32,
+          "posicion": "CF"
+        },
+        {
+          "id": "1531236",
+          "nombre": "Omar Riveros",
+          "dorsal": 50,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "120792",
+      "club_nombre": "FC Cajamarca",
+      "local": false,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "260429",
+          "nombre": "Medina",
+          "dorsal": 3,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "338977",
+          "nombre": "Vílchez",
+          "dorsal": 95,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "1029758",
+          "nombre": "Gómez",
+          "dorsal": 44,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "582318",
+          "nombre": "Vega",
+          "dorsal": 21,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "250929",
+          "nombre": "Goyoneche",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "242996",
+          "nombre": "Orejuela",
+          "dorsal": 18,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "1096324",
+          "nombre": "Arrasco",
+          "dorsal": 11,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "641820",
+          "nombre": "Palacios",
+          "dorsal": 17,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "662714",
+          "nombre": "Meza",
+          "dorsal": 20,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "904940",
+          "nombre": "Enciso",
+          "dorsal": 31,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "763898",
+          "nombre": "Cejas",
+          "dorsal": 9,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1284244",
+          "nombre": "Samuel Aspajo",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "893513",
+          "nombre": "Hairo Timaná",
+          "dorsal": 26,
+          "posicion": "CB"
+        },
+        {
+          "id": "895056",
+          "nombre": "Arthur Gutiérrez",
+          "dorsal": 14,
+          "posicion": "LB"
+        },
+        {
+          "id": "1149627",
+          "nombre": "Renato Suárez",
+          "dorsal": 5,
+          "posicion": "RB"
+        },
+        {
+          "id": "106283",
+          "nombre": "Edson Aubert",
+          "dorsal": 88,
+          "posicion": "DM"
+        },
+        {
+          "id": "358338",
+          "nombre": "Carlos Correa",
+          "dorsal": 13,
+          "posicion": "CM"
+        },
+        {
+          "id": "984374",
+          "nombre": "Valentino Sandoval",
+          "dorsal": 8,
+          "posicion": "AM"
+        },
+        {
+          "id": "621031",
+          "nombre": "Michel Rasmussen",
+          "dorsal": 6,
+          "posicion": "RW"
+        },
+        {
+          "id": "212300",
+          "nombre": "José Lugo",
+          "dorsal": 77,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [],
+  "cambios": [
+    {
+      "club_id": "120792",
+      "minuto": 53,
+      "anadido": 0,
+      "sale": {
+        "id": "1029758",
+        "nombre": "Carlos Gómez"
+      },
+      "entra": {
+        "id": "1149627",
+        "nombre": "Renato Suárez"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 54,
+      "anadido": 0,
+      "sale": {
+        "id": "1502980",
+        "nombre": "Aylton Mazzo"
+      },
+      "entra": {
+        "id": "1409977",
+        "nombre": "Jhojan Garcilazo"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 63,
+      "anadido": 0,
+      "sale": {
+        "id": "1149626",
+        "nombre": "Said Peralta"
+      },
+      "entra": {
+        "id": "130158",
+        "nombre": "Jonatan Bauman"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 63,
+      "anadido": 0,
+      "sale": {
+        "id": "358736",
+        "nombre": "Joaquín Pereyra"
+      },
+      "entra": {
+        "id": "1059722",
+        "nombre": "Jhair Soto"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 82,
+      "anadido": 0,
+      "sale": {
+        "id": "582319",
+        "nombre": "Alejandro Ramos"
+      },
+      "entra": {
+        "id": "885263",
+        "nombre": "Jerry Navarro"
+      }
+    },
+    {
+      "club_id": "35588",
+      "minuto": 82,
+      "anadido": 0,
+      "sale": {
+        "id": "140931",
+        "nombre": "John Narváez"
+      },
+      "entra": {
+        "id": "1531236",
+        "nombre": "Omar Riveros"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 82,
+      "anadido": 0,
+      "sale": {
+        "id": "763898",
+        "nombre": "Pedro Cejas"
+      },
+      "entra": {
+        "id": "106283",
+        "nombre": "Edson Aubert"
+      }
+    },
+    {
+      "club_id": "120792",
+      "minuto": 90,
+      "anadido": 3,
+      "sale": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      },
+      "entra": {
+        "id": "212300",
+        "nombre": "José Lugo"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "120792",
+      "minuto": 4,
+      "anadido": 0,
+      "jugador": {
+        "id": "250929",
+        "nombre": "Paulo Goyoneche"
+      },
+      "tipo": "amarilla",
+      "detalle": "Paulo Goyoneche 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 37,
+      "anadido": 0,
+      "jugador": {
+        "id": "582318",
+        "nombre": "Jhon Vega"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jhon Vega 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 45,
+      "anadido": 0,
+      "jugador": {
+        "id": "1502980",
+        "nombre": "Aylton Mazzo"
+      },
+      "tipo": "amarilla",
+      "detalle": "Aylton Mazzo 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 45,
+      "anadido": 0,
+      "jugador": {
+        "id": "1029758",
+        "nombre": "Carlos Gómez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Carlos Gómez 2. Yellow card , Dissent"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 46,
+      "anadido": 0,
+      "jugador": {
+        "id": "358736",
+        "nombre": "Joaquín Pereyra"
+      },
+      "tipo": "amarilla",
+      "detalle": "Joaquín Pereyra 1. Yellow card , Foul"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 48,
+      "anadido": 0,
+      "jugador": {
+        "id": "662714",
+        "nombre": "Carlos Meza"
+      },
+      "tipo": "roja",
+      "detalle": "Carlos Meza Red card"
+    },
+    {
+      "club_id": "120792",
+      "minuto": 62,
+      "anadido": 0,
+      "jugador": {
+        "id": "1149627",
+        "nombre": "Renato Suárez"
+      },
+      "tipo": "amarilla",
+      "detalle": "Renato Suárez 3. Yellow card , Foul"
+    },
+    {
+      "club_id": "35588",
+      "minuto": 88,
+      "anadido": 0,
+      "jugador": {
+        "id": "1531236",
+        "nombre": "Omar Riveros"
+      },
+      "tipo": "amarilla",
+      "detalle": "Omar Riveros 1. Yellow card , Foul"
+    }
+  ]
+}

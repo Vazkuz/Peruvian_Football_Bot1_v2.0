@@ -2,14 +2,14 @@
   "club_id": "21655",
   "club_nombre": "Sport Huancayo",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:07:09",
+  "fecha_extraccion": "2026-11-16T00:38:55",
   "jugadores": [
     {
       "id": "372304",
       "nombre": "Ángel Zamudio",
       "posicion": "Goalkeeper",
-      "partidos": 27,
-      "minutos": 2430
+      "partidos": 33,
+      "minutos": 2970
     },
     {
       "id": "383343",
@@ -36,15 +36,15 @@
       "id": "814636",
       "nombre": "Marcelo Gaona",
       "posicion": "Centre-Back",
-      "partidos": 30,
-      "minutos": 2603
+      "partidos": 36,
+      "minutos": 3119
     },
     {
       "id": "531177",
       "nombre": "Jean Franco Falconí",
       "posicion": "Right-Back",
-      "partidos": 27,
-      "minutos": 2119
+      "partidos": 33,
+      "minutos": 2659
     },
     {
       "id": "639765",
@@ -57,22 +57,22 @@
       "id": "224652",
       "nombre": "Hugo Ángeles",
       "posicion": "Left-Back",
-      "partidos": 29,
-      "minutos": 2530
+      "partidos": 33,
+      "minutos": 2861
     },
     {
       "id": "271676",
       "nombre": "Jeremy Rostaing",
       "posicion": "Right-Back",
-      "partidos": 12,
-      "minutos": 775
+      "partidos": 15,
+      "minutos": 943
     },
     {
       "id": "249967",
       "nombre": "Juan Barreda",
       "posicion": "Centre-Back",
-      "partidos": 14,
-      "minutos": 754
+      "partidos": 16,
+      "minutos": 813
     },
     {
       "id": "434562",
@@ -85,8 +85,8 @@
       "id": "242546",
       "nombre": "Yonatan Murillo",
       "posicion": "Centre-Back",
-      "partidos": 10,
-      "minutos": 574
+      "partidos": 12,
+      "minutos": 667
     },
     {
       "id": "625618",
@@ -99,8 +99,8 @@
       "id": "482452",
       "nombre": "Jimmy Valoyes",
       "posicion": "Centre-Back",
-      "partidos": 27,
-      "minutos": 2111
+      "partidos": 32,
+      "minutos": 2561
     },
     {
       "id": "1409967",
@@ -113,22 +113,22 @@
       "id": "1188205",
       "nombre": "Edu Villar",
       "posicion": "Defensive Midfield",
-      "partidos": 22,
-      "minutos": 1237
+      "partidos": 27,
+      "minutos": 1305
     },
     {
       "id": "490614",
       "nombre": "Diego Carabaño",
       "posicion": "Central Midfield",
-      "partidos": 27,
-      "minutos": 1315
+      "partidos": 33,
+      "minutos": 1735
     },
     {
       "id": "325147",
       "nombre": "Nahuel Luján",
       "posicion": "Attacking Midfield",
-      "partidos": 32,
-      "minutos": 2122
+      "partidos": 38,
+      "minutos": 2639
     },
     {
       "id": "688116",
@@ -136,20 +136,6 @@
       "posicion": "Defensive Midfield",
       "partidos": 5,
       "minutos": 134
-    },
-    {
-      "id": "313437",
-      "nombre": "Javier Sanguinetti",
-      "posicion": "Attacking Midfield",
-      "partidos": 25,
-      "minutos": 1793
-    },
-    {
-      "id": "142738",
-      "nombre": "Ricardo Salcedo",
-      "posicion": "Defensive Midfield",
-      "partidos": 28,
-      "minutos": 2398
     },
     {
       "id": "1196730",
@@ -166,11 +152,18 @@
       "minutos": 0
     },
     {
-      "id": "417183",
-      "nombre": "Aldo Quiñónez",
-      "posicion": "Central Midfield",
-      "partidos": 9,
-      "minutos": 279
+      "id": "313437",
+      "nombre": "Javier Sanguinetti",
+      "posicion": "Attacking Midfield",
+      "partidos": 31,
+      "minutos": 2310
+    },
+    {
+      "id": "142738",
+      "nombre": "Ricardo Salcedo",
+      "posicion": "Defensive Midfield",
+      "partidos": 33,
+      "minutos": 2756
     },
     {
       "id": "1409963",
@@ -180,11 +173,18 @@
       "minutos": 0
     },
     {
+      "id": "417183",
+      "nombre": "Aldo Quiñónez",
+      "posicion": "Central Midfield",
+      "partidos": 15,
+      "minutos": 489
+    },
+    {
       "id": "874831",
       "nombre": "Piero Magallanes",
       "posicion": "Right Winger",
-      "partidos": 29,
-      "minutos": 1745
+      "partidos": 35,
+      "minutos": 2158
     },
     {
       "id": "532994",
@@ -197,29 +197,29 @@
       "id": "279508",
       "nombre": "Daniel Porozo",
       "posicion": "Centre-Forward",
-      "partidos": 11,
-      "minutos": 344
+      "partidos": 17,
+      "minutos": 757
     },
     {
       "id": "1025975",
       "nombre": "Juan Giménez",
       "posicion": "Right Winger",
-      "partidos": 6,
-      "minutos": 120
+      "partidos": 10,
+      "minutos": 168
     },
     {
       "id": "422853",
       "nombre": "Rick Campodónico",
       "posicion": "Left Winger",
-      "partidos": 24,
-      "minutos": 757
+      "partidos": 26,
+      "minutos": 840
     },
     {
       "id": "331819",
       "nombre": "Ronal Huaccha",
       "posicion": "Centre-Forward",
-      "partidos": 26,
-      "minutos": 1014
+      "partidos": 30,
+      "minutos": 1110
     },
     {
       "id": "132353",
@@ -232,15 +232,8 @@
       "id": "1168655",
       "nombre": "Juan Martínez",
       "posicion": "Centre-Forward",
-      "partidos": 16,
-      "minutos": 646
-    },
-    {
-      "id": "231639",
-      "nombre": "Franco Caballero",
-      "posicion": "Centre-Forward",
       "partidos": 20,
-      "minutos": 811
+      "minutos": 717
     },
     {
       "id": "1409965",
@@ -248,6 +241,13 @@
       "posicion": "Left Winger",
       "partidos": 5,
       "minutos": 269
+    },
+    {
+      "id": "231639",
+      "nombre": "Franco Caballero",
+      "posicion": "Centre-Forward",
+      "partidos": 20,
+      "minutos": 811
     }
   ]
 }

@@ -1,4 +1,4 @@
-"""Valida el motor v2 contra los 90 partidos reales del Clausura (data/partidos/<id>.json).
+"""Valida el motor v2 contra los partidos reales del Clausura (data/partidos/<id>.json).
 
 Simula N temporadas completas (nueva temporada + jugar_siguiente hasta terminar, en carpetas
 temporales que se borran al final) y compara las mismas metricas con los partidos reales.

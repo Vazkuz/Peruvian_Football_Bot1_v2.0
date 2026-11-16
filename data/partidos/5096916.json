@@ -1,0 +1,483 @@
+{
+  "partido_id": "5096916",
+  "ruta": "/spielbericht/index/spielbericht/5096916",
+  "fecha_extraccion": "2026-11-16T01:15:48",
+  "equipos": [
+    {
+      "club_id": "2734",
+      "club_nombre": "FBC Melgar",
+      "local": true,
+      "formacion": "4-2-3-1",
+      "titulares": [
+        {
+          "id": "785133",
+          "nombre": "Cabezudo",
+          "dorsal": 21,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "353034",
+          "nombre": "Escobar",
+          "dorsal": 23,
+          "top": 63.0,
+          "left": 52.5
+        },
+        {
+          "id": "302416",
+          "nombre": "González",
+          "dorsal": 3,
+          "top": 63.0,
+          "left": 28.0
+        },
+        {
+          "id": "831138",
+          "nombre": "Lazo",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 73.0
+        },
+        {
+          "id": "491570",
+          "nombre": "Cabanillas",
+          "dorsal": 27,
+          "top": 61.0,
+          "left": 7.5
+        },
+        {
+          "id": "249468",
+          "nombre": "Orzán",
+          "dorsal": 66,
+          "top": 43.0,
+          "left": 52.0
+        },
+        {
+          "id": "400945",
+          "nombre": "Minda",
+          "dorsal": 25,
+          "top": 43.0,
+          "left": 28.0
+        },
+        {
+          "id": "1442941",
+          "nombre": "Zegarra",
+          "dorsal": 45,
+          "top": 18.0,
+          "left": 15.0
+        },
+        {
+          "id": "282350",
+          "nombre": "Bordacahar",
+          "dorsal": 7,
+          "top": 18.0,
+          "left": 65.0
+        },
+        {
+          "id": "626916",
+          "nombre": "Guzmán",
+          "dorsal": 8,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "224677",
+          "nombre": "Vidales",
+          "dorsal": 11,
+          "top": 3.0,
+          "left": 40.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "94359",
+          "nombre": "Carlos Cáceda",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "796060",
+          "nombre": "Jesús Alcántar",
+          "dorsal": 90,
+          "posicion": "CB"
+        },
+        {
+          "id": "621029",
+          "nombre": "Alec Deneumostier",
+          "dorsal": 5,
+          "posicion": "CB"
+        },
+        {
+          "id": "1227512",
+          "nombre": "Gian García",
+          "dorsal": 20,
+          "posicion": "CM"
+        },
+        {
+          "id": "966314",
+          "nombre": "Marcos Portillo",
+          "dorsal": 26,
+          "posicion": "CM"
+        },
+        {
+          "id": "741728",
+          "nombre": "Jhamir D'Arrigo",
+          "dorsal": 80,
+          "posicion": "LW"
+        },
+        {
+          "id": "1371976",
+          "nombre": "Patricio Núñez",
+          "dorsal": 36,
+          "posicion": "RW"
+        },
+        {
+          "id": "653476",
+          "nombre": "Franco Zanelatto",
+          "dorsal": 77,
+          "posicion": "RW"
+        },
+        {
+          "id": "1369251",
+          "nombre": "Ryu Yabiku",
+          "dorsal": 40,
+          "posicion": "CF"
+        }
+      ]
+    },
+    {
+      "club_id": "99517",
+      "club_nombre": "Club Juan Pablo II College",
+      "local": false,
+      "formacion": "5-3-2",
+      "titulares": [
+        {
+          "id": "75445",
+          "nombre": "Vega",
+          "dorsal": 23,
+          "top": 80.0,
+          "left": 40.0
+        },
+        {
+          "id": "936044",
+          "nombre": "Almirón",
+          "dorsal": 33,
+          "top": 61.0,
+          "left": 56.5
+        },
+        {
+          "id": "76717",
+          "nombre": "Míguez",
+          "dorsal": 60,
+          "top": 63.0,
+          "left": 40.0
+        },
+        {
+          "id": "662695",
+          "nombre": "Sánchez",
+          "dorsal": 3,
+          "top": 61.0,
+          "left": 23.5
+        },
+        {
+          "id": "672263",
+          "nombre": "Ancajima",
+          "dorsal": 2,
+          "top": 59.0,
+          "left": 73.0
+        },
+        {
+          "id": "489993",
+          "nombre": "Toledo",
+          "dorsal": 31,
+          "top": 59.0,
+          "left": 7.0
+        },
+        {
+          "id": "1011265",
+          "nombre": "Carhuallan.",
+          "dorsal": 14,
+          "top": 38.0,
+          "left": 55.0
+        },
+        {
+          "id": "1074429",
+          "nombre": "Rojas",
+          "dorsal": 37,
+          "top": 38.0,
+          "left": 25.0
+        },
+        {
+          "id": "422934",
+          "nombre": "Ramírez",
+          "dorsal": 18,
+          "top": 23.0,
+          "left": 40.0
+        },
+        {
+          "id": "1029760",
+          "nombre": "Goicochea",
+          "dorsal": 79,
+          "top": 2.0,
+          "left": 50.0
+        },
+        {
+          "id": "1076583",
+          "nombre": "Rodríguez",
+          "dorsal": 97,
+          "top": 2.0,
+          "left": 30.0
+        }
+      ],
+      "banca": [
+        {
+          "id": "1508623",
+          "nombre": "Sthefano Luzquiños",
+          "dorsal": 4,
+          "posicion": ""
+        },
+        {
+          "id": "670062",
+          "nombre": "Ismael Quispe",
+          "dorsal": 12,
+          "posicion": "GK"
+        },
+        {
+          "id": "655639",
+          "nombre": "Paolo Reyna",
+          "dorsal": 19,
+          "posicion": "LB"
+        },
+        {
+          "id": "1107110",
+          "nombre": "Nilton Ramirez",
+          "dorsal": 15,
+          "posicion": "AM"
+        },
+        {
+          "id": "1244025",
+          "nombre": "Josué Torres",
+          "dorsal": 88,
+          "posicion": "LW"
+        },
+        {
+          "id": "1426206",
+          "nombre": "Jorge Barreto",
+          "dorsal": 80,
+          "posicion": "RW"
+        },
+        {
+          "id": "174580",
+          "nombre": "Jack Durán",
+          "dorsal": 28,
+          "posicion": "RW"
+        },
+        {
+          "id": "670523",
+          "nombre": "Héctor Bazán",
+          "dorsal": 20,
+          "posicion": "CF"
+        },
+        {
+          "id": "94761",
+          "nombre": "Janio Pósito",
+          "dorsal": 89,
+          "posicion": "CF"
+        }
+      ]
+    }
+  ],
+  "goles": [
+    {
+      "club_id": "99517",
+      "minuto": 9,
+      "anadido": 0,
+      "marcador": "0:1",
+      "autor": {
+        "id": "1029760",
+        "nombre": "Juan Pablo Goicochea"
+      },
+      "asistencia": {
+        "id": "672263",
+        "nombre": "Hugo Ancajima"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 12,
+      "anadido": 0,
+      "marcador": "1:1",
+      "autor": {
+        "id": "282350",
+        "nombre": "Cristian Bordacahar"
+      },
+      "asistencia": {
+        "id": "626916",
+        "nombre": "Lautaro Guzmán"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 48,
+      "anadido": 0,
+      "marcador": "2:1",
+      "autor": {
+        "id": "626916",
+        "nombre": "Lautaro Guzmán"
+      },
+      "asistencia": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra"
+      }
+    }
+  ],
+  "cambios": [
+    {
+      "club_id": "99517",
+      "minuto": 61,
+      "anadido": 0,
+      "sale": {
+        "id": "1074429",
+        "nombre": "Álvaro Rojas"
+      },
+      "entra": {
+        "id": "174580",
+        "nombre": "Jack Durán"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 61,
+      "anadido": 0,
+      "sale": {
+        "id": "662695",
+        "nombre": "Arón Sánchez"
+      },
+      "entra": {
+        "id": "655639",
+        "nombre": "Paolo Reyna"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 62,
+      "anadido": 0,
+      "sale": {
+        "id": "1076583",
+        "nombre": "Mateo Rodríguez"
+      },
+      "entra": {
+        "id": "94761",
+        "nombre": "Janio Pósito"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 62,
+      "anadido": 0,
+      "sale": {
+        "id": "1029760",
+        "nombre": "Juan Pablo Goicochea"
+      },
+      "entra": {
+        "id": "670523",
+        "nombre": "Héctor Bazán"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "282350",
+        "nombre": "Cristian Bordacahar"
+      },
+      "entra": {
+        "id": "653476",
+        "nombre": "Franco Zanelatto"
+      }
+    },
+    {
+      "club_id": "2734",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "626916",
+        "nombre": "Lautaro Guzmán"
+      },
+      "entra": {
+        "id": "966314",
+        "nombre": "Marcos Portillo"
+      }
+    },
+    {
+      "club_id": "99517",
+      "minuto": 75,
+      "anadido": 0,
+      "sale": {
+        "id": "672263",
+        "nombre": "Hugo Ancajima"
+      },
+      "entra": {
+        "id": "1107110",
+        "nombre": "Nilton Ramirez"
+      }
+    }
+  ],
+  "tarjetas": [
+    {
+      "club_id": "99517",
+      "minuto": 14,
+      "anadido": 0,
+      "jugador": {
+        "id": "1074429",
+        "nombre": "Álvaro Rojas"
+      },
+      "tipo": "amarilla",
+      "detalle": "Álvaro Rojas 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "2734",
+      "minuto": 35,
+      "anadido": 0,
+      "jugador": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jhonny Vidales 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "99517",
+      "minuto": 37,
+      "anadido": 0,
+      "jugador": {
+        "id": "1011265",
+        "nombre": "Jack Carhuallanqui"
+      },
+      "tipo": "amarilla",
+      "detalle": "Jack Carhuallanqui 2. Yellow card , Foul"
+    },
+    {
+      "club_id": "99517",
+      "minuto": 73,
+      "anadido": 0,
+      "jugador": {
+        "id": "936044",
+        "nombre": "Matías Almirón"
+      },
+      "tipo": "amarilla",
+      "detalle": "Matías Almirón 6. Yellow card , Foul"
+    },
+    {
+      "club_id": "99517",
+      "minuto": 82,
+      "anadido": 0,
+      "jugador": {
+        "id": "174580",
+        "nombre": "Jack Durán"
+      },
+      "tipo": "roja",
+      "detalle": "Jack Durán Red card , Violent conduct"
+    }
+  ]
+}

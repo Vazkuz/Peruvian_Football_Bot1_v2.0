@@ -1,9 +1,9 @@
 {
   "club_id": "6593",
   "club_nombre": "Universitario de Deportes",
-  "formacion": "3-1-4-2",
-  "variante": "3-1-4-2",
-  "fecha_generacion": "2026-10-03T00:44:01",
+  "formacion": "3-4-1-2",
+  "variante": "3-4-1-2",
+  "fecha_generacion": "2026-11-16T01:49:58",
   "casillas": [
     {
       "casilla": 1,
@@ -12,15 +12,14 @@
         "id": "643063",
         "nombre": "Diego Romero",
         "rol": "arquero",
-        "puntaje": 24.642
+        "puntaje": 32.066
       },
       "suplente": {
         "id": "352338",
         "nombre": "Miguel Vargas",
         "rol": "arquero",
-        "puntaje": 0,
-        "origen": "banca",
-        "convocatorias": 10
+        "puntaje": 5.188,
+        "origen": "minutos"
       }
     },
     {
@@ -30,13 +29,13 @@
         "id": "619072",
         "nombre": "Caín Fara",
         "rol": "central",
-        "puntaje": 23.495
+        "puntaje": 35.531
       },
       "suplente": {
-        "id": "142745",
-        "nombre": "Anderson Santamaría",
+        "id": "441344",
+        "nombre": "Matías Di Benedetto",
         "rol": "central",
-        "puntaje": 9.312,
+        "puntaje": 17.964,
         "origen": "minutos"
       }
     },
@@ -44,28 +43,27 @@
       "casilla": 3,
       "rol": "central",
       "titular": {
-        "id": "441344",
-        "nombre": "Matías Di Benedetto",
+        "id": "457058",
+        "nombre": "Williams Riveros",
         "rol": "central",
-        "puntaje": 20.642
+        "puntaje": 29.187
       },
       "suplente": {
         "id": "94437",
         "nombre": "Aldo Corzo",
         "rol": "central",
-        "puntaje": 0,
-        "origen": "banca",
-        "convocatorias": 5
+        "puntaje": 0.153,
+        "origen": "minutos"
       }
     },
     {
       "casilla": 4,
       "rol": "central",
       "titular": {
-        "id": "457058",
-        "nombre": "Williams Riveros",
+        "id": "142745",
+        "nombre": "Anderson Santamaría",
         "rol": "central",
-        "puntaje": 15.812
+        "puntaje": 22.694
       },
       "suplente": {
         "id": "1554020",
@@ -77,86 +75,86 @@
     },
     {
       "casilla": 5,
-      "rol": "volante_defensivo",
-      "titular": {
-        "id": "486265",
-        "nombre": "Jorge Murrugarra",
-        "rol": "volante_defensivo",
-        "puntaje": 11.727
-      },
-      "suplente": {
-        "id": "637902",
-        "nombre": "Juan Manuel Requena",
-        "rol": "volante_defensivo",
-        "puntaje": 5.783,
-        "origen": "minutos"
-      }
-    },
-    {
-      "casilla": 6,
       "rol": "volante_extremo_izq",
       "titular": {
         "id": "965846",
         "nombre": "César Inga",
         "rol": "volante_extremo_izq",
-        "puntaje": 19.311
+        "puntaje": 28.848
       },
       "suplente": {
         "id": "424024",
         "nombre": "Héctor Fértoli",
         "rol": "volante_extremo_izq",
-        "puntaje": 3.068,
+        "puntaje": 4.024,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 6,
+      "rol": "volante_defensivo",
+      "titular": {
+        "id": "486265",
+        "nombre": "Jorge Murrugarra",
+        "rol": "volante_defensivo",
+        "puntaje": 12.618
+      },
+      "suplente": {
+        "id": "490717",
+        "nombre": "Jairo Concha",
+        "rol": "volante_defensivo",
+        "puntaje": 8.476,
         "origen": "minutos"
       }
     },
     {
       "casilla": 7,
-      "rol": "volante_central",
+      "rol": "volante_defensivo",
       "titular": {
-        "id": "490717",
-        "nombre": "Jairo Concha",
-        "rol": "volante_central",
-        "puntaje": 16.56
+        "id": "77125",
+        "nombre": "Horacio Calcaterra",
+        "rol": "volante_defensivo",
+        "puntaje": 9.174
       },
       "suplente": {
-        "id": "871655",
-        "nombre": "Piero Quispe",
-        "rol": "volante_central",
-        "puntaje": 6.569,
+        "id": "637902",
+        "nombre": "Juan Manuel Requena",
+        "rol": "volante_defensivo",
+        "puntaje": 5.063,
         "origen": "minutos"
       }
     },
     {
       "casilla": 8,
-      "rol": "volante_central",
-      "titular": {
-        "id": "744083",
-        "nombre": "Adrián Quiroz",
-        "rol": "volante_central",
-        "puntaje": 10.17
-      },
-      "suplente": {
-        "id": "486641",
-        "nombre": "Jordan Guivin",
-        "rol": "volante_central",
-        "puntaje": 1.728,
-        "origen": "minutos"
-      }
-    },
-    {
-      "casilla": 9,
       "rol": "volante_extremo_der",
       "titular": {
         "id": "189236",
         "nombre": "Andy Polo",
         "rol": "volante_extremo_der",
-        "puntaje": 20.374
+        "puntaje": 33.101
       },
       "suplente": {
         "id": "396920",
         "nombre": "Lisandro Alzugaray",
         "rol": "volante_extremo_der",
-        "puntaje": 5.722,
+        "puntaje": 8.91,
+        "origen": "minutos"
+      }
+    },
+    {
+      "casilla": 9,
+      "rol": "mediapunta",
+      "titular": {
+        "id": "194998",
+        "nombre": "Edison Flores",
+        "rol": "mediapunta",
+        "puntaje": 7.199
+      },
+      "suplente": {
+        "id": "871655",
+        "nombre": "Piero Quispe",
+        "rol": "mediapunta",
+        "puntaje": 6.472,
         "origen": "minutos"
       }
     },
@@ -167,13 +165,13 @@
         "id": "738716",
         "nombre": "Álex Valera",
         "rol": "delantero",
-        "puntaje": 24.008
+        "puntaje": 36.239
       },
       "suplente": {
         "id": "458461",
         "nombre": "José Rivera",
         "rol": "delantero",
-        "puntaje": 3.497,
+        "puntaje": 4.76,
         "origen": "minutos"
       }
     },
@@ -184,14 +182,14 @@
         "id": "130394",
         "nombre": "Gianluca Lapadula",
         "rol": "delantero",
-        "puntaje": 16.487
+        "puntaje": 28.131
       },
       "suplente": {
-        "id": "194998",
-        "nombre": "Edison Flores",
+        "id": "337070",
+        "nombre": "Sekou Gassama",
         "rol": "delantero",
-        "puntaje": 0.454,
-        "origen": "minutos"
+        "puntaje": 0,
+        "origen": "plantel"
       }
     }
   ]

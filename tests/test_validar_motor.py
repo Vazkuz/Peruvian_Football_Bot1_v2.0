@@ -1,4 +1,5 @@
 import importlib.util
+import json
 import random
 
 import pytest
@@ -24,7 +25,9 @@ def suma(m, prefijo):
 def test_corre_y_guarda_la_tabla(corrida):
     texto, _, _, salida = corrida
     assert salida.read_text(encoding="utf-8") == texto
-    assert "Métrica" in texto and "306 partidos" in texto and "90 partidos reales" in texto
+    with open(RAIZ / "data" / "partidos" / "ids_clausura.json", encoding="utf-8") as f:
+        reales = len(json.load(f)["partidos"])
+    assert "Métrica" in texto and "306 partidos" in texto and f"{reales} partidos reales" in texto
 
 
 @pytest.mark.parametrize("cual", [1, 2])

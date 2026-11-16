@@ -2,14 +2,14 @@
   "club_id": "76945",
   "club_nombre": "Deportivo Garcilaso",
   "temporada": "Total 25/26",
-  "fecha_extraccion": "2026-10-02T23:06:08",
+  "fecha_extraccion": "2026-11-16T00:37:53",
   "jugadores": [
     {
       "id": "342051",
       "nombre": "Patrick Zubczuk",
       "posicion": "Goalkeeper",
-      "partidos": 30,
-      "minutos": 2700
+      "partidos": 37,
+      "minutos": 3330
     },
     {
       "id": "456161",
@@ -29,15 +29,15 @@
       "id": "524311",
       "nombre": "Agustín Gómez",
       "posicion": "Centre-Back",
-      "partidos": 32,
-      "minutos": 2864
+      "partidos": 39,
+      "minutos": 3494
     },
     {
       "id": "741413",
       "nombre": "Erick Canales",
       "posicion": "Right-Back",
-      "partidos": 29,
-      "minutos": 2420
+      "partidos": 34,
+      "minutos": 2870
     },
     {
       "id": "741727",
@@ -57,29 +57,29 @@
       "id": "582098",
       "nombre": "Jefferson Portales",
       "posicion": "Centre-Back",
-      "partidos": 9,
-      "minutos": 442
+      "partidos": 10,
+      "minutos": 443
     },
     {
       "id": "866487",
       "nombre": "Xavi Moreno",
       "posicion": "Centre-Back",
-      "partidos": 21,
-      "minutos": 1628
+      "partidos": 25,
+      "minutos": 1877
     },
     {
       "id": "279380",
       "nombre": "Aldair Salazar",
       "posicion": "Centre-Back",
-      "partidos": 24,
-      "minutos": 1700
+      "partidos": 31,
+      "minutos": 2330
     },
     {
       "id": "356381",
       "nombre": "Anthony Rosell",
       "posicion": "Left-Back",
-      "partidos": 4,
-      "minutos": 76
+      "partidos": 10,
+      "minutos": 528
     },
     {
       "id": "1141361",
@@ -99,36 +99,43 @@
       "id": "483714",
       "nombre": "Kevin Sandoval",
       "posicion": "Attacking Midfield",
-      "partidos": 25,
-      "minutos": 1476
+      "partidos": 28,
+      "minutos": 1694
     },
     {
       "id": "458906",
       "nombre": "Carlos Ramos",
       "posicion": "Central Midfield",
-      "partidos": 31,
-      "minutos": 2332
+      "partidos": 37,
+      "minutos": 2865
     },
     {
       "id": "810550",
       "nombre": "Adrián Ascues",
-      "posicion": "Central Midfield",
-      "partidos": 25,
-      "minutos": 862
+      "posicion": "Attacking Midfield",
+      "partidos": 31,
+      "minutos": 1133
     },
     {
       "id": "438000",
       "nombre": "Agustín González",
       "posicion": "Central Midfield",
-      "partidos": 28,
-      "minutos": 2201
+      "partidos": 35,
+      "minutos": 2805
     },
     {
       "id": "168974",
       "nombre": "Claudio Torrejón",
       "posicion": "Defensive Midfield",
-      "partidos": 17,
-      "minutos": 1291
+      "partidos": 22,
+      "minutos": 1461
+    },
+    {
+      "id": "818970",
+      "nombre": "Sharif Ramírez",
+      "posicion": "Attacking Midfield",
+      "partidos": 18,
+      "minutos": 552
     },
     {
       "id": "393855",
@@ -136,13 +143,6 @@
       "posicion": "Defensive Midfield",
       "partidos": 3,
       "minutos": 114
-    },
-    {
-      "id": "1371975",
-      "nombre": "Joao Mendoza",
-      "posicion": "Attacking Midfield",
-      "partidos": 7,
-      "minutos": 284
     },
     {
       "id": "1559613",
@@ -169,36 +169,36 @@
       "id": "527625",
       "nombre": "Christopher Olivares",
       "posicion": "Centre-Forward",
-      "partidos": 29,
-      "minutos": 1491
+      "partidos": 36,
+      "minutos": 1921
     },
     {
       "id": "279057",
       "nombre": "Beto da Silva",
       "posicion": "Left Winger",
-      "partidos": 29,
-      "minutos": 2274
+      "partidos": 35,
+      "minutos": 2676
     },
     {
       "id": "324046",
       "nombre": "Francisco Arancibia",
       "posicion": "Right Winger",
-      "partidos": 27,
-      "minutos": 1829
+      "partidos": 30,
+      "minutos": 2032
     },
     {
       "id": "451338",
       "nombre": "Fernando Pacheco",
       "posicion": "Left Winger",
-      "partidos": 3,
-      "minutos": 41
+      "partidos": 6,
+      "minutos": 118
     },
     {
       "id": "443350",
       "nombre": "Facundo Castelli",
       "posicion": "Centre-Forward",
-      "partidos": 9,
-      "minutos": 463
+      "partidos": 16,
+      "minutos": 1005
     },
     {
       "id": "463055",
@@ -211,15 +211,15 @@
       "id": "912299",
       "nombre": "Lucas Ríos",
       "posicion": "Left Winger",
-      "partidos": 3,
-      "minutos": 67
+      "partidos": 9,
+      "minutos": 185
     },
     {
-      "id": "818970",
-      "nombre": "Sharif Ramírez",
+      "id": "1371975",
+      "nombre": "Joao Mendoza",
       "posicion": "Right Winger",
-      "partidos": 13,
-      "minutos": 403
+      "partidos": 9,
+      "minutos": 457
     },
     {
       "id": "824177",

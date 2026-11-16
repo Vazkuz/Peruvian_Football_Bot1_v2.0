@@ -100,9 +100,14 @@ def casillas_por_coordenadas(formacion, coords, reglas):
         if rombo and k == 0 and len(bloque) == 3:  # rombo: VD al centro, VC a los lados
             roles[bloque[0]], roles[bloque[1]], roles[bloque[2]] = "volante_central", "volante_defensivo", "volante_central"
             continue
-        abiertos_izq = [c for c in bloque if c[1] <= izq_max]
-        abiertos_der = [c for c in bloque if c[1] >= der_min]
-        centrales = [c for c in bloque if izq_max < c[1] < der_min]
+        if carrileros and len(bloque) == 4:
+            # los dos de afuera de la linea de 4 son carrileros aunque no esten pegados a la banda
+            # (3-4-3 Diamond de Cienciano, revisado con sus mapas de calor: Daniel, 16/11/2026)
+            abiertos_izq, abiertos_der, centrales = [bloque[0]], [bloque[-1]], bloque[1:-1]
+        else:
+            abiertos_izq = [c for c in bloque if c[1] <= izq_max]
+            abiertos_der = [c for c in bloque if c[1] >= der_min]
+            centrales = [c for c in bloque if izq_max < c[1] < der_min]
         roles.update({c: "lateral_izq" if carrileros else "volante_extremo_izq" for c in abiertos_izq})
         roles.update({c: "lateral_der" if carrileros else "volante_extremo_der" for c in abiertos_der})
         ultimo = k == len(medio) - 1 and len(medio) >= 2
@@ -175,11 +180,11 @@ def pesos_fecha(criterio):
         fecha = fecha_partido(i)
         for e in partido["equipos"]:
             por_club.setdefault(e["club_id"], []).append((fecha, i))
-    divisor = criterio["peso_fecha"]["divisor"]
     pesos = {}
     for club, lista in por_club.items():
+        divisor = len(lista) - 1  # el mas antiguo vale 1 y el mas reciente 2, segun los partidos de cada club
         for k, (_, i) in enumerate(sorted(lista), start=1):
-            pesos[(club, i)] = 1 + (k - 1) / divisor
+            pesos[(club, i)] = 1 + (k - 1) / divisor if divisor else 1
     return pesos
 
 
