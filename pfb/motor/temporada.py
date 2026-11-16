@@ -117,6 +117,32 @@ def cargar_registros(temporada_id, base=CARPETA_TEMPORADAS):
     return _ordenados([_leer_json(r) for r in carpeta.glob("*.json")])
 
 
+_CACHE_REGISTROS = {}   # ruta -> (firma del archivo, registro): solo para jugar_siguiente
+
+
+def _firma(ruta):
+    """Cambia si el archivo se reescribe (_escribir_json lo reemplaza entero con os.replace)."""
+    st = ruta.stat()
+    return st.st_mtime_ns, st.st_size, st.st_ino
+
+
+def _registros_para_jugar(temporada_id, base=CARPETA_TEMPORADAS):
+    """Como cargar_registros, pero sin volver a parsear los archivos que no cambiaron desde la última vez.
+    Devuelve los mismos objetos en cada llamada: solo para leer (jugar_siguiente no los modifica)."""
+    carpeta = carpeta_temporada(temporada_id, base) / "partidos"
+    if not carpeta.exists():
+        return []
+    registros = []
+    for ruta in carpeta.glob("*.json"):
+        clave, firma = str(ruta), _firma(ruta)
+        guardado = _CACHE_REGISTROS.get(clave)
+        if guardado is None or guardado[0] != firma:
+            guardado = (firma, _leer_json(ruta))
+            _CACHE_REGISTROS[clave] = guardado
+        registros.append(guardado[1])
+    return _ordenados(registros)
+
+
 def _ordenados(registros):
     return sorted(registros, key=lambda r: (r["fecha"], r["partido_id"]))
 
@@ -307,7 +333,7 @@ def jugar_siguiente(temporada_id, params, base=CARPETA_TEMPORADAS):
             ruta = carpeta / f"{pid}.json"
             if ruta.exists():
                 continue
-            registros = cargar_registros(temporada_id, base)
+            registros = _registros_para_jugar(temporada_id, base)
             fuera = {club: suspendidos(registros, club) for club in (local, visita)}
             plantilla_local, bloqueadas_local = con_suspendidos(cargar_plantilla(local), fuera[local])
             plantilla_visita, bloqueadas_visita = con_suspendidos(cargar_plantilla(visita), fuera[visita])

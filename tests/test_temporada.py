@@ -172,3 +172,33 @@ def test_temporada_completa(params, clubes, tmp_path):
     assert len(filas) == 18
     assert all(f["pj"] == 34 for f in filas)
     assert sum(f["gf"] for f in filas) == sum(f["gc"] for f in filas)
+
+
+# --- Caché de jugar_siguiente (deuda: la suite releía todos los partidos antes de cada uno) ---
+
+def test_cache_igual_a_cargar_registros(tmp_path):
+    from pfb.motor.partido import cargar_parametros
+    from pfb.motor.temporada import _registros_para_jugar, cargar_registros, jugar_siguiente, nueva_temporada
+    params = cargar_parametros()
+    nueva_temporada("c", semilla=4, base=tmp_path)
+    for _ in range(12):
+        jugar_siguiente("c", params, base=tmp_path)
+        assert _registros_para_jugar("c", tmp_path) == cargar_registros("c", tmp_path)
+
+
+def test_cache_ve_un_partido_reescrito(tmp_path):
+    """Si un partido se reescribe (p. ej. al resolver una votación), la corrida siguiente lo ve."""
+    from pfb.motor.partido import cargar_parametros
+    from pfb.motor.temporada import (_escribir_json, _registros_para_jugar, cargar_registros, jugar_siguiente,
+                                     nueva_temporada, suspendidos)
+    params = cargar_parametros()
+    nueva_temporada("d", semilla=4, base=tmp_path)
+    registro = jugar_siguiente("d", params, base=tmp_path)
+    antes = _registros_para_jugar("d", tmp_path)                                       # queda en el caché
+    assert antes == cargar_registros("d", tmp_path)
+    club = registro["local"]["club_id"]
+    registro["votacion"] = {"tipo": "sancion", "club_id": club, "casilla": 4,
+                            "jugador": {"id": "x", "nombre": "X"}, "votos": [0, 0, 1, 0], "fechas": 3}
+    _escribir_json(tmp_path / "d" / "partidos" / f"{registro['partido_id']}.json", registro)
+    assert _registros_para_jugar("d", tmp_path) == cargar_registros("d", tmp_path)
+    assert suspendidos(_registros_para_jugar("d", tmp_path), club) == {4: "x"}

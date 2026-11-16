@@ -5,6 +5,10 @@ Comentar (los comentarios de las votaciones, §13.1) pide el permiso instagram_m
 Usa siempre FB_PAGE_TOKEN e IG_USER_ID del .env (la cuenta de Instagram está vinculada a la página
 real), también con --pagina prueba. Las imágenes van como image_url: se suben sin publicar a la
 página del modo (el `subidor`, un facebook.Cliente) y se pasa la URL de su versión más grande.
+
+En seco (el modo por defecto de --pagina prueba, tarea 25): se suben las fotos y se crean los
+contenedores hasta FINISHED, pero no se llama a media_publish ni se comenta. La publicación queda como
+"seco-<id del contenedor>" y cada comentario como "seco"; un comentario "seco" tiene 0 likes.
 """
 
 import urllib.parse
@@ -17,6 +21,12 @@ MAX_CAPTION = 2200
 ESPERA_ESTADO = 5       # segundos entre consultas del estado de un contenedor
 DURACION_ESTADO = 120   # segundos de espera por contenedor
 MARGEN_DUPLICADO = timedelta(minutes=5)
+SECO = "seco"
+
+
+def es_seco(ig_id):
+    """True si el id es de algo que se hizo en seco (no existe en Instagram)."""
+    return str(ig_id).startswith(SECO)
 
 
 class ErrorInstagram(ErrorFacebook):
@@ -40,7 +50,7 @@ def _fecha_ig(texto):
 
 class Instagram(Graph):
     def __init__(self, ig_user_id, token, subidor, version=VERSION_POR_DEFECTO,
-                 espera_estado=ESPERA_ESTADO, duracion_estado=DURACION_ESTADO, **kwargs):
+                 espera_estado=ESPERA_ESTADO, duracion_estado=DURACION_ESTADO, en_seco=False, **kwargs):
         if not ig_user_id or not token:
             raise ErrorFacebook("faltan IG_USER_ID o FB_PAGE_TOKEN en el .env")
         super().__init__(token, version, **kwargs)
@@ -48,6 +58,7 @@ class Instagram(Graph):
         self._subidor = subidor
         self._espera_estado = espera_estado
         self._consultas_estado = 1 + duracion_estado // espera_estado
+        self.en_seco = en_seco
 
     @classmethod
     def desde_env(cls, subidor, ruta_env=RUTA_ENV, **kwargs):
@@ -95,8 +106,10 @@ class Instagram(Graph):
         return None
 
     def _publicar(self, container_id, caption, desde):
-        """media_publish. Antes de cada intento busca el mismo caption entre las publicaciones
+        """media_publish (en seco no publica y devuelve "seco-<container_id>"). Antes de cada intento busca el mismo caption entre las publicaciones
         recientes (desde `desde`): si ya está, devuelve ese id sin volver a publicar."""
+        if self.en_seco:
+            return f"{SECO}-{container_id}"
         cuerpo = urllib.parse.urlencode({"creation_id": container_id}).encode("utf-8")
 
         def publicar():
@@ -141,13 +154,18 @@ class Instagram(Graph):
         return None
 
     def likes_comentario(self, comentario_id):
-        """Likes del comentario (cada like es un voto, §13.1)."""
+        """Likes del comentario (cada like es un voto, §13.1). Un comentario hecho en seco: 0."""
+        if es_seco(comentario_id):
+            return 0
         ruta = f"{comentario_id}?" + urllib.parse.urlencode({"fields": "like_count"})
         return self._llamar("lectura de likes de Instagram", "GET", ruta, clave="like_count")["like_count"]
 
     def comentar(self, ig_media_id, texto):
         """Comenta en la publicación. Devuelve el id del comentario. Antes de cada intento busca el
-        mismo texto entre los comentarios: si ya está (respuesta perdida), devuelve ese id."""
+        mismo texto entre los comentarios: si ya está (respuesta perdida), devuelve ese id.
+        En seco, o si la publicación se hizo en seco, no comenta y devuelve "seco"."""
+        if self.en_seco or es_seco(ig_media_id):
+            return SECO
         cuerpo = urllib.parse.urlencode({"message": texto}).encode("utf-8")
 
         def comentar():

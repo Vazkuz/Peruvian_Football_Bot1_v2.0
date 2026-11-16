@@ -209,8 +209,7 @@ class Lienzo:
     def balon(self, x, y, goles, radio_m):
         self.icono(self.img_balon, x, y, 2 * radio_m)
         if goles > 1:
-            ANCHO_RAYA = 0.42  # ancho de la raya vertical (en radios del circulo)
-# Placa "x2" encima del balon, montada sobre su cuarto inferior derecho.
+            # Placa "x2" encima del balon, montada sobre su cuarto inferior derecho.
             r = radio_m * ESCALA
             x0, y0 = x + PLACA_DX * r, y + PLACA_DY * r  # esquina superior izquierda
             w, h = PLACA_ANCHO * r, PLACA_ALTO * r

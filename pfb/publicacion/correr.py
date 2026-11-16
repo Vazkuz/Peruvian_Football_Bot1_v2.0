@@ -1,6 +1,6 @@
 """Cierra el circuito: motor → imágenes → texto → Facebook → Instagram (§7.2, §8).
 
-    python -m pfb.publicacion.correr <temporada_id> [--pagina prueba|real]
+    python -m pfb.publicacion.correr <temporada_id> [--pagina prueba|real] [--con-instagram]
 
 Sin --pagina es dry-run: no toca la red ni marca nada en publicados.json. Si hay algo pendiente lo
 muestra y termina; si no, juega el siguiente partido, lo muestra y termina.
@@ -24,6 +24,9 @@ e Instagram y el comentario de Instagram), en la corrida siguiente a la de su pa
 corrida no juega partido. Si hay una votación abierta, se resuelve antes y su anuncio va en este post.
 Una fecha por día (§9.1): si la tabla de una fecha ya salió hoy (fecha de Lima), la corrida termina lo
 que haya pendiente pero no juega partido.
+Instagram en seco (tarea 25): con --pagina prueba, Instagram llega hasta los contenedores FINISHED pero
+no publica ni comenta (ver instagram.py). --con-instagram (solo con --pagina prueba) publica de verdad
+en @pfbot.1. Con --pagina real Instagram se publica siempre.
 """
 
 import argparse
@@ -45,7 +48,7 @@ from pfb.motor.temporada import (CARPETA_TEMPORADAS, cargar_nombres, cargar_regi
 from pfb.motor.temporada import tabla as calcular_tabla
 from pfb.motor.votaciones import REACCIONES, contar_votos
 from pfb.publicacion.facebook import PAGINAS, Cliente, ErrorFacebook
-from pfb.publicacion.instagram import Instagram, comprobar_caption
+from pfb.publicacion.instagram import Instagram, comprobar_caption, es_seco
 from pfb.publicacion.publicados import (ZONA, MezclaDePaginas, cargar_publicados, clave_fifa, clave_tabla, clave_votacion,
                                         comprobar_pagina, falta, marcar, marcar_anuncio, marcar_comentario,
                                         marcar_ig_comentario, marcar_instagram)
@@ -248,9 +251,13 @@ def armar_post(item, temporada, registros, carpeta_imagenes, nombres,
 
 def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, cliente=None, instagram=None,
            generar_partido=generar_imagenes_partido, generar_tabla_img=generar_imagen_tabla,
-           generar_fifa=generar_imagen_fifa, rellenar=rellenar_cuadrado, mostrar=print, ahora=None):
+           generar_fifa=generar_imagen_fifa, rellenar=rellenar_cuadrado, mostrar=print, ahora=None,
+           con_instagram=False):
     """pagina None = dry-run. cliente: un facebook.Cliente ya armado; instagram: un
-    instagram.Instagram ya armado (si no, salen del .env)."""
+    instagram.Instagram ya armado (si no, salen del .env). con_instagram: solo con pagina "prueba";
+    sin él, Instagram va en seco. Un instagram ya armado se pone en seco o no según esto."""
+    if con_instagram and pagina != "prueba":
+        raise ValueError("--con-instagram va solo con --pagina prueba")
     temporada = cargar_temporada(temporada_id, base)
     nombres = cargar_nombres()
     carpeta_imagenes = carpeta_temporada(temporada_id, base) / "imagenes"
@@ -310,6 +317,9 @@ def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, clie
     cliente.verificar_pagina()
     if instagram is None:
         instagram = Instagram.desde_env(cliente)
+    instagram.en_seco = pagina == "prueba" and not con_instagram
+    if instagram.en_seco:
+        mostrar("Instagram en seco: contenedores sin publicar ni comentar (--con-instagram para publicar)")
     instagram.verificar_cuenta()
     armados = {}   # imágenes y texto ya armados en esta corrida, por clave
     votacion_publicada = []   # claves de votaciones que salieron (o se completaron) en publicar_pendientes
@@ -391,7 +401,10 @@ def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, clie
                 else:
                     ig_media_id = instagram.publicar_foto(fotos_ig[0], caption, desde)
                 marcar_instagram(temporada_id, clave, ig_media_id, base)
-                mostrar(f"publicado en Instagram {clave}: {ig_media_id}")
+                if es_seco(ig_media_id):
+                    mostrar(f"Instagram en seco {clave}: {ig_media_id} (sin publicar)")
+                else:
+                    mostrar(f"publicado en Instagram {clave}: {ig_media_id}")
         return ("salio", tipos_de(propio)) if propio else None
 
     resultado = publicar_pendientes()
@@ -421,9 +434,13 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description="Juega y publica el siguiente partido del PFB v2.")
     parser.add_argument("temporada_id")
     parser.add_argument("--pagina", choices=sorted(PAGINAS), help="sin esta opción es dry-run")
+    parser.add_argument("--con-instagram", action="store_true",
+                        help="con --pagina prueba, publica de verdad en Instagram (si no, va en seco)")
     args = parser.parse_args(argv)
+    if args.con_instagram and args.pagina != "prueba":
+        parser.error("--con-instagram va solo con --pagina prueba")
     try:
-        correr(args.temporada_id, pagina=args.pagina, base=CARPETA_TEMPORADAS)
+        correr(args.temporada_id, pagina=args.pagina, base=CARPETA_TEMPORADAS, con_instagram=args.con_instagram)
     except (ErrorFacebook, MezclaDePaginas) as e:
         print(f"ERROR: {e}", file=sys.stderr)
         return 1

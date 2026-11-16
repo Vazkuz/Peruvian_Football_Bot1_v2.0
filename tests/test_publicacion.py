@@ -10,7 +10,7 @@ from pfb.motor.temporada import (_escribir_json, cargar_nombres, cargar_registro
                                  jugar_siguiente, nueva_temporada)
 from pfb.publicacion.correr import armar_post, correr, main, pendientes
 from pfb.publicacion.facebook import TIPOS_REACCION, Cliente, ErrorFacebook, PaginaEquivocada, leer_env
-from pfb.publicacion.instagram import CuentaEquivocada, ErrorInstagram, Instagram, comprobar_caption
+from pfb.publicacion.instagram import CuentaEquivocada, ErrorInstagram, Instagram, comprobar_caption, es_seco
 from pfb.publicacion.publicados import (ZONA, MezclaDePaginas, cargar_publicados, falta, marcar, marcar_comentario,
                                         marcar_ig_comentario, marcar_instagram, ruta_publicados)
 from pfb.publicacion.texto import (COMENTARIO_INSTAGRAM, ENCABEZADO_ANUNCIO, caption_votacion, opciones_votacion,
@@ -186,7 +186,11 @@ def relleno_falso(origen, destino):
 
 
 def correr_falso(tmp_path, params, pagina=None, cliente=None, salida=None, **kw):
-    """Con un cliente y sin instagram, Instagram usa el mismo HttpFalso que el cliente."""
+    """Con un cliente y sin instagram, Instagram usa el mismo HttpFalso que el cliente. Con --pagina
+    prueba, por defecto publica de verdad en Instagram (con_instagram=True); las pruebas del seco lo
+    pasan en False."""
+    if pagina == "prueba":
+        kw.setdefault("con_instagram", True)
     if cliente is not None and "instagram" not in kw:
         kw["instagram"] = instagram(cliente._transporte, cliente)
     kw.setdefault("generar_partido", partido_falso)
@@ -1358,3 +1362,94 @@ def test_dry_run_muestra_la_fifa_del_partido_nuevo(tmp_path, params, monkeypatch
     assert salida[-1].startswith("[dry-run] fifa-F01-P1 (fifa)\n" + TEXTO_FIFA)
     assert "instagram (foto sola" in salida[-1] and COMENTARIO_INSTAGRAM in salida[-1]
     assert cargar_publicados("prueba", tmp_path) == {}
+
+
+# --- Instagram en seco (tarea 25) ---
+
+def test_seco_partido_crea_contenedores_sin_publicar_y_comenta_en_facebook(tmp_path, params):
+    nueva_temporada("prueba", semilla=1, base=tmp_path)
+    http = HttpFalso()
+    salida = []
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), con_instagram=False, salida=salida)
+    rutas = http.rutas()
+    assert "media_publish" not in rutas and not http.ig_media and not http.ig_comentarios
+    # los 4 contenedores (3 hijos y el carrusel) se crean y llegan a FINISHED
+    assert list(http.contenedores) == ["cont1", "cont2", "cont3", "cont4"]
+    assert http.consultas == {"cont1": 1, "cont2": 1, "cont3": 1, "cont4": 1}
+    # no busca publicaciones (anti-duplicado): solo POST a /media
+    assert [m for (m, u, c, h) in http.llamadas if u.split("?")[0].endswith(f"/{IG_ID}/media")] == ["POST"] * 4
+    entrada = cargar_publicados("prueba", tmp_path)["F01-P1"]
+    assert entrada["ig_media_id"] == "seco-cont4" and falta(cargar_publicados("prueba", tmp_path), "F01-P1") is None
+    assert http.comentados() == [(entrada["post_id"], COMENTARIO_INSTAGRAM)]
+    assert salida[0].startswith("Instagram en seco")
+    assert any(m == "Instagram en seco F01-P1: seco-cont4 (sin publicar)" for m in salida)
+
+
+def test_seco_la_corrida_siguiente_no_reintenta_instagram(tmp_path, params):
+    nueva_temporada("prueba", semilla=1, base=tmp_path)
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(HttpFalso()), con_instagram=False)
+    http = HttpFalso()
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), con_instagram=False)
+    publicados = cargar_publicados("prueba", tmp_path)
+    assert publicados["F01-P1"]["ig_media_id"] == "seco-cont4"
+    assert publicados["F01-P2"]["ig_media_id"] == "seco-cont4"   # contenedores del HttpFalso nuevo
+    assert http.n_feeds == 1
+
+
+def test_seco_tabla_foto_sola_sin_publicar(tmp_path, params):
+    nueva_temporada("prueba", semilla=1, base=tmp_path)
+    for _ in range(9):
+        correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(HttpFalso()), con_instagram=False,
+                     ahora=AHORA)
+    http = HttpFalso()
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), con_instagram=False, ahora=AHORA)
+    entrada = cargar_publicados("prueba", tmp_path)["tabla-F01"]
+    assert entrada["ig_media_id"] == "seco-cont1" and "media_publish" not in http.rutas()
+
+
+def test_seco_votacion_sin_comentarios_de_instagram_y_votos_solo_de_facebook(tmp_path, params):
+    con_votacion(tmp_path, params, MESA)
+    completo("F01-P1", tmp_path)
+    http = HttpFalso()
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), con_instagram=False)
+    publicados = cargar_publicados("prueba", tmp_path)
+    entrada = publicados["votacion-F01-P1"]
+    assert es_seco(entrada["ig_media_id"]) and entrada["ig_comentarios"] == ["seco"] * len(entrada["ig_comentarios"])
+    assert falta(publicados, "votacion-F01-P1") is None
+    assert not http.ig_comentarios and "media_publish" not in http.rutas()
+    # la corrida siguiente lee los votos: solo reacciones de Facebook, sin pedir likes a Instagram
+    http2 = HttpFalso()
+    http2.reacciones[entrada["post_id"]] = {"LIKE": 1, "HAHA": 3, "ANGRY": 0}
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http2), con_instagram=False)
+    assert leer_registro(tmp_path, "F01-P1")["votacion"]["votos"] == [1, 3, 0]
+    assert not any("like_count" in u for m, u, c, h in http2.llamadas)
+    siguiente = cargar_publicados("prueba", tmp_path)["F01-P2"]
+    assert siguiente["anuncio"]["ig_id"] == "seco" and siguiente["anuncio"]["fb_id"]
+
+
+def test_publicacion_en_seco_no_se_comenta_aunque_despues_vaya_con_instagram():
+    http = HttpFalso()
+    ig = instagram(http, cliente(http))
+    assert ig.comentar("seco-cont4", "texto") == "seco" and ig.likes_comentario("seco") == 0
+    assert http.llamadas == []
+
+
+def test_con_instagram_solo_con_pagina_prueba(tmp_path, params):
+    nueva_temporada("prueba", semilla=1, base=tmp_path)
+    with pytest.raises(ValueError, match="--con-instagram"):
+        correr_falso(tmp_path, params, pagina="real", con_instagram=True)
+    with pytest.raises(SystemExit):
+        main(["prueba", "--pagina", "real", "--con-instagram"])
+    with pytest.raises(SystemExit):
+        main(["prueba", "--con-instagram"])
+
+
+def test_pagina_real_ignora_el_seco_aunque_el_instagram_venga_en_seco(tmp_path, params):
+    nueva_temporada("prueba", semilla=1, base=tmp_path)
+    http = HttpFalso(nombre="Peruvian Football BOT 1", page_id="999")
+    real = Cliente("real", "999", "token-falso", transporte=http, dormir=lambda s: None, avisar=lambda m: None)
+    ig = Instagram(IG_ID, "token-ig", real, transporte=http, dormir=lambda s: None, avisar=lambda m: None,
+                   en_seco=True)
+    correr_falso(tmp_path, params, pagina="real", cliente=real, instagram=ig)
+    assert ig.en_seco is False and "media_publish" in http.rutas()
+    assert cargar_publicados("prueba", tmp_path)["F01-P1"]["ig_media_id"] == "ig1"

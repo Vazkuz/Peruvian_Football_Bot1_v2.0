@@ -1,6 +1,11 @@
 name: Bot
 
+# Cron: 9:17 a 19:17 de Lima (UTC-5), una corrida por hora, sobre la temporada real. Candado: si
+# data/temporadas/<temporada real>/temporada.json no existe, la corrida programada termina en verde sin
+# hacer nada. Arrancar la temporada = crear esa carpeta y pushearla.
 on:
+  schedule:
+    - cron: "17 14-23,0 * * *"
   workflow_dispatch:
     inputs:
       temporada:
@@ -25,23 +30,35 @@ concurrency:
 
 jobs:
   correr:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 180
     env:
-      TEMPORADA: ${{ inputs.temporada }}
-      PAGINA: ${{ inputs.pagina }}
+      # en el cron no hay inputs: va la temporada real con --pagina real
+      TEMPORADA: ${{ inputs.temporada || 'pfbot1-2026.1' }}
+      PAGINA: ${{ inputs.pagina || 'real' }}
     steps:
       - uses: actions/checkout@v7
 
+      - name: Candado (solo el cron)
+        if: github.event_name == 'schedule'
+        run: |
+          if [ ! -f "data/temporadas/$TEMPORADA/temporada.json" ]; then
+            echo "La temporada $TEMPORADA no existe todavía: no se hace nada."
+            echo "SALTAR=1" >> "$GITHUB_ENV"
+          fi
+
       - uses: actions/setup-python@v7
+        if: env.SALTAR != '1'
         with:
           python-version: "3.11"
           cache: pip
 
       - name: Instalar dependencias
+        if: env.SALTAR != '1'
         run: pip install -r requirements.txt
 
       - name: Validar temporada
+        if: env.SALTAR != '1'
         run: |
           case "$TEMPORADA" in
             prueba-*)
@@ -51,6 +68,7 @@ jobs:
           esac
 
       - name: Escribir .env
+        if: env.SALTAR != '1'
         env:
           FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
@@ -68,6 +86,7 @@ jobs:
           } > .env
 
       - name: Correr
+        if: env.SALTAR != '1'
         run: |
           if [ "$PAGINA" = "real" ]; then
             python -m pfb.publicacion.correr "$TEMPORADA" --pagina real
@@ -76,7 +95,7 @@ jobs:
           fi
 
       - name: Commit y push
-        if: always()
+        if: always() && env.SALTAR != '1'
         run: |
           case "$TEMPORADA" in
             prueba-*) echo "Temporada de prueba: no se commitea."; exit 0 ;;
