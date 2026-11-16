@@ -30,5 +30,6 @@
     "ventana_en_1t": 0.05,
     "arquero_sale": 0.02
   },
-  "votaciones": {"sancion": 0.05, "mesa": 0.05}
+  "votaciones": {"sancion": 0.05, "mesa": 0.05},
+  "fecha_fifa": {"probabilidad": 0.03, "peru_local": 0.5}
 }

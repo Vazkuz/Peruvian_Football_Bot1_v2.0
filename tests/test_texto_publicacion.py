@@ -270,3 +270,100 @@ def test_random_10_nombra_al_equipo_sorteado():
 
 def test_votacion_termina_con_hashtag():
     assert texto_votacion(con_votacion({"tipo": "mesa", "opcion": 7}), NOMBRES).endswith("\n\n" + HASHTAG)
+
+
+# --- Anuncio del resultado (tanda 5) ---
+
+from pfb.publicacion.texto import ENCABEZADO_ANUNCIO, texto_anuncio  # noqa: E402
+
+CABEZA = "𝗥𝗘𝗦𝗨𝗟𝗧𝗔𝗗𝗢𝗦 𝗗𝗘 𝗟𝗔 𝗨𝗟𝗧𝗜𝗠𝗔 𝗩𝗢𝗧𝗔𝗖𝗜𝗢𝗡\n\n"
+
+
+def test_encabezado_del_anuncio_en_negrita_sin_tildes():
+    assert ENCABEZADO_ANUNCIO + "\n\n" == CABEZA
+
+
+def sancion_resuelta(votos, fechas):
+    return con_votacion({"tipo": "sancion", "club_id": "17479", "casilla": 4,
+                         "jugador": {"id": "1", "nombre": "Ángel de la Cruz"}, "votos": votos, "fechas": fechas},
+                        local="17479")
+
+
+def mesa_resuelta(ganador, opcion=11, goles=(2, 1)):
+    r = con_votacion({"tipo": "mesa", "opcion": opcion, "votos": [0, 0, 0]})
+    r["local"]["goles"], r["visita"]["goles"] = goles
+    r["mesa"] = {"ganador": ganador, "original": {"local": 0, "visita": 1}}
+    return r
+
+
+def test_anuncio_sancion():
+    assert texto_anuncio(sancion_resuelta([0, 0, 5, 1], 3), NOMBRES) == CABEZA + (
+        "CASO Ángel de la Cruz de Alianza Atlético: Los honorables jueces dictaminaron que el jugador quedara "
+        "inhabilitado por 3 fechas.")
+
+
+def test_anuncio_sancion_una_fecha_en_singular():
+    assert texto_anuncio(sancion_resuelta([4, 0, 0, 1], 1), NOMBRES).endswith("inhabilitado por 1 fecha.")
+
+
+def test_anuncio_sancion_empate():
+    texto = CABEZA + ("Los jueces no se decidieron (no los aceitaron suficiente), por lo que el jugador "
+                      "Ángel de la Cruz "
+             "de Alianza Atlético queda con solo 1 fecha de suspensión")
+    assert texto_anuncio(sancion_resuelta([2, 2, 0, 0], 1), NOMBRES) == texto
+    assert texto_anuncio(sancion_resuelta([0, 0, 0, 0], 1), NOMBRES) == texto
+
+
+def test_anuncio_mesa_no_procede():
+    assert texto_anuncio(mesa_resuelta("no_procede"), NOMBRES) == CABEZA + (
+        "CASO Melgar vs Sporting Cristal CERRADO: la mesa no procede y el partido mantiene su marcador")
+
+
+def test_anuncio_mesa_random_repite_su_texto():
+    r = mesa_resuelta("random", opcion=11)
+    assert texto_anuncio(r, NOMBRES) == CABEZA + texto_random(r, NOMBRES)
+
+
+def test_anuncio_mesa_repetido_con_el_marcador_nuevo():
+    assert texto_anuncio(mesa_resuelta("repetir", goles=(3, 2)), NOMBRES) == CABEZA + (
+        "CASO Melgar vs Sporting Cristal: el partido se volvió a jugar y quedó 3 - 2")
+
+
+def test_anuncio_mesa_empate():
+    assert texto_anuncio(mesa_resuelta(None), NOMBRES) == CABEZA + (
+        "Los jueces no pudieron ponerse de acuerdo en la decisión del partido Melgar vs Sporting Cristal: los "
+        "votos quedaron empatados, por lo que el score del partido se mantiene.")
+
+
+# --- Fecha FIFA (§13.1) ---
+
+from pfb.publicacion.texto import texto_fecha_fifa  # noqa: E402
+
+PAISES = {"PER": "Perú", "ARG": "Argentina", "VIN": "San Vicente y las Granadinas"}
+
+
+def fifa(local, visita, goles):
+    return {"local": {"seleccion": local, "goles": goles[0]}, "visita": {"seleccion": visita, "goles": goles[1]}}
+
+
+TITULO_FIFA = "𝗣𝗔𝗥𝗢𝗡 𝗗𝗘 𝗟𝗜𝗚𝗔 𝗣𝗢𝗥 𝗙𝗘𝗖𝗛𝗔 𝗙𝗜𝗙𝗔"
+
+
+def test_fecha_fifa_peru_local():
+    assert texto_fecha_fifa(fifa("PER", "ARG", (2, 1)), PAISES) == (
+        TITULO_FIFA + "\n\n"
+        "La Ligma 1 se detuvo por la fecha fifa, en la que la selección nacional enfrentó a su par de Argentina."
+        "\n\nEl resultado del partido amistoso fue:\n\n"
+        "Perú 2 - 1 Argentina\n\n"
+        "#PorLosMemesDeLaBlanquirroja")
+
+
+def test_fecha_fifa_peru_visita_solo_invierte_el_resultado():
+    texto = texto_fecha_fifa(fifa("ARG", "PER", (2, 0)), PAISES)
+    assert "enfrentó a su par de Argentina." in texto
+    assert "\n\nArgentina 2 - 0 Perú\n\n" in texto
+
+
+def test_fecha_fifa_nombre_largo_tal_cual():
+    texto = texto_fecha_fifa(fifa("PER", "VIN", (0, 0)), PAISES)
+    assert "su par de San Vicente y las Granadinas." in texto and "Perú 0 - 0 San Vicente y las Granadinas" in texto

@@ -343,3 +343,83 @@ def test_resolver_mesa_sin_votacion_falla(params, tmp_path):
     jugar_siguiente("n", con_prob(params, 0, 0), base=tmp_path)
     with pytest.raises(ValueError):
         resolver_mesa("n", "F01-P1", "random", params, base=tmp_path)
+
+
+# --- Conteo de votos (tanda 5) ---
+
+from pfb.motor.votaciones import REACCIONES, contar_votos, fechas_sancion, ganador, ganador_mesa  # noqa: E402
+
+
+def test_reacciones_en_el_orden_de_las_opciones():
+    # sanción: ❤️ 1, 😡 2, 😢 3, 😂 4; mesa: 👍 no procede, 😂 random, 😡 repetir (§13.1)
+    assert REACCIONES == {"sancion": ("LOVE", "ANGRY", "SAD", "HAHA"), "mesa": ("LIKE", "HAHA", "ANGRY")}
+
+
+def test_contar_suma_facebook_e_instagram():
+    reacciones = {"LIKE": 3, "HAHA": 1, "ANGRY": 2, "LOVE": 7, "WOW": 9}
+    assert contar_votos("mesa", reacciones, [1, 4, 0]) == [4, 5, 2]
+    assert contar_votos("sancion", reacciones, [0, 0, 1, 0]) == [7, 2, 1, 1]
+
+
+def test_contar_sin_reacciones():
+    assert contar_votos("mesa", {}, [0, 0, 0]) == [0, 0, 0]
+
+
+def test_contar_con_instagram_incompleto_falla():
+    with pytest.raises(ValueError):
+        contar_votos("mesa", {}, [1, 2])
+
+
+def test_ganador_y_empates():
+    assert ganador([1, 5, 2]) == 1
+    assert ganador([5, 5, 2]) is None
+    assert ganador([0, 0, 0]) is None
+    assert ganador([1, 1, 3]) == 2  # el empate de abajo no cuenta
+
+
+def test_fechas_sancion():
+    assert [fechas_sancion(v) for v in ([3, 0, 0, 0], [0, 3, 0, 0], [0, 0, 3, 0], [0, 0, 0, 3])] == [1, 2, 3, 4]
+    assert fechas_sancion([0, 2, 0, 2]) == 1      # empate: 1 fecha
+    assert fechas_sancion([0, 0, 0, 0]) == 1
+
+
+def test_ganador_mesa():
+    assert [ganador_mesa(v) for v in ([2, 0, 0], [0, 2, 0], [0, 0, 2])] == ["no_procede", "random", "repetir"]
+    assert ganador_mesa([1, 1, 0]) is None
+    assert ganador_mesa([0, 0, 0]) is None
+
+
+from pfb.motor.temporada import resolver_votacion  # noqa: E402
+
+
+def test_resolver_votacion_sancion_y_empate(params, tmp_path):
+    nueva_temporada("s", semilla=3, base=tmp_path)
+    r = jugar_siguiente("s", con_prob(params, 0, 0), base=tmp_path)
+    r["votacion"] = {"tipo": "sancion", "club_id": r["local"]["club_id"], "casilla": 4,
+                     "jugador": {"id": "1", "nombre": "X"}}
+    ruta = carpeta_temporada("s", tmp_path) / "partidos" / "F01-P1.json"
+    _escribir_json(ruta, r)
+    nuevo = resolver_votacion("s", "F01-P1", [0, 2, 2, 0], params, base=tmp_path)
+    assert nuevo["votacion"]["votos"] == [0, 2, 2, 0] and nuevo["votacion"]["fechas"] == 1   # empate
+    assert json.loads(ruta.read_text(encoding="utf-8"))["votacion"]["fechas"] == 1
+    with pytest.raises(ValueError):
+        resolver_votacion("s", "F01-P1", [1, 0, 0, 0], params, base=tmp_path)
+
+
+def test_resolver_votacion_mesa_guarda_votos_y_aplica(params, tmp_path):
+    nueva_temporada("t", semilla=3, base=tmp_path)
+    for _ in range(9):
+        jugar_siguiente("t", con_prob(params, 0, 0), base=tmp_path)
+    r = next(x for x in cargar_registros("t", base=tmp_path) if x["local"]["goles"] != x["visita"]["goles"])
+    r["votacion"] = {"tipo": "mesa", "opcion": 9}  # VAR: 0-0
+    _escribir_json(carpeta_temporada("t", tmp_path) / "partidos" / f"{r['partido_id']}.json", r)
+    nuevo = resolver_votacion("t", r["partido_id"], [1, 4, 0], params, base=tmp_path)
+    assert nuevo["votacion"]["votos"] == [1, 4, 0] and nuevo["mesa"]["ganador"] == "random"
+    assert marcador(nuevo) == (0, 0)
+
+
+def test_resolver_votacion_sin_votacion_falla(params, tmp_path):
+    nueva_temporada("u", semilla=3, base=tmp_path)
+    jugar_siguiente("u", con_prob(params, 0, 0), base=tmp_path)
+    with pytest.raises(ValueError):
+        resolver_votacion("u", "F01-P1", [0, 0, 0], params, base=tmp_path)

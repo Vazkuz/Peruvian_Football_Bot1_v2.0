@@ -140,6 +140,11 @@ class Instagram(Graph):
                 return comentario["id"]
         return None
 
+    def likes_comentario(self, comentario_id):
+        """Likes del comentario (cada like es un voto, §13.1)."""
+        ruta = f"{comentario_id}?" + urllib.parse.urlencode({"fields": "like_count"})
+        return self._llamar("lectura de likes de Instagram", "GET", ruta, clave="like_count")["like_count"]
+
     def comentar(self, ig_media_id, texto):
         """Comenta en la publicación. Devuelve el id del comentario. Antes de cada intento busca el
         mismo texto entre los comentarios: si ya está (respuesta perdida), devuelve ese id."""

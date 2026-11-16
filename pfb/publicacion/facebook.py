@@ -22,6 +22,7 @@ PAGINAS = {
     "prueba": {"id": "FB_TEST_PAGE_ID", "token": "FB_TEST_PAGE_TOKEN", "nombre": "Gokú - Kakaroto"},
     "real": {"id": "FB_PAGE_ID", "token": "FB_PAGE_TOKEN", "nombre": "Peruvian Football BOT 1"},
 }
+TIPOS_REACCION = ("LIKE", "LOVE", "HAHA", "WOW", "SAD", "ANGRY")
 ESPERA = 60       # segundos entre intentos
 DURACION = 600    # segundos de reintentos por llamada
 
@@ -189,6 +190,15 @@ class Cliente(Graph):
             return self._una_llamada("POST", f"{self.page_id}/feed", cuerpo, "application/x-www-form-urlencoded")["id"]
 
         return self._reintentar("creación del post", crear)
+
+    def reacciones(self, post_id):
+        """{tipo: cantidad} de las reacciones del post, para los 6 tipos, en una sola llamada (§13.1).
+        Pide el token de la página y pages_read_engagement. Según Meta, LIKE incluye también CARE."""
+        campos = ",".join(f"reactions.type({t}).limit(0).summary(total_count).as({t.lower()})"
+                          for t in TIPOS_REACCION)
+        ruta = f"{post_id}?" + urllib.parse.urlencode({"fields": campos})
+        respuesta = self._llamar("lectura de reacciones", "GET", ruta)
+        return {t: respuesta.get(t.lower(), {}).get("summary", {}).get("total_count", 0) for t in TIPOS_REACCION}
 
     def comentar(self, post_id, mensaje):
         """Comenta en el post como la página. Devuelve el id del comentario.

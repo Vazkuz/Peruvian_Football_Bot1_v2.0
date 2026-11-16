@@ -15,9 +15,10 @@ import random
 import sys
 import unicodedata
 
+from pfb.motor.fecha_fifa import sortear_fecha_fifa
 from pfb.motor.partido import cargar_parametros, simular_partido
 from pfb.motor.plantillas import RAIZ, cargar_plantilla, cargar_plantillas, con_suspendidos
-from pfb.motor.votaciones import aplicar_mesa, sortear_votacion
+from pfb.motor.votaciones import aplicar_mesa, fechas_sancion, ganador_mesa, sortear_votacion
 
 CARPETA_TEMPORADAS = RAIZ / "data" / "temporadas"
 RUTA_COLORES = RAIZ / "data" / "colores_clubes.json"
@@ -184,15 +185,18 @@ def casillas_bloqueadas(registros):
     return {(s["club_id"], s["casilla"]) for s in sanciones(registros) if s["faltan"] is None or s["faltan"] > 0}
 
 
-def resolver_mesa(temporada_id, partido_id, ganador, params, base=CARPETA_TEMPORADAS):
+def resolver_mesa(temporada_id, partido_id, ganador, params, base=CARPETA_TEMPORADAS, votos=None):
     """Aplica el resultado de la votación 2 al partido guardado (§13.1) y lo reescribe. La tabla,
-    la racha y el G5 salen del registro, así que quedan al día solos. Devuelve el registro nuevo."""
+    la racha y el G5 salen del registro, así que quedan al día solos. votos: los de cada opción, que
+    quedan en registro["votacion"]["votos"] en la misma escritura. Devuelve el registro nuevo."""
     ruta = carpeta_temporada(temporada_id, base) / "partidos" / f"{partido_id}.json"
     registro = _leer_json(ruta)
     if not registro.get("votacion") or registro["votacion"]["tipo"] != "mesa":
         raise ValueError(f"{partido_id} no tiene votación de mesa")
     if "mesa" in registro:
         raise ValueError(f"{partido_id} ya tiene la mesa resuelta")
+    if votos is not None:
+        registro["votacion"]["votos"] = list(votos)
     clave = (registro["fecha"], registro["partido_id"])
     anteriores = [r for r in cargar_registros(temporada_id, base) if (r["fecha"], r["partido_id"]) < clave]
     nuevo = aplicar_mesa(registro, ganador, params,
@@ -200,6 +204,25 @@ def resolver_mesa(temporada_id, partido_id, ganador, params, base=CARPETA_TEMPOR
                          estado_equipo(anteriores, registro["visita"]["club_id"], params))
     _escribir_json(ruta, nuevo)
     return nuevo
+
+
+def resolver_votacion(temporada_id, partido_id, votos, params, base=CARPETA_TEMPORADAS):
+    """Aplica los votos (uno por opción, ver votaciones.contar_votos) a la votación del partido
+    guardado y lo reescribe: guarda "votos" en la votación y además "fechas" (sanción) o el resultado
+    de la mesa (resolver_mesa). Una votación con "votos" ya está resuelta. Devuelve el registro nuevo."""
+    ruta = carpeta_temporada(temporada_id, base) / "partidos" / f"{partido_id}.json"
+    registro = _leer_json(ruta)
+    votacion = registro.get("votacion")
+    if not votacion:
+        raise ValueError(f"{partido_id} no tiene votación")
+    if "votos" in votacion:
+        raise ValueError(f"{partido_id} ya tiene la votación resuelta")
+    if votacion["tipo"] == "mesa":
+        return resolver_mesa(temporada_id, partido_id, ganador_mesa(votos), params, base, votos=votos)
+    votacion["votos"] = list(votos)
+    votacion["fechas"] = fechas_sancion(votos)
+    _escribir_json(ruta, registro)
+    return registro
 
 
 # --- Tabla ---
@@ -273,7 +296,8 @@ def tabla_en_texto(filas):
 # --- Jugar ---
 
 def jugar_siguiente(temporada_id, params, base=CARPETA_TEMPORADAS):
-    """Juega el primer partido del fixture que no tenga archivo y sortea su votación (§13.1).
+    """Juega el primer partido del fixture que no tenga archivo y sortea su votación y la Fecha FIFA que
+    iría después (§13.1).
     Devuelve su registro, o None si la temporada terminó."""
     temporada = cargar_temporada(temporada_id, base)
     carpeta = carpeta_temporada(temporada_id, base) / "partidos"
@@ -297,6 +321,8 @@ def jugar_siguiente(temporada_id, params, base=CARPETA_TEMPORADAS):
             registro["votacion"] = sortear_votacion(
                 registro, params, any(r.get("votacion") for r in registros if r["fecha"] == f),
                 casillas_bloqueadas(registros + [registro]))
+            registro["fecha_fifa"] = sortear_fecha_fifa(
+                registro, params, any(r.get("fecha_fifa") for r in registros if r["fecha"] == f), p == len(partidos))
             _escribir_json(ruta, registro)
             return registro
     return None

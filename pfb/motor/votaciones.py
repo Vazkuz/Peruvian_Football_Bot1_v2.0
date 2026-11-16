@@ -35,6 +35,40 @@ MARCADOR_RANDOM = {
 }
 GANADORES_MESA = ("no_procede", "random", "repetir")
 
+# Reacción de Facebook de cada opción, en el orden de texto.opciones_votacion (el mismo de los
+# comentarios de Instagram). Sanción: la opción i vale i + 1 fechas. Mesa: la opción i es GANADORES_MESA[i].
+REACCIONES = {
+    "sancion": ("LOVE", "ANGRY", "SAD", "HAHA"),
+    "mesa": ("LIKE", "HAHA", "ANGRY"),
+}
+
+
+def contar_votos(tipo, reacciones, likes_ig):
+    """Votos de cada opción, en orden: reacciones de Facebook ({tipo de reacción: cantidad}) más los
+    likes del comentario de Instagram de esa opción (lista en el mismo orden)."""
+    claves = REACCIONES[tipo]
+    if len(likes_ig) != len(claves):
+        raise ValueError(f"se esperaban {len(claves)} conteos de Instagram, llegaron {len(likes_ig)}")
+    return [reacciones.get(clave, 0) + likes for clave, likes in zip(claves, likes_ig)]
+
+
+def ganador(votos):
+    """Índice de la opción con más votos, o None si hay empate arriba (también con 0 votos en todas)."""
+    maximo = max(votos)
+    return votos.index(maximo) if votos.count(maximo) == 1 else None
+
+
+def fechas_sancion(votos):
+    """Fechas que decide la votación de sanción. Empate: 1 fecha (§13.1)."""
+    i = ganador(votos)
+    return 1 if i is None else i + 1
+
+
+def ganador_mesa(votos):
+    """"no_procede", "random", "repetir" o None (empate: el marcador se mantiene)."""
+    i = ganador(votos)
+    return None if i is None else GANADORES_MESA[i]
+
 
 def generador(registro):
     return random.Random(f"votacion-{registro['semilla']}")

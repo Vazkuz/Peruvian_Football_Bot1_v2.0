@@ -7,7 +7,9 @@ en posts de página. Unicode no tiene esas letras con tilde ni ñ, así que qued
 import unicodedata
 
 from pfb.imagenes.nombres import corto
+from pfb.motor.fecha_fifa import PERU
 from pfb.motor.temporada import cargar_nombres
+from pfb.motor.votaciones import ganador
 
 HASHTAG = "#PorLosMemesDeNuestroFutbol"
 SANGRIA = "   "
@@ -162,3 +164,61 @@ def texto_votacion(registro, nombres=None):
 def caption_votacion(registro, nombres=None):
     """Caption del post de la votación en Instagram: el aviso al comienzo y luego el texto de Facebook."""
     return f"{VOTA_INSTAGRAM}\n\n{texto_votacion(registro, nombres)}"
+
+
+ENCABEZADO_ANUNCIO = negrita(sin_tildes("RESULTADOS DE LA ÚLTIMA VOTACIÓN"))
+
+
+def texto_anuncio(registro, nombres=None):
+    """Anuncio del resultado de la votación (§13.1), el mismo en Facebook y en Instagram: el encabezado
+    en negrita, una línea en blanco y el resultado. El registro tiene que traer la votación ya resuelta:
+    "votos" en la votación, y además "fechas" (sanción) o el bloque "mesa" con el marcador ya aplicado
+    (mesa)."""
+    if nombres is None:
+        nombres = cargar_nombres()
+    return f"{ENCABEZADO_ANUNCIO}\n\n{resultado_anuncio(registro, nombres)}"
+
+
+def resultado_anuncio(registro, nombres):
+    """El resultado de la votación, sin el encabezado."""
+    votacion = registro["votacion"]
+    if votacion["tipo"] == "sancion":
+        jugador, club = votacion["jugador"]["nombre"], nombres[votacion["club_id"]]
+        if ganador(votacion["votos"]) is None:
+            return (f"Los jueces no se decidieron (no los aceitaron suficiente), por lo que el jugador {jugador} "
+                    f"de {club} queda con solo 1 fecha de suspensión")
+        n = votacion["fechas"]
+        return (f"CASO {jugador} de {club}: Los honorables jueces dictaminaron que el jugador quedara inhabilitado "
+                f"por {n} {'fecha' if n == 1 else 'fechas'}.")
+
+    local, visita = nombres[registro["local"]["club_id"]], nombres[registro["visita"]["club_id"]]
+    resultado = registro["mesa"]["ganador"]
+    if resultado is None:
+        return (f"Los jueces no pudieron ponerse de acuerdo en la decisión del partido {local} vs {visita}: los "
+                "votos quedaron empatados, por lo que el score del partido se mantiene.")
+    if resultado == "no_procede":
+        return f"CASO {local} vs {visita} CERRADO: la mesa no procede y el partido mantiene su marcador"
+    if resultado == "random":
+        return texto_random(registro, nombres)
+    return (f"CASO {local} vs {visita}: el partido se volvió a jugar y quedó "
+            f"{registro['local']['goles']} - {registro['visita']['goles']}")
+
+
+# --- Fecha FIFA (§13.1) ---
+
+HASHTAG_FIFA = "#PorLosMemesDeLaBlanquirroja"
+
+
+def texto_fecha_fifa(fecha_fifa, nombres):
+    """Texto del post de la Fecha FIFA (Daniel, 15/11/2026). nombres = {código FIFA: nombre}. La línea del
+    resultado va con el local primero, como la imagen."""
+    local, visita = fecha_fifa["local"], fecha_fifa["visita"]
+    rival = visita if local["seleccion"] == PERU else local
+    return "\n\n".join([
+        negrita("PARON DE LIGA POR FECHA FIFA"),
+        "La Ligma 1 se detuvo por la fecha fifa, en la que la selección nacional enfrentó a su par de "
+        f"{nombres[rival['seleccion']]}.",
+        "El resultado del partido amistoso fue:",
+        f"{nombres[local['seleccion']]} {local['goles']} - {visita['goles']} {nombres[visita['seleccion']]}",
+        HASHTAG_FIFA,
+    ])

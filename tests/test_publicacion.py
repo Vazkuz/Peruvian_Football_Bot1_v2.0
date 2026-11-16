@@ -9,12 +9,12 @@ from pfb.motor.partido import cargar_parametros
 from pfb.motor.temporada import (_escribir_json, cargar_nombres, cargar_registros, cargar_temporada,
                                  jugar_siguiente, nueva_temporada)
 from pfb.publicacion.correr import armar_post, correr, main, pendientes
-from pfb.publicacion.facebook import Cliente, ErrorFacebook, PaginaEquivocada, leer_env
+from pfb.publicacion.facebook import TIPOS_REACCION, Cliente, ErrorFacebook, PaginaEquivocada, leer_env
 from pfb.publicacion.instagram import CuentaEquivocada, ErrorInstagram, Instagram, comprobar_caption
 from pfb.publicacion.publicados import (ZONA, MezclaDePaginas, cargar_publicados, falta, marcar, marcar_comentario,
                                         marcar_ig_comentario, marcar_instagram, ruta_publicados)
-from pfb.publicacion.texto import (COMENTARIO_INSTAGRAM, caption_votacion, opciones_votacion, texto_partido,
-                                   texto_tabla, texto_votacion)
+from pfb.publicacion.texto import (COMENTARIO_INSTAGRAM, ENCABEZADO_ANUNCIO, caption_votacion, opciones_votacion,
+                                   texto_anuncio, texto_partido, texto_tabla, texto_votacion)
 
 PAGE_ID = "111"
 IG_ID = "17841"
@@ -23,8 +23,9 @@ AHORA = datetime(2026, 10, 10, 18, 0, tzinfo=ZONA)   # 23:00 UTC
 
 @pytest.fixture(scope="module")
 def params():
-    """Sin votaciones: las pruebas que las quieren ponen la probabilidad a mano (con_votaciones)."""
-    return {**cargar_parametros(), "votaciones": {"sancion": 0.0, "mesa": 0.0}}
+    """Sin votaciones ni Fecha FIFA: las pruebas que las quieren ponen la probabilidad a mano."""
+    return {**cargar_parametros(), "votaciones": {"sancion": 0.0, "mesa": 0.0},
+            "fecha_fifa": {"probabilidad": 0.0, "peru_local": 0.5}}
 
 
 def con_votaciones(params):
@@ -52,12 +53,23 @@ class HttpFalso:
         self.ig_media = list(ig_media or [])
         self.contenedores = {}                  # container_id -> datos del POST /media
         self.consultas = {}                     # container_id -> n de consultas de estado
+        self.reacciones = {}                    # post_id -> {tipo de reacción: cantidad}
+        self.ig_likes = {}                      # id de comentario de Instagram -> likes
 
     def __call__(self, metodo, url, cuerpo, headers):
         self.llamadas.append((metodo, url, cuerpo, headers))
         if self.fallar and self.fallar(len(self.llamadas), metodo, url):
             raise OSError("red caída")
         ruta = url.split("?")[0]
+        campos = urllib.parse.parse_qs(url.split("?")[1]).get("fields", [""])[0] if "?" in url else ""
+        if metodo == "GET" and campos.startswith("reactions.type("):
+            post_id = ruta.rsplit("/", 1)[-1]
+            r = self.reacciones.get(post_id, {})
+            return {"id": post_id, **{t.lower(): {"data": [], "summary": {"total_count": r.get(t, 0)}}
+                                      for t in TIPOS_REACCION if f"type({t})" in campos}}
+        if metodo == "GET" and campos == "like_count":
+            comentario_id = ruta.rsplit("/", 1)[-1]
+            return {"id": comentario_id, "like_count": self.ig_likes.get(comentario_id, 0)}
         if ruta.endswith("/me"):
             return {"id": self.page_id, "name": self.nombre}
         if ruta.endswith(f"/{self.page_id}/posts"):
@@ -165,6 +177,10 @@ def tabla_falsa(filas, ruta):
     return foto_falsa(ruta)
 
 
+def fifa_falsa(fecha_fifa, ruta):
+    return foto_falsa(ruta)
+
+
 def relleno_falso(origen, destino):
     return foto_falsa(destino)
 
@@ -175,6 +191,7 @@ def correr_falso(tmp_path, params, pagina=None, cliente=None, salida=None, **kw)
         kw["instagram"] = instagram(cliente._transporte, cliente)
     kw.setdefault("generar_partido", partido_falso)
     kw.setdefault("generar_tabla_img", tabla_falsa)
+    kw.setdefault("generar_fifa", fifa_falsa)
     return correr("prueba", pagina=pagina, base=tmp_path, params=params, cliente=cliente, rellenar=relleno_falso,
                   mostrar=(salida.append if salida is not None else lambda m: None), **kw)
 
@@ -411,7 +428,9 @@ def test_tabla_solo_al_cerrar_la_fecha(tmp_path, params):
     assert len(cargar_registros("prueba", tmp_path)) == 9                                 # no jugó partido
     assert salida[-1] == "salió la tabla en su propio turno: esta corrida no juega partido"
 
-    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), generar_tabla_img=tabla_anotada)
+    manana = datetime.now(ZONA) + timedelta(days=1)                                      # una fecha por día
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), generar_tabla_img=tabla_anotada,
+                 ahora=manana)
     assert list(cargar_publicados("prueba", tmp_path))[-1] == "F02-P1"
 
 
@@ -838,7 +857,7 @@ def test_votacion_de_mesa_completa_despues_de_su_partido(tmp_path, params):
     http = HttpFalso()
     correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
     publicados = cargar_publicados("prueba", tmp_path)
-    assert list(publicados) == ["F01-P1", "votacion-F01-P1", "F01-P2"]
+    assert list(publicados) == ["F01-P1", "votacion-F01-P1"]     # la votación queda abierta: no juega
 
     assert http.feeds()[1]["message"] == [texto_votacion(registro)]
     assert "votacion_opcion_3.png" in http.subidas()
@@ -898,7 +917,7 @@ def test_comentario_de_instagram_fallido_retoma_desde_el_que_falta(tmp_path, par
     assert hechos == opciones_votacion(registro)[1:]
     entrada = cargar_publicados("prueba", tmp_path)["votacion-F01-P1"]
     assert None not in entrada["ig_comentarios"] and entrada["comentario_id"]
-    assert http.feeds()[0]["message"] != [texto_votacion(registro)]       # no rehízo el post
+    assert [texto_votacion(registro)] not in [f["message"] for f in http.feeds()]   # no rehízo el post
 
 
 def test_comentar_en_instagram_con_respuesta_perdida_no_duplica():
@@ -988,3 +1007,354 @@ def test_corrida_que_retoma_el_ultimo_partido_deja_la_tabla_para_la_siguiente(tm
     assert len(cargar_registros("prueba", tmp_path)) == 9
     correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
     assert list(cargar_publicados("prueba", tmp_path))[-1] == "tabla-F01"
+
+
+# --- Lectura de votos (tanda 5) ---
+
+def test_reacciones_en_una_sola_llamada():
+    http = HttpFalso()
+    http.reacciones["111_p"] = {"LIKE": 3, "HAHA": 2, "ANGRY": 1}
+    assert cliente(http).reacciones("111_p") == {"LIKE": 3, "LOVE": 0, "HAHA": 2, "WOW": 0, "SAD": 0, "ANGRY": 1}
+    assert len(http.llamadas) == 1
+    campos = urllib.parse.parse_qs(http.llamadas[0][1].split("?")[1])["fields"][0]
+    assert "reactions.type(LIKE).limit(0).summary(total_count).as(like)" in campos
+
+
+def test_likes_de_un_comentario_de_instagram():
+    http = HttpFalso()
+    http.ig_likes["ig2_c1"] = 4
+    ig = instagram(http, cliente(http))
+    assert ig.likes_comentario("ig2_c1") == 4 and ig.likes_comentario("ig2_c9") == 0
+
+
+def votacion_publicada(tmp_path, params, votacion):
+    """F01-P1 con la votación dada, publicado completo con su votación (como una corrida anterior)."""
+    registro = con_votacion(tmp_path, params, votacion)
+    completo("F01-P1", tmp_path)
+    clave = "votacion-F01-P1"
+    marcar("prueba", clave, "votacion", f"{PAGE_ID}_v", "prueba", PAGE_ID, base=tmp_path,
+           ig_comentarios=len(opciones_votacion(registro)))
+    marcar_instagram("prueba", clave, "ig_v", base=tmp_path)
+    for n in range(len(opciones_votacion(registro))):
+        marcar_ig_comentario("prueba", clave, n, f"ig_v_c{n + 1}", base=tmp_path)
+    marcar_comentario("prueba", clave, f"com_{clave}", base=tmp_path)
+    return registro
+
+
+def test_mesa_suma_facebook_e_instagram_y_se_aplica_antes_de_jugar(tmp_path, params):
+    votacion_publicada(tmp_path, params, MESA)
+    http = HttpFalso()
+    http.reacciones[f"{PAGE_ID}_v"] = {"LIKE": 2, "HAHA": 1, "ANGRY": 0}
+    http.ig_likes.update({"ig_v_c1": 0, "ig_v_c2": 2, "ig_v_c3": 1})     # 😂 gana 3 a 2
+    salida = []
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), salida=salida)
+    r1 = json.loads((tmp_path / "prueba" / "partidos" / "F01-P1.json").read_text(encoding="utf-8"))
+    assert r1["votacion"]["votos"] == [2, 3, 1]
+    assert r1["mesa"]["ganador"] == "random"
+    assert (r1["local"]["goles"], r1["visita"]["goles"]) == (0, 3)          # random 3: doping
+    assert salida[0].startswith("resuelta votacion-F01-P1: votos [2, 3, 1]\n")
+    # la lectura va antes de cualquier publicación, y después juega F01-P2
+    assert http.rutas().index("feed") > max(i for i, (m, u, c, h) in enumerate(http.llamadas) if "like_count" in u)
+    assert list(cargar_publicados("prueba", tmp_path))[-1] == "F01-P2"
+
+
+def test_mesa_empatada_mantiene_el_marcador(tmp_path, params):
+    registro = votacion_publicada(tmp_path, params, MESA)
+    http = HttpFalso()                                                    # 0 votos en todas
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
+    r1 = json.loads((tmp_path / "prueba" / "partidos" / "F01-P1.json").read_text(encoding="utf-8"))
+    assert r1["votacion"]["votos"] == [0, 0, 0] and r1["mesa"]["ganador"] is None
+    assert (r1["local"]["goles"], r1["visita"]["goles"]) == (registro["local"]["goles"], registro["visita"]["goles"])
+
+
+def test_sancion_guarda_las_fechas(tmp_path, params):
+    nueva_temporada("prueba", semilla=1, base=tmp_path)
+    registro = jugar_siguiente("prueba", params, base=tmp_path)
+    registro["votacion"] = sancion_de(registro)
+    _escribir_json(tmp_path / "prueba" / "partidos" / "F01-P1.json", registro)
+    completo("F01-P1", tmp_path)
+    clave = "votacion-F01-P1"
+    marcar("prueba", clave, "votacion", f"{PAGE_ID}_v", "prueba", PAGE_ID, base=tmp_path, ig_comentarios=4)
+    marcar_instagram("prueba", clave, "ig_v", base=tmp_path)
+    for n in range(4):
+        marcar_ig_comentario("prueba", clave, n, f"ig_v_c{n + 1}", base=tmp_path)
+    marcar_comentario("prueba", clave, "com_v", base=tmp_path)
+    http = HttpFalso()
+    http.reacciones[f"{PAGE_ID}_v"] = {"LOVE": 1, "SAD": 2}
+    http.ig_likes["ig_v_c3"] = 1                                          # 😢 3 fechas
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
+    r1 = json.loads((tmp_path / "prueba" / "partidos" / "F01-P1.json").read_text(encoding="utf-8"))
+    assert r1["votacion"]["votos"] == [1, 0, 3, 0] and r1["votacion"]["fechas"] == 3
+
+
+def test_votacion_resuelta_no_se_vuelve_a_leer(tmp_path, params):
+    votacion_publicada(tmp_path, params, MESA)
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(HttpFalso()))
+    http = HttpFalso()
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
+    assert not any("reactions.type" in u or "like_count" in u for m, u, c, h in http.llamadas)
+
+
+def test_votacion_a_medias_no_se_lee_y_al_completarla_no_juega(tmp_path, params):
+    registro = con_votacion(tmp_path, params, MESA)
+    completo("F01-P1", tmp_path)
+    marcar("prueba", "votacion-F01-P1", "votacion", f"{PAGE_ID}_v", "prueba", PAGE_ID, base=tmp_path,
+           ig_comentarios=3)
+    http = HttpFalso()
+    salida = []
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), salida=salida)
+    assert not any("reactions.type" in u or "like_count" in u for m, u, c, h in http.llamadas)
+    assert "votos" not in json.loads((tmp_path / "prueba" / "partidos" / "F01-P1.json").read_text(
+        encoding="utf-8"))["votacion"]
+    assert salida[-1] == "votacion-F01-P1 queda abierta hasta la corrida siguiente: esta corrida no juega partido"
+    assert len(cargar_registros("prueba", tmp_path)) == 1
+
+
+# --- Anuncio del resultado (tanda 5c) ---
+
+def leer_registro(tmp_path, pid):
+    return json.loads((tmp_path / "prueba" / "partidos" / f"{pid}.json").read_text(encoding="utf-8"))
+
+
+def test_anuncio_en_el_partido_siguiente_antes_del_comentario_de_instagram(tmp_path, params):
+    votacion_publicada(tmp_path, params, MESA)
+    http = HttpFalso()
+    http.reacciones[f"{PAGE_ID}_v"] = {"LIKE": 5}                       # no procede
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
+    texto = texto_anuncio(leer_registro(tmp_path, "F01-P1"))
+    assert texto.startswith(ENCABEZADO_ANUNCIO + "\n\nCASO ") and "CERRADO" in texto
+    publicados = cargar_publicados("prueba", tmp_path)
+    entrada = publicados["F01-P2"]
+    assert publicados["votacion-F01-P1"]["anuncio_en"] == "F01-P2"
+    assert entrada["anuncio"]["de"] == "votacion-F01-P1" and falta(publicados, "F01-P2") is None
+    fb = [m for p, m in http.comentados() if p == entrada["post_id"]]
+    assert fb == [texto, COMENTARIO_INSTAGRAM]                             # el anuncio va primero
+    assert [c["text"] for c in http.ig_comentarios[entrada["ig_media_id"]]] == [texto]
+    assert entrada["anuncio"]["fb_id"] and entrada["anuncio"]["ig_id"]
+
+
+def test_anuncio_de_sancion_dice_las_fechas(tmp_path, params):
+    nueva_temporada("prueba", semilla=1, base=tmp_path)
+    registro = jugar_siguiente("prueba", params, base=tmp_path)
+    registro["votacion"] = sancion_de(registro)
+    _escribir_json(tmp_path / "prueba" / "partidos" / "F01-P1.json", registro)
+    completo("F01-P1", tmp_path)
+    clave = "votacion-F01-P1"
+    marcar("prueba", clave, "votacion", f"{PAGE_ID}_v", "prueba", PAGE_ID, base=tmp_path, ig_comentarios=4)
+    marcar_instagram("prueba", clave, "ig_v", base=tmp_path)
+    for n in range(4):
+        marcar_ig_comentario("prueba", clave, n, f"ig_v_c{n + 1}", base=tmp_path)
+    marcar_comentario("prueba", clave, "com_v", base=tmp_path)
+    http = HttpFalso()
+    http.reacciones[f"{PAGE_ID}_v"] = {"ANGRY": 2}                      # 2 fechas
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
+    post_id = cargar_publicados("prueba", tmp_path)["F01-P2"]["post_id"]
+    assert [m for p, m in http.comentados() if p == post_id][0] == ENCABEZADO_ANUNCIO + "\n\n" + (
+        "CASO Ángel de la Cruz de " + cargar_nombres()[registro["local"]["club_id"]]
+        + ": Los honorables jueces dictaminaron que el jugador quedara inhabilitado por 2 fechas.")
+
+
+def test_anuncio_sale_una_sola_vez(tmp_path, params):
+    votacion_publicada(tmp_path, params, MESA)
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(HttpFalso()))
+    http = HttpFalso()
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))    # juega F01-P3
+    publicados = cargar_publicados("prueba", tmp_path)
+    assert "anuncio" not in publicados["F01-P3"]
+    assert http.comentados() == [(publicados["F01-P3"]["post_id"], COMENTARIO_INSTAGRAM)]
+
+
+def test_anuncio_fallido_retoma_sin_rehacer_el_post(tmp_path, params):
+    votacion_publicada(tmp_path, params, MESA)
+    caida = HttpFalso()
+    caida.fallar = lambda n, m, u: m == "POST" and "/ig" in u and u.endswith("/comments")
+    with pytest.raises(ErrorFacebook):
+        correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(caida))
+    publicados = cargar_publicados("prueba", tmp_path)
+    assert falta(publicados, "F01-P2") == "anuncio"
+    assert publicados["F01-P2"]["anuncio"]["fb_id"] and publicados["F01-P2"]["anuncio"]["ig_id"] is None
+    assert publicados["F01-P2"]["comentario_id"] is None
+
+    http = HttpFalso()
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
+    publicados = cargar_publicados("prueba", tmp_path)
+    texto = texto_anuncio(leer_registro(tmp_path, "F01-P1"))
+    assert [c["text"] for c in http.ig_comentarios[publicados["F01-P2"]["ig_media_id"]]] == [texto]
+    assert (publicados["F01-P2"]["post_id"], texto) not in http.comentados()    # Facebook ya estaba
+    assert falta(publicados, "F01-P2") is None
+    assert not any(u.endswith("/feed") for m, u, c, h in http.llamadas[:5])     # no rehízo el post
+
+
+def test_anuncio_de_la_votacion_del_ultimo_partido_va_en_la_tabla(tmp_path, params):
+    con_votacion(tmp_path, params, MESA, n=9)
+    for r in cargar_registros("prueba", tmp_path):
+        completo(r["partido_id"], tmp_path)
+    clave = "votacion-F01-P9"
+    marcar("prueba", clave, "votacion", f"{PAGE_ID}_v", "prueba", PAGE_ID, base=tmp_path, ig_comentarios=3)
+    marcar_instagram("prueba", clave, "ig_v", base=tmp_path)
+    for n in range(3):
+        marcar_ig_comentario("prueba", clave, n, f"ig_v_c{n + 1}", base=tmp_path)
+    marcar_comentario("prueba", clave, "com_v", base=tmp_path)
+    http = HttpFalso()
+    http.reacciones[f"{PAGE_ID}_v"] = {"ANGRY": 1}                      # se repite
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))
+    publicados = cargar_publicados("prueba", tmp_path)
+    assert list(publicados)[-1] == "tabla-F01" and publicados[clave]["anuncio_en"] == "tabla-F01"
+    r9 = leer_registro(tmp_path, "F01-P9")
+    nombres = cargar_nombres()
+    texto = f"{ENCABEZADO_ANUNCIO}\n\nCASO {nombres[r9['local']['club_id']]} vs {nombres[r9['visita']['club_id']]}: " \
+            f"el partido se volvió a jugar y quedó {r9['local']['goles']} - {r9['visita']['goles']}"
+    assert [m for p, m in http.comentados() if p == publicados["tabla-F01"]["post_id"]] == [texto, COMENTARIO_INSTAGRAM]
+
+
+def test_dry_run_muestra_el_anuncio_que_falta(tmp_path, params):
+    votacion_publicada(tmp_path, params, MESA)
+    caida = HttpFalso()
+    caida.fallar = lambda n, m, u: m == "POST" and u.endswith("/comments")
+    with pytest.raises(ErrorFacebook):
+        correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(caida))
+    salida = []
+    correr_falso(tmp_path, params, salida=salida)
+    texto = texto_anuncio(leer_registro(tmp_path, "F01-P1"))
+    assert salida[0].startswith("[dry-run] F01-P2 (partido): falta anuncio\n")
+    assert texto in salida[0] and COMENTARIO_INSTAGRAM in salida[0]
+
+
+# --- Una fecha por día (§9.1) ---
+
+def fecha_1_con_tabla(tmp_path, params, cuando):
+    """Fecha 1 completa, con su tabla publicada en el momento dado."""
+    nueva_temporada("prueba", semilla=1, base=tmp_path)
+    for _ in range(9):
+        jugar_siguiente("prueba", params, base=tmp_path)
+    for r in cargar_registros("prueba", tmp_path):
+        completo(r["partido_id"], tmp_path)
+    marcar("prueba", "tabla-F01", "tabla", f"{PAGE_ID}_t", "prueba", PAGE_ID, base=tmp_path, ahora=cuando)
+    return cuando
+
+
+def test_con_la_tabla_de_hoy_no_juega(tmp_path, params):
+    fecha_1_con_tabla(tmp_path, params, AHORA)
+    marcar_instagram("prueba", "tabla-F01", "ig_t", base=tmp_path)
+    marcar_comentario("prueba", "tabla-F01", "com_t", base=tmp_path)
+    salida = []
+    http = HttpFalso()
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), salida=salida,
+                 ahora=AHORA + timedelta(hours=1))
+    assert salida[-1] == "tabla-F01 ya salió hoy: una fecha por día, esta corrida no juega partido"
+    assert len(cargar_registros("prueba", tmp_path)) == 9 and http.feeds() == []
+
+
+def test_con_la_tabla_de_ayer_juega(tmp_path, params):
+    fecha_1_con_tabla(tmp_path, params, AHORA - timedelta(days=1))
+    marcar_instagram("prueba", "tabla-F01", "ig_t", base=tmp_path)
+    marcar_comentario("prueba", "tabla-F01", "com_t", base=tmp_path)
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(HttpFalso()), ahora=AHORA)
+    assert list(cargar_publicados("prueba", tmp_path))[-1] == "F02-P1"
+
+
+def test_la_tabla_de_hoy_a_medias_se_termina_sin_jugar(tmp_path, params):
+    fecha_1_con_tabla(tmp_path, params, AHORA)                                # falta Instagram y el comentario
+    http = HttpFalso()
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), ahora=AHORA + timedelta(hours=1))
+    assert falta(cargar_publicados("prueba", tmp_path), "tabla-F01") is None
+    assert len(cargar_registros("prueba", tmp_path)) == 9
+
+
+def test_el_dia_es_el_de_lima():
+    from pfb.publicacion.correr import tabla_de_hoy
+    publicados = {"tabla-F01": {"tipo": "tabla", "fecha_hora": "2026-11-15T19:30:00-05:00"}}
+    # 00:30 UTC del 16 = 19:30 del 15 en Lima: sigue siendo el mismo día
+    assert tabla_de_hoy(publicados, datetime(2026, 11, 16, 0, 30, tzinfo=timezone.utc)) == "tabla-F01"
+    assert tabla_de_hoy(publicados, datetime(2026, 11, 16, 9, 0, tzinfo=ZONA)) is None
+
+
+# --- Fecha FIFA (§13.1) ---
+
+FIFA = {"local": {"seleccion": "ARG", "goles": 2, "bonos": {}},
+        "visita": {"seleccion": "PER", "goles": 0, "bonos": {}}}
+TEXTO_FIFA = ("𝗣𝗔𝗥𝗢𝗡 𝗗𝗘 𝗟𝗜𝗚𝗔 𝗣𝗢𝗥 𝗙𝗘𝗖𝗛𝗔 𝗙𝗜𝗙𝗔\n\n"
+              "La Ligma 1 se detuvo por la fecha fifa, en la que la selección nacional enfrentó a su par de "
+              "Argentina.\n\nEl resultado del partido amistoso fue:\n\nArgentina 2 - 0 Perú\n\n"
+              "#PorLosMemesDeLaBlanquirroja")
+
+
+def con_fifa(tmp_path, params, votacion=None):
+    """F01-P1 jugado (sin publicar) con la Fecha FIFA puesta a mano y, si se da, una votación."""
+    nueva_temporada("prueba", semilla=1, base=tmp_path)
+    registro = jugar_siguiente("prueba", params, base=tmp_path)
+    registro["fecha_fifa"] = FIFA
+    registro["votacion"] = votacion
+    _escribir_json(tmp_path / "prueba" / "partidos" / "F01-P1.json", registro)
+    return registro
+
+
+def test_fifa_pendiente_despues_del_partido_y_su_votacion(tmp_path, params):
+    con_fifa(tmp_path, params, MESA)
+    t = cargar_temporada("prueba", tmp_path)
+    regs = cargar_registros("prueba", tmp_path)
+    assert [i[0] for i in pendientes(t, regs, cargar_publicados("prueba", tmp_path))] == ["partido"]
+    completo("F01-P1", tmp_path)
+    assert [i[0] for i in pendientes(t, regs, cargar_publicados("prueba", tmp_path))] == ["votacion"]
+    completo("votacion-F01-P1", tmp_path, "votacion")
+    assert [(i[0], i[2]) for i in pendientes(t, regs, cargar_publicados("prueba", tmp_path))] == [("fifa", "post")]
+
+
+def test_fifa_en_su_propio_turno(tmp_path, params):
+    con_fifa(tmp_path, params)
+    http = HttpFalso()
+    salida = []
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), salida=salida)       # el partido
+    assert list(cargar_publicados("prueba", tmp_path)) == ["F01-P1"]
+    assert salida[-1] == "la Fecha FIFA sale en la corrida siguiente: esta corrida no juega partido"
+
+    salida = []
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http), salida=salida)       # la FIFA sola
+    publicados = cargar_publicados("prueba", tmp_path)
+    assert list(publicados) == ["F01-P1", "fifa-F01-P1"] and len(cargar_registros("prueba", tmp_path)) == 1
+    entrada = publicados["fifa-F01-P1"]
+    assert entrada["tipo"] == "fifa" and falta(publicados, "fifa-F01-P1") is None
+    assert http.feeds()[-1]["message"] == [TEXTO_FIFA]
+    assert http.subidas()[-2:] == ["fifa-F01-P1.png", "fifa-F01-P1.png"]          # Facebook y la URL para IG
+    assert http.ig_media[-1]["caption"] == TEXTO_FIFA
+    assert [m for p, m in http.comentados() if p == entrada["post_id"]] == [COMENTARIO_INSTAGRAM]
+    assert salida[-1] == "salió la Fecha FIFA en su propio turno: esta corrida no juega partido"
+
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))                       # sigue el torneo
+    assert list(cargar_publicados("prueba", tmp_path))[-1] == "F01-P2"
+
+
+def test_fifa_cierra_la_votacion_y_lleva_su_anuncio(tmp_path, params):
+    con_fifa(tmp_path, params, MESA)
+    http = HttpFalso()
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))       # partido + votación
+    assert list(cargar_publicados("prueba", tmp_path)) == ["F01-P1", "votacion-F01-P1"]
+    http.reacciones[cargar_publicados("prueba", tmp_path)["votacion-F01-P1"]["post_id"]] = {"LIKE": 3}
+    correr_falso(tmp_path, params, pagina="prueba", cliente=cliente(http))       # la FIFA, con el anuncio
+    publicados = cargar_publicados("prueba", tmp_path)
+    assert list(publicados)[-1] == "fifa-F01-P1"
+    assert publicados["votacion-F01-P1"]["anuncio_en"] == "fifa-F01-P1"
+    texto = texto_anuncio(json.loads((tmp_path / "prueba" / "partidos" / "F01-P1.json").read_text(encoding="utf-8")))
+    assert "CERRADO" in texto
+    entrada = publicados["fifa-F01-P1"]
+    assert [m for p, m in http.comentados() if p == entrada["post_id"]] == [texto, COMENTARIO_INSTAGRAM]
+    assert [c["text"] for c in http.ig_comentarios[entrada["ig_media_id"]]] == [texto]
+    assert len(cargar_registros("prueba", tmp_path)) == 1
+
+
+def test_dry_run_muestra_la_fifa_del_partido_nuevo(tmp_path, params, monkeypatch):
+    nueva_temporada("prueba", semilla=1, base=tmp_path)
+    original = correr_mod.jugar_siguiente
+
+    def jugar_con_fifa(*a, **k):
+        registro = original(*a, **k)
+        registro["fecha_fifa"] = FIFA
+        _escribir_json(tmp_path / "prueba" / "partidos" / f"{registro['partido_id']}.json", registro)
+        return registro
+
+    monkeypatch.setattr(correr_mod, "jugar_siguiente", jugar_con_fifa)
+    salida = []
+    correr_falso(tmp_path, params, salida=salida)
+    assert salida[-1].startswith("[dry-run] fifa-F01-P1 (fifa)\n" + TEXTO_FIFA)
+    assert "instagram (foto sola" in salida[-1] and COMENTARIO_INSTAGRAM in salida[-1]
+    assert cargar_publicados("prueba", tmp_path) == {}

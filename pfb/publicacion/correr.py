@@ -13,6 +13,17 @@ antes del comentario de Facebook. Si una parte falla, la siguiente corrida retom
 La tabla de una fecha sale en su propio turno (§13.1): cuando la fecha cierra (todos sus partidos y
 votaciones completos), la corrida siguiente publica solo la tabla y no juega partido. Si una
 corrida tuvo que terminar algo pendiente de esa fecha, la tabla queda para la siguiente.
+Votos (§13.1): al comienzo de cada corrida con --pagina, antes de publicar nada, se leen los votos
+de las votaciones ya publicadas completas y sin resolver, y se aplica el resultado. El anuncio del
+resultado va como comentario del post siguiente (partido o tabla), en Facebook antes del comentario
+de Instagram, y en Instagram. Si una corrida
+tuvo que terminar una votación a medias, no juega partido: la votación queda abierta hasta la
+corrida siguiente.
+Fecha FIFA (§13.1): si el partido trae una, sale en su propio turno como la tabla (foto sola en Facebook
+e Instagram y el comentario de Instagram), en la corrida siguiente a la de su partido y su votación; esa
+corrida no juega partido. Si hay una votación abierta, se resuelve antes y su anuncio va en este post.
+Una fecha por día (§9.1): si la tabla de una fecha ya salió hoy (fecha de Lima), la corrida termina lo
+que haya pendiente pero no juega partido.
 """
 
 import argparse
@@ -21,22 +32,25 @@ from datetime import datetime
 
 from pfb.imagenes.alineacion import RAIZ
 from pfb.imagenes.alineacion import generar as generar_alineacion
+from pfb.imagenes.fecha_fifa import generar_fecha_fifa
 from pfb.imagenes.marcador import generar_marcador
 from pfb.imagenes.relleno import rellenar_cuadrado
 from pfb.imagenes.tabla import generar_tabla
 from pfb.imagenes.votacion import imagen_votacion_2
+from pfb.motor.fecha_fifa import cargar_selecciones
 from pfb.motor.partido import cargar_parametros
 from pfb.motor.salida import alineacion_desde_registro, cargar_colores
 from pfb.motor.temporada import (CARPETA_TEMPORADAS, cargar_nombres, cargar_registros, cargar_temporada,
-                                 carpeta_temporada, jugar_siguiente, partido_id)
+                                 carpeta_temporada, jugar_siguiente, partido_id, resolver_votacion)
 from pfb.motor.temporada import tabla as calcular_tabla
+from pfb.motor.votaciones import REACCIONES, contar_votos
 from pfb.publicacion.facebook import PAGINAS, Cliente, ErrorFacebook
 from pfb.publicacion.instagram import Instagram, comprobar_caption
-from pfb.publicacion.publicados import (MezclaDePaginas, cargar_publicados, clave_tabla, clave_votacion,
-                                        comprobar_pagina, falta, marcar, marcar_comentario, marcar_ig_comentario,
-                                        marcar_instagram)
+from pfb.publicacion.publicados import (ZONA, MezclaDePaginas, cargar_publicados, clave_fifa, clave_tabla, clave_votacion,
+                                        comprobar_pagina, falta, marcar, marcar_anuncio, marcar_comentario,
+                                        marcar_ig_comentario, marcar_instagram)
 from pfb.publicacion.texto import (COMENTARIO_INSTAGRAM, caption_votacion, opciones_votacion, texto_partido,
-                                   texto_tabla, texto_votacion)
+                                   texto_anuncio, texto_fecha_fifa, texto_tabla, texto_votacion)
 
 
 # --- Imágenes ---
@@ -56,6 +70,15 @@ def generar_imagen_tabla(filas, ruta):
     ruta.parent.mkdir(parents=True, exist_ok=True)
     generar_tabla(filas, ruta)
     return ruta
+
+
+def generar_imagen_fifa(fecha_fifa, ruta):
+    ruta.parent.mkdir(parents=True, exist_ok=True)
+    return generar_fecha_fifa(fecha_fifa, nombres_selecciones(), ruta)
+
+
+def nombres_selecciones():
+    return {codigo: s["nombre"] for codigo, s in cargar_selecciones().items()}
 
 
 def fotos_instagram(tipo, fotos, rellenar=rellenar_cuadrado):
@@ -103,10 +126,10 @@ def mostrar_votacion(registro, nombres, parte="post"):
 
 def pendientes(temporada, registros, publicados):
     """Lo que falta publicar, en el orden del fixture: ("partido", registro, falta),
-    ("votacion", registro, falta) o ("tabla", fecha, falta), con falta = "post", "instagram",
-    "comentarios_ig" o "comentario" (ver publicados.falta). La votación de un partido está pendiente
-    cuando el partido ya está completo; la tabla de una fecha, cuando todos sus partidos y sus
-    votaciones lo están."""
+    ("votacion", registro, falta), ("fifa", registro, falta) o ("tabla", fecha, falta), con falta =
+    "post", "instagram", "comentarios_ig", "anuncio" o "comentario" (ver publicados.falta). La votación de
+    un partido está pendiente cuando el partido ya está completo; su Fecha FIFA, cuando también lo está
+    la votación; la tabla de una fecha, cuando todos sus partidos, votaciones y Fechas FIFA lo están."""
     por_id = {r["partido_id"]: r for r in registros}
     salida = []
     for f, partidos in enumerate(temporada["fixture"], start=1):
@@ -123,9 +146,63 @@ def pendientes(temporada, registros, publicados):
             elif registro.get("votacion") and falta(publicados, clave_votacion(pid)):
                 salida.append(("votacion", registro, falta(publicados, clave_votacion(pid))))
                 completa = False
+            elif registro.get("fecha_fifa") and falta(publicados, clave_fifa(pid)):
+                salida.append(("fifa", registro, falta(publicados, clave_fifa(pid))))
+                completa = False
         if completa and falta(publicados, clave_tabla(f)):
             salida.append(("tabla", f, falta(publicados, clave_tabla(f))))
     return salida
+
+
+def votaciones_abiertas(registros, publicados):
+    """Los registros cuya votación ya está publicada completa y todavía no tiene votos (§13.1), en
+    orden cronológico."""
+    return [r for r in registros
+            if r.get("votacion") and "votos" not in r["votacion"]
+            and clave_votacion(r["partido_id"]) in publicados
+            and falta(publicados, clave_votacion(r["partido_id"])) is None]
+
+
+def anuncios_pendientes(registros, publicados):
+    """Claves de las votaciones ya resueltas cuyo anuncio todavía no tiene post asignado, en orden."""
+    return [clave_votacion(r["partido_id"]) for r in registros
+            if r.get("votacion") and "votos" in r["votacion"]
+            and "anuncio_en" not in publicados.get(clave_votacion(r["partido_id"]), {"anuncio_en": None})]
+
+
+def registro_de_votacion(registros, clave):
+    partido = clave.removeprefix("votacion-")
+    return next(r for r in registros if r["partido_id"] == partido)
+
+
+def leer_votos(registro, entrada, cliente, instagram):
+    """Votos de cada opción: reacciones del post de Facebook + likes del comentario de Instagram de
+    esa opción. entrada: la de la votación en publicados.json; si no tiene "ig_comentarios" (entrada de
+    antes de esa parte), Instagram no suma votos."""
+    reacciones = cliente.reacciones(entrada["post_id"])
+    if "ig_comentarios" in entrada:
+        likes = [instagram.likes_comentario(c) for c in entrada["ig_comentarios"]]
+    else:
+        likes = [0] * len(REACCIONES[registro["votacion"]["tipo"]])
+    return contar_votos(registro["votacion"]["tipo"], reacciones, likes)
+
+
+def tabla_de_hoy(publicados, ahora=None):
+    """La clave de una tabla publicada hoy (fecha de Lima), o None."""
+    hoy = (ahora or datetime.now(ZONA)).astimezone(ZONA).date()
+    for clave, entrada in publicados.items():
+        if entrada.get("tipo") != "tabla":
+            continue
+        if datetime.fromisoformat(entrada["fecha_hora"]).astimezone(ZONA).date() == hoy:
+            return clave
+    return None
+
+
+TURNO_PROPIO = ("tabla", "fifa")   # salen solas en su corrida (§13.1)
+
+
+def tipos_de(clave):
+    return "fifa" if clave.startswith("fifa-") else "tabla"
 
 
 def clave_de(item):
@@ -134,11 +211,14 @@ def clave_de(item):
         return dato["partido_id"]
     if tipo == "votacion":
         return clave_votacion(dato["partido_id"])
+    if tipo == "fifa":
+        return clave_fifa(dato["partido_id"])
     return clave_tabla(dato)
 
 
 def armar_post(item, temporada, registros, carpeta_imagenes, nombres,
-               generar_partido=generar_imagenes_partido, generar_tabla_img=generar_imagen_tabla):
+               generar_partido=generar_imagenes_partido, generar_tabla_img=generar_imagen_tabla,
+               generar_fifa=generar_imagen_fifa):
     """Devuelve (clave, tipo, mensaje, fotos). La tabla de la fecha F sale solo de las fechas 1..F.
     El texto también es el caption de Instagram (salvo en la votación, ver armar_votacion): si no
     entra, falla antes de generar las imágenes."""
@@ -151,6 +231,11 @@ def armar_post(item, temporada, registros, carpeta_imagenes, nombres,
         mensaje = texto_partido(dato, nombres)
         comprobar_caption(mensaje)
         return clave, tipo, mensaje, generar_partido(dato, carpeta_imagenes / clave)
+    if tipo == "fifa":
+        clave = clave_fifa(dato["partido_id"])
+        mensaje = texto_fecha_fifa(dato["fecha_fifa"], nombres_selecciones())
+        comprobar_caption(mensaje)
+        return clave, tipo, mensaje, [generar_fifa(dato["fecha_fifa"], carpeta_imagenes / f"{clave}.png")]
     clave = clave_tabla(dato)
     mensaje = texto_tabla(dato)
     comprobar_caption(mensaje)
@@ -163,7 +248,7 @@ def armar_post(item, temporada, registros, carpeta_imagenes, nombres,
 
 def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, cliente=None, instagram=None,
            generar_partido=generar_imagenes_partido, generar_tabla_img=generar_imagen_tabla,
-           rellenar=rellenar_cuadrado, mostrar=print, ahora=None):
+           generar_fifa=generar_imagen_fifa, rellenar=rellenar_cuadrado, mostrar=print, ahora=None):
     """pagina None = dry-run. cliente: un facebook.Cliente ya armado; instagram: un
     instagram.Instagram ya armado (si no, salen del .env)."""
     temporada = cargar_temporada(temporada_id, base)
@@ -173,7 +258,7 @@ def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, clie
 
     def armar(item):
         return armar_post(item, temporada, cargar_registros(temporada_id, base), carpeta_imagenes, nombres,
-                          generar_partido, generar_tabla_img)
+                          generar_partido, generar_tabla_img, generar_fifa)
 
     def lista():
         return pendientes(temporada, cargar_registros(temporada_id, base), cargar_publicados(temporada_id, base))
@@ -187,25 +272,34 @@ def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, clie
                 return
             items = [("partido", registro, "post")]
         publicados = cargar_publicados(temporada_id, base)
-        for item in items:
+
+        def mostrar_item(item):
             tipo, parte, clave = item[0], item[2], clave_de(item)
             if tipo == "votacion":
                 mostrar(mostrar_votacion(item[1], nombres, parte))
-                continue
+                return
             entrada = publicados.get(clave, {})
             bloques = [f"[dry-run] {clave} ({tipo})" + ("" if parte == "post" else f": falta {parte}")]
-            if parte != "comentario":
+            if parte == "anuncio":
+                registro_v = registro_de_votacion(cargar_registros(temporada_id, base), entrada["anuncio"]["de"])
+                bloques.append(f"anuncio (facebook e instagram):\n{texto_anuncio(registro_v, nombres)}")
+            elif parte != "comentario":
                 _, _, mensaje, fotos = armar(item[:2])
                 if parte == "post":
                     bloques.append(f"{mensaje}\nimágenes:\n" + "\n".join(f"  {r}" for r in fotos))
                 forma = "carrusel" if tipo == "partido" else "foto sola"
                 bloques.append(f"instagram ({forma}, caption = texto del post):\n" + "\n".join(
                     f"  {i}. {r}" for i, r in enumerate(fotos_instagram(tipo, fotos, rellenar), start=1)))
-            if parte == "post" or ("comentario_id" in entrada and not entrada["comentario_id"]):
+            if parte in ("post", "anuncio") or ("comentario_id" in entrada and not entrada["comentario_id"]):
                 bloques.append(f"comentario:\n{COMENTARIO_INSTAGRAM}")
             mostrar("\n".join(bloques))
             if tipo == "partido" and parte == "post" and item[1].get("votacion"):
                 mostrar(mostrar_votacion(item[1], nombres))
+            if tipo == "partido" and parte == "post" and item[1].get("fecha_fifa"):
+                mostrar_item(("fifa", item[1], "post"))
+
+        for item in items:
+            mostrar_item(item)
         return
 
     if cliente is None:
@@ -218,30 +312,45 @@ def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, clie
         instagram = Instagram.desde_env(cliente)
     instagram.verificar_cuenta()
     armados = {}   # imágenes y texto ya armados en esta corrida, por clave
+    votacion_publicada = []   # claves de votaciones que salieron (o se completaron) en publicar_pendientes
+
+    for registro in votaciones_abiertas(cargar_registros(temporada_id, base), cargar_publicados(temporada_id, base)):
+        clave = clave_votacion(registro["partido_id"])
+        votos = leer_votos(registro, cargar_publicados(temporada_id, base)[clave], cliente, instagram)
+        nuevo = resolver_votacion(temporada_id, registro["partido_id"], votos, params, base)
+        mostrar(f"resuelta {clave}: votos {votos}\n{texto_anuncio(nuevo, nombres)}")
 
     def publicar_pendientes():
-        """Publica lo pendiente. La tabla sale en su propio turno: solo si es lo primero que hay que
-        publicar; si antes salió otra cosa, se detiene al llegar a ella. Devuelve "tabla" si publicó
-        una tabla, "espera" si se detuvo antes de una, o None."""
-        hubo_tabla = hubo_otra = False
+        """Publica lo pendiente. La tabla y la Fecha FIFA salen en su propio turno: solo si son lo primero
+        que hay que publicar; si antes salió otra cosa, se detiene al llegar a una de ellas. Devuelve
+        ("salio", tipo) si publicó una, ("espera", tipo) si se detuvo antes de una, o None."""
+        propio = None
+        hubo_otra = False
         # de a una parte y recalculando: cada parte que sale vuelve pendiente la siguiente, y publicar
         # el último partido (o la última votación) de una fecha vuelve pendiente su tabla
         while items := lista():
             item = items[0]
             tipo, parte, clave = item[0], item[2], clave_de(item)
-            if tipo == "tabla":
-                if hubo_otra:
-                    return "espera"
-                hubo_tabla = True
+            if tipo in TURNO_PROPIO:
+                if hubo_otra or (propio and propio != clave):
+                    return ("espera", tipo)
+                propio = clave
             else:
                 hubo_otra = True
+            if tipo == "votacion" and clave not in votacion_publicada:
+                votacion_publicada.append(clave)
             if parte == "post":
                 armados[clave] = armar(item[:2])
                 _, tipo, mensaje, fotos = armados[clave]
                 post_id = cliente.publicar_post(mensaje, fotos)
                 n_ig = len(opciones_votacion(item[1], nombres)) if tipo == "votacion" else 0
+                anuncio_de = None
+                if tipo != "votacion":
+                    por_anunciar = anuncios_pendientes(cargar_registros(temporada_id, base),
+                                                       cargar_publicados(temporada_id, base))
+                    anuncio_de = por_anunciar[0] if por_anunciar else None
                 marcar(temporada_id, clave, tipo, post_id, cliente.pagina, cliente.page_id, base, ahora,
-                       ig_comentarios=n_ig)
+                       ig_comentarios=n_ig, anuncio_de=anuncio_de)
                 mostrar(f"publicado {clave} ({tipo}): post {post_id}")
             elif parte == "comentarios_ig":
                 entrada = cargar_publicados(temporada_id, base)[clave]
@@ -251,6 +360,19 @@ def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, clie
                         comentario_id = instagram.comentar(entrada["ig_media_id"], opciones[n])
                         marcar_ig_comentario(temporada_id, clave, n, comentario_id, base)
                         mostrar(f"comentado en Instagram {clave}: {opciones[n]} ({comentario_id})")
+            elif parte == "anuncio":
+                entrada = cargar_publicados(temporada_id, base)[clave]
+                anuncio = entrada["anuncio"]
+                texto = texto_anuncio(registro_de_votacion(cargar_registros(temporada_id, base), anuncio["de"]),
+                                      nombres)
+                if anuncio["fb_id"] is None:
+                    comentario_id = cliente.comentar(entrada["post_id"], texto)
+                    marcar_anuncio(temporada_id, clave, "fb_id", comentario_id, base)
+                    mostrar(f"anuncio de {anuncio['de']} en {clave}: comentario {comentario_id}")
+                if anuncio["ig_id"] is None:
+                    comentario_id = instagram.comentar(entrada["ig_media_id"], texto)
+                    marcar_anuncio(temporada_id, clave, "ig_id", comentario_id, base)
+                    mostrar(f"anuncio de {anuncio['de']} en Instagram {clave}: {comentario_id}")
             elif parte == "comentario":
                 post_id = cargar_publicados(temporada_id, base)[clave]["post_id"]
                 comentario_id = cliente.comentar(post_id, COMENTARIO_INSTAGRAM)
@@ -270,14 +392,22 @@ def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, clie
                     ig_media_id = instagram.publicar_foto(fotos_ig[0], caption, desde)
                 marcar_instagram(temporada_id, clave, ig_media_id, base)
                 mostrar(f"publicado en Instagram {clave}: {ig_media_id}")
-        return "tabla" if hubo_tabla else None
+        return ("salio", tipos_de(propio)) if propio else None
 
     resultado = publicar_pendientes()
-    if resultado == "tabla":
-        mostrar("salió la tabla en su propio turno: esta corrida no juega partido")
+    if resultado:
+        accion, tipo = resultado
+        nombre = "la tabla" if tipo == "tabla" else "la Fecha FIFA"
+        if accion == "salio":
+            mostrar(f"salió {nombre} en su propio turno: esta corrida no juega partido")
+        else:
+            mostrar(f"{nombre} sale en la corrida siguiente: esta corrida no juega partido")
         return
-    if resultado == "espera":
-        mostrar("la tabla sale en la corrida siguiente: esta corrida no juega partido")
+    if votacion_publicada:
+        mostrar(f"{votacion_publicada[-1]} queda abierta hasta la corrida siguiente: esta corrida no juega partido")
+        return
+    if tabla := tabla_de_hoy(cargar_publicados(temporada_id, base), ahora):
+        mostrar(f"{tabla} ya salió hoy: una fecha por día, esta corrida no juega partido")
         return
     if jugar_siguiente(temporada_id, params, base) is None:
         mostrar("la temporada ya terminó")
