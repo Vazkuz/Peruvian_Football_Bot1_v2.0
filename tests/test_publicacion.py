@@ -1453,3 +1453,87 @@ def test_pagina_real_ignora_el_seco_aunque_el_instagram_venga_en_seco(tmp_path, 
     correr_falso(tmp_path, params, pagina="real", cliente=real, instagram=ig)
     assert ig.en_seco is False and "media_publish" in http.rutas()
     assert cargar_publicados("prueba", tmp_path)["F01-P1"]["ig_media_id"] == "ig1"
+
+
+# --- Programación de la fecha siguiente (tarea 26) ---
+
+def programacion_falsa(fecha, partidos, club, lado, ruta):
+    assert len(partidos) == 9 and lado in ("izquierda", "derecha")
+    return foto_falsa(ruta)
+
+
+def correr_programacion(tmp_path, params, cuando, pagina="prueba", http=None, salida=None):
+    http = http or HttpFalso()
+    correr_falso(tmp_path, params, pagina=pagina, cliente=cliente(http) if pagina else None, salida=salida,
+                 ahora=cuando, programacion=True, generar_prog=programacion_falsa)
+    return http
+
+
+def tabla_completa(tmp_path, params, cuando):
+    fecha_1_con_tabla(tmp_path, params, cuando)
+    marcar_instagram("prueba", "tabla-F01", "ig_t", base=tmp_path)
+    marcar_comentario("prueba", "tabla-F01", "com_t", base=tmp_path)
+
+
+def test_programacion_publica_la_fecha_siguiente_y_no_juega(tmp_path, params):
+    from pfb.publicacion.texto import texto_programacion
+    tabla_completa(tmp_path, params, AHORA)
+    http = correr_programacion(tmp_path, params, AHORA + timedelta(hours=3))
+    assert [f["message"] for f in http.feeds()] == [[texto_programacion(2)]]
+    assert http.subidas()[:2] == ["programacion-F02.png", "programacion-F02.png"]   # Facebook e Instagram
+    assert http.comentados() == [(f"{PAGE_ID}_post1", COMENTARIO_INSTAGRAM)]
+    entrada = cargar_publicados("prueba", tmp_path)["programacion-F02"]
+    assert entrada["tipo"] == "programacion" and falta(cargar_publicados("prueba", tmp_path), "programacion-F02") is None
+    assert len(cargar_registros("prueba", tmp_path)) == 9
+
+
+def test_programacion_no_se_publica_dos_veces(tmp_path, params):
+    tabla_completa(tmp_path, params, AHORA)
+    correr_programacion(tmp_path, params, AHORA + timedelta(hours=3))
+    salida = []
+    http = correr_programacion(tmp_path, params, AHORA + timedelta(hours=3, minutes=5), salida=salida)
+    assert http.feeds() == [] and salida[-1] == "programacion-F02 ya salió"
+
+
+def test_sin_la_tabla_de_hoy_no_sale_la_programacion(tmp_path, params):
+    tabla_completa(tmp_path, params, AHORA - timedelta(days=1))           # la tabla salió ayer
+    salida = []
+    http = correr_programacion(tmp_path, params, AHORA + timedelta(hours=3), salida=salida)
+    assert http.feeds() == [] and salida[-1] == "la tabla de hoy no salió: hoy no sale la programación"
+    assert "programacion-F02" not in cargar_publicados("prueba", tmp_path)
+
+
+def test_sin_fechas_por_jugar_no_sale_la_programacion():
+    from pfb.publicacion.correr import fecha_programacion
+    temporada = {"fixture": [[]] * 34}
+    hoy = {"tabla-F34": {"tipo": "tabla", "fecha_hora": AHORA.isoformat()}}
+    assert fecha_programacion(temporada, hoy, AHORA) == (None, "ya no quedan fechas: no sale la programación")
+    hoy = {"tabla-F33": {"tipo": "tabla", "fecha_hora": AHORA.isoformat()}}
+    assert fecha_programacion(temporada, hoy, AHORA) == (34, None)
+
+
+def test_programacion_con_el_comentario_caido_lo_retoma(tmp_path, params):
+    tabla_completa(tmp_path, params, AHORA)
+    caida = HttpFalso(fallar=lambda n, m, u: m == "POST" and u.endswith("/comments"))
+    with pytest.raises(ErrorFacebook):
+        correr_programacion(tmp_path, params, AHORA + timedelta(hours=3), http=caida)
+    assert falta(cargar_publicados("prueba", tmp_path), "programacion-F02") == "comentario"
+    http = correr_programacion(tmp_path, params, AHORA + timedelta(hours=3, minutes=10))
+    assert http.feeds() == [] and len(http.comentados()) == 1
+    assert falta(cargar_publicados("prueba", tmp_path), "programacion-F02") is None
+
+
+def test_programacion_en_dry_run_no_publica_ni_marca(tmp_path, params):
+    tabla_completa(tmp_path, params, AHORA)
+    salida = []
+    correr_programacion(tmp_path, params, AHORA + timedelta(hours=3), pagina=None, salida=salida)
+    assert salida[0].startswith("[dry-run] programacion-F02 (programacion)")
+    assert "programacion-F02" not in cargar_publicados("prueba", tmp_path)
+    assert len(cargar_registros("prueba", tmp_path)) == 9
+
+
+def test_main_acepta_programacion(tmp_path, monkeypatch):
+    llamadas = []
+    monkeypatch.setattr(correr_mod, "correr", lambda *a, **kw: llamadas.append(kw))
+    assert main(["prueba", "--programacion"]) == 0
+    assert llamadas[0]["programacion"] is True and llamadas[0]["pagina"] is None

@@ -2,8 +2,9 @@
 
 Aparte del registro del partido. Una entrada por publicación, con clave "F07-P3" (partido),
 "votacion-F07-P3" (votación de ese partido, §13.1), "fifa-F07-P3" (Fecha FIFA que salió después de ese
-partido, §13.1) o "tabla-F07" (tabla de la fecha 7):
-    {"tipo": "partido" | "votacion" | "fifa" | "tabla", "post_id": ..., "pagina": "prueba" | "real",
+partido, §13.1), "tabla-F07" (tabla de la fecha 7) o "programacion-F08" (programación de la fecha 8, que
+sale la noche anterior; tarea 26):
+    {"tipo": "partido" | "votacion" | "fifa" | "tabla" | "programacion", "post_id": ..., "pagina": "prueba" | "real",
      "page_id": ..., "fecha_hora": "2026-10-08T17:52:51-05:00", "comentario_id": ... | null,
      "ig_media_id": ... | null}
 La votación lleva además "ig_comentarios": [id | null, ...], un comentario de Instagram por opción.
@@ -39,6 +40,11 @@ def clave_votacion(partido_id):
 
 def clave_fifa(partido_id):
     return f"fifa-{partido_id}"
+
+
+def clave_programacion(fecha):
+    """Programación de la fecha (la que se juega al día siguiente de publicarla; tarea 26)."""
+    return f"programacion-F{fecha:02d}"
 
 
 def ruta_publicados(temporada_id, base=CARPETA_TEMPORADAS):

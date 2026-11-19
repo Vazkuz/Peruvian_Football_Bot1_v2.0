@@ -1,6 +1,6 @@
 """Cierra el circuito: motor → imágenes → texto → Facebook → Instagram (§7.2, §8).
 
-    python -m pfb.publicacion.correr <temporada_id> [--pagina prueba|real] [--con-instagram]
+    python -m pfb.publicacion.correr <temporada_id> [--pagina prueba|real] [--con-instagram] [--programacion]
 
 Sin --pagina es dry-run: no toca la red ni marca nada en publicados.json. Si hay algo pendiente lo
 muestra y termina; si no, juega el siguiente partido, lo muestra y termina.
@@ -27,6 +27,11 @@ que haya pendiente pero no juega partido.
 Instagram en seco (tarea 25): con --pagina prueba, Instagram llega hasta los contenedores FINISHED pero
 no publica ni comenta (ver instagram.py). --con-instagram (solo con --pagina prueba) publica de verdad
 en @pfbot.1. Con --pagina real Instagram se publica siempre.
+Programación (tarea 26, §5.0d): con --programacion la corrida SOLO publica la programación de la fecha de
+mañana (la que sigue a la tabla publicada hoy) y no toca partidos, votaciones ni pendientes. Si la tabla
+de hoy no salió, o ya no quedan fechas, no publica nada. Foto sola en Facebook e Instagram y el comentario
+de Instagram; clave "programacion-F02" en publicados.json. Si una parte falla, la siguiente corrida con
+--programacion del mismo día la retoma.
 """
 
 import argparse
@@ -37,11 +42,13 @@ from pfb.imagenes.alineacion import RAIZ
 from pfb.imagenes.alineacion import generar as generar_alineacion
 from pfb.imagenes.fecha_fifa import generar_fecha_fifa
 from pfb.imagenes.marcador import generar_marcador
+from pfb.imagenes.programacion import generar_programacion
 from pfb.imagenes.relleno import rellenar_cuadrado
 from pfb.imagenes.tabla import generar_tabla
 from pfb.imagenes.votacion import imagen_votacion_2
 from pfb.motor.fecha_fifa import cargar_selecciones
 from pfb.motor.partido import cargar_parametros
+from pfb.motor.programacion import sortear_foto
 from pfb.motor.salida import alineacion_desde_registro, cargar_colores
 from pfb.motor.temporada import (CARPETA_TEMPORADAS, cargar_nombres, cargar_registros, cargar_temporada,
                                  carpeta_temporada, jugar_siguiente, partido_id, resolver_votacion)
@@ -49,11 +56,12 @@ from pfb.motor.temporada import tabla as calcular_tabla
 from pfb.motor.votaciones import REACCIONES, contar_votos
 from pfb.publicacion.facebook import PAGINAS, Cliente, ErrorFacebook
 from pfb.publicacion.instagram import Instagram, comprobar_caption, es_seco
-from pfb.publicacion.publicados import (ZONA, MezclaDePaginas, cargar_publicados, clave_fifa, clave_tabla, clave_votacion,
+from pfb.publicacion.publicados import (ZONA, MezclaDePaginas, cargar_publicados, clave_fifa, clave_programacion,
+                                        clave_tabla, clave_votacion,
                                         comprobar_pagina, falta, marcar, marcar_anuncio, marcar_comentario,
                                         marcar_ig_comentario, marcar_instagram)
 from pfb.publicacion.texto import (COMENTARIO_INSTAGRAM, caption_votacion, opciones_votacion, texto_partido,
-                                   texto_anuncio, texto_fecha_fifa, texto_tabla, texto_votacion)
+                                   texto_anuncio, texto_fecha_fifa, texto_programacion, texto_tabla, texto_votacion)
 
 
 # --- Imágenes ---
@@ -201,6 +209,30 @@ def tabla_de_hoy(publicados, ahora=None):
     return None
 
 
+def fecha_programacion(temporada, publicados, ahora=None):
+    """(fecha de mañana, None), o (None, motivo) si hoy no sale la programación: la tabla de hoy no salió
+    (la fecha quedó a medias) o ya no quedan fechas."""
+    clave = tabla_de_hoy(publicados, ahora)
+    if clave is None:
+        return None, "la tabla de hoy no salió: hoy no sale la programación"
+    fecha = int(clave.removeprefix("tabla-F")) + 1
+    if fecha > len(temporada["fixture"]):
+        return None, "ya no quedan fechas: no sale la programación"
+    return fecha, None
+
+
+def armar_programacion(fecha, temporada, registros, params, carpeta_imagenes, generar=generar_programacion):
+    """Devuelve (clave, mensaje, foto, club_id de la foto, lado). El texto también es el caption de
+    Instagram: si no entra, falla antes de generar la imagen."""
+    clave = clave_programacion(fecha)
+    mensaje = texto_programacion(fecha)
+    comprobar_caption(mensaje)
+    club, lado = sortear_foto(temporada, fecha, registros, params)
+    carpeta_imagenes.mkdir(parents=True, exist_ok=True)
+    partidos = [tuple(p) for p in temporada["fixture"][fecha - 1]]
+    return clave, mensaje, generar(fecha, partidos, club, lado, carpeta_imagenes / f"{clave}.png"), club, lado
+
+
 TURNO_PROPIO = ("tabla", "fifa")   # salen solas en su corrida (§13.1)
 
 
@@ -252,10 +284,11 @@ def armar_post(item, temporada, registros, carpeta_imagenes, nombres,
 def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, cliente=None, instagram=None,
            generar_partido=generar_imagenes_partido, generar_tabla_img=generar_imagen_tabla,
            generar_fifa=generar_imagen_fifa, rellenar=rellenar_cuadrado, mostrar=print, ahora=None,
-           con_instagram=False):
+           con_instagram=False, programacion=False, generar_prog=generar_programacion):
     """pagina None = dry-run. cliente: un facebook.Cliente ya armado; instagram: un
     instagram.Instagram ya armado (si no, salen del .env). con_instagram: solo con pagina "prueba";
-    sin él, Instagram va en seco. Un instagram ya armado se pone en seco o no según esto."""
+    sin él, Instagram va en seco. Un instagram ya armado se pone en seco o no según esto.
+    programacion: solo publica la programación de mañana (ver el docstring del módulo)."""
     if con_instagram and pagina != "prueba":
         raise ValueError("--con-instagram va solo con --pagina prueba")
     temporada = cargar_temporada(temporada_id, base)
@@ -269,6 +302,34 @@ def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, clie
 
     def lista():
         return pendientes(temporada, cargar_registros(temporada_id, base), cargar_publicados(temporada_id, base))
+
+    def preparar_programacion():
+        """(fecha, None) o (None, motivo); el motivo ya se mostró."""
+        fecha, motivo = fecha_programacion(temporada, cargar_publicados(temporada_id, base), ahora)
+        if fecha is None:
+            mostrar(motivo)
+        return fecha
+
+    def armar_prog(fecha):
+        return armar_programacion(fecha, temporada, cargar_registros(temporada_id, base), params, carpeta_imagenes,
+                                  generar_prog)
+
+    if pagina is None and programacion:
+        fecha = preparar_programacion()
+        if fecha is None:
+            return
+        clave, mensaje, foto, club, lado = armar_prog(fecha)
+        parte = falta(cargar_publicados(temporada_id, base), clave)
+        if parte is None:
+            mostrar(f"{clave} ya salió")
+            return
+        mostrar("\n".join([
+            f"[dry-run] {clave} (programacion)" + ("" if parte == "post" else f": falta {parte}"),
+            f"{mensaje}\nimagen (foto de {nombres[club]}, a la {lado}):\n  {foto}",
+            f"instagram (foto sola, caption = texto del post):\n  1. {foto}",
+            f"comentario:\n{COMENTARIO_INSTAGRAM}",
+        ]))
+        return
 
     if pagina is None:
         items = lista()
@@ -321,6 +382,38 @@ def correr(temporada_id, pagina=None, base=CARPETA_TEMPORADAS, params=None, clie
     if instagram.en_seco:
         mostrar("Instagram en seco: contenedores sin publicar ni comentar (--con-instagram para publicar)")
     instagram.verificar_cuenta()
+
+    if programacion:
+        fecha = preparar_programacion()
+        if fecha is None:
+            return
+        clave = clave_programacion(fecha)
+        if falta(cargar_publicados(temporada_id, base), clave) is None:
+            mostrar(f"{clave} ya salió")
+            return
+        clave, mensaje, foto, club, lado = armar_prog(fecha)
+        while parte := falta(cargar_publicados(temporada_id, base), clave):
+            if parte == "post":
+                post_id = cliente.publicar_post(mensaje, [foto])
+                marcar(temporada_id, clave, "programacion", post_id, cliente.pagina, cliente.page_id, base, ahora)
+                mostrar(f"publicado {clave} (programacion, foto de {nombres[club]} a la {lado}): post {post_id}")
+            elif parte == "instagram":
+                desde = datetime.fromisoformat(cargar_publicados(temporada_id, base)[clave]["fecha_hora"])
+                ig_media_id = instagram.publicar_foto(foto, mensaje, desde)
+                marcar_instagram(temporada_id, clave, ig_media_id, base)
+                if es_seco(ig_media_id):
+                    mostrar(f"Instagram en seco {clave}: {ig_media_id} (sin publicar)")
+                else:
+                    mostrar(f"publicado en Instagram {clave}: {ig_media_id}")
+            elif parte == "comentario":
+                post_id = cargar_publicados(temporada_id, base)[clave]["post_id"]
+                comentario_id = cliente.comentar(post_id, COMENTARIO_INSTAGRAM)
+                marcar_comentario(temporada_id, clave, comentario_id, base)
+                mostrar(f"comentado {clave}: comentario {comentario_id}")
+            else:
+                raise ValueError(f"{clave}: parte inesperada {parte}")
+        return
+
     armados = {}   # imágenes y texto ya armados en esta corrida, por clave
     votacion_publicada = []   # claves de votaciones que salieron (o se completaron) en publicar_pendientes
 
@@ -436,11 +529,14 @@ def main(argv=None):
     parser.add_argument("--pagina", choices=sorted(PAGINAS), help="sin esta opción es dry-run")
     parser.add_argument("--con-instagram", action="store_true",
                         help="con --pagina prueba, publica de verdad en Instagram (si no, va en seco)")
+    parser.add_argument("--programacion", action="store_true",
+                        help="solo publica la programación de mañana (no juega ni publica nada más)")
     args = parser.parse_args(argv)
     if args.con_instagram and args.pagina != "prueba":
         parser.error("--con-instagram va solo con --pagina prueba")
     try:
-        correr(args.temporada_id, pagina=args.pagina, base=CARPETA_TEMPORADAS, con_instagram=args.con_instagram)
+        correr(args.temporada_id, pagina=args.pagina, base=CARPETA_TEMPORADAS, con_instagram=args.con_instagram,
+               programacion=args.programacion)
     except (ErrorFacebook, MezclaDePaginas) as e:
         print(f"ERROR: {e}", file=sys.stderr)
         return 1

@@ -1,11 +1,13 @@
 name: Bot
-run-name: ${{ inputs.cron && 'Bot (cron)' || 'Bot (manual)' }} - ${{ inputs.temporada }}
+run-name: ${{ inputs.cron && 'Bot (cron)' || 'Bot (manual)' }}${{ inputs.programacion && ' programacion' || '' }} - ${{ inputs.temporada }}
 
 # El horario lo pone cron-job.org (una corrida por hora, de 9 a 19 de Lima): llama a la API de
 # GitHub para disparar este workflow con temporada = la real, pagina = real y cron = true. El cron
 # propio de GitHub (schedule) se saco el 16/11/2026: llegaba tarde o no llegaba.
 # Candado (solo el cron): si data/temporadas/<temporada>/temporada.json no existe, la corrida termina
 # en verde sin hacer nada. Arrancar la temporada = crear esa carpeta y pushearla.
+# Programación (tarea 26): un segundo cronjob de cron-job.org, a las 21:00 de Lima, dispara con
+# programacion = true: la corrida solo publica la programación de mañana (--programacion).
 on:
   workflow_dispatch:
     inputs:
@@ -26,6 +28,11 @@ on:
         required: false
         type: boolean
         default: false
+      programacion:
+        description: "true = solo publica la programación de mañana (--programacion)"
+        required: false
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -41,6 +48,7 @@ jobs:
     env:
       TEMPORADA: ${{ inputs.temporada }}
       PAGINA: ${{ inputs.pagina }}
+      PROGRAMACION: ${{ inputs.programacion }}
     steps:
       - uses: actions/checkout@v7
 
@@ -93,11 +101,14 @@ jobs:
       - name: Correr
         if: env.SALTAR != '1'
         run: |
+          args=("$TEMPORADA")
           if [ "$PAGINA" = "real" ]; then
-            python -m pfb.publicacion.correr "$TEMPORADA" --pagina real
-          else
-            python -m pfb.publicacion.correr "$TEMPORADA"
+            args+=(--pagina real)
           fi
+          if [ "$PROGRAMACION" = "true" ]; then
+            args+=(--programacion)
+          fi
+          python -m pfb.publicacion.correr "${args[@]}"
 
       - name: Commit y push
         if: always() && env.SALTAR != '1'

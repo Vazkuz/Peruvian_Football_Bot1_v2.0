@@ -222,3 +222,17 @@ def texto_fecha_fifa(fecha_fifa, nombres):
         f"{nombres[local['seleccion']]} {local['goles']} - {visita['goles']} {nombres[visita['seleccion']]}",
         HASHTAG_FIFA,
     ])
+
+
+# --- Programación de la fecha siguiente (§6, tarea 26) ---
+
+def texto_programacion(fecha):
+    """Texto del post de la programación (dictado por Daniel, 19/11/2026). fecha: la que se juega mañana;
+    el cuerpo nombra la que acaba de terminar. El asterisco del final es literal."""
+    return "\n\n".join([
+        negrita(f"FIXTURE PARA LA FECHA {fecha}"),
+        f"Acabada la Fecha {fecha - 1}, te presentamos la programación del día de mañana para que no te "
+        "pierdas de tu partido favorito.",
+        HASHTAG,
+        "*Los horarios pueden estar sujetos a cambios",
+    ])
