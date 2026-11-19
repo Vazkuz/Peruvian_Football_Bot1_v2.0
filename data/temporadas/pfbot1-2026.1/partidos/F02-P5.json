@@ -1,0 +1,548 @@
+{
+  "partido_id": "F02-P5",
+  "fecha": 2,
+  "semilla": 2700137697,
+  "estado": "jugado",
+  "local": {
+    "club_id": "2730",
+    "goles": 2,
+    "bonos": {
+      "localia": 0,
+      "racha": 0,
+      "g5": 0
+    }
+  },
+  "visita": {
+    "club_id": "6593",
+    "goles": 1,
+    "bonos": {
+      "racha": 0,
+      "g5": 0
+    }
+  },
+  "alineaciones": {
+    "2730": {
+      "formacion": "4-2-3-1",
+      "casillas": [
+        {
+          "casilla": 1,
+          "rol": "arquero",
+          "titular": {
+            "id": "303866",
+            "nombre": "Diego Melián"
+          },
+          "suplente": {
+            "id": "738150",
+            "nombre": "Jeferson Nolasco"
+          }
+        },
+        {
+          "casilla": 2,
+          "rol": "lateral_izq",
+          "titular": {
+            "id": "662705",
+            "nombre": "Mathías Llontop"
+          },
+          "suplente": {
+            "id": "177690",
+            "nombre": "Miguel Trauco"
+          }
+        },
+        {
+          "casilla": 3,
+          "rol": "central",
+          "titular": {
+            "id": "53533",
+            "nombre": "Carlos Zambrano"
+          },
+          "suplente": {
+            "id": "347382",
+            "nombre": "Gustavo Dulanto"
+          }
+        },
+        {
+          "casilla": 4,
+          "rol": "central",
+          "titular": {
+            "id": "187161",
+            "nombre": "Hansell Riojas"
+          },
+          "suplente": {
+            "id": "492973",
+            "nombre": "Renzo Alfani"
+          }
+        },
+        {
+          "casilla": 5,
+          "rol": "lateral_der",
+          "titular": {
+            "id": "805862",
+            "nombre": "Emilio Saba"
+          },
+          "suplente": {
+            "id": "1410130",
+            "nombre": "Diego Contreras"
+          }
+        },
+        {
+          "casilla": 6,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "621026",
+            "nombre": "Oslimg Mora"
+          },
+          "suplente": {
+            "id": "360446",
+            "nombre": "Federico Illanes"
+          }
+        },
+        {
+          "casilla": 7,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "347750",
+            "nombre": "Hernán Da Campo"
+          },
+          "suplente": {
+            "id": "671879",
+            "nombre": "Erick Gonzales"
+          }
+        },
+        {
+          "casilla": 8,
+          "rol": "volante_extremo_izq",
+          "titular": {
+            "id": "95280",
+            "nombre": "Christian Cueva"
+          },
+          "suplente": {
+            "id": "1564706",
+            "nombre": "Adrián Valiente"
+          }
+        },
+        {
+          "casilla": 9,
+          "rol": "mediapunta",
+          "titular": {
+            "id": "866488",
+            "nombre": "Jostin Alarcón"
+          },
+          "suplente": {
+            "id": "662699",
+            "nombre": "Yuriel Celi"
+          }
+        },
+        {
+          "casilla": 10,
+          "rol": "volante_extremo_der",
+          "titular": {
+            "id": "285679",
+            "nombre": "Luis Urruti"
+          },
+          "suplente": {
+            "id": "579734",
+            "nombre": "Carlos López"
+          }
+        },
+        {
+          "casilla": 11,
+          "rol": "delantero",
+          "titular": {
+            "id": "1095971",
+            "nombre": "Pablo Erustes"
+          },
+          "suplente": {
+            "id": "665113",
+            "nombre": "Percy Liza"
+          }
+        }
+      ]
+    },
+    "6593": {
+      "formacion": "3-4-1-2",
+      "casillas": [
+        {
+          "casilla": 1,
+          "rol": "arquero",
+          "titular": {
+            "id": "643063",
+            "nombre": "Diego Romero"
+          },
+          "suplente": {
+            "id": "352338",
+            "nombre": "Miguel Vargas"
+          }
+        },
+        {
+          "casilla": 2,
+          "rol": "central",
+          "titular": {
+            "id": "619072",
+            "nombre": "Caín Fara"
+          },
+          "suplente": {
+            "id": "441344",
+            "nombre": "Matías Di Benedetto"
+          }
+        },
+        {
+          "casilla": 3,
+          "rol": "central",
+          "titular": {
+            "id": "457058",
+            "nombre": "Williams Riveros"
+          },
+          "suplente": {
+            "id": "94437",
+            "nombre": "Aldo Corzo"
+          }
+        },
+        {
+          "casilla": 4,
+          "rol": "central",
+          "titular": {
+            "id": "142745",
+            "nombre": "Anderson Santamaría"
+          },
+          "suplente": {
+            "id": "1554020",
+            "nombre": "Joaquín Verde"
+          }
+        },
+        {
+          "casilla": 5,
+          "rol": "volante_extremo_izq",
+          "titular": {
+            "id": "965846",
+            "nombre": "César Inga"
+          },
+          "suplente": {
+            "id": "424024",
+            "nombre": "Héctor Fértoli"
+          }
+        },
+        {
+          "casilla": 6,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "486265",
+            "nombre": "Jorge Murrugarra"
+          },
+          "suplente": {
+            "id": "490717",
+            "nombre": "Jairo Concha"
+          }
+        },
+        {
+          "casilla": 7,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "77125",
+            "nombre": "Horacio Calcaterra"
+          },
+          "suplente": {
+            "id": "637902",
+            "nombre": "Juan Manuel Requena"
+          }
+        },
+        {
+          "casilla": 8,
+          "rol": "volante_extremo_der",
+          "titular": {
+            "id": "189236",
+            "nombre": "Andy Polo"
+          },
+          "suplente": {
+            "id": "396920",
+            "nombre": "Lisandro Alzugaray"
+          }
+        },
+        {
+          "casilla": 9,
+          "rol": "mediapunta",
+          "titular": {
+            "id": "194998",
+            "nombre": "Edison Flores"
+          },
+          "suplente": {
+            "id": "871655",
+            "nombre": "Piero Quispe"
+          }
+        },
+        {
+          "casilla": 10,
+          "rol": "delantero",
+          "titular": {
+            "id": "738716",
+            "nombre": "Álex Valera"
+          },
+          "suplente": {
+            "id": "458461",
+            "nombre": "José Rivera"
+          }
+        },
+        {
+          "casilla": 11,
+          "rol": "delantero",
+          "titular": {
+            "id": "130394",
+            "nombre": "Gianluca Lapadula"
+          },
+          "suplente": {
+            "id": "337070",
+            "nombre": "Sekou Gassama"
+          }
+        }
+      ]
+    }
+  },
+  "eventos": [
+    {
+      "tipo": "amarilla",
+      "club_id": "2730",
+      "tiempo": 1,
+      "minuto": 11,
+      "casilla": 6,
+      "jugador": {
+        "id": "621026",
+        "nombre": "Oslimg Mora"
+      }
+    },
+    {
+      "tipo": "gol",
+      "club_id": "6593",
+      "tiempo": 1,
+      "minuto": 17,
+      "casilla": 8,
+      "jugador": {
+        "id": "189236",
+        "nombre": "Andy Polo"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "roja",
+      "club_id": "2730",
+      "tiempo": 1,
+      "minuto": 25,
+      "casilla": 5,
+      "jugador": {
+        "id": "805862",
+        "nombre": "Emilio Saba"
+      },
+      "doble_amarilla": false
+    },
+    {
+      "tipo": "gol",
+      "club_id": "2730",
+      "tiempo": 1,
+      "minuto": 35,
+      "casilla": 11,
+      "jugador": {
+        "id": "1095971",
+        "nombre": "Pablo Erustes"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "gol",
+      "club_id": "2730",
+      "tiempo": 1,
+      "minuto": 42,
+      "casilla": 7,
+      "jugador": {
+        "id": "347750",
+        "nombre": "Hernán Da Campo"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "roja",
+      "club_id": "2730",
+      "tiempo": 1,
+      "minuto": 43,
+      "casilla": 3,
+      "jugador": {
+        "id": "53533",
+        "nombre": "Carlos Zambrano"
+      },
+      "doble_amarilla": false
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 0,
+      "casilla": 8,
+      "ventana": 1,
+      "sale": {
+        "id": "95280",
+        "nombre": "Christian Cueva"
+      },
+      "entra": {
+        "id": "1564706",
+        "nombre": "Adrián Valiente"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 0,
+      "casilla": 4,
+      "ventana": 1,
+      "sale": {
+        "id": "187161",
+        "nombre": "Hansell Riojas"
+      },
+      "entra": {
+        "id": "492973",
+        "nombre": "Renzo Alfani"
+      }
+    },
+    {
+      "tipo": "roja",
+      "club_id": "6593",
+      "tiempo": 2,
+      "minuto": 2,
+      "casilla": 7,
+      "jugador": {
+        "id": "77125",
+        "nombre": "Horacio Calcaterra"
+      },
+      "doble_amarilla": false
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "6593",
+      "tiempo": 2,
+      "minuto": 10,
+      "casilla": 10,
+      "ventana": 1,
+      "sale": {
+        "id": "738716",
+        "nombre": "Álex Valera"
+      },
+      "entra": {
+        "id": "458461",
+        "nombre": "José Rivera"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "6593",
+      "tiempo": 2,
+      "minuto": 10,
+      "casilla": 8,
+      "ventana": 1,
+      "sale": {
+        "id": "189236",
+        "nombre": "Andy Polo"
+      },
+      "entra": {
+        "id": "396920",
+        "nombre": "Lisandro Alzugaray"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "6593",
+      "tiempo": 2,
+      "minuto": 22,
+      "casilla": 4,
+      "ventana": 2,
+      "sale": {
+        "id": "142745",
+        "nombre": "Anderson Santamaría"
+      },
+      "entra": {
+        "id": "1554020",
+        "nombre": "Joaquín Verde"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "6593",
+      "tiempo": 2,
+      "minuto": 22,
+      "casilla": 11,
+      "ventana": 2,
+      "sale": {
+        "id": "130394",
+        "nombre": "Gianluca Lapadula"
+      },
+      "entra": {
+        "id": "337070",
+        "nombre": "Sekou Gassama"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 23,
+      "casilla": 10,
+      "ventana": 2,
+      "sale": {
+        "id": "285679",
+        "nombre": "Luis Urruti"
+      },
+      "entra": {
+        "id": "579734",
+        "nombre": "Carlos López"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 23,
+      "casilla": 9,
+      "ventana": 2,
+      "sale": {
+        "id": "866488",
+        "nombre": "Jostin Alarcón"
+      },
+      "entra": {
+        "id": "662699",
+        "nombre": "Yuriel Celi"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "6593",
+      "tiempo": 2,
+      "minuto": 31,
+      "casilla": 2,
+      "ventana": 3,
+      "sale": {
+        "id": "619072",
+        "nombre": "Caín Fara"
+      },
+      "entra": {
+        "id": "441344",
+        "nombre": "Matías Di Benedetto"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 40,
+      "casilla": 7,
+      "ventana": 3,
+      "sale": {
+        "id": "347750",
+        "nombre": "Hernán Da Campo"
+      },
+      "entra": {
+        "id": "671879",
+        "nombre": "Erick Gonzales"
+      }
+    }
+  ],
+  "fin": null,
+  "suspendidos": {},
+  "votacion": null,
+  "fecha_fifa": null
+}
