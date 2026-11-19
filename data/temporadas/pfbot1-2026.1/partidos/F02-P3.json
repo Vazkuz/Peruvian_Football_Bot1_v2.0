@@ -1,0 +1,502 @@
+{
+  "partido_id": "F02-P3",
+  "fecha": 2,
+  "semilla": 2988890671,
+  "estado": "jugado",
+  "local": {
+    "club_id": "2734",
+    "goles": 3,
+    "bonos": {
+      "localia": 0,
+      "racha": 0,
+      "g5": 1
+    }
+  },
+  "visita": {
+    "club_id": "99517",
+    "goles": 0,
+    "bonos": {
+      "racha": -1,
+      "g5": 0
+    }
+  },
+  "alineaciones": {
+    "2734": {
+      "formacion": "4-2-3-1",
+      "casillas": [
+        {
+          "casilla": 1,
+          "rol": "arquero",
+          "titular": {
+            "id": "785133",
+            "nombre": "Jorge Cabezudo"
+          },
+          "suplente": {
+            "id": "94359",
+            "nombre": "Carlos Cáceda"
+          }
+        },
+        {
+          "casilla": 2,
+          "rol": "lateral_izq",
+          "titular": {
+            "id": "491570",
+            "nombre": "Nelson Cabanillas"
+          },
+          "suplente": {
+            "id": "1410080",
+            "nombre": "Ángel Obando"
+          }
+        },
+        {
+          "casilla": 3,
+          "rol": "central",
+          "titular": {
+            "id": "302416",
+            "nombre": "Leonel González"
+          },
+          "suplente": {
+            "id": "621029",
+            "nombre": "Alec Deneumostier"
+          }
+        },
+        {
+          "casilla": 4,
+          "rol": "central",
+          "titular": {
+            "id": "353034",
+            "nombre": "Juan Escobar"
+          },
+          "suplente": {
+            "id": "796060",
+            "nombre": "Jesús Alcántar"
+          }
+        },
+        {
+          "casilla": 5,
+          "rol": "lateral_der",
+          "titular": {
+            "id": "831138",
+            "nombre": "Matías Lazo"
+          },
+          "suplente": {
+            "id": "1371976",
+            "nombre": "Patricio Núñez"
+          }
+        },
+        {
+          "casilla": 6,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "400945",
+            "nombre": "Kevin Minda"
+          },
+          "suplente": {
+            "id": "249468",
+            "nombre": "Horacio Orzán"
+          }
+        },
+        {
+          "casilla": 7,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "621039",
+            "nombre": "Walter Tandazo"
+          },
+          "suplente": {
+            "id": "966314",
+            "nombre": "Marcos Portillo"
+          }
+        },
+        {
+          "casilla": 8,
+          "rol": "volante_extremo_izq",
+          "titular": {
+            "id": "224677",
+            "nombre": "Jhonny Vidales"
+          },
+          "suplente": {
+            "id": "1442941",
+            "nombre": "Matias Zegarra"
+          }
+        },
+        {
+          "casilla": 9,
+          "rol": "mediapunta",
+          "titular": {
+            "id": "733083",
+            "nombre": "Nicolás Quagliata"
+          },
+          "suplente": {
+            "id": "626916",
+            "nombre": "Lautaro Guzmán"
+          }
+        },
+        {
+          "casilla": 10,
+          "rol": "volante_extremo_der",
+          "titular": {
+            "id": "282350",
+            "nombre": "Cristian Bordacahar"
+          },
+          "suplente": {
+            "id": "653476",
+            "nombre": "Franco Zanelatto"
+          }
+        },
+        {
+          "casilla": 11,
+          "rol": "delantero",
+          "titular": {
+            "id": "89317",
+            "nombre": "Bernardo Cuesta"
+          },
+          "suplente": {
+            "id": "1369251",
+            "nombre": "Ryu Yabiku"
+          }
+        }
+      ]
+    },
+    "99517": {
+      "formacion": "4-2-3-1",
+      "casillas": [
+        {
+          "casilla": 1,
+          "rol": "arquero",
+          "titular": {
+            "id": "75445",
+            "nombre": "Matías Vega"
+          },
+          "suplente": {
+            "id": "670062",
+            "nombre": "Ismael Quispe"
+          }
+        },
+        {
+          "casilla": 2,
+          "rol": "lateral_izq",
+          "titular": {
+            "id": "655639",
+            "nombre": "Paolo Reyna"
+          },
+          "suplente": {
+            "id": "737739",
+            "nombre": "Piero Antón"
+          }
+        },
+        {
+          "casilla": 3,
+          "rol": "central",
+          "titular": {
+            "id": "76717",
+            "nombre": "Pablo Míguez"
+          },
+          "suplente": {
+            "id": "489993",
+            "nombre": "Jorge Toledo"
+          }
+        },
+        {
+          "casilla": 4,
+          "rol": "central",
+          "titular": {
+            "id": "936044",
+            "nombre": "Matías Almirón"
+          },
+          "suplente": {
+            "id": "1003846",
+            "nombre": "Martín Peralta"
+          }
+        },
+        {
+          "casilla": 5,
+          "rol": "lateral_der",
+          "titular": {
+            "id": "672263",
+            "nombre": "Hugo Ancajima"
+          },
+          "suplente": {
+            "id": "1236520",
+            "nombre": "Fabio Agurto"
+          }
+        },
+        {
+          "casilla": 6,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "867036",
+            "nombre": "Christian Flores"
+          },
+          "suplente": {
+            "id": "1011265",
+            "nombre": "Jack Carhuallanqui"
+          }
+        },
+        {
+          "casilla": 7,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "662695",
+            "nombre": "Arón Sánchez"
+          },
+          "suplente": {
+            "id": "1508622",
+            "nombre": "Bairon Puño"
+          }
+        },
+        {
+          "casilla": 8,
+          "rol": "volante_extremo_izq",
+          "titular": {
+            "id": "1029760",
+            "nombre": "Juan Pablo Goicochea"
+          },
+          "suplente": {
+            "id": "1244025",
+            "nombre": "Josué Torres"
+          }
+        },
+        {
+          "casilla": 9,
+          "rol": "mediapunta",
+          "titular": {
+            "id": "1107110",
+            "nombre": "Nilton Ramirez"
+          },
+          "suplente": {
+            "id": "1074429",
+            "nombre": "Álvaro Rojas"
+          }
+        },
+        {
+          "casilla": 10,
+          "rol": "volante_extremo_der",
+          "titular": {
+            "id": "422934",
+            "nombre": "Erinson Ramírez"
+          },
+          "suplente": {
+            "id": "174580",
+            "nombre": "Jack Durán"
+          }
+        },
+        {
+          "casilla": 11,
+          "rol": "delantero",
+          "titular": {
+            "id": "94761",
+            "nombre": "Janio Pósito"
+          },
+          "suplente": {
+            "id": "1076583",
+            "nombre": "Mateo Rodríguez"
+          }
+        }
+      ]
+    }
+  },
+  "eventos": [
+    {
+      "tipo": "cambio",
+      "club_id": "2734",
+      "tiempo": 2,
+      "minuto": 3,
+      "casilla": 8,
+      "ventana": 1,
+      "sale": {
+        "id": "224677",
+        "nombre": "Jhonny Vidales"
+      },
+      "entra": {
+        "id": "1442941",
+        "nombre": "Matias Zegarra"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "99517",
+      "tiempo": 2,
+      "minuto": 4,
+      "casilla": 10,
+      "ventana": 1,
+      "sale": {
+        "id": "422934",
+        "nombre": "Erinson Ramírez"
+      },
+      "entra": {
+        "id": "174580",
+        "nombre": "Jack Durán"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "99517",
+      "tiempo": 2,
+      "minuto": 4,
+      "casilla": 7,
+      "ventana": 1,
+      "sale": {
+        "id": "662695",
+        "nombre": "Arón Sánchez"
+      },
+      "entra": {
+        "id": "1508622",
+        "nombre": "Bairon Puño"
+      }
+    },
+    {
+      "tipo": "gol",
+      "club_id": "2734",
+      "tiempo": 2,
+      "minuto": 7,
+      "casilla": 2,
+      "jugador": {
+        "id": "491570",
+        "nombre": "Nelson Cabanillas"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "99517",
+      "tiempo": 2,
+      "minuto": 12,
+      "casilla": 8,
+      "jugador": {
+        "id": "1029760",
+        "nombre": "Juan Pablo Goicochea"
+      }
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "99517",
+      "tiempo": 2,
+      "minuto": 12,
+      "casilla": 5,
+      "jugador": {
+        "id": "672263",
+        "nombre": "Hugo Ancajima"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "99517",
+      "tiempo": 2,
+      "minuto": 17,
+      "casilla": 9,
+      "ventana": 2,
+      "sale": {
+        "id": "1107110",
+        "nombre": "Nilton Ramirez"
+      },
+      "entra": {
+        "id": "1074429",
+        "nombre": "Álvaro Rojas"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2734",
+      "tiempo": 2,
+      "minuto": 19,
+      "casilla": 7,
+      "ventana": 2,
+      "sale": {
+        "id": "621039",
+        "nombre": "Walter Tandazo"
+      },
+      "entra": {
+        "id": "966314",
+        "nombre": "Marcos Portillo"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2734",
+      "tiempo": 2,
+      "minuto": 19,
+      "casilla": 2,
+      "ventana": 2,
+      "sale": {
+        "id": "491570",
+        "nombre": "Nelson Cabanillas"
+      },
+      "entra": {
+        "id": "1410080",
+        "nombre": "Ángel Obando"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "99517",
+      "tiempo": 2,
+      "minuto": 25,
+      "casilla": 8,
+      "ventana": 3,
+      "sale": {
+        "id": "1029760",
+        "nombre": "Juan Pablo Goicochea"
+      },
+      "entra": {
+        "id": "1244025",
+        "nombre": "Josué Torres"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2734",
+      "tiempo": 2,
+      "minuto": 33,
+      "casilla": 6,
+      "ventana": 3,
+      "sale": {
+        "id": "400945",
+        "nombre": "Kevin Minda"
+      },
+      "entra": {
+        "id": "249468",
+        "nombre": "Horacio Orzán"
+      }
+    },
+    {
+      "tipo": "gol",
+      "club_id": "2734",
+      "tiempo": 2,
+      "minuto": 40,
+      "casilla": 11,
+      "jugador": {
+        "id": "89317",
+        "nombre": "Bernardo Cuesta"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "gol",
+      "club_id": "2734",
+      "tiempo": 2,
+      "minuto": 42,
+      "casilla": 2,
+      "jugador": {
+        "id": "1410080",
+        "nombre": "Ángel Obando"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "2734",
+      "tiempo": 2,
+      "minuto": 44,
+      "casilla": 5,
+      "jugador": {
+        "id": "831138",
+        "nombre": "Matías Lazo"
+      }
+    }
+  ],
+  "fin": null,
+  "suspendidos": {},
+  "votacion": null,
+  "fecha_fifa": null
+}
