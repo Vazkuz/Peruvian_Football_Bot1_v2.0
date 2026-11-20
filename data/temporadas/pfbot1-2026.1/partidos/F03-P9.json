@@ -1,0 +1,530 @@
+{
+  "partido_id": "F03-P9",
+  "fecha": 3,
+  "semilla": 2344929734,
+  "estado": "jugado",
+  "local": {
+    "club_id": "47107",
+    "goles": 2,
+    "bonos": {
+      "localia": 0,
+      "racha": 0,
+      "g5": 0
+    }
+  },
+  "visita": {
+    "club_id": "120792",
+    "goles": 1,
+    "bonos": {
+      "racha": 0,
+      "g5": 0
+    }
+  },
+  "alineaciones": {
+    "47107": {
+      "formacion": "4-2-3-1",
+      "casillas": [
+        {
+          "casilla": 1,
+          "rol": "arquero",
+          "titular": {
+            "id": "805148",
+            "nombre": "Matías Córdova"
+          },
+          "suplente": {
+            "id": "441704",
+            "nombre": "José Charún"
+          }
+        },
+        {
+          "casilla": 2,
+          "rol": "lateral_izq",
+          "titular": {
+            "id": "292729",
+            "nombre": "Alexis Cossio"
+          },
+          "suplente": {
+            "id": "661866",
+            "nombre": "Daniel Lino"
+          }
+        },
+        {
+          "casilla": 3,
+          "rol": "central",
+          "titular": {
+            "id": "671846",
+            "nombre": "Juan Rodríguez"
+          },
+          "suplente": {
+            "id": "871653",
+            "nombre": "Piero Guzmán"
+          }
+        },
+        {
+          "casilla": 4,
+          "rol": "central",
+          "titular": {
+            "id": "891814",
+            "nombre": "Flavio Alcedo"
+          },
+          "suplente": {
+            "id": "375178",
+            "nombre": "Paolo Fuentes"
+          }
+        },
+        {
+          "casilla": 5,
+          "rol": "lateral_der",
+          "titular": {
+            "id": "501586",
+            "nombre": "Fabio Rojas"
+          },
+          "suplente": {
+            "id": "355639",
+            "nombre": "Wilter Ayoví"
+          }
+        },
+        {
+          "casilla": 6,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "897924",
+            "nombre": "Agustín Rodríguez"
+          },
+          "suplente": {
+            "id": "639458",
+            "nombre": "José Parodi"
+          }
+        },
+        {
+          "casilla": 7,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "325589",
+            "nombre": "Alexis Arias"
+          },
+          "suplente": {
+            "id": "832217",
+            "nombre": "Yimy Gamero"
+          }
+        },
+        {
+          "casilla": 8,
+          "rol": "volante_extremo_izq",
+          "titular": {
+            "id": "1182403",
+            "nombre": "Jean Carlo Olivares"
+          },
+          "suplente": {
+            "id": "739725",
+            "nombre": "Mathías Carpio"
+          }
+        },
+        {
+          "casilla": 9,
+          "rol": "mediapunta",
+          "titular": {
+            "id": "639763",
+            "nombre": "Rodrigo Vilca"
+          },
+          "suplente": {
+            "id": "1076593",
+            "nombre": "Thiago Salinas"
+          }
+        },
+        {
+          "casilla": 10,
+          "rol": "volante_extremo_der",
+          "titular": {
+            "id": "641826",
+            "nombre": "Josuee Herrera"
+          },
+          "suplente": {
+            "id": "653429",
+            "nombre": "Jhon Sánchez"
+          }
+        },
+        {
+          "casilla": 11,
+          "rol": "delantero",
+          "titular": {
+            "id": "347003",
+            "nombre": "Matías Sen"
+          },
+          "suplente": {
+            "id": "458756",
+            "nombre": "Maximiliano Pérez"
+          }
+        }
+      ]
+    },
+    "120792": {
+      "formacion": "4-2-3-1",
+      "casillas": [
+        {
+          "casilla": 1,
+          "rol": "arquero",
+          "titular": {
+            "id": "260429",
+            "nombre": "Jonathan Medina"
+          },
+          "suplente": {
+            "id": "1284244",
+            "nombre": "Samuel Aspajo"
+          }
+        },
+        {
+          "casilla": 2,
+          "rol": "lateral_izq",
+          "titular": {
+            "id": "904940",
+            "nombre": "Sebastián Enciso"
+          },
+          "suplente": {
+            "id": "662696",
+            "nombre": "José Soto"
+          }
+        },
+        {
+          "casilla": 3,
+          "rol": "central",
+          "titular": {
+            "id": "338977",
+            "nombre": "Yordi Vílchez"
+          },
+          "suplente": {
+            "id": "582318",
+            "nombre": "Jhon Vega"
+          }
+        },
+        {
+          "casilla": 4,
+          "rol": "central",
+          "titular": {
+            "id": "981819",
+            "nombre": "Alejandro Pósito"
+          },
+          "suplente": {
+            "id": "893513",
+            "nombre": "Hairo Timaná"
+          }
+        },
+        {
+          "casilla": 5,
+          "rol": "lateral_der",
+          "titular": {
+            "id": "1029758",
+            "nombre": "Carlos Gómez"
+          },
+          "suplente": {
+            "id": "1149627",
+            "nombre": "Renato Suárez"
+          }
+        },
+        {
+          "casilla": 6,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "242996",
+            "nombre": "Jefferson Orejuela"
+          },
+          "suplente": {
+            "id": "250929",
+            "nombre": "Paulo Goyoneche"
+          }
+        },
+        {
+          "casilla": 7,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "358338",
+            "nombre": "Carlos Correa"
+          },
+          "suplente": {
+            "id": "106283",
+            "nombre": "Edson Aubert"
+          }
+        },
+        {
+          "casilla": 8,
+          "rol": "volante_extremo_izq",
+          "titular": {
+            "id": "641820",
+            "nombre": "Brandon Palacios"
+          },
+          "suplente": {
+            "id": "285855",
+            "nombre": "Jonathan Betancourt"
+          }
+        },
+        {
+          "casilla": 9,
+          "rol": "mediapunta",
+          "titular": {
+            "id": "1096324",
+            "nombre": "Mauricio Arrasco"
+          },
+          "suplente": {
+            "id": "984374",
+            "nombre": "Valentino Sandoval"
+          }
+        },
+        {
+          "casilla": 10,
+          "rol": "volante_extremo_der",
+          "titular": {
+            "id": "662714",
+            "nombre": "Carlos Meza"
+          },
+          "suplente": {
+            "id": "621031",
+            "nombre": "Michel Rasmussen"
+          }
+        },
+        {
+          "casilla": 11,
+          "rol": "delantero",
+          "titular": {
+            "id": "763898",
+            "nombre": "Pedro Cejas"
+          },
+          "suplente": {
+            "id": "212300",
+            "nombre": "José Lugo"
+          }
+        }
+      ]
+    }
+  },
+  "eventos": [
+    {
+      "tipo": "roja",
+      "club_id": "120792",
+      "tiempo": 1,
+      "minuto": 16,
+      "casilla": 8,
+      "jugador": {
+        "id": "641820",
+        "nombre": "Brandon Palacios"
+      },
+      "doble_amarilla": false
+    },
+    {
+      "tipo": "gol",
+      "club_id": "47107",
+      "tiempo": 1,
+      "minuto": 26,
+      "casilla": 6,
+      "jugador": {
+        "id": "897924",
+        "nombre": "Agustín Rodríguez"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "120792",
+      "tiempo": 2,
+      "minuto": 7,
+      "casilla": 7,
+      "ventana": 1,
+      "sale": {
+        "id": "358338",
+        "nombre": "Carlos Correa"
+      },
+      "entra": {
+        "id": "106283",
+        "nombre": "Edson Aubert"
+      }
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "47107",
+      "tiempo": 2,
+      "minuto": 12,
+      "casilla": 3,
+      "jugador": {
+        "id": "671846",
+        "nombre": "Juan Rodríguez"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "47107",
+      "tiempo": 2,
+      "minuto": 21,
+      "casilla": 3,
+      "ventana": 1,
+      "sale": {
+        "id": "671846",
+        "nombre": "Juan Rodríguez"
+      },
+      "entra": {
+        "id": "871653",
+        "nombre": "Piero Guzmán"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "47107",
+      "tiempo": 2,
+      "minuto": 21,
+      "casilla": 5,
+      "ventana": 1,
+      "sale": {
+        "id": "501586",
+        "nombre": "Fabio Rojas"
+      },
+      "entra": {
+        "id": "355639",
+        "nombre": "Wilter Ayoví"
+      }
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "47107",
+      "tiempo": 2,
+      "minuto": 30,
+      "casilla": 4,
+      "jugador": {
+        "id": "891814",
+        "nombre": "Flavio Alcedo"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "47107",
+      "tiempo": 2,
+      "minuto": 32,
+      "casilla": 11,
+      "ventana": 2,
+      "sale": {
+        "id": "347003",
+        "nombre": "Matías Sen"
+      },
+      "entra": {
+        "id": "458756",
+        "nombre": "Maximiliano Pérez"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "47107",
+      "tiempo": 2,
+      "minuto": 32,
+      "casilla": 10,
+      "ventana": 2,
+      "sale": {
+        "id": "641826",
+        "nombre": "Josuee Herrera"
+      },
+      "entra": {
+        "id": "653429",
+        "nombre": "Jhon Sánchez"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "47107",
+      "tiempo": 2,
+      "minuto": 37,
+      "casilla": 9,
+      "ventana": 3,
+      "sale": {
+        "id": "639763",
+        "nombre": "Rodrigo Vilca"
+      },
+      "entra": {
+        "id": "1076593",
+        "nombre": "Thiago Salinas"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "120792",
+      "tiempo": 2,
+      "minuto": 37,
+      "casilla": 3,
+      "ventana": 2,
+      "sale": {
+        "id": "338977",
+        "nombre": "Yordi Vílchez"
+      },
+      "entra": {
+        "id": "582318",
+        "nombre": "Jhon Vega"
+      }
+    },
+    {
+      "tipo": "gol",
+      "club_id": "47107",
+      "tiempo": 2,
+      "minuto": 38,
+      "casilla": 8,
+      "jugador": {
+        "id": "1182403",
+        "nombre": "Jean Carlo Olivares"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "gol",
+      "club_id": "120792",
+      "tiempo": 2,
+      "minuto": 38,
+      "casilla": 2,
+      "jugador": {
+        "id": "904940",
+        "nombre": "Sebastián Enciso"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "47107",
+      "tiempo": 2,
+      "minuto": 40,
+      "casilla": 2,
+      "jugador": {
+        "id": "292729",
+        "nombre": "Alexis Cossio"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "120792",
+      "tiempo": 2,
+      "minuto": 44,
+      "casilla": 2,
+      "ventana": 3,
+      "sale": {
+        "id": "904940",
+        "nombre": "Sebastián Enciso"
+      },
+      "entra": {
+        "id": "662696",
+        "nombre": "José Soto"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "120792",
+      "tiempo": 2,
+      "minuto": 44,
+      "casilla": 9,
+      "ventana": 3,
+      "sale": {
+        "id": "1096324",
+        "nombre": "Mauricio Arrasco"
+      },
+      "entra": {
+        "id": "984374",
+        "nombre": "Valentino Sandoval"
+      }
+    }
+  ],
+  "fin": null,
+  "suspendidos": {},
+  "votacion": null,
+  "fecha_fifa": null
+}
