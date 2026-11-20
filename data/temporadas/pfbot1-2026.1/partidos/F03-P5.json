@@ -572,7 +572,14 @@
     "jugador": {
       "id": "195002",
       "nombre": "Álvaro Ampuero"
-    }
+    },
+    "votos": [
+      3,
+      1,
+      5,
+      0
+    ],
+    "fechas": 3
   },
   "fecha_fifa": null
 }
