@@ -533,7 +533,19 @@
   "suspendidos": {},
   "votacion": {
     "tipo": "mesa",
-    "opcion": 8
+    "opcion": 8,
+    "votos": [
+      1,
+      1,
+      0
+    ]
   },
-  "fecha_fifa": null
+  "fecha_fifa": null,
+  "mesa": {
+    "ganador": null,
+    "original": {
+      "local": 1,
+      "visita": 2
+    }
+  }
 }
