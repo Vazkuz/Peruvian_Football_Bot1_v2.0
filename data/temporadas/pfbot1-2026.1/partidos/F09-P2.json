@@ -527,7 +527,14 @@
     "jugador": {
       "id": "696729",
       "nombre": "José María Ingratti"
-    }
+    },
+    "votos": [
+      4,
+      1,
+      0,
+      0
+    ],
+    "fechas": 1
   },
   "fecha_fifa": null
 }
