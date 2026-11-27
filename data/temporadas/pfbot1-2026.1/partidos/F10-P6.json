@@ -1,0 +1,602 @@
+{
+  "partido_id": "F10-P6",
+  "fecha": 10,
+  "semilla": 3598661206,
+  "estado": "jugado",
+  "local": {
+    "club_id": "1450",
+    "goles": 2,
+    "bonos": {
+      "localia": 0,
+      "racha": 0,
+      "g5": 2
+    }
+  },
+  "visita": {
+    "club_id": "2730",
+    "goles": 3,
+    "bonos": {
+      "racha": 0,
+      "g5": 2
+    }
+  },
+  "alineaciones": {
+    "1450": {
+      "formacion": "4-2-3-1",
+      "casillas": [
+        {
+          "casilla": 1,
+          "rol": "arquero",
+          "titular": {
+            "id": "662693",
+            "nombre": "Diego Enríquez"
+          },
+          "suplente": {
+            "id": "1239934",
+            "nombre": "César Bautista"
+          }
+        },
+        {
+          "casilla": 2,
+          "rol": "lateral_izq",
+          "titular": {
+            "id": "375813",
+            "nombre": "Cristiano"
+          },
+          "suplente": {
+            "id": "1145987",
+            "nombre": "Fabrizio Lora"
+          }
+        },
+        {
+          "casilla": 3,
+          "rol": "central",
+          "titular": {
+            "id": "211420",
+            "nombre": "Miguel Araujo"
+          },
+          "suplente": {
+            "id": "330684",
+            "nombre": "Luis Abram"
+          }
+        },
+        {
+          "casilla": 4,
+          "rol": "central",
+          "titular": {
+            "id": "665112",
+            "nombre": "Rafael Lutiger"
+          },
+          "suplente": {
+            "id": "908423",
+            "nombre": "Leonardo Díaz"
+          }
+        },
+        {
+          "casilla": 5,
+          "rol": "lateral_der",
+          "titular": {
+            "id": "248094",
+            "nombre": "Leandro Sosa"
+          },
+          "suplente": {
+            "id": "457536",
+            "nombre": "Juan González"
+          }
+        },
+        {
+          "casilla": 6,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "94880",
+            "nombre": "Yoshimar Yotún"
+          },
+          "suplente": {
+            "id": "441718",
+            "nombre": "Martín Távara"
+          }
+        },
+        {
+          "casilla": 7,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "577258",
+            "nombre": "Agustín Álvarez"
+          },
+          "suplente": {
+            "id": "520457",
+            "nombre": "Gustavo Cazonatti"
+          }
+        },
+        {
+          "casilla": 8,
+          "rol": "volante_extremo_izq",
+          "titular": {
+            "id": "1226873",
+            "nombre": "Maxloren Castro"
+          },
+          "suplente": {
+            "id": "660840",
+            "nombre": "Juan Manuel Cuesta"
+          }
+        },
+        {
+          "casilla": 9,
+          "rol": "mediapunta",
+          "titular": {
+            "id": "325667",
+            "nombre": "Luis Iberico"
+          },
+          "suplente": {
+            "id": "174570",
+            "nombre": "Gabriel"
+          }
+        },
+        {
+          "casilla": 10,
+          "rol": "volante_extremo_der",
+          "titular": {
+            "id": "597455",
+            "nombre": "Santiago González"
+          },
+          "suplente": {
+            "id": "82589",
+            "nombre": "Írven Ávila"
+          }
+        },
+        {
+          "casilla": 11,
+          "rol": "delantero",
+          "titular": {
+            "id": "138387",
+            "nombre": "Michael Hoyos"
+          },
+          "suplente": {
+            "id": "53847",
+            "nombre": "Hernán Barcos"
+          }
+        }
+      ]
+    },
+    "2730": {
+      "formacion": "4-2-3-1",
+      "casillas": [
+        {
+          "casilla": 1,
+          "rol": "arquero",
+          "titular": {
+            "id": "303866",
+            "nombre": "Diego Melián"
+          },
+          "suplente": {
+            "id": "738150",
+            "nombre": "Jeferson Nolasco"
+          }
+        },
+        {
+          "casilla": 2,
+          "rol": "lateral_izq",
+          "titular": {
+            "id": "662705",
+            "nombre": "Mathías Llontop"
+          },
+          "suplente": {
+            "id": "177690",
+            "nombre": "Miguel Trauco"
+          }
+        },
+        {
+          "casilla": 3,
+          "rol": "central",
+          "titular": {
+            "id": "53533",
+            "nombre": "Carlos Zambrano"
+          },
+          "suplente": {
+            "id": "347382",
+            "nombre": "Gustavo Dulanto"
+          }
+        },
+        {
+          "casilla": 4,
+          "rol": "central",
+          "titular": {
+            "id": "187161",
+            "nombre": "Hansell Riojas"
+          },
+          "suplente": {
+            "id": "492973",
+            "nombre": "Renzo Alfani"
+          }
+        },
+        {
+          "casilla": 5,
+          "rol": "lateral_der",
+          "titular": {
+            "id": "805862",
+            "nombre": "Emilio Saba"
+          },
+          "suplente": {
+            "id": "1410130",
+            "nombre": "Diego Contreras"
+          }
+        },
+        {
+          "casilla": 6,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "621026",
+            "nombre": "Oslimg Mora"
+          },
+          "suplente": {
+            "id": "360446",
+            "nombre": "Federico Illanes"
+          }
+        },
+        {
+          "casilla": 7,
+          "rol": "volante_defensivo",
+          "titular": {
+            "id": "347750",
+            "nombre": "Hernán Da Campo"
+          },
+          "suplente": {
+            "id": "671879",
+            "nombre": "Erick Gonzales"
+          }
+        },
+        {
+          "casilla": 8,
+          "rol": "volante_extremo_izq",
+          "titular": {
+            "id": "95280",
+            "nombre": "Christian Cueva"
+          },
+          "suplente": {
+            "id": "1564706",
+            "nombre": "Adrián Valiente"
+          }
+        },
+        {
+          "casilla": 9,
+          "rol": "mediapunta",
+          "titular": {
+            "id": "866488",
+            "nombre": "Jostin Alarcón"
+          },
+          "suplente": {
+            "id": "662699",
+            "nombre": "Yuriel Celi"
+          }
+        },
+        {
+          "casilla": 10,
+          "rol": "volante_extremo_der",
+          "titular": {
+            "id": "285679",
+            "nombre": "Luis Urruti"
+          },
+          "suplente": {
+            "id": "579734",
+            "nombre": "Carlos López"
+          }
+        },
+        {
+          "casilla": 11,
+          "rol": "delantero",
+          "titular": {
+            "id": "1095971",
+            "nombre": "Pablo Erustes"
+          },
+          "suplente": {
+            "id": "665113",
+            "nombre": "Percy Liza"
+          }
+        }
+      ]
+    }
+  },
+  "eventos": [
+    {
+      "tipo": "amarilla",
+      "club_id": "1450",
+      "tiempo": 1,
+      "minuto": 11,
+      "casilla": 6,
+      "jugador": {
+        "id": "94880",
+        "nombre": "Yoshimar Yotún"
+      }
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "1450",
+      "tiempo": 1,
+      "minuto": 13,
+      "casilla": 1,
+      "jugador": {
+        "id": "662693",
+        "nombre": "Diego Enríquez"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2730",
+      "tiempo": 1,
+      "minuto": 31,
+      "casilla": 4,
+      "ventana": 1,
+      "sale": {
+        "id": "187161",
+        "nombre": "Hansell Riojas"
+      },
+      "entra": {
+        "id": "492973",
+        "nombre": "Renzo Alfani"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2730",
+      "tiempo": 1,
+      "minuto": 31,
+      "casilla": 11,
+      "ventana": 1,
+      "sale": {
+        "id": "1095971",
+        "nombre": "Pablo Erustes"
+      },
+      "entra": {
+        "id": "665113",
+        "nombre": "Percy Liza"
+      }
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "1450",
+      "tiempo": 1,
+      "minuto": 33,
+      "casilla": 2,
+      "jugador": {
+        "id": "375813",
+        "nombre": "Cristiano"
+      }
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "1450",
+      "tiempo": 1,
+      "minuto": 33,
+      "casilla": 3,
+      "jugador": {
+        "id": "211420",
+        "nombre": "Miguel Araujo"
+      }
+    },
+    {
+      "tipo": "gol",
+      "club_id": "1450",
+      "tiempo": 1,
+      "minuto": 40,
+      "casilla": 9,
+      "jugador": {
+        "id": "325667",
+        "nombre": "Luis Iberico"
+      },
+      "penal": true
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "1450",
+      "tiempo": 2,
+      "minuto": 0,
+      "casilla": 7,
+      "ventana": 1,
+      "sale": {
+        "id": "577258",
+        "nombre": "Agustín Álvarez"
+      },
+      "entra": {
+        "id": "520457",
+        "nombre": "Gustavo Cazonatti"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "1450",
+      "tiempo": 2,
+      "minuto": 0,
+      "casilla": 4,
+      "ventana": 1,
+      "sale": {
+        "id": "665112",
+        "nombre": "Rafael Lutiger"
+      },
+      "entra": {
+        "id": "908423",
+        "nombre": "Leonardo Díaz"
+      }
+    },
+    {
+      "tipo": "gol",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 1,
+      "casilla": 8,
+      "jugador": {
+        "id": "95280",
+        "nombre": "Christian Cueva"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "gol",
+      "club_id": "1450",
+      "tiempo": 2,
+      "minuto": 6,
+      "casilla": 8,
+      "jugador": {
+        "id": "1226873",
+        "nombre": "Maxloren Castro"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "1450",
+      "tiempo": 2,
+      "minuto": 7,
+      "casilla": 10,
+      "ventana": 2,
+      "sale": {
+        "id": "597455",
+        "nombre": "Santiago González"
+      },
+      "entra": {
+        "id": "82589",
+        "nombre": "Írven Ávila"
+      }
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 9,
+      "casilla": 7,
+      "jugador": {
+        "id": "347750",
+        "nombre": "Hernán Da Campo"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "1450",
+      "tiempo": 2,
+      "minuto": 10,
+      "casilla": 11,
+      "ventana": 3,
+      "sale": {
+        "id": "138387",
+        "nombre": "Michael Hoyos"
+      },
+      "entra": {
+        "id": "53847",
+        "nombre": "Hernán Barcos"
+      }
+    },
+    {
+      "tipo": "gol",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 11,
+      "casilla": 8,
+      "jugador": {
+        "id": "95280",
+        "nombre": "Christian Cueva"
+      },
+      "penal": false
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "1450",
+      "tiempo": 2,
+      "minuto": 21,
+      "casilla": 2,
+      "ventana": 4,
+      "sale": {
+        "id": "375813",
+        "nombre": "Cristiano"
+      },
+      "entra": {
+        "id": "1145987",
+        "nombre": "Fabrizio Lora"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 30,
+      "casilla": 3,
+      "ventana": 2,
+      "sale": {
+        "id": "53533",
+        "nombre": "Carlos Zambrano"
+      },
+      "entra": {
+        "id": "347382",
+        "nombre": "Gustavo Dulanto"
+      }
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 32,
+      "casilla": 3,
+      "jugador": {
+        "id": "347382",
+        "nombre": "Gustavo Dulanto"
+      }
+    },
+    {
+      "tipo": "amarilla",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 33,
+      "casilla": 2,
+      "jugador": {
+        "id": "662705",
+        "nombre": "Mathías Llontop"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 41,
+      "casilla": 2,
+      "ventana": 3,
+      "sale": {
+        "id": "662705",
+        "nombre": "Mathías Llontop"
+      },
+      "entra": {
+        "id": "177690",
+        "nombre": "Miguel Trauco"
+      }
+    },
+    {
+      "tipo": "cambio",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 41,
+      "casilla": 8,
+      "ventana": 3,
+      "sale": {
+        "id": "95280",
+        "nombre": "Christian Cueva"
+      },
+      "entra": {
+        "id": "1564706",
+        "nombre": "Adrián Valiente"
+      }
+    },
+    {
+      "tipo": "gol",
+      "club_id": "2730",
+      "tiempo": 2,
+      "minuto": 44,
+      "casilla": 4,
+      "jugador": {
+        "id": "492973",
+        "nombre": "Renzo Alfani"
+      },
+      "penal": false
+    }
+  ],
+  "fin": null,
+  "suspendidos": {},
+  "votacion": null,
+  "fecha_fifa": null
+}
